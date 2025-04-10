@@ -1,0 +1,117 @@
+/* App.css */
+
+/* Overall page styling */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f6fa;
+  color: #2f3640;
+}
+
+/* Container to center the content and add padding */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Title styling */
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  color: #192a56;
+}
+
+/* Error message styling */
+.error {
+  color: #e84118;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Update info message styling */
+.update-info {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+/* Base currency selector & amount input styling */
+.base-selector, .input-group {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.dropdown, .amount-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #dcdde1;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #2f3640;
+}
+
+.amount-input {
+  width: 120px;
+}
+
+/* Message styling for loading texts */
+.message {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+/* Table container - allowing horizontal scroll on smaller screens */
+.table-container {
+  overflow-x: auto;
+}
+
+/* Conversion table styling */
+.conversion-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.conversion-table th,
+.conversion-table td {
+  border: 1px solid #dcdde1;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.conversion-table th {
+  background-color: #f1f2f6;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for table headers */
+.conversion-table th:hover {
+  background-color: #dcdde1;
+}
+
+.sort-arrow {
+  display: inline-block;
+  width: 20px; /* Reserve 20px for the arrow */
+  margin-left: 0.5rem;
+
+  }  
+
+/* Responsive styling for mobile devices */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  .update-info {
+    font-size: 1rem;
+  }
+  .dropdown, .amount-input {
+    width: 100%;
+    max-width: 300px;
+  }
+}
