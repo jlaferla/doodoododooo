@@ -45,5 +45,9 @@ def get_rates():
     return jsonify(exchange_data)
 
 if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5000))  # Use Heroku's $PORT or default to 5000 locally.
+    initial_update()  # Synchronously fetch the rates first
+    thread = threading.Thread(target=update_exchange_rates, daemon=True)
+    thread.start()
+    import os
+    port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
