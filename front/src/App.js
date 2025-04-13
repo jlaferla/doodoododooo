@@ -30,7 +30,7 @@ function App() {
 
   // Fetch data from back end
   useEffect(() => {
-    fetch("http://localhost:5000/rates")
+    fetch("https://fxping-d496a549fbaa.herokuapp.com")
       .then((res) => res.json())
       .then((jsonData) => {
         setData(jsonData);
