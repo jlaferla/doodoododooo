@@ -1,0 +1,181 @@
+/* Base page styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Main container with a subtle background, rounded corners, and a soft shadow */
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+/* Title styling */
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #192a56;
+}
+
+/* Update info and error messages */
+.update-info {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #666;
+}
+
+.error {
+  color: #e74c3c;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.filter-group label,
+.base-selector label,
+.input-group label {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+/* Input & select styling to keep a consistent look */
+.filter-input, 
+.filter-select, 
+.dropdown, 
+.amount-input {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.filter-input:focus, 
+.filter-select:focus,
+.dropdown:focus, 
+.amount-input:focus {
+  border-color: #192a56;
+}
+
+/* Optional: a container to align fields in one row if needed */
+.input-export-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Table container styling */
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+/* Conversion table styling */
+.conversion-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.conversion-table th,
+.conversion-table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.conversion-table th {
+  background-color: #f1f2f6;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.conversion-table th:hover {
+  background-color: #e2e2e2;
+}
+
+/* Reserve fixed width for the sort arrows */
+.sort-arrow {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+}
+
+.export-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #192a56;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.export-button:hover {
+  background-color: #2f3640;
+}
+
+/* Export popup menu styling */
+.export-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  padding: 0.5rem 0;
+  width: 200px;
+}
+
+.export-menu div {
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-align: right;
+  transition: background-color 0.3s ease;
+}
+
+.export-menu div:hover {
+  background-color: #f1f2f6;
+}
+
+/* For Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.top-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.center-group {
+  flex: 1; /* takes up all available space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; /* space between the fields */
+}
