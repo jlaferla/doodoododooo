@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://jlaferla.github.io/doodoododooo",
+  "homepage": "https://fxping.co",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
