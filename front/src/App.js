@@ -30,7 +30,7 @@ function App() {
 
   // Fetch data from back end
   useEffect(() => {
-    fetch("https://fxping-d496a549fbaa.herokuapp.com")
+    fetch("https://fxping-d496a549fbaa.herokuapp.com/rates")
       .then((res) => res.json())
       .then((jsonData) => {
         setData(jsonData);
