@@ -3,6 +3,8 @@ from flask_cors import CORS
 import requests
 import threading
 import time
+import os
+
 
 app = Flask(__name__)
 CORS(app)
@@ -43,7 +45,5 @@ def get_rates():
     return jsonify(exchange_data)
 
 if __name__ == '__main__':
-    initial_update()  # Synchronously load rates on startup
-    thread = threading.Thread(target=update_exchange_rates, daemon=True)
-    thread.start()
-    app.run(debug=True, port=5000)
+    port = int(os.environ.get("PORT", 5000))  # Use Heroku's $PORT or default to 5000 locally.
+    app.run(host="0.0.0.0", port=port)
