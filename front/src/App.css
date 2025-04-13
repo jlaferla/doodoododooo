@@ -114,6 +114,12 @@ body {
   text-align: center;
 }
 
+.export-section {
+  position: relative;  /* Ensures that .export-menu is positioned relative to this container */
+  text-align: right;   /* Align content to the right */
+  margin-bottom: 1.5rem;
+}
+
 .export-button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
@@ -132,8 +138,8 @@ body {
 /* Export popup menu styling */
 .export-menu {
   position: absolute;
-  top: 100%;
-  right: 0;
+  top: 100%;      /* Places it immediately below the export button container */
+  right: 0;       /* Aligns it with the right edge of the export-section */
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -155,6 +161,7 @@ body {
   background-color: #f1f2f6;
 }
 
+
 /* For Chrome, Safari, Edge, Opera */
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
@@ -169,8 +176,10 @@ input[type=number] {
 .top-bar {
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
 }
+
 
 .center-group {
   flex: 1; /* takes up all available space */
