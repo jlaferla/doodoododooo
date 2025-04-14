@@ -5,6 +5,7 @@ import * as XLSX from 'xlsx';
 import { jsPDF } from 'jspdf';
 import autoTable from 'jspdf-autotable';
 import HeaderAd from './HeaderAd';
+import ReactGA from "react-ga4";
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
   const currencyFilterRef = useRef(null);
   const exportMenuRef = useRef(null);
 
+  ReactGA.initialize("G-5RN2X8MD4P");
+  ReactGA.send("pageview");
 
 
   // Fetch data from back end
