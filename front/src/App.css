@@ -188,3 +188,11 @@ input[type=number] {
   align-items: center;
   gap: 1rem; /* space between the fields */
 }
+
+.header-ad {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: #f1f2f6;  /* Optional: a subtle background color */
+  padding: 0.5rem 0;
+}

@@ -4,6 +4,7 @@ import currencyMapping from './currencyMapping.json';
 import * as XLSX from 'xlsx';
 import { jsPDF } from 'jspdf';
 import autoTable from 'jspdf-autotable';
+import HeaderAd from './HeaderAd';
 
 
 function App() {
@@ -273,9 +274,16 @@ function App() {
         </tr>
       );
     });
-
-
     
+    return (
+      <div>
+        <HeaderAd />
+        <div className="container">
+          {/* Rest of your content, filters, tables, etc. */}
+        </div>
+      </div>
+    );
+
     return (
       <div className="table-container">
         <table className="conversion-table">
@@ -314,8 +322,6 @@ function App() {
     </>
   )}
 </th>
-
-
 
               <th onClick={() => handleSortClick("currency")} style={{ cursor: "pointer" }}>
                 Currency{" "}
