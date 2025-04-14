@@ -116,8 +116,6 @@ body {
 
 .export-section {
   position: relative;  /* Ensures that .export-menu is positioned relative to this container */
-  text-align: right;   /* Align content to the right */
-  margin-bottom: 1.5rem;
 }
 
 .export-button {
@@ -176,17 +174,18 @@ input[type=number] {
 .top-bar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; /* push the export button to the right */
   margin-bottom: 1.5rem;
+  padding: 0 1rem;
 }
 
 
 .center-group {
-  flex: 1; /* takes up all available space */
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem; /* space between the fields */
+  gap: 1rem;  /* equal spacing between fields */
 }
 
 .header-ad {

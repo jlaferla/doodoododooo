@@ -1,10 +1,8 @@
-// HeaderAd.js
 import React, { useEffect } from 'react';
 
 const HeaderAd = () => {
   useEffect(() => {
     try {
-      // This pushes the ad into the ad container
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     } catch (e) {
       console.error("Adsbygoogle push error:", e);
@@ -13,13 +11,15 @@ const HeaderAd = () => {
 
   return (
     <header className="header-ad">
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7613562568712383"
-     data-ad-slot="8422564279"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-         </header>
+      <ins
+        className="adsbygoogle"
+        style={{ display: "block" }}
+        data-ad-client="ca-pub-7613562568712383"
+        data-ad-slot="8422564279"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      ></ins>
+    </header>
   );
 };
 

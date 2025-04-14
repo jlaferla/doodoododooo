@@ -276,15 +276,6 @@ function App() {
     });
     
     return (
-      <div>
-        <HeaderAd />
-        <div className="container">
-          {/* Rest of your content, filters, tables, etc. */}
-        </div>
-      </div>
-    );
-
-    return (
       <div className="table-container">
         <table className="conversion-table">
           <thead>
@@ -381,10 +372,6 @@ function App() {
   )}
 </th>
 
-
-
-
-
               <th>Converted Amount</th>
             </tr>
           </thead>
@@ -393,8 +380,10 @@ function App() {
       </div>
     );
   };
+return (
+  <div>
+  <HeaderAd />
 
-  return (
     <div className="container">
 
       <h1 className="title">Exchange Rate Converter</h1>
@@ -423,6 +412,7 @@ function App() {
         </select>
       </label>
     </div>
+
 
     <div className="input-group">
       <label>
@@ -453,6 +443,7 @@ function App() {
 
       {/* Conversion Table */}
       {renderConversionTable()}
+    </div>
     </div>
   );
 }
