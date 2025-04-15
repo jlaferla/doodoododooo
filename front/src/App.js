@@ -6,6 +6,10 @@ import { jsPDF } from 'jspdf';
 import autoTable from 'jspdf-autotable';
 import HeaderAd from './HeaderAd';
 import ReactGA from "react-ga4";
+import SidebarAd from './SidebarAd';
+import Header from './Header';
+
+
 
 
 function App() {
@@ -386,6 +390,7 @@ function App() {
 return (
   <div>
   <HeaderAd />
+  <Header />
 
     <div className="container">
 
@@ -444,10 +449,22 @@ return (
   </div>
 </div>
 
-      {/* Conversion Table */}
-      {renderConversionTable()}
-    </div>
-    </div>
+<div className="page-container">
+  <aside className="sidebar left-sidebar">
+    <SidebarAd adSlot="8460430591" />
+  </aside>
+  
+  <main className="main-content">
+    {renderConversionTable()}
+  </main>
+  
+  <aside className="sidebar right-sidebar">
+    <SidebarAd adSlot="8268858906" />
+  </aside>
+</div>
+
+   </div>
+   </div>
   );
 }
 

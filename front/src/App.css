@@ -195,3 +195,28 @@ input[type=number] {
   background-color: #f1f2f6;  /* Optional: a subtle background color */
   padding: 0.5rem 0;
 }
+
+.page-container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.sidebar {
+  flex: 0 0 160px;  /* Fixed width matching your ad unit dimensions */
+}
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    text-align: center;
+  }
+}
