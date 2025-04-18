@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
   color: #333;
 }
@@ -13,7 +13,7 @@ body {
   margin: 2rem auto;
   padding: 2rem;
   background-color: #fff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
   border-radius: 8px;
 }
 
@@ -75,11 +75,14 @@ body {
   margin-bottom: 1.5rem;
 }
 
-/* Table container styling */
 .table-container {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
   overflow-x: auto;
   margin-bottom: 1.5rem;
 }
+
 
 /* Conversion table styling */
 .conversion-table {
@@ -198,8 +201,9 @@ input[type=number] {
 
 .page-container {
   display: flex;
+  align-items: flex-start;
   gap: 1rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .sidebar {
@@ -207,16 +211,66 @@ input[type=number] {
 }
 
 .main-content {
-  flex: 1;
-  padding: 1rem;
+  flex: 1;              /* table takes all remaining space */
+}
+
+.left-sidebar,
+.right-sidebar {
+  width: 160px;         /* or whatever your ad width is */
 }
 
 @media (max-width: 768px) {
+  /* Stack everything */
   .page-container {
     flex-direction: column;
   }
-  .sidebar {
+  .top-bar {
+    flex-direction: column;
+    align-items: center;      /* center everything */
+    gap: 1rem;                /* space between each row */
+  }
+  /* make each sub‑section full‑width and centered */
+  .base-selector,
+  .input-group,
+  .export-section {
     width: 100%;
     text-align: center;
   }
+  /* Hide side‑ads entirely (or you could reorder them below) */
+  .left-sidebar,
+  .right-sidebar {
+    display: none;
+  }
+
+  /* Tuck export button nicely inside the .container */
+  /* ensure the export menu still aligns under the button */
+  .export-section {
+    position: relative !important;
+    margin: 1rem 0;
+  }
+
+  /* Let the top‑bar fields wrap */
+  .top-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+  .center-group {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  /* Make the table scrollable instead of overflowing */
+  .table-container {
+    overflow-x: auto;
+    margin-bottom: 1rem;
+    margin: 0 -2rem 1.5rem;   /* cancel out the container’s 2rem padding */
+    border-radius: 0;         /* optional—square off the corners */
+
+  }
+  .input-group .amount-input {
+    width: 6rem;    /* you can bump this up or down (e.g. 5rem, 7rem) */
+    min-width: 4rem;/* don’t let it get too small */
+  }
+
 }
