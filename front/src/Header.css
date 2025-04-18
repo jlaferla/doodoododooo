@@ -99,3 +99,30 @@
 .nav-links a:hover {
   opacity: 0.75;
 }
+/* at the bottom of Header.css */
+@media (max-width: 880px) {
+  .header-container {
+    flex-wrap: wrap;         /* allow branding + nav to stack */
+    justify-content: center; /* center both rows */
+    padding: 1rem;           /* tighten up your padding */
+  }
+
+  .branding {
+    width: 100%;             /* full‑width row */
+    justify-content: center; /* center logo + tagline */
+    margin-bottom: 0.5rem;   /* small gap before nav */
+  }
+
+  .nav-links {
+    position: static;        /* back into normal flow */
+    transform: none;         /* cancel the absolute centering */
+    display: flex;
+    justify-content: center; /* center the links in their row */
+    gap: 1rem;               /* tighten link spacing */
+    width: 100%;
+  }
+
+  .site-tagline {
+    font-size: 0.9rem;       /* a bit smaller for narrow screens */
+  }
+}
