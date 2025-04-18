@@ -178,16 +178,31 @@ function ConversionUI() {
           <thead>
             <tr>
               <th style={{position:'relative'}}>
-                {showCurrencyFilter ? (
-                  <div ref={currencyFilterRef}>
-                    <input
-                      type="text"
-                      value={filterText}
-                      onChange={e=>setFilterText(e.target.value)}
-                      placeholder="Filter codes…"
-                    />
-                  </div>
-                ) : (
+              {showCurrencyFilter ? (
+  <div ref={currencyFilterRef} style={{ display: "inline-block" }}>
+    <input
+      type="text"
+      value={filterText}
+      onChange={e => {
+        // only letters, uppercase, max 3 chars
+        const v = e.target.value
+          .toUpperCase()
+          .replace(/[^A-Z]/g, "")
+          .slice(0, 3);
+        setFilterText(v);
+      }}
+      placeholder="ABC"
+      maxLength={3}
+      onClick={e => e.stopPropagation()}
+      style={{
+        width: "6ch",               // just wide enough for 3 letters
+        boxSizing: "border-box",
+        padding: "0.5rem",
+        fontSize: "1rem",
+        textTransform: "uppercase"
+      }}
+    />
+  </div>                ) : (
                   <>
                     <span onClick={()=>handleSortClick('code')} style={{cursor:'pointer'}}>
                       Code <span className="sort-arrow">{sortBy==='code'? (sortOrder==='asc'?'▲':'▼'):'⇵'}</span>
@@ -210,12 +225,20 @@ function ConversionUI() {
               <th style={{position:'relative'}}>
                 {showRateFilter ? (
                   <div ref={rateFilterRef}>
-                    <input
-                      type="number"
-                      value={rateFilterValue}
-                      onChange={e=>setRateFilterValue(e.target.value)}
-                      placeholder="Rate…"
-                    />
+                  <input
+                    type="number"
+                    value={rateFilterValue}
+                    onChange={(e) => setRateFilterValue(e.target.value)}
+                    placeholder="Rate"
+                    onClick={(e) => e.stopPropagation()}
+                    style={{
+                      width: "6ch",              // shrink to about 5 characters
+                      padding: "0.2rem",        // a bit tighter
+                      fontSize: "0.8rem",
+                      marginRight: "0.2ch",
+                      textAlign: "right"
+                    }}
+                  />
                     <button
                       onClick={e=>{e.stopPropagation();setRateFilterComparison(c=>c==='gt'?'lt':'gt');}}
                     >
