@@ -224,6 +224,11 @@ input[type=number] {
   .page-container {
     flex-direction: column;
   }
+
+  .main-content   { order: 1; }
+  .left-sidebar   { order: 2; }
+  .right-sidebar  { order: 3; }
+  
   .top-bar {
     flex-direction: column;
     align-items: center;      /* center everything */

@@ -1,115 +1,101 @@
 /* Header.css */
 
-.site-header {
-    width: 100%;
-    background-color: #192a56;  /* A deep blue for a professional look */
-    color: #fff;
-    padding: 1rem 2rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .header-content {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  
-  .logo-container {
-    flex-shrink: 0;
-    margin-right: 1rem;
-  }
-  
-  .site-logo {
-    height: 50px;  /* Adjust size as needed */
-  }
-  
-  .title-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .site-title {
-    font-size: 2rem;
-    margin: 0;
-    font-weight: 600;
-  }
-  
-.site-tagline {
-  font-size: 1rem;
-  color: #ffffff;       /* full white */
-  opacity: 1;           /* remove any translucency */
-  margin-left: 0.5rem;  /* optional spacing from your title */
-}
-  
-  .site-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    background-color: #192a56; /* your navy */
-  }
-  
-  .branding {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-  }
-  
-  .logo {
-    height: 40px;  /* adjust as needed */
-    width: auto;
-  }
-  
-  .site-title {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #fff;
-  }
-  
-  .site-tagline {
-    font-size: 1rem;
-    color: #ffffff;       /* full white */
-    opacity: 1;           /* remove any translucency */
-    margin-left: 0.5rem;  /* optional spacing from your title */
-  }
-    
-  .main-nav a {
-    margin-left: 1.5rem;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    transition: opacity 0.2s;
-  }
-  
-  .main-nav a:hover {
-    opacity: 0.75;
-  }
-  
-  /* Header.css */
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
   background-color: #192a56;
+  padding: 1rem 2rem;
+}
+
+/* logo + site title + tagline all in one row */
+.logo-container {
+  flex-shrink: 0;
+  margin-right: 1rem;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;   /* row, not column */
+  gap: 0.5rem;            /* small gap between title & tagline */
+  margin: 0;
+}
+
+.site-title,
+.site-tagline {
+  margin: 0;
+  color: #fff;
 }
 
 .site-title {
-  color: #fff;
-  font-size: 1.25rem;
-  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
-.nav-links {
+.site-tagline {
+  font-size: 1rem;
+  color: #fff;
+  margin-left: 0.5rem;
+}
+
+/* nav links on the same line, right side */
+.main-nav {
   display: flex;
-  gap: 1.5rem;           /* space between links */
+  gap: 1.5rem;            /* space between links */
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  white-space: nowrap;    /* prevent wrapping/truncation */
+  transition: opacity 0.2s ease-in-out;
+}
+
+.main-nav a:hover {
+  opacity: 0.75;
+}
+/* constrain your logo */
+.site-logo {
+  height: 50px;    /* or whatever fixed height you like */
+  width: auto;     /* preserve aspect ratio */
+  flex-shrink: 0;  /* don’t let it compress or grow */
+  margin-right: 0.75rem;
+}
+
+/* make sure your branding wrapper spaces items nicely */
+.branding {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* ensure header container still centers things */
+.header-container {
+  position: relative;        /* <-- add this */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 2rem;
+  background-color: #192a56;
+}
+/*========================================
+  Header Navigation Links
+========================================*/
+.nav-links {
+  position: absolute;        /* take it out of normal flow */
+  left: 50%;                 /* start at 50% of header width */
+  transform: translateX(-50%);/* shift back by half its own width */
+  display: flex;
+  gap: 1.5rem;
 }
 
 .nav-links a {
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
-  white-space: nowrap;   /* prevent wrapping/truncation */
-  flex: none;            /* don’t try to grow or shrink */
+  font-weight: 500;
+}
+.nav-links a:hover {
+  opacity: 0.75;
 }
