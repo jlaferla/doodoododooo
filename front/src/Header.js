@@ -1,20 +1,19 @@
+// Header.js
 import React from 'react';
 import logo from './logo.png';  // Make sure logo.png is in the same folder as Header.js (or adjust the path)
-import './Header.css';
+import { Link } from 'react-router-dom';
+import './Header.css'; // (or App.css if you prefer)
 
-const Header = () => {
+export default function Header() {
   return (
-    <header className="site-header">
-      <div className="header-content">
-        <div className="logo-container">
-          <img src={logo} alt="FX Ping Logo" className="site-logo" />
-        </div>
-        <div className="title-container">
-          <p className="site-tagline">Simple Currency Converter</p>
-        </div>
+    <header className="header-container">
+      <div className="branding">
+      <img src={logo} alt="FX Ping Logo" className="site-logo" />
+        <span className="site-tagline">Simple Currency Converter</span>
       </div>
+      <nav className="nav-links">
+      <Link to="/">Home</Link>
+      <Link to="/about">About</Link>      </nav>
     </header>
   );
-};
-
-export default Header;
+}
