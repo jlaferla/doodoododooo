@@ -111,6 +111,12 @@ function App() {
     };
   }, [exportMenuVisible]);
   
+  useEffect(() => {
+    if (window.location.pathname.includes('/lander')) {
+      window.history.replaceState({}, '', '/');
+    }
+  }, []);
+  
 
   // Helper: Get table export data as a 2D array with header row
   const getExportData = () => {
