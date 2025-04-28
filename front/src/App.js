@@ -35,6 +35,9 @@ function ConversionUI() {
   const currencyFilterRef = useRef();
   const exportMenuRef = useRef();
 
+  
+
+
   // — Analytics —
   ReactGA.initialize('G-5RN2X8MD4P');
   ReactGA.send('pageview');
@@ -130,13 +133,18 @@ function ConversionUI() {
     const hdr = ['Currency Code','Currency','Location','Rate','Converted Amount'];
     const rows = getFilteredSortedCodes().map(code => {
       const rate = data.conversion_rates[code]/data.conversion_rates[selectedBase];
-      return [
-        code,
-        currencyMapping[code]?.currency||'',
-        currencyMapping[code]?.location||'',
-        rate.toFixed(4),
-        (rate*amount).toFixed(2)
-      ];
+    // look up the minor-unit count for this currency (default to 2)
+    const units = Number(currencyMapping[code]?.minorUnits ?? 2);
+    // 0-unit → 0 decimals, 3-unit → 3 decimals, else 2
+    const decimals = units === 0 ? 0 : units === 3 ? 3 : 2;
+
+    return [
+      code,
+      currencyMapping[code]?.currency||'',
+      currencyMapping[code]?.location||'',
+      rate.toFixed(4),
+      (rate * amount).toFixed(decimals)
+    ];
     });
     return [hdr, ...rows];
   };
@@ -166,6 +174,16 @@ function ConversionUI() {
     else if(fmt==='xlsx') exportToExcel(dt);
     else if(fmt==='pdf') exportToPDF(dt);
     setExportMenuVisible(false);
+  };
+  const handleAmountChange = (e) => {
+    // remove any non-digits or commas
+    const raw = e.target.value.replace(/,/g, '').replace(/[^\d.]/g, '');
+    const num = parseFloat(raw);
+    if (!isNaN(num)) {
+      setAmount(num);
+    } else if (raw === '') {
+      setAmount(0);
+    }
   };
 
   // — Render the table —
@@ -258,7 +276,7 @@ function ConversionUI() {
                 )}
               </th>
 
-              <th>Converted</th>
+              <th>Converted Amount</th>
             </tr>
           </thead>
           <tbody>
@@ -270,7 +288,16 @@ function ConversionUI() {
                   <td>{currencyMapping[code]?.currency}</td>
                   <td>{currencyMapping[code]?.location}</td>
                   <td>{rate.toFixed(4)}</td>
-                  <td>{(rate*amount).toFixed(2)}</td>
+                  <td>
+  {(() => {
+    const units = Number(currencyMapping[code]?.minorUnits ?? 2);
+    const decimals = units === 0 ? 0 : units === 3 ? 3 : 2;
+    return (rate * amount).toLocaleString(undefined, {
+      minimumFractionDigits: decimals,
+      maximumFractionDigits: decimals
+    });
+  })()}
+</td>
                 </tr>
               );
             })}
@@ -284,7 +311,7 @@ function ConversionUI() {
   return (
     <>
       <div className="container">
-        <h1 className="title">Exchange Rate Converter</h1>
+        <h1 className="title">Rate Hub</h1>
         {error && <p className="error">Error: {error}</p>}
         <p className="update-info">
           {data.time_last_update_utc
@@ -310,12 +337,15 @@ function ConversionUI() {
               <label>
                 Amount ({selectedBase}):&nbsp;
                 <input
-                  type="number"
-                  className="amount-input"
-                  value={amount}
-                  onChange={e=>setAmount(parseFloat(e.target.value)||0)}
-                />
-              </label>
+  type="text"
+  value={amount.toLocaleString(undefined, {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 2
+  })}
+  onChange={handleAmountChange}
+  className="amount-input"
+/> 
+             </label>
             </div>
           </div>
 
@@ -348,6 +378,7 @@ function ConversionUI() {
 }
 
 function App() {
+  
   return (
     <>
       <Header />
