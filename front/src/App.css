@@ -47,11 +47,25 @@ body {
   margin-right: 0.5rem;
 }
 
+
+
 /* Input & select styling to keep a consistent look */
 .filter-input, 
 .filter-select, 
 .dropdown, 
 .amount-input {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  width: 16ch;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.center-group .margin-input {
   padding: 0.5rem 0.75rem;
   font-size: 1rem;
   border: 1px solid #ddd;

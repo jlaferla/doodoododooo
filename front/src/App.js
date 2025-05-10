@@ -19,8 +19,10 @@ import Terms from './pages/Terms';
 function ConversionUI() {
   // — State & refs —
   const [data, setData] = useState({ conversion_rates: {} });
-  const [amount, setAmount] = useState(1);
+  const [amountStr, setAmountStr] = useState('1');      // <-- new
+  const [amount, setAmount] = useState('1');
   const [selectedBase, setSelectedBase] = useState('USD');
+  const [margin, setMargin] = useState('0');
   const [sortBy, setSortBy] = useState('rate');
   const [sortOrder, setSortOrder] = useState('asc');
   const [filterText, setFilterText] = useState('');
@@ -30,12 +32,18 @@ function ConversionUI() {
   const [error, setError] = useState(null);
   const [showCurrencyFilter, setShowCurrencyFilter] = useState(false);
   const [showRateFilter, setShowRateFilter] = useState(false);
-
   const rateFilterRef = useRef();
   const currencyFilterRef = useRef();
   const exportMenuRef = useRef();
+  const baseCodes     = Object.keys(data.conversion_rates);
+  const priority      = ['USD','EUR','GBP','AUD','CAD','ZAR'];
+  const sortedBaseCodes = [
+    // keep only those that actually exist in your rates
+    ...priority.filter(c => baseCodes.includes(c)),
+    // then the rest, alphabetically
+    ...baseCodes.filter(c => !priority.includes(c)).sort()
+  ];
 
-  
 
 
   // — Analytics —
@@ -130,25 +138,46 @@ function ConversionUI() {
   }
 
   const getExportData = () => {
-    const hdr = ['Currency Code','Currency','Location','Rate','Converted Amount'];
-    const rows = getFilteredSortedCodes().map(code => {
-      const rate = data.conversion_rates[code]/data.conversion_rates[selectedBase];
-    // look up the minor-unit count for this currency (default to 2)
-    const units = Number(currencyMapping[code]?.minorUnits ?? 2);
-    // 0-unit → 0 decimals, 3-unit → 3 decimals, else 2
-    const decimals = units === 0 ? 0 : units === 3 ? 3 : 2;
-
-    return [
-      code,
-      currencyMapping[code]?.currency||'',
-      currencyMapping[code]?.location||'',
-      rate.toFixed(4),
-      (rate * amount).toFixed(decimals)
+    // build a 7-column header row
+    const headers = [
+      'Currency Code',
+      'Currency',
+      'Location',
+      'Rate',
+      'Converted Amount',
+      'Margined Rate',
+      'Margined Amount'
     ];
+  
+    // compute the margin factor once
+    const factor = 1 + (parseFloat(margin) || 0) / 100;
+  
+    // for each code: raw rate, converted amount, and their margined variants
+    const rows = getFilteredSortedCodes().map(code => {
+      const rate = data.conversion_rates[code] / data.conversion_rates[selectedBase];
+      const converted = rate * (parseFloat(amount) || 0);
+  
+      // determine how many decimals this currency uses
+      const units = Number(currencyMapping[code]?.minorUnits ?? 2);
+      const decimals = units === 0 ? 0 : units === 3 ? 3 : 2;
+  
+      const marginedRate   = rate * factor;
+      const marginedAmount = converted * factor;
+  
+      return [
+        code,
+        currencyMapping[code]?.currency || '',
+        currencyMapping[code]?.location || '',
+        rate.toFixed(4),
+        converted.toFixed(decimals),
+        marginedRate.toFixed(4),
+        marginedAmount.toFixed(decimals)
+      ];
     });
-    return [hdr, ...rows];
+  
+    return [headers, ...rows];
   };
-
+  
   const exportToCSV = dt => {
     const csv = dt.map(r=>r.join(',')).join('\n');
     const blob = new Blob([csv],{type:'text/csv'});
@@ -175,20 +204,45 @@ function ConversionUI() {
     else if(fmt==='pdf') exportToPDF(dt);
     setExportMenuVisible(false);
   };
-  const handleAmountChange = (e) => {
-    // remove any non-digits or commas
-    const raw = e.target.value.replace(/,/g, '').replace(/[^\d.]/g, '');
-    const num = parseFloat(raw);
-    if (!isNaN(num)) {
-      setAmount(num);
-    } else if (raw === '') {
-      setAmount(0);
-    }
-  };
+// inside your ConversionUI component
 
-  // — Render the table —
+const handleAmountChange = (e) => {
+  // strip commas
+  const raw = e.target.value.replace(/,/g, '');
+  // count only the digits (ignore the decimal point)
+  const digitCount = raw.replace(/\D/g, '').length;
+
+  // allow:
+  //   • empty string
+  //   • a single dot (user just typed “.”)
+  //   • or a number with up to 3 decimals, AND ≤12 digits total
+  if (
+    raw === '' ||
+    raw === '.' ||
+    (
+      /^[0-9]+(\.[0-9]{0,3})?$/.test(raw) &&
+      digitCount <= 12
+    )
+  ) {
+    setAmount(raw);
+  }
+};
+    
+
+
+
+// — Render the table —
   const renderConversionTable = () => {
     if (!data.conversion_rates) return <p className="message">No exchange rate data available.</p>;
+// lift these seven to the top:
+const priority  = ['USD','EUR','GBP','AUD','CAD','AED','ZAR'];
+// get your filtered+sorted list:
+const allCodes  = getFilteredSortedCodes();
+// split into “top” vs “others”
+const topCodes  = priority.filter(c => allCodes.includes(c));
+const otherCodes = allCodes.filter(c => !topCodes.includes(c));
+// final list, with those seven first
+const codesToDisplay = [...topCodes, ...otherCodes];
 
     return (
       <div className="table-container">
@@ -277,27 +331,59 @@ function ConversionUI() {
               </th>
 
               <th>Converted Amount</th>
+              <th>Margined Rate</th>
+              <th>Margined Amount</th>
+
             </tr>
           </thead>
           <tbody>
-            {getFilteredSortedCodes().map(code => {
+            {codesToDisplay.map(code => {
               const rate = data.conversion_rates[code]/data.conversion_rates[selectedBase];
+              const converted = rate * amount;
+              const marginValue = parseFloat(margin) || 0;
+              const factor = 1 + marginValue/100;
+              const marginedRate   = rate * factor;
+              const marginedAmount = converted * factor;
+
               return (
                 <tr key={code}>
                   <td>{code}</td>
                   <td>{currencyMapping[code]?.currency}</td>
                   <td>{currencyMapping[code]?.location}</td>
-                  <td>{rate.toFixed(4)}</td>
                   <td>
-  {(() => {
-    const units = Number(currencyMapping[code]?.minorUnits ?? 2);
-    const decimals = units === 0 ? 0 : units === 3 ? 3 : 2;
-    return (rate * amount).toLocaleString(undefined, {
-      minimumFractionDigits: decimals,
-      maximumFractionDigits: decimals
-    });
-  })()}
-</td>
+                    {rate > 1000
+                      ? rate.toLocaleString(undefined, {
+                          minimumFractionDigits: 4,
+                          maximumFractionDigits: 4
+                        })
+                      : rate.toFixed(4)}
+                  </td>
+                  <td>
+                    {(() => {
+                      const units = Number(currencyMapping[code]?.minorUnits ?? 2);
+                      const decimals = units === 0 ? 0 : units === 3 ? 3 : 2;
+                      return (rate * amount).toLocaleString(undefined, {
+                        minimumFractionDigits: decimals,
+                        maximumFractionDigits: decimals
+                      });
+                    })()}
+                  </td>
+                  <td>
+                    {marginedRate.toLocaleString(undefined, {
+                      minimumFractionDigits: 4,
+                      maximumFractionDigits: 4
+                    })}
+                  </td>
+                  <td>
+                  {(() => {
+                      const units = Number(currencyMapping[code]?.minorUnits ?? 2);
+                      const decimals = units === 0 ? 0 : units === 3 ? 3 : 2;
+                    return marginedAmount.toLocaleString(undefined, {
+                      minimumFractionDigits: decimals,
+                      maximumFractionDigits: decimals
+                    });
+                  })()}
+                   </td>
                 </tr>
               );
             })}
@@ -327,27 +413,54 @@ function ConversionUI() {
                 <select
                   className="dropdown"
                   value={selectedBase}
-                  onChange={e=>setSelectedBase(e.target.value)}
+                  onChange={e => setSelectedBase(e.target.value)}
                 >
-                  {Object.keys(data.conversion_rates).map(c=><option key={c}>{c}</option>)}
-                </select>
+                  {sortedBaseCodes.map(c => (
+                    <option key={c} value={c}>{c}</option>
+                  ))}
+      </select>
               </label>
             </div>
             <div className="input-group">
               <label>
-                Amount ({selectedBase}):&nbsp;
+              <label>
+                 Amount ({selectedBase}):&nbsp;
                 <input
-  type="text"
-  value={amount.toLocaleString(undefined, {
-    minimumFractionDigits: 0,
-    maximumFractionDigits: 2
-  })}
-  onChange={handleAmountChange}
-  className="amount-input"
-/> 
+                type="text"
+                value={
+                  // insert commas every 3 digits before the “.”
+                  amount.replace(
+                    /\B(?=(\d{3})+(?!\d))/g,
+                    ','
+                  )
+                }
+                onChange={handleAmountChange}
+                className="amount-input"
+              /></label>
              </label>
             </div>
+            <div className="margin-group">
+          <label>
+            Margin (%):&nbsp;
+            <input
+              type="text"
+              className="margin-input"
+              value={margin}
+              maxLength={6}      // still a hard cap for keystrokes
+              onChange={e => {
+                const raw = e.target.value;
+                // allow only digits and one decimal point
+                if (!/^[0-9]*\.?[0-9]*$/.test(raw)) return;
+                // enforce max‐length
+                if (raw.length > 7) return;
+                setMargin(raw);
+              }}
+              placeholder="0"
+            />
+          </label>
+        </div>
           </div>
+
 
           <div className="export-section">
             <button onClick={()=>setExportMenuVisible(v=>!v)} className="export-button">
