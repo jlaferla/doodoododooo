@@ -122,6 +122,12 @@ function ConversionUI() {
       let A, B;
       switch(sortBy) {
         case 'code':   A=a; B=b; return sortOrder==='asc'? A.localeCompare(B):B.localeCompare(A);
+        case 'numericCode':
+          // pull in the numeric code from your mapping, default 0
+          A = parseInt(currencyMapping[a]?.numericCode || 0, 10);
+          B = parseInt(currencyMapping[b]?.numericCode || 0, 10);
+          return sortOrder === 'asc' ? A - B : B - A;
+
         case 'currency':
           A=currencyMapping[a]?.currency||''; B=currencyMapping[b]?.currency||'';
           return sortOrder==='asc'? A.localeCompare(B):B.localeCompare(A);
@@ -286,6 +292,9 @@ const codesToDisplay = [...topCodes, ...otherCodes];
                   </>
                 )}
               </th>
+              <th onClick={()=>handleSortClick('numericCode')} style={{cursor:'pointer'}}>
+                Numeric <span className="sort-arrow">{sortBy==='numericCode'? (sortOrder==='asc'?'▲':'▼'):'⇵'}</span>
+              </th>
 
               <th onClick={()=>handleSortClick('currency')} style={{cursor:'pointer'}}>
                 Currency <span className="sort-arrow">{sortBy==='currency'? (sortOrder==='asc'?'▲':'▼'):'⇵'}</span>
@@ -348,6 +357,7 @@ const codesToDisplay = [...topCodes, ...otherCodes];
               return (
                 <tr key={code}>
                   <td>{code}</td>
+                  <td>{currencyMapping[code]?.numericCode}</td>
                   <td>{currencyMapping[code]?.currency}</td>
                   <td>{currencyMapping[code]?.location}</td>
                   <td>
@@ -448,10 +458,15 @@ const codesToDisplay = [...topCodes, ...otherCodes];
               value={margin}
               maxLength={6}      // still a hard cap for keystrokes
               onChange={e => {
-                const raw = e.target.value;
-                // allow only digits and one decimal point
+                let raw = e.target.value;
+                // allow only digits and at most one decimal point
                 if (!/^[0-9]*\.?[0-9]*$/.test(raw)) return;
-                // enforce max‐length
+                // if they type a number > 100, force it back to "100"
+                const num = parseFloat(raw);
+                if (!isNaN(num) && num > 100) {
+                  raw = "100";
+                }
+                // enforce your max‐length rule
                 if (raw.length > 7) return;
                 setMargin(raw);
               }}
@@ -495,7 +510,7 @@ function App() {
   return (
     <>
       <Header />
-      <HeaderAd />
+      {/* <HeaderAd /> */}
 
       <Routes>
         <Route path="/" element={<ConversionUI />} />
