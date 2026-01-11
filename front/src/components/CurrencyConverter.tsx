@@ -64,22 +64,41 @@ export function CurrencyConverter() {
     const numAmount = parseFloat(amount) || 0;
     const numMargin = parseFloat(margin) || 0;
     
-    return Object.entries(EXCHANGE_RATES).map(([code, data]) => {
-      const convertedRate = (data.rate / baseRate);
-      const convertedAmount = numAmount * convertedRate;
-      const marginAmount = convertedAmount * (numMargin / 100);
-      const finalAmount = convertedAmount + marginAmount;
-      
-      return {
-        code,
-        ...data,
-        convertedAmount,
-        finalAmount,
-        convertedRate,
-        marginAmount,
-      };
-    });
-  }, [amount, baseCurrency, margin]);
+const ratesSource = liveRates ?? {};
+
+const codes = Object.keys(ratesSource).length
+  ? Object.keys(ratesSource)
+  : Object.keys(EXCHANGE_RATES);
+
+return codes
+  .sort()
+  .map((code) => {
+    const meta = EXCHANGE_RATES[code] ?? {
+      name: code,
+      symbol: "",
+      flag: "",
+      rate: ratesSource[code] ?? 0,
+    };
+
+    const targetRate = ratesSource[code] ?? meta.rate;
+
+    const convertedRate = targetRate / baseRate;
+
+    const convertedAmount = numAmount * convertedRate;
+    const marginAmount = convertedAmount * (numMargin / 100);
+    const finalAmount = convertedAmount + marginAmount;
+
+    return {
+      code,
+      ...meta,
+      rate: targetRate,          // IMPORTANT: this is the live USD->code rate
+      convertedRate,             // IMPORTANT: this is base->code rate
+      convertedAmount,
+      marginAmount,
+      finalAmount,
+    };
+  });
+}, [amount, baseCurrency, margin, liveRates]);
 
   const filteredRates = useMemo(() => {
     if (!searchTerm) return calculatedRates;
