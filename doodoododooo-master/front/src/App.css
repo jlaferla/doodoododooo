@@ -1,0 +1,295 @@
+/* Base page styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Main container with a subtle background, rounded corners, and a soft shadow */
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+  border-radius: 8px;
+}
+
+/* Title styling */
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #192a56;
+}
+
+/* Update info and error messages */
+.update-info {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #666;
+}
+
+.error {
+  color: #e74c3c;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.filter-group label,
+.base-selector label,
+.input-group label {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+
+
+/* Input & select styling to keep a consistent look */
+.filter-input, 
+.filter-select, 
+.dropdown, 
+.amount-input {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  width: 16ch;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.center-group .margin-input {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.filter-input:focus, 
+.filter-select:focus,
+.dropdown:focus, 
+.amount-input:focus {
+  border-color: #192a56;
+}
+
+/* Optional: a container to align fields in one row if needed */
+.input-export-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.table-container {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+
+/* Conversion table styling */
+.conversion-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.conversion-table th,
+.conversion-table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.conversion-table th {
+  background-color: #f1f2f6;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.conversion-table th:hover {
+  background-color: #e2e2e2;
+}
+
+/* Reserve fixed width for the sort arrows */
+.sort-arrow {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+}
+
+.export-section {
+  position: relative;  /* Ensures that .export-menu is positioned relative to this container */
+}
+
+.export-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #192a56;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.export-button:hover {
+  background-color: #2f3640;
+}
+
+/* Export popup menu styling */
+.export-menu {
+  position: absolute;
+  top: 100%;      /* Places it immediately below the export button container */
+  right: 0;       /* Aligns it with the right edge of the export-section */
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  padding: 0.5rem 0;
+  width: 200px;
+}
+
+.export-menu div {
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-align: right;
+  transition: background-color 0.3s ease;
+}
+
+.export-menu div:hover {
+  background-color: #f1f2f6;
+}
+
+
+/* For Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* push the export button to the right */
+  margin-bottom: 1.5rem;
+  padding: 0 1rem;
+}
+
+
+.center-group {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;  /* equal spacing between fields */
+}
+
+.header-ad {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: #f1f2f6;  /* Optional: a subtle background color */
+  padding: 0.5rem 0;
+}
+
+.page-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.sidebar {
+  flex: 0 0 160px;  /* Fixed width matching your ad unit dimensions */
+}
+
+.main-content {
+  flex: 1;              /* table takes all remaining space */
+}
+
+.left-sidebar,
+.right-sidebar {
+  width: 160px;         /* or whatever your ad width is */
+}
+
+@media (max-width: 768px) {
+  /* Stack everything */
+  .page-container {
+    flex-direction: column;
+  }
+
+  .main-content   { order: 1; }
+  .left-sidebar   { order: 2; }
+  .right-sidebar  { order: 3; }
+  
+  .top-bar {
+    flex-direction: column;
+    align-items: center;      /* center everything */
+    gap: 1rem;                /* space between each row */
+  }
+  /* make each sub‑section full‑width and centered */
+  .base-selector,
+  .input-group,
+  .export-section {
+    width: 100%;
+    text-align: center;
+  }
+  /* Hide side‑ads entirely (or you could reorder them below) */
+  .left-sidebar,
+  .right-sidebar {
+    display: none;
+  }
+
+  /* Tuck export button nicely inside the .container */
+  /* ensure the export menu still aligns under the button */
+  .export-section {
+    position: relative !important;
+    margin: 1rem 0;
+  }
+
+  /* Let the top‑bar fields wrap */
+  .top-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+  .center-group {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  /* Make the table scrollable instead of overflowing */
+  .table-container {
+    overflow-x: auto;
+    margin-bottom: 1rem;
+    margin: 0 -2rem 1.5rem;   /* cancel out the container’s 2rem padding */
+    border-radius: 0;         /* optional—square off the corners */
+
+  }
+  .input-group .amount-input {
+    width: 6rem;    /* you can bump this up or down (e.g. 5rem, 7rem) */
+    min-width: 4rem;/* don’t let it get too small */
+  }
+
+}
