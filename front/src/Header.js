@@ -15,6 +15,11 @@ const IconDownload = () => (
     <polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
   </svg>
 );
+const IconChevron = () => (
+  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+    <polyline points="6 9 12 15 18 9"/>
+  </svg>
+);
 
 function Header({
   selectedBase, sortedBaseCodes, onBaseChange,
@@ -24,9 +29,9 @@ function Header({
   updatedDate,
 }) {
   const [exportOpen, setExportOpen] = useState(false);
+  const [panelOpen,  setPanelOpen]  = useState(false);
   const exportRef = useRef();
 
-  // Format date as "06 Mar 2026" from the full UTC string
   const formatDate = (str) => {
     if (!str) return '—';
     try {
@@ -35,18 +40,22 @@ function Header({
     } catch { return str; }
   };
 
-  // Click outside to close export menu
+  const amountFormatted = amount.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  const summaryText = `${selectedBase} · ${amountFormatted} · ${margin || 0}%`;
+
   React.useEffect(() => {
-    const h = e => { if (exportOpen && exportRef.current && !exportRef.current.contains(e.target)) setExportOpen(false); };
+    const h = e => {
+      if (exportOpen && exportRef.current && !exportRef.current.contains(e.target)) setExportOpen(false);
+    };
     document.addEventListener('mousedown', h);
     return () => document.removeEventListener('mousedown', h);
   }, [exportOpen]);
 
   return (
     <nav className="navbar">
-      <div className="navbar-inner">
 
-        {/* Left: logo + updated */}
+      {/* ── DESKTOP ── */}
+      <div className="navbar-inner">
         <div className="navbar-left">
           <Link to="/" className="nav-logo">
             <span className="logo-fx">FX</span>
@@ -60,7 +69,6 @@ function Header({
           </div>
         </div>
 
-        {/* Centre: inputs */}
         <div className="navbar-center">
           <div className="tb-field">
             <span className="tb-label">Base</span>
@@ -72,7 +80,7 @@ function Header({
           <div className="tb-field">
             <span className="tb-label">Amount</span>
             <input type="text" className="tb-input"
-              value={amount.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
+              value={amountFormatted}
               onChange={onAmountChange} placeholder="1" />
           </div>
           <div className="tb-divider" />
@@ -84,7 +92,6 @@ function Header({
           </div>
         </div>
 
-        {/* Right: export */}
         <div className="navbar-right">
           <div className="export-wrap" ref={exportRef}>
             <button className="btn-export" onClick={() => setExportOpen(v => !v)}>
@@ -99,8 +106,64 @@ function Header({
             )}
           </div>
         </div>
-
       </div>
+
+      {/* ── MOBILE ── */}
+      <div className="mobile-navbar">
+        <div className="mobile-nav-bar">
+          <Link to="/" className="nav-logo">
+            <span className="logo-fx">FX</span>
+            <span className="logo-dot" />
+            <span className="logo-ping">Ping</span>
+          </Link>
+
+          <div className="nav-summary" onClick={() => setPanelOpen(v => !v)}>
+            <span className="nav-summary-text">{summaryText}</span>
+            <span className={`nav-summary-chevron ${panelOpen ? 'open' : ''}`}>
+              <IconChevron />
+            </span>
+          </div>
+
+          <div className="export-wrap" ref={exportRef}>
+            <button className="mobile-export-btn" onClick={() => setExportOpen(v => !v)}>
+              <IconDownload /> Export
+            </button>
+            {exportOpen && (
+              <div className="export-menu export-menu-left">
+                <button onClick={() => { onExport('csv');  setExportOpen(false); }}>CSV</button>
+                <button onClick={() => { onExport('xlsx'); setExportOpen(false); }}>Excel</button>
+                <button onClick={() => { onExport('pdf');  setExportOpen(false); }}>PDF</button>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Expandable panel */}
+        <div className={`nav-expand-panel ${panelOpen ? 'open' : ''}`}>
+          <div className="nav-expand-inner">
+            <div className="nav-field-mobile">
+              <label className="nav-field-label">Base</label>
+              <select className="nav-field-input nav-field-select"
+                value={selectedBase} onChange={e => onBaseChange(e.target.value)}>
+                {sortedBaseCodes.map(c => <option key={c} value={c}>{c}</option>)}
+              </select>
+            </div>
+            <div className="nav-field-mobile">
+              <label className="nav-field-label">Amount</label>
+              <input type="text" className="nav-field-input"
+                value={amountFormatted}
+                onChange={onAmountChange} placeholder="1" />
+            </div>
+            <div className="nav-field-mobile">
+              <label className="nav-field-label">Margin %</label>
+              <input type="text" className="nav-field-input"
+                value={margin} placeholder="0" maxLength={7}
+                onChange={onMarginChange} />
+            </div>
+          </div>
+        </div>
+      </div>
+
     </nav>
   );
 }

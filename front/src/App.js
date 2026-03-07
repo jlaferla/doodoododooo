@@ -47,55 +47,50 @@ const IconCards = () => (
 );
 
 // ── RateCard component ───────────────────────────────────────────────────────
-function RateCard({ currency, baseCurrency, showMargin }) {
+function RateCard({ currency, showMargin, margin }) {
   const units    = Number(currencyMapping[currency.code]?.minorUnits ?? 2);
   const decimals = units === 0 ? 0 : units === 3 ? 3 : 2;
+  const rateDp   = 4;
 
   return (
     <div className="rate-card">
-      <div className="rate-card-header">
-        <div className="rate-card-identity">
-          {currency.countryCode && <span className={`fi fi-${currency.countryCode} rate-card-flag`}></span>}
-          <div>
-            <div className="rate-card-code">{currency.code}</div>
-            <div className="rate-card-name">{currency.name}</div>
-          </div>
+      <div className="card-header">
+        {currency.countryCode && (
+          <span className={`fi fi-${currency.countryCode} card-flag`}></span>
+        )}
+        <div>
+          <div className="card-code">{currency.code}</div>
+          <div className="card-name">{currency.name}</div>
         </div>
-        <span className="rate-card-numeric">#{currency.numericCode}</span>
       </div>
 
-      <div className="rate-card-location">📍 {currency.location}</div>
+      <hr className="card-divider" />
 
-      <div className="rate-card-divider" />
-
-      <div className="rate-card-row">
-        <span className="rate-card-label">Exchange Rate</span>
-        <span className="rate-card-value-lg">
-          {currency.convertedRate > 1000
-            ? currency.convertedRate.toLocaleString(undefined, { minimumFractionDigits: 4, maximumFractionDigits: 4 })
-            : currency.convertedRate.toFixed(4)}
-          <span className="rate-card-unit"> {currency.code}</span>
+      <div className="card-rate-row">
+        <span className="card-label">Rate</span>
+        <span className="card-value">
+          {currency.convertedRate.toLocaleString(undefined, { minimumFractionDigits: rateDp, maximumFractionDigits: rateDp })}
         </span>
       </div>
-
-      <div className="rate-card-row">
-        <span className="rate-card-label">Converted Amount</span>
-        <span className="rate-card-value-xl">
+      <div className="card-rate-row">
+        <span className="card-label">Amount</span>
+        <span className="card-value-lg">
           {currency.convertedAmount.toLocaleString(undefined, { minimumFractionDigits: decimals, maximumFractionDigits: decimals })}
         </span>
       </div>
 
       {showMargin && (
-        <div className="rate-card-margin-block">
-          <div className="rate-card-divider" />
-          <div className="rate-card-margin-label">With Margin</div>
-          <div className="rate-card-row">
-            <span className="rate-card-label">Rate</span>
-            <span className="rate-card-value">{currency.marginRate.toFixed(4)}</span>
+        <div className="card-margin-block">
+          <div className="card-margin-label">+ {margin}% margin</div>
+          <div className="card-rate-row">
+            <span className="card-label" style={{color:'#16a34a'}}>Rate</span>
+            <span className="card-value-green">
+              {currency.marginRate.toLocaleString(undefined, { minimumFractionDigits: rateDp, maximumFractionDigits: rateDp })}
+            </span>
           </div>
-          <div className="rate-card-row">
-            <span className="rate-card-label">Amount</span>
-            <span className="rate-card-value-green">
+          <div className="card-rate-row">
+            <span className="card-label" style={{color:'#16a34a'}}>Amount</span>
+            <span className="card-value-green">
               {currency.marginAmount.toLocaleString(undefined, { minimumFractionDigits: decimals, maximumFractionDigits: decimals })}
             </span>
           </div>
@@ -104,6 +99,7 @@ function RateCard({ currency, baseCurrency, showMargin }) {
     </div>
   );
 }
+
 
 // ── Main UI ──────────────────────────────────────────────────────────────────
 function ConversionUI() {
@@ -333,9 +329,9 @@ function ConversionUI() {
                         </span>
                       </th>
 
-                      <th><span className="th-sortable" onClick={() => handleSortClick('numericCode')}>Numeric <SortArrow col="numericCode" /></span></th>
-                      <th><span className="th-sortable" onClick={() => handleSortClick('currency')}>Currency <SortArrow col="currency" /></span></th>
-                      <th><span className="th-sortable" onClick={() => handleSortClick('location')}>Location <SortArrow col="location" /></span></th>
+                      <th className="col-hide-mobile"><span className="th-sortable" onClick={() => handleSortClick('numericCode')}>Numeric <SortArrow col="numericCode" /></span></th>
+                      <th className="col-hide-mobile"><span className="th-sortable" onClick={() => handleSortClick('currency')}>Currency <SortArrow col="currency" /></span></th>
+                      <th className="col-hide-mobile"><span className="th-sortable" onClick={() => handleSortClick('location')}>Location <SortArrow col="location" /></span></th>
 
                       {/* Rate column with inline filter */}
                       <th style={{position:'relative'}}>
@@ -361,7 +357,7 @@ function ConversionUI() {
                       </th>
 
                       <th>Converted Amount</th>
-                      <th>Margined Rate</th>
+                      <th className="col-hide-mobile">Margined Rate</th>
                       <th>Margined Amount</th>
                     </tr>
                   </thead>
@@ -387,9 +383,9 @@ function ConversionUI() {
                               <span className="td-code-text">{code}</span>
                             </div>
                           </td>
-                          <td className="td-muted">{currencyMapping[code]?.numericCode}</td>
-                          <td>{currencyMapping[code]?.currency}</td>
-                          <td className="td-location">{currencyMapping[code]?.location}</td>
+                          <td className="td-muted col-hide-mobile">{currencyMapping[code]?.numericCode}</td>
+                          <td className="col-hide-mobile">{currencyMapping[code]?.currency}</td>
+                          <td className="td-location col-hide-mobile">{currencyMapping[code]?.location}</td>
                           <td className="td-number">
                             {rate>1000
                               ? rate.toLocaleString(undefined,{minimumFractionDigits:4,maximumFractionDigits:4})
@@ -398,7 +394,7 @@ function ConversionUI() {
                           <td className="td-number">
                             {converted.toLocaleString(undefined,{minimumFractionDigits:decimals,maximumFractionDigits:decimals})}
                           </td>
-                          <td className="td-number">
+                          <td className="td-number col-hide-mobile">
                             {marginedRate.toLocaleString(undefined,{minimumFractionDigits:4,maximumFractionDigits:4})}
                           </td>
                           <td className="td-number td-margin">
@@ -422,7 +418,7 @@ function ConversionUI() {
               <>
                 <div className="cards-grid">
                   {cardData.map(currency => (
-                    <RateCard key={currency.code} currency={currency} baseCurrency={selectedBase} showMargin={showMargin} />
+                    <RateCard key={currency.code} currency={currency} showMargin={showMargin} margin={margin} />
                   ))}
                 </div>
                 {cardData.length === 0 && (
