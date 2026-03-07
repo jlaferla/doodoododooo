@@ -276,3 +276,51 @@
     font-size: 16px;
   }
 }
+
+/* ── Currency detail mode styles ── */
+.cd-nav-back {
+  display: inline-flex; align-items: center; gap: .35rem;
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.2);
+  color: rgba(255,255,255,.8);
+  font-family: 'Inter', sans-serif; font-size: .8rem; font-weight: 500;
+  padding: .38rem .75rem; border-radius: 8px; cursor: pointer;
+  transition: background .15s; flex-shrink: 0;
+}
+.cd-nav-back:hover { background: rgba(255,255,255,.18); }
+
+.cd-nav-identity {
+  display: flex; align-items: center; gap: .65rem;
+}
+.cd-nav-flag {
+  width: 1.75rem; height: 1.3rem;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  flex-shrink: 0;
+}
+.cd-nav-code {
+  font-size: 1.05rem; font-weight: 700; color: #fff; letter-spacing: .03em;
+}
+.cd-nav-name {
+  font-size: .78rem; color: rgba(255,255,255,.55);
+}
+
+.cd-nav-live {
+  display: flex; flex-direction: column; align-items: flex-end; flex-shrink: 0;
+}
+.cd-nav-live-label {
+  font-size: .65rem; font-weight: 600; color: rgba(255,255,255,.4);
+  text-transform: uppercase; letter-spacing: .07em;
+}
+.cd-nav-live-rate {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1rem; font-weight: 600; color: #60a5fa;
+}
+
+.cd-mob-identity {
+  display: flex; align-items: center; gap: .5rem; flex: 1; min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .cd-nav-name { display: none; }
+}

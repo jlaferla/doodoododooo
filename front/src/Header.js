@@ -27,6 +27,11 @@ function Header({
   margin, onMarginChange,
   onExport,
   updatedDate,
+  // Currency detail mode
+  currencyDetailMode = false,
+  detailCode, detailName, detailCountryCode,
+  detailLiveRate, detailChartBase,
+  onBack,
 }) {
   const [exportOpen, setExportOpen] = useState(false);
   const [panelOpen,  setPanelOpen]  = useState(false);
@@ -62,49 +67,64 @@ function Header({
             <span className="logo-dot" />
             <span className="logo-ping">Ping</span>
           </Link>
-          <div className="nav-divider" />
-          <div className="nav-updated">
-            <IconRefresh />
-            {updatedDate ? `Updated: ${formatDate(updatedDate)}` : 'Loading…'}
-          </div>
+          {!currencyDetailMode && (
+            <>
+              <div className="nav-divider" />
+              <div className="nav-updated">
+                <IconRefresh />
+                {updatedDate ? `Updated: ${formatDate(updatedDate)}` : 'Loading…'}
+              </div>
+            </>
+          )}
         </div>
 
-        <div className="navbar-center">
-          <div className="tb-field">
-            <span className="tb-label">Base</span>
-            <select className="tb-select" value={selectedBase} onChange={e => onBaseChange(e.target.value)}>
-              {sortedBaseCodes.map(c => <option key={c} value={c}>{c}</option>)}
-            </select>
+        {currencyDetailMode ? (
+          <div className="navbar-center" />
+        ) : (
+          <div className="navbar-center">
+            <div className="tb-field">
+              <span className="tb-label">Base</span>
+              <select className="tb-select" value={selectedBase} onChange={e => onBaseChange(e.target.value)}>
+                {sortedBaseCodes.map(c => <option key={c} value={c}>{c}</option>)}
+              </select>
+            </div>
+            <div className="tb-divider" />
+            <div className="tb-field">
+              <span className="tb-label">Amount</span>
+              <input type="text" className="tb-input"
+                value={amountFormatted}
+                onChange={onAmountChange} placeholder="1" />
+            </div>
+            <div className="tb-divider" />
+            <div className="tb-field">
+              <span className="tb-label">Margin %</span>
+              <input type="text" className="tb-input tb-input-sm"
+                value={margin} placeholder="0" maxLength={7}
+                onChange={onMarginChange} />
+            </div>
           </div>
-          <div className="tb-divider" />
-          <div className="tb-field">
-            <span className="tb-label">Amount</span>
-            <input type="text" className="tb-input"
-              value={amountFormatted}
-              onChange={onAmountChange} placeholder="1" />
-          </div>
-          <div className="tb-divider" />
-          <div className="tb-field">
-            <span className="tb-label">Margin %</span>
-            <input type="text" className="tb-input tb-input-sm"
-              value={margin} placeholder="0" maxLength={7}
-              onChange={onMarginChange} />
-          </div>
-        </div>
+        )}
 
         <div className="navbar-right">
-          <div className="export-wrap" ref={exportRef}>
-            <button className="btn-export" onClick={() => setExportOpen(v => !v)}>
-              <IconDownload /> Export
+          {currencyDetailMode ? (
+            <button className="cd-nav-back" onClick={onBack}>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+              Back to rates
             </button>
-            {exportOpen && (
-              <div className="export-menu">
-                <button onClick={() => { onExport('csv');  setExportOpen(false); }}>CSV</button>
-                <button onClick={() => { onExport('xlsx'); setExportOpen(false); }}>Excel</button>
-                <button onClick={() => { onExport('pdf');  setExportOpen(false); }}>PDF</button>
-              </div>
-            )}
-          </div>
+          ) : (
+            <div className="export-wrap" ref={exportRef}>
+              <button className="btn-export" onClick={() => setExportOpen(v => !v)}>
+                <IconDownload /> Export
+              </button>
+              {exportOpen && (
+                <div className="export-menu">
+                  <button onClick={() => { onExport('csv');  setExportOpen(false); }}>CSV</button>
+                  <button onClick={() => { onExport('pdf');  setExportOpen(false); }}>PDF</button>
+                  <button onClick={() => { onExport('json'); setExportOpen(false); }}>JSON</button>
+                </div>
+              )}
+            </div>
+          )}
         </div>
       </div>
 
@@ -117,51 +137,64 @@ function Header({
             <span className="logo-ping">Ping</span>
           </Link>
 
-          <div className="nav-summary" onClick={() => setPanelOpen(v => !v)}>
-            <span className="nav-summary-text">{summaryText}</span>
-            <span className={`nav-summary-chevron ${panelOpen ? 'open' : ''}`}>
-              <IconChevron />
-            </span>
-          </div>
+          {currencyDetailMode ? (
+            <div className="cd-mob-identity">
+              <span style={{fontSize:'.82rem',color:'rgba(255,255,255,.5)'}}>← </span>
+              <button className="cd-nav-back-plain" onClick={onBack}>Back to rates</button>
+            </div>
+          ) : (
+            <div className="nav-summary" onClick={() => setPanelOpen(v => !v)}>
+              <span className="nav-summary-text">{summaryText}</span>
+              <span className={`nav-summary-chevron ${panelOpen ? 'open' : ''}`}>
+                <IconChevron />
+              </span>
+            </div>
+          )}
 
-          <div className="export-wrap" ref={exportRef}>
-            <button className="mobile-export-btn" onClick={() => setExportOpen(v => !v)}>
-              <IconDownload /> Export
-            </button>
-            {exportOpen && (
-              <div className="export-menu export-menu-left">
-                <button onClick={() => { onExport('csv');  setExportOpen(false); }}>CSV</button>
-                <button onClick={() => { onExport('xlsx'); setExportOpen(false); }}>Excel</button>
-                <button onClick={() => { onExport('pdf');  setExportOpen(false); }}>PDF</button>
+          {!currencyDetailMode && (
+            <div className="export-wrap" ref={exportRef}>
+              <button className="mobile-export-btn" onClick={() => setExportOpen(v => !v)}>
+                <IconDownload /> Export
+              </button>
+              {exportOpen && (
+                <div className="export-menu export-menu-left">
+                  <button onClick={() => { onExport('csv');  setExportOpen(false); }}>CSV</button>
+                  <button onClick={() => { onExport('pdf');  setExportOpen(false); }}>PDF</button>
+                  <button onClick={() => { onExport('json'); setExportOpen(false); }}>JSON</button>
+                </div>
+              )}
+            </div>
+          )}
+
+
+        </div>
+
+        {/* Expandable panel — only on main page */}
+        {!currencyDetailMode && (
+          <div className={`nav-expand-panel ${panelOpen ? 'open' : ''}`}>
+            <div className="nav-expand-inner">
+              <div className="nav-field-mobile">
+                <label className="nav-field-label">Base</label>
+                <select className="nav-field-input nav-field-select"
+                  value={selectedBase} onChange={e => onBaseChange(e.target.value)}>
+                  {sortedBaseCodes.map(c => <option key={c} value={c}>{c}</option>)}
+                </select>
               </div>
-            )}
-          </div>
-        </div>
-
-        {/* Expandable panel */}
-        <div className={`nav-expand-panel ${panelOpen ? 'open' : ''}`}>
-          <div className="nav-expand-inner">
-            <div className="nav-field-mobile">
-              <label className="nav-field-label">Base</label>
-              <select className="nav-field-input nav-field-select"
-                value={selectedBase} onChange={e => onBaseChange(e.target.value)}>
-                {sortedBaseCodes.map(c => <option key={c} value={c}>{c}</option>)}
-              </select>
-            </div>
-            <div className="nav-field-mobile">
-              <label className="nav-field-label">Amount</label>
-              <input type="text" className="nav-field-input"
-                value={amountFormatted}
-                onChange={onAmountChange} placeholder="1" />
-            </div>
-            <div className="nav-field-mobile">
-              <label className="nav-field-label">Margin %</label>
-              <input type="text" className="nav-field-input"
-                value={margin} placeholder="0" maxLength={7}
-                onChange={onMarginChange} />
+              <div className="nav-field-mobile">
+                <label className="nav-field-label">Amount</label>
+                <input type="text" className="nav-field-input"
+                  value={amountFormatted}
+                  onChange={onAmountChange} placeholder="1" />
+              </div>
+              <div className="nav-field-mobile">
+                <label className="nav-field-label">Margin %</label>
+                <input type="text" className="nav-field-input"
+                  value={margin} placeholder="0" maxLength={7}
+                  onChange={onMarginChange} />
+              </div>
             </div>
           </div>
-        </div>
+        )}
       </div>
 
     </nav>

@@ -1,11 +1,10 @@
 // src/App.js  — FX Ping: Figma aesthetic + full original functionality
 import React, { useState, useEffect, useRef, useMemo } from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate, Link } from 'react-router-dom';
 import ReactGA from 'react-ga4';
 import './App.css';
 import 'flag-icons/css/flag-icons.min.css';
 import currencyMapping from './currencyMapping.json';
-import * as XLSX from 'xlsx';
 import { jsPDF } from 'jspdf';
 import autoTable from 'jspdf-autotable';
 import SidebarAd from './SidebarAd';
@@ -14,6 +13,7 @@ import Footer from './Footer';
 import About from './pages/About';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Terms from './pages/Terms';
+import CurrencyDetail from './pages/CurrencyDetail';
 
 // ── Inline SVG icons (no extra dependency) ──────────────────────────────────
 const IconRefresh = () => (
@@ -249,11 +249,22 @@ function ConversionUI() {
     return [headers, ...rows];
   };
   const exportToCSV   = dt => { const csv=dt.map(r=>r.join(',')).join('\n'); const b=new Blob([csv],{type:'text/csv'}); const l=document.createElement('a'); l.href=URL.createObjectURL(b); l.download='exchange_rates.csv'; l.click(); };
-  const exportToExcel = dt => { const ws=XLSX.utils.aoa_to_sheet(dt); const wb=XLSX.utils.book_new(); XLSX.utils.book_append_sheet(wb,ws,'Rates'); XLSX.writeFile(wb,'exchange_rates.xlsx'); };
   const exportToPDF   = dt => { const doc=new jsPDF(); autoTable(doc,{head:[dt[0]],body:dt.slice(1)}); doc.save('exchange_rates.pdf'); };
+  const exportToJSON  = dt => {
+    const [headers, ...rows] = dt;
+    const json = {
+      base: selectedBase,
+      amount: parseFloat(amount) || 0,
+      margin: parseFloat(margin) || 0,
+      timestamp: new Date().toISOString(),
+      rates: rows.map(r => Object.fromEntries(headers.map((h, i) => [h.toLowerCase().replace(/ /g,'_'), r[i]])))
+    };
+    const b = new Blob([JSON.stringify(json, null, 2)], {type:'application/json'});
+    const l = document.createElement('a'); l.href = URL.createObjectURL(b); l.download = 'exchange_rates.json'; l.click();
+  };
   const handleExportSelection = fmt => {
     const dt=getExportData();
-    if(fmt==='csv') exportToCSV(dt); else if(fmt==='xlsx') exportToExcel(dt); else if(fmt==='pdf') exportToPDF(dt);
+    if(fmt==='csv') exportToCSV(dt); else if(fmt==='pdf') exportToPDF(dt); else if(fmt==='json') exportToJSON(dt);
   };
 
   const codesToDisplay = getDisplayCodes();
@@ -381,7 +392,7 @@ function ConversionUI() {
                           <td>
                             <div className="td-code">
                               {currencyMapping[code]?.countryCode && <span className={`fi fi-${currencyMapping[code].countryCode} td-flag`}></span>}
-                              <span className="td-code-text">{code}</span>
+                              <Link to={`/currency/${code}`} className="td-code-link">{code}</Link>
                             </div>
                           </td>
                           <td className="td-muted col-hide-mobile">{currencyMapping[code]?.numericCode}</td>
@@ -450,7 +461,8 @@ function App() {
         <Route path="/"        element={<ConversionUI />} />
         <Route path="/about"   element={<About />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
-        <Route path="/terms"   element={<Terms />} />
+        <Route path="/terms"        element={<Terms />} />
+        <Route path="/currency/:code" element={<CurrencyDetail />} />
         <Route path="*"        element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
