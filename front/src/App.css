@@ -215,6 +215,7 @@ input[type=number] { -moz-appearance: textfield; }
   .container { padding: 1rem 1rem 3rem; }
   .search-bar-row { gap: .65rem; }
   .search-box { max-width: 100%; }
+  .search-input { font-size: 16px; }
   .table-wrapper { margin: 0 -1rem; border-radius: 0; border-left: none; border-right: none; }
   .cards-grid { grid-template-columns: repeat(2, 1fr); gap: .65rem; }
   .col-hide-mobile { display: none; }
