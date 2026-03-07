@@ -269,3 +269,10 @@
   .navbar-inner  { display: none; }
   .mobile-navbar { display: block; }
 }
+
+/* Prevent iOS Safari auto-zoom on all inputs — must be 16px+ */
+@media (max-width: 768px) {
+  .tb-select, .tb-input, .nav-field-input {
+    font-size: 16px;
+  }
+}
