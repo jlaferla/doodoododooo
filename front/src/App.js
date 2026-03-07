@@ -176,6 +176,7 @@ function ConversionUI() {
           c.toLowerCase().includes(s) ||
           (meta?.currency || '').toLowerCase().includes(s) ||
           (meta?.location || '').toLowerCase().includes(s) ||
+          (meta?.numericCode || '').includes(s) ||
           aliasMatch;
         if (!match) return false;
       }
@@ -294,7 +295,7 @@ function ConversionUI() {
           <div className="search-box">
             <IconSearch />
             <input type="text" className="search-input" value={searchTerm}
-              placeholder="Search by code, currency, or location…"
+              placeholder="Find a currency"
               onChange={e => setSearchTerm(e.target.value)} />
           </div>
           <div className="view-toggle">
