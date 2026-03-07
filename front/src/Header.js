@@ -118,9 +118,9 @@ function Header({
               </button>
               {exportOpen && (
                 <div className="export-menu">
-                  <button onClick={() => { onExport('csv');  setExportOpen(false); }}>CSV</button>
-                  <button onClick={() => { onExport('pdf');  setExportOpen(false); }}>PDF</button>
-                  <button onClick={() => { onExport('json'); setExportOpen(false); }}>JSON</button>
+                  <button onMouseDown={e => { e.preventDefault(); onExport('csv');  setExportOpen(false); }}>CSV</button>
+                  <button onMouseDown={e => { e.preventDefault(); onExport('pdf');  setExportOpen(false); }}>PDF</button>
+                  <button onMouseDown={e => { e.preventDefault(); onExport('json'); setExportOpen(false); }}>JSON</button>
                 </div>
               )}
             </div>
@@ -158,9 +158,9 @@ function Header({
               </button>
               {exportOpen && (
                 <div className="export-menu export-menu-left">
-                  <button onClick={() => { onExport('csv');  setExportOpen(false); }}>CSV</button>
-                  <button onClick={() => { onExport('pdf');  setExportOpen(false); }}>PDF</button>
-                  <button onClick={() => { onExport('json'); setExportOpen(false); }}>JSON</button>
+                  <button onMouseDown={e => { e.preventDefault(); onExport('csv');  setExportOpen(false); }}>CSV</button>
+                  <button onMouseDown={e => { e.preventDefault(); onExport('pdf');  setExportOpen(false); }}>PDF</button>
+                  <button onMouseDown={e => { e.preventDefault(); onExport('json'); setExportOpen(false); }}>JSON</button>
                 </div>
               )}
             </div>

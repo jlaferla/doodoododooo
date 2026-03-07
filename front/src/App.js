@@ -248,8 +248,8 @@ function ConversionUI() {
     });
     return [headers, ...rows];
   };
-  const exportToCSV   = dt => { const csv=dt.map(r=>r.join(',')).join('\n'); const b=new Blob([csv],{type:'text/csv'}); const l=document.createElement('a'); l.href=URL.createObjectURL(b); l.download='exchange_rates.csv'; l.click(); };
-  const exportToPDF   = dt => { const doc=new jsPDF(); autoTable(doc,{head:[dt[0]],body:dt.slice(1)}); doc.save('exchange_rates.pdf'); };
+  const exportToCSV   = dt => { const csv=dt.map(r=>r.join(',')).join('\n'); const b=new Blob([csv],{type:'text/csv'}); const l=document.createElement('a'); l.href=URL.createObjectURL(b); l.download='exchange_rates.csv'; document.body.appendChild(l); l.click(); document.body.removeChild(l); };
+  const exportToPDF   = dt => { const doc=new jsPDF(); autoTable(doc,{head:[dt[0]],body:dt.slice(1),styles:{fontSize:8},headStyles:{fillColor:[30,58,95]}}); doc.save('exchange_rates.pdf'); };
   const exportToJSON  = dt => {
     const [headers, ...rows] = dt;
     const json = {
@@ -260,7 +260,7 @@ function ConversionUI() {
       rates: rows.map(r => Object.fromEntries(headers.map((h, i) => [h.toLowerCase().replace(/ /g,'_'), r[i]])))
     };
     const b = new Blob([JSON.stringify(json, null, 2)], {type:'application/json'});
-    const l = document.createElement('a'); l.href = URL.createObjectURL(b); l.download = 'exchange_rates.json'; l.click();
+    const l = document.createElement('a'); l.href = URL.createObjectURL(b); l.download = 'exchange_rates.json'; document.body.appendChild(l); l.click(); document.body.removeChild(l);
   };
   const handleExportSelection = fmt => {
     const dt=getExportData();
