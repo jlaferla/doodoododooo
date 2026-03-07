@@ -1,128 +1,174 @@
-/* Header.css */
+/* src/Header.css */
 
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #192a56;
-  padding: 1rem 2rem;
+.navbar {
+  background: linear-gradient(to right, #1e3a5f, #263f68);
+  box-shadow: 0 2px 16px rgba(0,0,0,.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
-/* logo + site title + tagline all in one row */
-.logo-container {
+.navbar-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: 64px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* ── Left ── */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+  text-decoration: none;
   flex-shrink: 0;
-  margin-right: 1rem;
 }
+.logo-fx   { font-size: .95rem; font-weight: 700; color: #fff; letter-spacing: .03em; }
+.logo-dot  { width: 4px; height: 4px; border-radius: 50%; background: #60a5fa; flex-shrink: 0; margin: 0 1px; }
+.logo-ping { font-size: .95rem; font-weight: 300; color: rgba(255,255,255,.7); letter-spacing: .03em; }
 
-.title-container {
+.nav-divider { width: 1px; height: 20px; background: rgba(255,255,255,.15); flex-shrink: 0; }
+
+.nav-updated {
   display: flex;
-  align-items: center;   /* row, not column */
-  gap: 0.5rem;            /* small gap between title & tagline */
-  margin: 0;
+  align-items: center;
+  gap: .35rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .7rem;
+  color: rgba(255,255,255,.45);
+  white-space: nowrap;
 }
 
-.site-title,
-.site-tagline {
-  margin: 0;
-  color: #fff;
+/* ── Centre ── */
+.navbar-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .6rem;
 }
 
-.site-title {
-  font-size: 1.5rem;
+.tb-field   { display: flex; align-items: center; gap: .35rem; }
+.tb-divider { width: 1px; height: 24px; background: rgba(255,255,255,.15); flex-shrink: 0; }
+
+.tb-label {
+  font-size: .68rem;
   font-weight: 600;
+  color: rgba(255,255,255,.45);
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  white-space: nowrap;
 }
 
-.site-tagline {
-  font-size: 1rem;
+.tb-select,
+.tb-input {
+  padding: .38rem .65rem;
+  font-family: 'Inter', sans-serif;
+  font-size: .875rem;
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 8px;
   color: #fff;
-  margin-left: 0.5rem;
+  outline: none;
+  transition: border-color .15s, background .15s;
 }
+.tb-select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='rgba(255,255,255,0.6)' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right .6rem center;
+  padding-right: 1.75rem;
+  cursor: pointer;
+  width: 88px;
+}
+.tb-select option { background: #1e3a5f; color: #fff; }
+.tb-input    { width: 100px; }
+.tb-input-sm { width: 68px; }
+.tb-select:focus,
+.tb-input:focus {
+  border-color: rgba(255,255,255,.5);
+  background: rgba(255,255,255,.15);
+}
+/* white text for autofill */
+.tb-input:-webkit-autofill { -webkit-text-fill-color: #fff; }
 
-/* nav links on the same line, right side */
-.main-nav {
-  display: flex;
-  gap: 1.5rem;            /* space between links */
-}
+/* ── Right ── */
+.navbar-right { display: flex; justify-content: flex-end; }
 
-.main-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1rem;
-  white-space: nowrap;    /* prevent wrapping/truncation */
-  transition: opacity 0.2s ease-in-out;
-}
+.export-wrap { position: relative; }
 
-.main-nav a:hover {
-  opacity: 0.75;
-}
-/* constrain your logo */
-.site-logo {
-  height: 50px;    /* or whatever fixed height you like */
-  width: auto;     /* preserve aspect ratio */
-  flex-shrink: 0;  /* don’t let it compress or grow */
-  margin-right: 0.75rem;
-}
-
-/* make sure your branding wrapper spaces items nicely */
-.branding {
-  display: flex;
+.btn-export {
+  display: inline-flex;
   align-items: center;
-  gap: 0.75rem;
-}
-
-/* ensure header container still centers things */
-.header-container {
-  position: relative;        /* <-- add this */
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 1rem 2rem;
-  background-color: #192a56;
-}
-/*========================================
-  Header Navigation Links
-========================================*/
-.nav-links {
-  position: absolute;        /* take it out of normal flow */
-  left: 50%;                 /* start at 50% of header width */
-  transform: translateX(-50%);/* shift back by half its own width */
-  display: flex;
-  gap: 1.5rem;
-}
-
-.nav-links a {
+  gap: .4rem;
+  padding: .45rem 1rem;
+  background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.22);
   color: #fff;
-  text-decoration: none;
-  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-size: .82rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background .15s, border-color .15s;
+}
+.btn-export:hover {
+  background: rgba(255,255,255,.2);
+  border-color: rgba(255,255,255,.38);
+}
+
+.export-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0,0,0,.12), 0 4px 16px rgba(0,0,0,.06);
+  z-index: 200;
+  padding: .35rem;
+  min-width: 130px;
+  animation: menuPop .12s ease;
+}
+@keyframes menuPop {
+  from { opacity: 0; transform: translateY(-5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.export-menu button {
+  display: block;
+  width: 100%;
+  padding: .5rem .9rem;
+  font-family: 'Inter', sans-serif;
+  font-size: .83rem;
   font-weight: 500;
+  color: #475569;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  text-align: left;
+  cursor: pointer;
+  transition: background .12s, color .12s;
 }
-.nav-links a:hover {
-  opacity: 0.75;
-}
-/* at the bottom of Header.css */
-@media (max-width: 880px) {
-  .header-container {
-    flex-wrap: wrap;         /* allow branding + nav to stack */
-    justify-content: center; /* center both rows */
-    padding: 1rem;           /* tighten up your padding */
-  }
+.export-menu button:hover { background: #eff6ff; color: #2563eb; }
 
-  .branding {
-    width: 100%;             /* full‑width row */
-    justify-content: center; /* center logo + tagline */
-    margin-bottom: 0.5rem;   /* small gap before nav */
+/* ── Mobile ── */
+@media (max-width: 768px) {
+  .navbar-inner {
+    grid-template-columns: 1fr;
+    height: auto;
+    padding: .75rem 1rem;
+    gap: .75rem;
   }
-
-  .nav-links {
-    position: static;        /* back into normal flow */
-    transform: none;         /* cancel the absolute centering */
-    display: flex;
-    justify-content: center; /* center the links in their row */
-    gap: 1rem;               /* tighten link spacing */
-    width: 100%;
-  }
-
-  .site-tagline {
-    font-size: 0.9rem;       /* a bit smaller for narrow screens */
-  }
+  .navbar-center { flex-wrap: wrap; justify-content: flex-start; gap: .5rem; }
+  .nav-updated   { display: none; }
+  .navbar-right  { justify-content: flex-start; }
 }

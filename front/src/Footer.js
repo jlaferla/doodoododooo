@@ -1,19 +1,18 @@
-// src/Footer.js
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Footer.css';
 
-export default function Footer() {
+function Footer() {
   return (
     <footer className="site-footer">
-      <div className="footer-links">
-        <Link to="/privacy">Privacy Policy</Link>
-        <span className="divider">|</span>
-        <Link to="/terms">Terms &amp; Conditions</Link>
-      </div>
-      <div className="footer-credit">
-        &copy; {new Date().getFullYear()} FX Ping
+      <div className="footer-inner">
+        <span className="footer-brand">
+          <span className="footer-fx">FX</span>Ping
+          <span className="footer-tagline"> — Live exchange rates</span>
+        </span>
+        <span className="footer-copy">© {new Date().getFullYear()} FXPing</span>
       </div>
     </footer>
   );
 }
+
+export default Footer;
