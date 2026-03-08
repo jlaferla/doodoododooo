@@ -110,28 +110,28 @@ function Sparkline({ data, width = 600, height = 160 }) {
 
           {/* Tooltip background */}
           <rect
-            x={tooltipOnRight ? tooltipX : tooltipX - 120}
-            y={Math.max(pad.top, hover.y - 36)}
-            width="118" height="38"
-            rx="6" ry="6"
-            fill="#1e3a5f" stroke={color} strokeWidth="1" opacity="0.95"
+            x={tooltipOnRight ? tooltipX : tooltipX - 140}
+            y={Math.max(pad.top, hover.y - 44)}
+            width="138" height="46"
+            rx="7" ry="7"
+            fill="#1e3a5f" stroke={color} strokeWidth="1.5" opacity="0.96"
           />
           {/* Date */}
           <text
-            x={tooltipOnRight ? tooltipX + 10 : tooltipX - 10}
-            y={Math.max(pad.top, hover.y - 36) + 14}
+            x={tooltipOnRight ? tooltipX + 12 : tooltipX - 12}
+            y={Math.max(pad.top, hover.y - 44) + 17}
             textAnchor={tooltipAnchor}
-            fill="rgba(255,255,255,0.6)"
-            fontSize="9"
+            fill="rgba(255,255,255,0.65)"
+            fontSize="11"
             fontFamily="JetBrains Mono, monospace"
           >{hover.date}</text>
           {/* Rate */}
           <text
-            x={tooltipOnRight ? tooltipX + 10 : tooltipX - 10}
-            y={Math.max(pad.top, hover.y - 36) + 28}
+            x={tooltipOnRight ? tooltipX + 12 : tooltipX - 12}
+            y={Math.max(pad.top, hover.y - 44) + 34}
             textAnchor={tooltipAnchor}
             fill="#fff"
-            fontSize="12"
+            fontSize="15"
             fontWeight="600"
             fontFamily="JetBrains Mono, monospace"
           >{hover.rate.toFixed(4)}</text>

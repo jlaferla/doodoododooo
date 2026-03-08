@@ -38,6 +38,18 @@ function Header({
   const [panelOpen,  setPanelOpen]  = useState(false);
   const burgerRef = useRef();
 
+  // Build the Charts link: base = user's selected base, target = USD (fallback priority)
+  const FALLBACK_ORDER = ['USD','EUR','GBP','AUD','CAD','JPY','CHF'];
+  const chartsBase = currencyDetailMode ? detailChartBase : selectedBase;
+  const chartsTarget = (() => {
+    for (const c of FALLBACK_ORDER) {
+      if (c !== chartsBase) return c;
+    }
+    return 'EUR';
+  })();
+  const chartsLink = `/currency/${chartsTarget}`;
+  const chartsState = { base: chartsBase };
+
   const formatDate = (str) => {
     if (!str) return '—';
     try {
@@ -53,8 +65,8 @@ function Header({
     const h = e => {
       if (burgerOpen && burgerRef.current && !burgerRef.current.contains(e.target)) setBurgerOpen(false);
     };
-    document.addEventListener('mousedown', h);
-    return () => document.removeEventListener('mousedown', h);
+    document.addEventListener('click', h);
+    return () => document.removeEventListener('click', h);
   }, [burgerOpen]);
 
   return (
@@ -128,16 +140,13 @@ function Header({
 
         <div className="navbar-right">
           <div className="burger-wrap" ref={burgerRef}>
-            <button className="btn-burger" onClick={() => setBurgerOpen(v => !v)}>
+            <button className="btn-burger" onClick={e => { e.stopPropagation(); setBurgerOpen(v => !v); }}>
               <IconBurger />
             </button>
             {burgerOpen && (
               <div className="burger-menu">
-                <Link to="/" className="burger-item" onClick={() => setBurgerOpen(false)}>Rates</Link>
-                <div className="burger-divider" />
-                <span className="burger-label">Coming soon</span>
-                <span className="burger-item burger-item-disabled">Charts</span>
-                <span className="burger-item burger-item-disabled">Blog</span>
+                <Link to="/" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Rates</Link>
+                <Link to={chartsLink} state={chartsState} className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Charts</Link>
               </div>
             )}
           </div>
@@ -154,10 +163,25 @@ function Header({
           </Link>
 
           {currencyDetailMode ? (
-            <div className="cd-mob-identity">
-              {detailCountryCode && <span className={`fi fi-${detailCountryCode} cd-nav-flag`}></span>}
-              <span className="cd-nav-code" style={{fontSize:'.95rem'}}>{detailCode}</span>
-              <span className="cd-nav-name" style={{fontSize:'.75rem',color:'rgba(255,255,255,.55)'}}>{detailName}</span>
+            <div className="navbar-center" style={{gap:'.4rem'}}>
+              <div className="cd-nav-base-select-wrap">
+                {detailChartBaseCountryCode && <span className={`fi fi-${detailChartBaseCountryCode} cd-nav-flag`}></span>}
+                <select className="cd-nav-base-select" value={detailChartBase} onChange={onDetailBaseChange}>
+                  {detailBaseOptions.map(c => <option key={c} value={c}>{c}</option>)}
+                </select>
+              </div>
+              <button className="cd-nav-swap" onClick={onDetailSwap} title="Swap currencies">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="17 1 21 5 17 9"/><line x1="3" y1="5" x2="21" y2="5"/>
+                  <polyline points="7 23 3 19 7 15"/><line x1="21" y1="19" x2="3" y2="19"/>
+                </svg>
+              </button>
+              <div className="cd-nav-base-select-wrap">
+                {detailCountryCode && <span className={`fi fi-${detailCountryCode} cd-nav-flag`}></span>}
+                <select className="cd-nav-base-select" value={detailCode} onChange={onDetailTargetChange}>
+                  {detailTargetOptions.map(c => <option key={c} value={c}>{c}</option>)}
+                </select>
+              </div>
             </div>
           ) : (
             <div className="nav-summary" onClick={() => setPanelOpen(v => !v)}>
@@ -169,16 +193,13 @@ function Header({
           )}
 
           <div className="burger-wrap" ref={burgerRef}>
-            <button className="btn-burger" onClick={() => setBurgerOpen(v => !v)}>
+            <button className="btn-burger" onClick={e => { e.stopPropagation(); setBurgerOpen(v => !v); }}>
               <IconBurger />
             </button>
             {burgerOpen && (
-              <div className="burger-menu burger-menu-left">
-                <Link to="/" className="burger-item" onClick={() => setBurgerOpen(false)}>Rates</Link>
-                <div className="burger-divider" />
-                <span className="burger-label">Coming soon</span>
-                <span className="burger-item burger-item-disabled">Charts</span>
-                <span className="burger-item burger-item-disabled">Blog</span>
+              <div className="burger-menu">
+                <Link to="/" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Rates</Link>
+                <Link to={chartsLink} state={chartsState} className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Charts</Link>
               </div>
             )}
           </div>

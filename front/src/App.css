@@ -270,3 +270,7 @@ input[type=number] { -moz-appearance: textfield; }
   border-radius: 7px; cursor: pointer;
 }
 .export-menu button:hover { background: #f1f5f9; }
+
+@media (max-width: 768px) {
+  .search-input::placeholder { color: transparent; }
+}
