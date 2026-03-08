@@ -387,28 +387,27 @@
 
 /* ── Detail page navbar base selector ── */
 .cd-nav-base-select-wrap {
-  display: flex; align-items: center; gap: .35rem;
+  display: flex; align-items: center; gap: .4rem;
   background: rgba(255,255,255,.1);
-  border: 1px solid rgba(255,255,255,.2);
-  border-radius: 7px; padding: .2rem .4rem .2rem .4rem;
-}
-.cd-nav-flag {
-  width: 1.1em; height: .85em;
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 8px; padding: .38rem .65rem;
 }
 .cd-nav-base-select {
   background: transparent; border: none; outline: none;
-  font-family: 'Inter', sans-serif; font-size: .78rem; font-weight: 700;
+  font-family: 'Inter', sans-serif; font-size: .875rem; font-weight: 500;
   color: #fff; cursor: pointer;
   appearance: none; -webkit-appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='rgba(255,255,255,0.7)' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='rgba(255,255,255,0.6)' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
-  background-position: right 0 center;
-  padding-right: .9rem;
+  background-position: right .4rem center;
+  padding-right: 1.4rem;
 }
+.cd-nav-base-select option { background: #1e3a5f; color: #fff; }
+.cd-nav-base-select:focus { outline: none; }
 @media (max-width: 768px) {
-  .cd-nav-base-select-wrap { gap: .2rem; padding: .2rem .3rem; }
+  .cd-nav-base-select-wrap { gap: .2rem; padding: .28rem .45rem; }
   .cd-nav-flag { display: none; }
-  .cd-nav-base-select { font-size: .75rem; padding-right: .8rem; }
+  .cd-nav-base-select { font-size: .78rem; padding-right: 1.1rem; }
   .cd-nav-swap { width: 24px; height: 24px; }
 }
 .cd-nav-base-select option { background: #1e3a5f; color: #fff; }
