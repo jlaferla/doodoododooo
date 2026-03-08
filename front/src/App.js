@@ -1,6 +1,6 @@
 // src/App.js  — FX Ping: Figma aesthetic + full original functionality
 import React, { useState, useEffect, useRef, useMemo } from 'react';
-import { Routes, Route, Navigate, Link } from 'react-router-dom';
+import { Routes, Route, Navigate, Link, useLocation } from 'react-router-dom';
 import ReactGA from 'react-ga4';
 import './App.css';
 import 'flag-icons/css/flag-icons.min.css';
@@ -47,13 +47,13 @@ const IconCards = () => (
 );
 
 // ── RateCard component ───────────────────────────────────────────────────────
-function RateCard({ currency, showMargin, margin }) {
+function RateCard({ currency, showMargin, margin, selectedBase }) {
   const units    = Number(currencyMapping[currency.code]?.minorUnits ?? 2);
   const decimals = units === 0 ? 0 : units === 3 ? 3 : 2;
   const rateDp   = 4;
 
   return (
-    <div className="rate-card">
+    <Link to={`/currency/${currency.code}`} state={{ base: selectedBase }} className="rate-card">
       <div className="card-header">
         {currency.countryCode && (
           <span className={`fi fi-${currency.countryCode} card-flag`}></span>
@@ -96,7 +96,7 @@ function RateCard({ currency, showMargin, margin }) {
           </div>
         </div>
       )}
-    </div>
+    </Link>
   );
 }
 
@@ -105,7 +105,7 @@ function RateCard({ currency, showMargin, margin }) {
 function ConversionUI() {
   const [data, setData]                   = useState({ conversion_rates: {} });
   const [amount, setAmount]               = useState('1');
-  const [selectedBase, setSelectedBase]   = useState('USD');
+  const [selectedBase, setSelectedBase]   = useState(() => localStorage.getItem('fxping_base') || 'USD');
   const [margin, setMargin]               = useState('0');
   const [sortBy, setSortBy]               = useState('code');
   const [sortOrder, setSortOrder]         = useState('asc');
@@ -114,7 +114,9 @@ function ConversionUI() {
   const [rateFilterValue, setRateFilterValue]           = useState('');
   const [error, setError]                 = useState(null);
   const [showRateFilter, setShowRateFilter]             = useState(false);
-  const [viewMode, setViewMode]           = useState('table');
+  const [viewMode, setViewMode]           = useState(() => localStorage.getItem('fxping_view') || 'table');
+  const [exportMenuVisible, setExportMenuVisible] = useState(false);
+  const exportMenuRef = useRef();
   const [searchTerm, setSearchTerm]       = useState('');
 
   const rateFilterRef     = useRef();
@@ -129,6 +131,16 @@ function ConversionUI() {
 
   ReactGA.initialize('G-5RN2X8MD4P');
   ReactGA.send('pageview');
+
+  // Click-outside for export menu
+  useEffect(() => {
+    const handler = e => {
+      if (exportMenuVisible && exportMenuRef.current && !exportMenuRef.current.contains(e.target))
+        setExportMenuVisible(false);
+    };
+    document.addEventListener('mousedown', handler);
+    return () => document.removeEventListener('mousedown', handler);
+  }, [exportMenuVisible]);
 
   // Fetch live rates
   useEffect(() => {
@@ -281,7 +293,7 @@ function ConversionUI() {
       <Header
         selectedBase={selectedBase}
         sortedBaseCodes={sortedBaseCodes}
-        onBaseChange={setSelectedBase}
+        onBaseChange={base => { setSelectedBase(base); localStorage.setItem('fxping_base', base); }}
         amount={amount}
         onAmountChange={handleAmountChange}
         margin={margin}
@@ -293,7 +305,6 @@ function ConversionUI() {
           if (raw.length > 7) return;
           setMargin(raw);
         }}
-        onExport={handleExportSelection}
         updatedDate={data.time_last_update_utc}
       />
       <div className="page-wrap">
@@ -309,11 +320,24 @@ function ConversionUI() {
               placeholder="Find a currency"
               onChange={e => setSearchTerm(e.target.value)} />
           </div>
-          <div className="view-toggle">
-            <button className={`toggle-btn ${viewMode==='table'?'active':''}`} onClick={() => setViewMode('table')}>
+          <div className="view-toggle" ref={exportMenuRef}>
+            <div className="export-wrap">
+              <button className="btn-export" onClick={() => setExportMenuVisible(v => !v)}>
+                <IconDownload /> Export ▾
+              </button>
+              {exportMenuVisible && (
+                <div className="export-menu">
+                  <button onMouseDown={e => { e.preventDefault(); handleExportSelection('csv');  setExportMenuVisible(false); }}>CSV</button>
+                  <button onMouseDown={e => { e.preventDefault(); handleExportSelection('pdf');  setExportMenuVisible(false); }}>PDF</button>
+                  <button onMouseDown={e => { e.preventDefault(); handleExportSelection('json'); setExportMenuVisible(false); }}>JSON</button>
+                </div>
+              )}
+            </div>
+            <div className="toggle-divider" />
+            <button className={`toggle-btn ${viewMode==='table'?'active':''}`} onClick={() => { setViewMode('table'); localStorage.setItem('fxping_view', 'table'); }}>
               <IconTable /> Table
             </button>
-            <button className={`toggle-btn ${viewMode==='cards'?'active':''}`} onClick={() => setViewMode('cards')}>
+            <button className={`toggle-btn ${viewMode==='cards'?'active':''}`} onClick={() => { setViewMode('cards'); localStorage.setItem('fxping_view', 'cards'); }}>
               <IconCards /> Cards
             </button>
           </div>
@@ -392,7 +416,7 @@ function ConversionUI() {
                           <td>
                             <div className="td-code">
                               {currencyMapping[code]?.countryCode && <span className={`fi fi-${currencyMapping[code].countryCode} td-flag`}></span>}
-                              <Link to={`/currency/${code}`} className="td-code-link">{code}</Link>
+                              <Link to={`/currency/${code}`} state={{ base: selectedBase }} className="td-code-link">{code}</Link>
                             </div>
                           </td>
                           <td className="td-muted col-hide-mobile">{currencyMapping[code]?.numericCode}</td>
@@ -432,7 +456,7 @@ function ConversionUI() {
               <>
                 <div className="cards-grid">
                   {cardData.map(currency => (
-                    <RateCard key={currency.code} currency={currency} showMargin={showMargin} margin={margin} />
+                    <RateCard key={currency.code} currency={currency} showMargin={showMargin} margin={margin} selectedBase={selectedBase} />
                   ))}
                 </div>
                 {cardData.length === 0 && (
@@ -454,20 +478,25 @@ function ConversionUI() {
   );
 }
 
-function App() {
+function AppRoutes() {
+  const location = useLocation();
   return (
     <>
       <Routes>
         <Route path="/"        element={<ConversionUI />} />
         <Route path="/about"   element={<About />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
-        <Route path="/terms"        element={<Terms />} />
-        <Route path="/currency/:code" element={<CurrencyDetail />} />
+        <Route path="/terms"   element={<Terms />} />
+        <Route path="/currency/:code" element={<CurrencyDetail key={location.pathname} />} />
         <Route path="*"        element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
     </>
   );
+}
+
+function App() {
+  return <AppRoutes />;
 }
 
 export default App;

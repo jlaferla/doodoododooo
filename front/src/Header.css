@@ -324,3 +324,94 @@
 @media (max-width: 768px) {
   .cd-nav-name { display: none; }
 }
+
+/* ── Burger menu ── */
+.burger-wrap { position: relative; }
+
+.btn-burger {
+  display: flex; align-items: center; justify-content: center;
+  width: 38px; height: 38px;
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 9px; cursor: pointer;
+  color: rgba(255,255,255,.85);
+  transition: background .15s;
+}
+.btn-burger:hover { background: rgba(255,255,255,.18); }
+
+.burger-menu {
+  position: absolute; top: calc(100% + 8px); right: 0;
+  background: #fff; border: 1px solid var(--border, #e2e8f0);
+  border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,.12);
+  min-width: 180px; padding: 6px; z-index: 200;
+  animation: menuFadeIn .12s ease;
+}
+.burger-menu-left { right: auto; left: 0; }
+
+@keyframes menuFadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.burger-item {
+  display: block; width: 100%;
+  padding: .55rem .85rem;
+  font-family: 'Inter', sans-serif; font-size: .875rem; font-weight: 500;
+  color: #1e3a5f; text-decoration: none;
+  border-radius: 8px; cursor: pointer;
+  transition: background .1s;
+}
+.burger-item:hover { background: #f1f5f9; }
+.burger-item-disabled {
+  color: #94a3b8 !important; cursor: default; pointer-events: none;
+}
+.burger-item-disabled:hover { background: none; }
+
+.burger-divider {
+  height: 1px; background: #e2e8f0; margin: 4px 0;
+}
+.burger-label {
+  display: block;
+  padding: .3rem .85rem .15rem;
+  font-size: .7rem; font-weight: 600; color: #94a3b8;
+  text-transform: uppercase; letter-spacing: .07em;
+}
+
+/* ── Detail page centre ── */
+.cd-nav-base-code {
+  font-size: .95rem; font-weight: 700; color: #fff; letter-spacing: .03em;
+}
+.cd-nav-arrow {
+  font-size: .9rem; color: rgba(255,255,255,.45); margin: 0 .1rem;
+}
+
+/* ── Detail page navbar base selector ── */
+.cd-nav-base-select-wrap {
+  display: flex; align-items: center; gap: .5rem;
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 8px; padding: .3rem .5rem .3rem .5rem;
+}
+.cd-nav-base-select {
+  background: transparent; border: none; outline: none;
+  font-family: 'Inter', sans-serif; font-size: .9rem; font-weight: 700;
+  color: #fff; cursor: pointer;
+  appearance: none; -webkit-appearance: none;
+  /* inline chevron via background SVG */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='rgba(255,255,255,0.7)' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0 center;
+  padding-right: 1.1rem;
+}
+.cd-nav-base-select option { background: #1e3a5f; color: #fff; }
+
+/* ── Swap button ── */
+.cd-nav-swap {
+  display: flex; align-items: center; justify-content: center;
+  width: 28px; height: 28px; flex-shrink: 0;
+  background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 50%; color: #fff; cursor: pointer;
+  transition: background .15s, transform .2s;
+}
+.cd-nav-swap:hover { background: rgba(255,255,255,.22); transform: rotate(180deg); }

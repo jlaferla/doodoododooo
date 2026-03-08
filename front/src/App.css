@@ -60,11 +60,14 @@ body {
   display: flex; align-items: center; justify-content: space-between;
   gap: 1rem; margin-bottom: 0.9rem; flex-wrap: wrap;
 }
+.search-row-right {
+  display: flex; align-items: center; gap: .65rem; flex-shrink: 0;
+}
 .search-box { flex: 1; max-width: 480px; position: relative; display: flex; align-items: center; }
 .search-box svg { position: absolute; left: 0.85rem; color: var(--text-3); pointer-events: none; flex-shrink: 0; }
 .search-input {
-  width: 100%; padding: 0.6rem 0.9rem 0.6rem 2.5rem;
-  font-family: 'Inter', sans-serif; font-size: 0.875rem;
+  width: 100%; padding: 0.5rem 0.9rem 0.5rem 2.5rem;
+  font-family: 'Inter', sans-serif; font-size: 0.8rem;
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
   color: var(--text); outline: none; transition: border-color 0.15s, box-shadow 0.15s; box-shadow: var(--shadow-sm);
 }
@@ -81,6 +84,7 @@ body {
   cursor: pointer; transition: background 0.15s, color 0.15s; white-space: nowrap;
 }
 .toggle-btn:hover { background: var(--bg); color: var(--text); }
+.toggle-divider { width: 1px; background: var(--border); margin: 4px 2px; }
 .toggle-btn.active { background: var(--navy); color: #fff; box-shadow: var(--shadow-sm); }
 
 /* Results count */
@@ -162,6 +166,7 @@ input[type=number] { -moz-appearance: textfield; }
 }
 
 .rate-card {
+  display: block; text-decoration: none; color: inherit; cursor: pointer;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -233,3 +238,35 @@ input[type=number] { -moz-appearance: textfield; }
   color: var(--navy);
   text-decoration: underline;
 }
+
+/* ── Export button (in search row) ── */
+.export-wrap {
+  position: relative;
+  display: flex;
+}
+.btn-export {
+  display: flex; align-items: center; gap: 0.4rem; padding: 0.45rem 0.85rem;
+  font-family: 'Inter', sans-serif; font-size: 0.8rem; font-weight: 500;
+  color: var(--text-2) !important; background: none; border: none; border-radius: 7px;
+  cursor: pointer; transition: background 0.15s, color 0.15s; white-space: nowrap;
+}
+.btn-export:hover { background: var(--bg); color: var(--text) !important; }
+.export-menu {
+  position: absolute; top: calc(100% + 6px); left: 0;
+  background: #fff; border: 1px solid #e2e8f0;
+  border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,.1);
+  min-width: 120px; padding: 5px; z-index: 200;
+  animation: menuFadeIn .12s ease;
+}
+@keyframes menuFadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.export-menu button {
+  display: block; width: 100%;
+  padding: .45rem .8rem; text-align: left;
+  font-family: 'Inter', sans-serif; font-size: .85rem; font-weight: 500;
+  color: #1e3a5f; background: none; border: none;
+  border-radius: 7px; cursor: pointer;
+}
+.export-menu button:hover { background: #f1f5f9; }

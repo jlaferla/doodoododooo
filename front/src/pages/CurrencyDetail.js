@@ -1,6 +1,6 @@
 // src/pages/CurrencyDetail.js
 import React, { useState, useEffect, useCallback } from 'react';
-import { useParams, useNavigate, Link } from 'react-router-dom';
+import { useParams, useNavigate, useLocation, Link } from 'react-router-dom';
 import currencyMapping from '../currencyMapping.json';
 import Header from '../Header';
 import './CurrencyDetail.css';
@@ -144,11 +144,15 @@ function Sparkline({ data, width = 600, height = 160 }) {
 export default function CurrencyDetail() {
   const { code } = useParams();
   const navigate  = useNavigate();
+  const location  = useLocation();
   const upper     = code?.toUpperCase();
   const meta      = currencyMapping[upper];
 
-  // Default base: USD, but if this page IS USD default to EUR
-  const defaultBase = upper === 'USD' ? 'EUR' : 'USD';
+  // Use base passed from table/cards, fallback to USD (or EUR if page is USD)
+  const passedBase  = location.state?.base;
+  const defaultBase = passedBase && passedBase !== upper
+    ? passedBase
+    : upper === 'USD' ? 'EUR' : 'USD';
   const [period,    setPeriod]    = useState(PERIODS[2]);
   const [chartBase, setChartBase] = useState(defaultBase);
   const [chartData, setChartData] = useState([]);
@@ -244,27 +248,16 @@ export default function CurrencyDetail() {
         detailCountryCode={meta?.countryCode}
         detailLiveRate={liveRate}
         detailChartBase={chartBase}
+        detailChartBaseCountryCode={currencyMapping[chartBase]?.countryCode}
+        detailBaseOptions={baseOptions}
+        onDetailBaseChange={e => setChartBase(e.target.value)}
+        detailTargetOptions={[...FRANKFURTER_SUPPORTED].filter(c => c !== chartBase).sort()}
+        onDetailTargetChange={e => navigate(`/currency/${e.target.value}`, { state: { base: chartBase } })}
+        onDetailSwap={() => navigate(`/currency/${chartBase}`, { state: { base: upper } })}
         onBack={() => navigate(-1)}
       />
 
       <div className="cd-body">
-
-        {/* ── Identity row ── */}
-        <div className="cd-identity-row">
-          <div className="cd-identity">
-            {meta.countryCode && <span className={`fi fi-${meta.countryCode} cd-flag`}></span>}
-            <div>
-              <div className="cd-code">{upper}</div>
-              <div className="cd-name">{meta.currency}</div>
-            </div>
-          </div>
-          {liveRate !== null && (
-            <div className="cd-live">
-              <span className="cd-live-label">1 {chartBase} =</span>
-              <span className="cd-live-rate">{liveRate.toFixed(4)} {upper}</span>
-            </div>
-          )}
-        </div>
 
         {!supported ? (
           <div className="cd-unsupported">
@@ -300,18 +293,7 @@ export default function CurrencyDetail() {
 
             {/* ── Period selector ── */}
             <div className="cd-period-row">
-              <div className="cd-base-selector">
-                <select
-                  className="cd-base-select"
-                  value={chartBase}
-                  onChange={e => setChartBase(e.target.value)}
-                >
-                  {baseOptions.map(c => (
-                    <option key={c} value={c}>{c}</option>
-                  ))}
-                </select>
-                <span className="cd-period-label cd-pair-label">→ {upper}</span>
-              </div>
+              <div />
               <div className="cd-periods">
                 {PERIODS.map(p => (
                   <button
