@@ -4,6 +4,7 @@ npm-debug.log
 
 # Build output
 /build
+/front/build
 
 # Other system files
 .DS_Store
