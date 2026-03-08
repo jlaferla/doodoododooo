@@ -10,3 +10,10 @@ npm-debug.log
 
 # Environment files
 .env
+
+# Python virtual environment
+back/venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
