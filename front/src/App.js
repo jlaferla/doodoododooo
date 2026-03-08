@@ -7,7 +7,6 @@ import 'flag-icons/css/flag-icons.min.css';
 import currencyMapping from './currencyMapping.json';
 import { jsPDF } from 'jspdf';
 import autoTable from 'jspdf-autotable';
-import SidebarAd from './SidebarAd';
 import Header from './Header';
 import Footer from './Footer';
 import About from './pages/About';
@@ -349,7 +348,6 @@ function ConversionUI() {
 
         {/* Content */}
         <div className="content-row">
-          <aside className="sidebar"><SidebarAd adSlot="8460430591" /></aside>
 
           <main className="main-content">
             {viewMode === 'table' ? (
@@ -469,7 +467,6 @@ function ConversionUI() {
             )}
           </main>
 
-          <aside className="sidebar"><SidebarAd adSlot="8268858906" /></aside>
         </div>
 
       </div>

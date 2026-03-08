@@ -387,21 +387,29 @@
 
 /* ── Detail page navbar base selector ── */
 .cd-nav-base-select-wrap {
-  display: flex; align-items: center; gap: .5rem;
+  display: flex; align-items: center; gap: .35rem;
   background: rgba(255,255,255,.1);
   border: 1px solid rgba(255,255,255,.2);
-  border-radius: 8px; padding: .3rem .5rem .3rem .5rem;
+  border-radius: 7px; padding: .2rem .4rem .2rem .4rem;
+}
+.cd-nav-flag {
+  width: 1.1em; height: .85em;
 }
 .cd-nav-base-select {
   background: transparent; border: none; outline: none;
-  font-family: 'Inter', sans-serif; font-size: .9rem; font-weight: 700;
+  font-family: 'Inter', sans-serif; font-size: .78rem; font-weight: 700;
   color: #fff; cursor: pointer;
   appearance: none; -webkit-appearance: none;
-  /* inline chevron via background SVG */
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='rgba(255,255,255,0.7)' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='rgba(255,255,255,0.7)' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 0 center;
-  padding-right: 1.1rem;
+  padding-right: .9rem;
+}
+@media (max-width: 768px) {
+  .cd-nav-base-select-wrap { gap: .2rem; padding: .2rem .3rem; }
+  .cd-nav-flag { display: none; }
+  .cd-nav-base-select { font-size: .75rem; padding-right: .8rem; }
+  .cd-nav-swap { width: 24px; height: 24px; }
 }
 .cd-nav-base-select option { background: #1e3a5f; color: #fff; }
 
