@@ -74,11 +74,13 @@
   padding: .38rem .65rem;
   font-family: 'Inter', sans-serif;
   font-size: .875rem;
+  font-weight: 500;
   background: rgba(255,255,255,.1);
   border: 1px solid rgba(255,255,255,.18);
   border-radius: 8px;
   color: #fff;
   outline: none;
+  min-height: 36px;
   transition: border-color .15s, background .15s;
 }
 .tb-select {
@@ -293,10 +295,12 @@
   display: flex; align-items: center; gap: .65rem;
 }
 .cd-nav-flag {
-  width: 1.75rem; height: 1.3rem;
-  border-radius: 3px;
-  box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  width: 24px; height: 18px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.2);
   flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
 }
 .cd-nav-code {
   font-size: 1.05rem; font-weight: 700; color: #fff; letter-spacing: .03em;
@@ -406,9 +410,7 @@
   pointer-events: none;
   margin-left: auto;
 }
-.cd-nav-base-select-wrap .fi {
-  pointer-events: none; position: relative; z-index: 0;
-}
+
 .cd-nav-base-select {
   position: absolute; inset: 0; width: 100%; height: 100%;
   background: transparent; border: none; outline: none;

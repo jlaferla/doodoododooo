@@ -147,7 +147,7 @@ body {
 .fx-table tbody tr:hover { background: #f8fafc; }
 .fx-table tbody tr:last-child td { border-bottom: none; }
 .td-code { display: flex; align-items: center; gap: 0.5rem; }
-.td-flag { width: 1.33em; height: 1em; border-radius: 2px; flex-shrink: 0; }
+.td-flag { width: 20px; height: 15px; border-radius: 2px; flex-shrink: 0; vertical-align: middle; }
 .td-code-text { font-weight: 600; color: var(--blue-pop); font-size: 0.875rem; }
 .td-muted { color: var(--text-3); font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; }
 .td-location { color: var(--blue-pop); font-size: 0.82rem; }
@@ -193,7 +193,7 @@ input[type=number] { -moz-appearance: textfield; }
 .rate-card:hover::before { opacity: 1; }
 
 .card-header { display: flex; align-items: center; gap: .6rem; }
-.card-flag { width: 1.75rem; height: 1.3rem; border-radius: 3px; flex-shrink: 0; box-shadow: 0 1px 3px rgba(0,0,0,.15); }
+.card-flag { width: 24px; height: 18px; border-radius: 3px; flex-shrink: 0; box-shadow: 0 1px 3px rgba(0,0,0,.15); vertical-align: middle; }
 .card-code { font-size: 1rem; font-weight: 700; color: var(--navy); letter-spacing: .03em; }
 .card-name { font-size: .7rem; color: var(--text-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card-divider { border: none; border-top: 1px solid var(--border); }

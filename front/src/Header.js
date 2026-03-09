@@ -2,6 +2,7 @@
 import React, { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import currencyMapping from './currencyMapping.json';
 
 const IconRefresh = () => (
   <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -96,7 +97,7 @@ function Header({
         {currencyDetailMode ? (
           <div className="navbar-center">
             <div className="cd-nav-base-select-wrap">
-              {detailChartBaseCountryCode && detailBaseSupported && <span className={`fi fi-${detailChartBaseCountryCode} cd-nav-flag`}></span>}
+              {detailChartBaseCountryCode && detailBaseSupported && <img src={`https://flagcdn.com/24x18/${detailChartBaseCountryCode}.png`} srcSet={`https://flagcdn.com/48x36/${detailChartBaseCountryCode}.png 2x`} width="24" height="18" alt="" className="cd-nav-flag" />}
               <span className="cd-nav-select-label">{detailBaseSupported ? detailChartBase : ''}</span>
               <select className="cd-nav-base-select" value={detailBaseSupported ? detailChartBase : ''} onChange={onDetailBaseChange}>
                 {!detailBaseSupported && <option value="" disabled> </option>}
@@ -110,7 +111,7 @@ function Header({
               </svg>
             </button>
             <div className="cd-nav-base-select-wrap">
-              {detailSupported && detailCountryCode && <span className={`fi fi-${detailCountryCode} cd-nav-flag`}></span>}
+              {detailSupported && detailCountryCode && <img src={`https://flagcdn.com/24x18/${detailCountryCode}.png`} srcSet={`https://flagcdn.com/48x36/${detailCountryCode}.png 2x`} width="24" height="18" alt="" className="cd-nav-flag" />}
               <span className="cd-nav-select-label">{detailSupported ? detailCode : ''}</span>
               <select className="cd-nav-base-select" value={detailSupported ? detailCode : ''} onChange={onDetailTargetChange}>
                 {!detailSupported && <option value="" disabled> </option>}
@@ -122,9 +123,15 @@ function Header({
           <div className="navbar-center">
             <div className="tb-field">
               <span className="tb-label">Base</span>
-              <select className="tb-select" value={selectedBase} onChange={e => onBaseChange(e.target.value)}>
-                {sortedBaseCodes.map(c => <option key={c} value={c}>{c}</option>)}
-              </select>
+              <div className="cd-nav-base-select-wrap">
+                {currencyMapping[selectedBase]?.countryCode && (
+                  <img src={`https://flagcdn.com/24x18/${currencyMapping[selectedBase].countryCode}.png`} srcSet={`https://flagcdn.com/48x36/${currencyMapping[selectedBase].countryCode}.png 2x`} width="24" height="18" alt="" className="cd-nav-flag" />
+                )}
+                <span className="cd-nav-select-label">{selectedBase}</span>
+                <select className="cd-nav-base-select" value={selectedBase} onChange={e => onBaseChange(e.target.value)}>
+                  {sortedBaseCodes.map(c => <option key={c} value={c}>{c}</option>)}
+                </select>
+              </div>
             </div>
             <div className="tb-divider" />
             <div className="tb-field">
@@ -170,7 +177,7 @@ function Header({
           {currencyDetailMode ? (
             <div className="navbar-center" style={{gap:'.4rem'}}>
               <div className="cd-nav-base-select-wrap">
-                {detailChartBaseCountryCode && detailBaseSupported && <span className={`fi fi-${detailChartBaseCountryCode} cd-nav-flag`}></span>}
+                {detailChartBaseCountryCode && detailBaseSupported && <img src={`https://flagcdn.com/24x18/${detailChartBaseCountryCode}.png`} srcSet={`https://flagcdn.com/48x36/${detailChartBaseCountryCode}.png 2x`} width="24" height="18" alt="" className="cd-nav-flag" />}
                 <span className="cd-nav-select-label">{detailBaseSupported ? detailChartBase : ''}</span>
                 <select className="cd-nav-base-select" value={detailBaseSupported ? detailChartBase : ''} onChange={onDetailBaseChange}>
                   {!detailBaseSupported && <option value="" disabled> </option>}
@@ -184,7 +191,7 @@ function Header({
                 </svg>
               </button>
               <div className="cd-nav-base-select-wrap">
-                {detailSupported && detailCountryCode && <span className={`fi fi-${detailCountryCode} cd-nav-flag`}></span>}
+                {detailSupported && detailCountryCode && <img src={`https://flagcdn.com/24x18/${detailCountryCode}.png`} srcSet={`https://flagcdn.com/48x36/${detailCountryCode}.png 2x`} width="24" height="18" alt="" className="cd-nav-flag" />}
                 <span className="cd-nav-select-label">{detailSupported ? detailCode : ''}</span>
                 <select className="cd-nav-base-select" value={detailSupported ? detailCode : ''} onChange={onDetailTargetChange}>
                   {!detailSupported && <option value="" disabled> </option>}

@@ -55,7 +55,7 @@ function RateCard({ currency, showMargin, margin, selectedBase }) {
     <Link to={`/currency/${currency.code}`} state={{ base: selectedBase }} className="rate-card">
       <div className="card-header">
         {currency.countryCode && (
-          <span className={`fi fi-${currency.countryCode} card-flag`}></span>
+          <img src={`https://flagcdn.com/20x15/${currency.countryCode}.png`} srcSet={`https://flagcdn.com/40x30/${currency.countryCode}.png 2x`} width="20" height="15" alt="" className="card-flag" />
         )}
         <div>
           <div className="card-code">{currency.code}</div>
@@ -415,7 +415,7 @@ function ConversionUI() {
                         <tr key={code}>
                           <td>
                             <div className="td-code">
-                              {currencyMapping[code]?.countryCode && <span className={`fi fi-${currencyMapping[code].countryCode} td-flag`}></span>}
+                              {currencyMapping[code]?.countryCode && <img src={`https://flagcdn.com/20x15/${currencyMapping[code].countryCode}.png`} srcSet={`https://flagcdn.com/40x30/${currencyMapping[code].countryCode}.png 2x`} width="20" height="15" alt="" className="td-flag" />}
                               <Link to={`/currency/${code}`} state={{ base: selectedBase }} className="td-code-link">{code}</Link>
                             </div>
                           </td>
