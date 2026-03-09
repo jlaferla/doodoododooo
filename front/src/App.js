@@ -279,7 +279,7 @@ function ConversionUI() {
   };
 
   const codesToDisplay = getDisplayCodes();
-  const showMargin     = parseFloat(margin) !== 0;
+  const showMargin     = parseFloat(margin) > 0;
 
   const SortArrow = ({ col }) => (
     <span className={sortBy===col ? 'sort-active' : 'sort-neutral'}>
@@ -381,7 +381,9 @@ function ConversionUI() {
                         ) : (
                           <div className="th-inner">
                             <span className="th-sortable" onClick={() => handleSortClick('rate')}>
-                              Rate <SortArrow col="rate" />
+                              <span className="col-hide-mobile">Rate</span>
+                              <span className="col-show-mobile">{showMargin ? 'Margined Rate' : 'Rate'}</span>
+                              <SortArrow col="rate" />
                             </span>
                             <button className="th-filter-btn" onClick={e => { e.stopPropagation(); setShowRateFilter(true); if (rateFilterComparison==='none') setRateFilterComparison('gt'); }}>
                               <IconSearch />
@@ -390,7 +392,7 @@ function ConversionUI() {
                         )}
                       </th>
 
-                      <th>Converted Amount</th>
+                      <th><span className="col-hide-mobile">Converted Amount</span><span className="col-show-mobile">{showMargin ? 'Margined Amount' : 'Converted Amount'}</span></th>
                       <th className="col-hide-mobile">Margined Rate</th>
                       <th className="col-hide-mobile">Margined Amount</th>
                     </tr>
@@ -421,12 +423,16 @@ function ConversionUI() {
                           <td className="col-hide-mobile">{currencyMapping[code]?.currency}</td>
                           <td className="td-location col-hide-mobile">{currencyMapping[code]?.location}</td>
                           <td className="td-number">
-                            {rate > 1000
-                              ? rate.toLocaleString(undefined,{minimumFractionDigits:4,maximumFractionDigits:4})
-                              : rate.toFixed(4)}
+                            {/* Desktop: raw rate. Mobile: margined rate if margin set */}
+                            {showMargin
+                              ? <><span className="col-hide-mobile">{rate > 1000 ? rate.toLocaleString(undefined,{minimumFractionDigits:4,maximumFractionDigits:4}) : rate.toFixed(4)}</span><span className="col-show-mobile">{marginedRate.toLocaleString(undefined,{minimumFractionDigits:4,maximumFractionDigits:4})}</span></>
+                              : (rate > 1000 ? rate.toLocaleString(undefined,{minimumFractionDigits:4,maximumFractionDigits:4}) : rate.toFixed(4))}
                           </td>
                           <td className="td-number">
-                            {converted.toLocaleString(undefined,{minimumFractionDigits:decimals,maximumFractionDigits:decimals})}
+                            {/* Desktop: raw converted. Mobile: margined amount if margin set */}
+                            {showMargin
+                              ? <><span className="col-hide-mobile">{converted.toLocaleString(undefined,{minimumFractionDigits:decimals,maximumFractionDigits:decimals})}</span><span className="col-show-mobile">{marginedAmount.toLocaleString(undefined,{minimumFractionDigits:decimals,maximumFractionDigits:decimals})}</span></>
+                              : converted.toLocaleString(undefined,{minimumFractionDigits:decimals,maximumFractionDigits:decimals})}
                           </td>
                           <td className="td-number col-hide-mobile">
                             {marginedRate.toLocaleString(undefined,{minimumFractionDigits:4,maximumFractionDigits:4})}
