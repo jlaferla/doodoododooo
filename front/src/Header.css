@@ -391,18 +391,39 @@
   background: rgba(255,255,255,.1);
   border: 1px solid rgba(255,255,255,.18);
   border-radius: 8px; padding: .38rem .65rem;
+  position: relative; cursor: pointer;
+  min-width: 80px; min-height: 36px;
 }
-.cd-nav-base-select {
-  background: transparent; border: none; outline: none;
-  font-family: 'Inter', sans-serif; font-size: .875rem; font-weight: 500;
-  color: #fff; cursor: pointer;
-  appearance: none; -webkit-appearance: none;
+/* Always show chevron on the right of the wrap */
+.cd-nav-base-select-wrap::after {
+  content: '';
+  display: block;
+  width: 10px; height: 7px;
+  flex-shrink: 0;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='7' viewBox='0 0 10 7'%3E%3Cpath d='M1 1l4 4 4-4' stroke='rgba(255,255,255,0.6)' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
-  background-position: right .4rem center;
-  padding-right: 1.4rem;
+  background-position: center;
+  pointer-events: none;
+  margin-left: auto;
+}
+.cd-nav-base-select-wrap .fi {
+  pointer-events: none; position: relative; z-index: 0;
+}
+.cd-nav-base-select {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  background: transparent; border: none; outline: none;
+  font-family: 'Inter', sans-serif; font-size: .875rem; font-weight: 500;
+  color: transparent; cursor: pointer;
+  appearance: none; -webkit-appearance: none;
+  z-index: 1;
 }
 .cd-nav-base-select option { background: #1e3a5f; color: #fff; }
+/* visible label over the top */
+.cd-nav-select-label {
+  font-family: 'Inter', sans-serif; font-size: .875rem; font-weight: 500;
+  color: #fff; pointer-events: none; position: relative; z-index: 0;
+
+}
 .cd-nav-base-select:focus { outline: none; }
 @media (max-width: 768px) {
   .cd-nav-base-select-wrap { gap: .2rem; padding: .28rem .45rem; }

@@ -28,24 +28,49 @@ function getDateString(daysAgo) {
   return d.toISOString().split('T')[0];
 }
 
-function Sparkline({ data, width = 600, height = 160 }) {
+function Sparkline({ data, width = 600, height = 200 }) {
   const [hover, setHover] = React.useState(null);
   if (!data || data.length < 2) return null;
 
   const values = data.map(d => d.rate);
-  const min = Math.min(...values);
-  const max = Math.max(...values);
-  const range = max - min || 1;
-  const pad = { top: 12, right: 12, bottom: 12, left: 12 };
+  const dataMin = Math.min(...values);
+  const dataMax = Math.max(...values);
+  const dataRange = dataMax - dataMin || 1;
+
+  const yPad = dataRange * 0.05;
+  const yMin = dataMin - yPad;
+  const yMax = dataMax + yPad;
+  const yRange = yMax - yMin;
+
+  // Full width for chart, small right margin for y-axis labels
+  const pad = { top: 12, right: 58, bottom: 32, left: 12 };
   const w = width - pad.left - pad.right;
   const h = height - pad.top - pad.bottom;
 
   const points = data.map((d, i) => ({
     x: pad.left + (i / (data.length - 1)) * w,
-    y: pad.top + h - ((d.rate - min) / range) * h,
+    y: pad.top + h - ((d.rate - yMin) / yRange) * h,
     date: d.date,
     rate: d.rate,
   }));
+
+  // Y-axis ticks — 4 evenly spaced, labels on the RIGHT
+  const yTicks = Array.from({ length: 4 }, (_, i) => {
+    const val = yMin + (yRange / 3) * i;
+    return { val, y: pad.top + h - ((val - yMin) / yRange) * h };
+  });
+
+  // X-axis month labels
+  const monthLabels = [];
+  let lastMonth = null;
+  data.forEach((d, i) => {
+    const month = d.date.slice(0, 7);
+    if (month !== lastMonth) {
+      const label = new Date(d.date).toLocaleString('default', { month: 'short' });
+      monthLabels.push({ label, x: pad.left + (i / (data.length - 1)) * w });
+      lastMonth = month;
+    }
+  });
 
   const pathD = points.map((p, i) => `${i === 0 ? 'M' : 'L'}${p.x.toFixed(2)},${p.y.toFixed(2)}`).join(' ');
   const fillD = `${pathD} L${points[points.length-1].x.toFixed(2)},${(pad.top+h).toFixed(2)} L${points[0].x.toFixed(2)},${(pad.top+h).toFixed(2)} Z`;
@@ -77,7 +102,7 @@ function Sparkline({ data, width = 600, height = 160 }) {
   return (
     <svg
       viewBox={`0 0 ${width} ${height}`}
-      preserveAspectRatio="none"
+      preserveAspectRatio="xMidYMid meet"
       style={{width:'100%', height:'100%', cursor:'crosshair'}}
       onMouseMove={handleMouseMove}
       onMouseLeave={() => setHover(null)}
@@ -88,6 +113,28 @@ function Sparkline({ data, width = 600, height = 160 }) {
           <stop offset="100%" stopColor={color} stopOpacity="0"/>
         </linearGradient>
       </defs>
+
+      {/* Y-axis gridlines + labels on right */}
+      {yTicks.map((t, i) => (
+        <g key={i}>
+          <line x1={pad.left} y1={t.y} x2={pad.left + w} y2={t.y}
+            stroke="#e2e8f0" strokeWidth="1" strokeDasharray="3 3"/>
+          <text x={pad.left + w + 8} y={t.y + 4}
+            textAnchor="start" fontSize="10" fill="#0f172a"
+            fontFamily="JetBrains Mono, monospace">
+            {t.val.toFixed(4)}
+          </text>
+        </g>
+      ))}
+
+      {/* X-axis month labels */}
+      {monthLabels.map((m, i) => (
+        <text key={i} x={m.x} y={pad.top + h + 22}
+          textAnchor="middle" fontSize="10" fill="#0f172a"
+          fontFamily="Inter, sans-serif">
+          {m.label}
+        </text>
+      ))}
 
       <path d={fillD} fill="url(#lineGrad)" />
       <path d={pathD} fill="none" stroke={color} strokeWidth="2" strokeLinejoin="round" strokeLinecap="round"/>
@@ -150,11 +197,15 @@ export default function CurrencyDetail() {
 
   // Use base passed from table/cards, fallback to USD (or EUR if page is USD)
   const passedBase  = location.state?.base;
-  const defaultBase = passedBase && passedBase !== upper
-    ? passedBase
-    : upper === 'USD' ? 'EUR' : 'USD';
+  const passedBaseSupported = passedBase && FRANKFURTER_SUPPORTED.has(passedBase) && passedBase !== upper;
+  const defaultBase = (() => {
+    if (passedBaseSupported) return passedBase;
+    if (upper === 'USD') return 'EUR';
+    return 'USD';
+  })();
   const [period,    setPeriod]    = useState(PERIODS[2]);
   const [chartBase, setChartBase] = useState(defaultBase);
+  const [baseManuallySet, setBaseManuallySet] = useState(passedBaseSupported);
   const [chartData, setChartData] = useState([]);
   const [loading,   setLoading]   = useState(false);
   const [error,     setError]     = useState(null);
@@ -219,14 +270,14 @@ export default function CurrencyDetail() {
     );
   }
 
-  const values    = chartData.map(d => d.rate);
-  const latest    = values[values.length - 1];
-  const earliest  = values[0];
-  const high      = Math.max(...values);
-  const low       = Math.min(...values);
-  const change    = latest && earliest ? latest - earliest : null;
-  const changePct = change && earliest ? (change / earliest) * 100 : null;
-  const up        = changePct >= 0;
+  const values    = chartData.length > 0 ? chartData.map(d => d.rate) : [];
+  const latest    = values.length > 0 ? values[values.length - 1] : null;
+  const earliest  = values.length > 0 ? values[0] : null;
+  const high      = values.length > 0 ? Math.max(...values) : null;
+  const low       = values.length > 0 ? Math.min(...values) : null;
+  const change    = latest !== null && earliest !== null ? latest - earliest : null;
+  const changePct = change !== null && earliest ? (change / earliest) * 100 : null;
+  const up        = changePct !== null && changePct >= 0;
 
   return (
     <div className="cd-page">
@@ -249,8 +300,10 @@ export default function CurrencyDetail() {
         detailLiveRate={liveRate}
         detailChartBase={chartBase}
         detailChartBaseCountryCode={currencyMapping[chartBase]?.countryCode}
+        detailSupported={supported}
+        detailBaseSupported={baseManuallySet}
         detailBaseOptions={baseOptions}
-        onDetailBaseChange={e => setChartBase(e.target.value)}
+        onDetailBaseChange={e => { setChartBase(e.target.value); setBaseManuallySet(true); }}
         detailTargetOptions={[...FRANKFURTER_SUPPORTED].filter(c => c !== chartBase).sort()}
         onDetailTargetChange={e => navigate(`/currency/${e.target.value}`, { state: { base: chartBase } })}
         onDetailSwap={() => navigate(`/currency/${chartBase}`, { state: { base: upper } })}
@@ -261,7 +314,11 @@ export default function CurrencyDetail() {
 
         {!supported ? (
           <div className="cd-unsupported">
-            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" strokeWidth="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="13"/>
+              <circle cx="12" cy="17" r="0.8" fill="#94a3b8" stroke="none"/>
+            </svg>
             <h3>Historical data not available</h3>
             <p>{meta.currency} ({upper}) is not covered by our historical data source.<br/>We're working on expanding coverage.</p>
           </div>
@@ -314,10 +371,7 @@ export default function CurrencyDetail() {
                   <div className="cd-chart">
                     <Sparkline data={chartData} />
                   </div>
-                  <div className="cd-chart-dates">
-                    <span>{chartData[0]?.date}</span>
-                    <span>{chartData[chartData.length-1]?.date}</span>
-                  </div>
+
                 </>
               )}
             </div>

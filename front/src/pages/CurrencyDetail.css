@@ -72,10 +72,10 @@
   padding: 1.25rem;
   box-shadow: var(--shadow-sm);
   position: relative;
-  min-height: 200px;
+  min-height: 340px;
 }
 .cd-chart {
-  height: 180px;
+  height: 320px;
   width: 100%;
 }
 .cd-chart-dates {

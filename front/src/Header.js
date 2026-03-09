@@ -30,6 +30,8 @@ function Header({
   currencyDetailMode = false,
   detailCode, detailName, detailCountryCode,
   detailLiveRate, detailChartBase, detailChartBaseCountryCode,
+  detailSupported = true,
+  detailBaseSupported = true,
   detailBaseOptions = [], onDetailBaseChange,
   detailTargetOptions = [], onDetailTargetChange, onDetailSwap,
   onBack,
@@ -94,11 +96,12 @@ function Header({
         {currencyDetailMode ? (
           <div className="navbar-center">
             <div className="cd-nav-base-select-wrap">
-              {detailChartBaseCountryCode && <span className={`fi fi-${detailChartBaseCountryCode} cd-nav-flag`}></span>}
-              <select className="cd-nav-base-select" value={detailChartBase} onChange={onDetailBaseChange}>
+              {detailChartBaseCountryCode && detailBaseSupported && <span className={`fi fi-${detailChartBaseCountryCode} cd-nav-flag`}></span>}
+              <span className="cd-nav-select-label">{detailBaseSupported ? detailChartBase : ''}</span>
+              <select className="cd-nav-base-select" value={detailBaseSupported ? detailChartBase : ''} onChange={onDetailBaseChange}>
+                {!detailBaseSupported && <option value="" disabled> </option>}
                 {detailBaseOptions.map(c => <option key={c} value={c}>{c}</option>)}
               </select>
-
             </div>
             <button className="cd-nav-swap" onClick={onDetailSwap} title="Swap currencies">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -107,8 +110,10 @@ function Header({
               </svg>
             </button>
             <div className="cd-nav-base-select-wrap">
-              {detailCountryCode && <span className={`fi fi-${detailCountryCode} cd-nav-flag`}></span>}
-              <select className="cd-nav-base-select" value={detailCode} onChange={onDetailTargetChange}>
+              {detailSupported && detailCountryCode && <span className={`fi fi-${detailCountryCode} cd-nav-flag`}></span>}
+              <span className="cd-nav-select-label">{detailSupported ? detailCode : ''}</span>
+              <select className="cd-nav-base-select" value={detailSupported ? detailCode : ''} onChange={onDetailTargetChange}>
+                {!detailSupported && <option value="" disabled> </option>}
                 {detailTargetOptions.map(c => <option key={c} value={c}>{c}</option>)}
               </select>
             </div>
@@ -165,8 +170,10 @@ function Header({
           {currencyDetailMode ? (
             <div className="navbar-center" style={{gap:'.4rem'}}>
               <div className="cd-nav-base-select-wrap">
-                {detailChartBaseCountryCode && <span className={`fi fi-${detailChartBaseCountryCode} cd-nav-flag`}></span>}
-                <select className="cd-nav-base-select" value={detailChartBase} onChange={onDetailBaseChange}>
+                {detailChartBaseCountryCode && detailBaseSupported && <span className={`fi fi-${detailChartBaseCountryCode} cd-nav-flag`}></span>}
+                <span className="cd-nav-select-label">{detailBaseSupported ? detailChartBase : ''}</span>
+                <select className="cd-nav-base-select" value={detailBaseSupported ? detailChartBase : ''} onChange={onDetailBaseChange}>
+                  {!detailBaseSupported && <option value="" disabled> </option>}
                   {detailBaseOptions.map(c => <option key={c} value={c}>{c}</option>)}
                 </select>
               </div>
@@ -177,8 +184,10 @@ function Header({
                 </svg>
               </button>
               <div className="cd-nav-base-select-wrap">
-                {detailCountryCode && <span className={`fi fi-${detailCountryCode} cd-nav-flag`}></span>}
-                <select className="cd-nav-base-select" value={detailCode} onChange={onDetailTargetChange}>
+                {detailSupported && detailCountryCode && <span className={`fi fi-${detailCountryCode} cd-nav-flag`}></span>}
+                <span className="cd-nav-select-label">{detailSupported ? detailCode : ''}</span>
+                <select className="cd-nav-base-select" value={detailSupported ? detailCode : ''} onChange={onDetailTargetChange}>
+                  {!detailSupported && <option value="" disabled> </option>}
                   {detailTargetOptions.map(c => <option key={c} value={c}>{c}</option>)}
                 </select>
               </div>
