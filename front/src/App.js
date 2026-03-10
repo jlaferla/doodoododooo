@@ -15,12 +15,6 @@ import Terms from './pages/Terms';
 import CurrencyDetail from './pages/CurrencyDetail';
 
 // ── Inline SVG icons (no extra dependency) ──────────────────────────────────
-const IconRefresh = () => (
-  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
-    <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
-  </svg>
-);
 const IconDownload = () => (
   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
@@ -55,7 +49,7 @@ function RateCard({ currency, showMargin, margin, selectedBase }) {
     <Link to={`/currency/${currency.code}`} state={{ base: selectedBase }} className="rate-card">
       <div className="card-header">
         {currency.countryCode && (
-          <img src={`https://flagcdn.com/20x15/${currency.countryCode}.png`} srcSet={`https://flagcdn.com/40x30/${currency.countryCode}.png 2x`} width="20" height="15" alt="" className="card-flag" />
+          <img src={`https://flagcdn.com/20x15/${currency.countryCode}.png`} srcSet={`https://flagcdn.com/40x30/${currency.countryCode}.png 2x`} width="20" height="15" alt={`${currency.code} flag`} className="card-flag" loading="lazy" />
         )}
         <div>
           <div className="card-code">{currency.code}</div>
@@ -108,7 +102,7 @@ function ConversionUI() {
   const [margin, setMargin]               = useState('0');
   const [sortBy, setSortBy]               = useState('code');
   const [sortOrder, setSortOrder]         = useState('asc');
-  const [filterText, setFilterText]       = useState('');
+  const [filterText]                      = useState('');
   const [rateFilterComparison, setRateFilterComparison] = useState('none');
   const [rateFilterValue, setRateFilterValue]           = useState('');
   const [error, setError]                 = useState(null);
@@ -141,16 +135,16 @@ function ConversionUI() {
     return () => document.removeEventListener('mousedown', handler);
   }, [exportMenuVisible]);
 
-  // Fetch live rates
+  // Fetch live rates - run once on mount only
   useEffect(() => {
     fetch('https://fxping-d496a549fbaa.herokuapp.com/rates')
       .then(r => r.json())
       .then(json => {
         setData(json);
-        if (!json.conversion_rates[selectedBase]) setSelectedBase(json.base_code);
+        setSelectedBase(prev => json.conversion_rates[prev] ? prev : json.base_code);
       })
       .catch(err => setError(err.message));
-  }, [selectedBase]);
+  }, []);
 
   // Click-outside closers
   useEffect(() => {
@@ -162,10 +156,44 @@ function ConversionUI() {
     else { setSortBy(col); setSortOrder('asc'); }
   };
 
+  const amountInputRef = useRef(null);
   const handleAmountChange = e => {
+    const input = amountInputRef.current;
+    const cursorPos = input ? input.selectionStart : 0;
+    const oldVal = input ? input.value : '';
+
+    // Count commas before cursor in the displayed (formatted) value
+    const commasBeforeCursor = (oldVal.slice(0, cursorPos).match(/,/g) || []).length;
+
+    // Strip commas to get raw value
     const raw = e.target.value.replace(/,/g, '');
     const digitCount = raw.replace(/\D/g, '').length;
-    if (raw === '' || raw === '.' || (/^[0-9]+(\.[0-9]{0,3})?$/.test(raw) && digitCount <= 12)) setAmount(raw);
+
+    if (raw === '' || raw === '.' || (/^[0-9]+(\.[0-9]{0,3})?$/.test(raw) && digitCount <= 12)) {
+      setAmount(raw);
+
+      requestAnimationFrame(() => {
+        if (!amountInputRef.current) return;
+        const newVal = amountInputRef.current.value; // formatted with commas
+        // Count commas before same position in new value
+        const commasInNew = (newVal.slice(0, cursorPos).match(/,/g) || []).length;
+        // Adjust cursor for comma difference
+        const newCursor = cursorPos - commasBeforeCursor + commasInNew;
+        amountInputRef.current.setSelectionRange(newCursor, newCursor);
+      });
+    }
+  };
+
+  const handleAmountPaste = e => {
+    e.preventDefault();
+    // Strip everything except digits, decimal point and minus sign
+    const pasted = (e.clipboardData || window.clipboardData).getData('text');
+    const cleaned = pasted.replace(/[^0-9.]/g, '');
+    // Take only the first decimal point
+    const parts = cleaned.split('.');
+    const normalised = parts.length > 1 ? parts[0] + '.' + parts.slice(1).join('') : parts[0];
+    const digitCount = normalised.replace(/\D/g, '').length;
+    if (normalised && digitCount <= 12) setAmount(normalised);
   };
 
   function getFilteredSortedCodes() {
@@ -295,6 +323,8 @@ function ConversionUI() {
         onBaseChange={base => { setSelectedBase(base); localStorage.setItem('fxping_base', base); }}
         amount={amount}
         onAmountChange={handleAmountChange}
+        onAmountPaste={handleAmountPaste}
+        amountInputRef={amountInputRef}
         margin={margin}
         onMarginChange={e => {
           let raw = e.target.value;
@@ -409,13 +439,12 @@ function ConversionUI() {
                       const marginedAmount = converted*factor;
                       const units          = Number(currencyMapping[code]?.minorUnits??2);
                       const decimals       = units===0?0:units===3?3:2;
-                      const flag           = currencyMapping[code]?.flag || '';
 
                       return (
                         <tr key={code}>
                           <td>
                             <div className="td-code">
-                              {currencyMapping[code]?.countryCode && <img src={`https://flagcdn.com/20x15/${currencyMapping[code].countryCode}.png`} srcSet={`https://flagcdn.com/40x30/${currencyMapping[code].countryCode}.png 2x`} width="20" height="15" alt="" className="td-flag" />}
+                              {currencyMapping[code]?.countryCode && <img src={`https://flagcdn.com/20x15/${currencyMapping[code].countryCode}.png`} srcSet={`https://flagcdn.com/40x30/${currencyMapping[code].countryCode}.png 2x`} width="20" height="15" alt={`${code} flag`} className="td-flag" loading="lazy" />}
                               <Link to={`/currency/${code}`} state={{ base: selectedBase }} className="td-code-link">{code}</Link>
                             </div>
                           </td>

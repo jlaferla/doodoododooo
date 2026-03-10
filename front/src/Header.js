@@ -23,7 +23,7 @@ const IconChevron = () => (
 
 function Header({
   selectedBase, sortedBaseCodes, onBaseChange,
-  amount, onAmountChange,
+  amount, onAmountChange, onAmountPaste, amountInputRef,
   margin, onMarginChange,
   onExport,
   updatedDate,
@@ -97,7 +97,7 @@ function Header({
         {currencyDetailMode ? (
           <div className="navbar-center">
             <div className="cd-nav-base-select-wrap">
-              {detailChartBaseCountryCode && detailBaseSupported && <img src={`https://flagcdn.com/24x18/${detailChartBaseCountryCode}.png`} srcSet={`https://flagcdn.com/48x36/${detailChartBaseCountryCode}.png 2x`} width="24" height="18" alt="" className="cd-nav-flag" />}
+              {detailChartBaseCountryCode && detailBaseSupported && <img src={`https://flagcdn.com/24x18/${detailChartBaseCountryCode}.png`} srcSet={`https://flagcdn.com/48x36/${detailChartBaseCountryCode}.png 2x`} width="24" height="18" alt={`${detailChartBase} flag`} className="cd-nav-flag" />}
               <span className="cd-nav-select-label">{detailBaseSupported ? detailChartBase : ''}</span>
               <select className="cd-nav-base-select" value={detailBaseSupported ? detailChartBase : ''} onChange={onDetailBaseChange}>
                 {!detailBaseSupported && <option value="" disabled> </option>}
@@ -111,7 +111,7 @@ function Header({
               </svg>
             </button>
             <div className="cd-nav-base-select-wrap">
-              {detailSupported && detailCountryCode && <img src={`https://flagcdn.com/24x18/${detailCountryCode}.png`} srcSet={`https://flagcdn.com/48x36/${detailCountryCode}.png 2x`} width="24" height="18" alt="" className="cd-nav-flag" />}
+              {detailSupported && detailCountryCode && <img src={`https://flagcdn.com/24x18/${detailCountryCode}.png`} srcSet={`https://flagcdn.com/48x36/${detailCountryCode}.png 2x`} width="24" height="18" alt={`${detailCode} flag`} className="cd-nav-flag" />}
               <span className="cd-nav-select-label">{detailSupported ? detailCode : ''}</span>
               <select className="cd-nav-base-select" value={detailSupported ? detailCode : ''} onChange={onDetailTargetChange}>
                 {!detailSupported && <option value="" disabled> </option>}
@@ -125,7 +125,7 @@ function Header({
               <span className="tb-label">Base</span>
               <div className="cd-nav-base-select-wrap">
                 {currencyMapping[selectedBase]?.countryCode && (
-                  <img src={`https://flagcdn.com/24x18/${currencyMapping[selectedBase].countryCode}.png`} srcSet={`https://flagcdn.com/48x36/${currencyMapping[selectedBase].countryCode}.png 2x`} width="24" height="18" alt="" className="cd-nav-flag" />
+                  <img src={`https://flagcdn.com/24x18/${currencyMapping[selectedBase].countryCode}.png`} srcSet={`https://flagcdn.com/48x36/${currencyMapping[selectedBase].countryCode}.png 2x`} width="24" height="18" alt={`${selectedBase} flag`} className="cd-nav-flag" />
                 )}
                 <span className="cd-nav-select-label">{selectedBase}</span>
                 <select className="cd-nav-base-select" value={selectedBase} onChange={e => onBaseChange(e.target.value)}>
@@ -137,8 +137,10 @@ function Header({
             <div className="tb-field">
               <span className="tb-label">Amount</span>
               <input type="text" className="tb-input"
+                ref={amountInputRef}
                 value={amountFormatted}
-                onChange={onAmountChange} placeholder="1" />
+                style={{width: `${Math.max(4, amountFormatted.length + 1)}ch`}}
+                onChange={onAmountChange} onPaste={onAmountPaste} placeholder="1" />
             </div>
             <div className="tb-divider" />
             <div className="tb-field">
@@ -177,7 +179,7 @@ function Header({
           {currencyDetailMode ? (
             <div className="navbar-center" style={{gap:'.4rem'}}>
               <div className="cd-nav-base-select-wrap">
-                {detailChartBaseCountryCode && detailBaseSupported && <img src={`https://flagcdn.com/24x18/${detailChartBaseCountryCode}.png`} srcSet={`https://flagcdn.com/48x36/${detailChartBaseCountryCode}.png 2x`} width="24" height="18" alt="" className="cd-nav-flag" />}
+                {detailChartBaseCountryCode && detailBaseSupported && <img src={`https://flagcdn.com/24x18/${detailChartBaseCountryCode}.png`} srcSet={`https://flagcdn.com/48x36/${detailChartBaseCountryCode}.png 2x`} width="24" height="18" alt={`${detailChartBase} flag`} className="cd-nav-flag" />}
                 <span className="cd-nav-select-label">{detailBaseSupported ? detailChartBase : ''}</span>
                 <select className="cd-nav-base-select" value={detailBaseSupported ? detailChartBase : ''} onChange={onDetailBaseChange}>
                   {!detailBaseSupported && <option value="" disabled> </option>}
@@ -191,7 +193,7 @@ function Header({
                 </svg>
               </button>
               <div className="cd-nav-base-select-wrap">
-                {detailSupported && detailCountryCode && <img src={`https://flagcdn.com/24x18/${detailCountryCode}.png`} srcSet={`https://flagcdn.com/48x36/${detailCountryCode}.png 2x`} width="24" height="18" alt="" className="cd-nav-flag" />}
+                {detailSupported && detailCountryCode && <img src={`https://flagcdn.com/24x18/${detailCountryCode}.png`} srcSet={`https://flagcdn.com/48x36/${detailCountryCode}.png 2x`} width="24" height="18" alt={`${detailCode} flag`} className="cd-nav-flag" />}
                 <span className="cd-nav-select-label">{detailSupported ? detailCode : ''}</span>
                 <select className="cd-nav-base-select" value={detailSupported ? detailCode : ''} onChange={onDetailTargetChange}>
                   {!detailSupported && <option value="" disabled> </option>}

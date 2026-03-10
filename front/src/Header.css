@@ -93,7 +93,7 @@
   width: 88px;
 }
 .tb-select option { background: #1e3a5f; color: #fff; }
-.tb-input    { width: 100px; }
+.tb-input    { min-width: 60px; max-width: 200px; }
 .tb-input-sm { width: 68px; }
 .tb-select:focus,
 .tb-input:focus {
