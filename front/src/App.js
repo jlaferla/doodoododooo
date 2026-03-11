@@ -95,7 +95,7 @@ function RateCard({ currency, showMargin, margin, selectedBase }) {
 
 
 // ── Main UI ──────────────────────────────────────────────────────────────────
-function ConversionUI() {
+function ConversionUI({ darkMode, onToggleDark }) {
   const [data, setData]                   = useState({ conversion_rates: {} });
   const [amount, setAmount]               = useState('1');
   const [selectedBase, setSelectedBase]   = useState(() => localStorage.getItem('fxping_base') || 'USD');
@@ -157,6 +157,8 @@ function ConversionUI() {
   };
 
   const amountInputRef = useRef(null);
+
+  // Dark mode applied by AppRoutes
   const handleAmountChange = e => {
     const input = amountInputRef.current;
     const cursorPos = input ? input.selectionStart : 0;
@@ -335,6 +337,8 @@ function ConversionUI() {
           setMargin(raw);
         }}
         updatedDate={data.time_last_update_utc}
+        darkMode={darkMode}
+        onToggleDark={onToggleDark}
       />
       <div className="page-wrap">
       <div className="container">
@@ -510,10 +514,17 @@ function ConversionUI() {
 
 function AppRoutes() {
   const location = useLocation();
+  const isLegalPage = ['/about', '/privacy', '/terms'].includes(location.pathname);
+  const [darkMode, setDarkMode] = React.useState(() => localStorage.getItem('fxping_theme') === 'dark');
+  React.useEffect(() => {
+    document.documentElement.setAttribute('data-theme', darkMode ? 'dark' : 'light');
+    localStorage.setItem('fxping_theme', darkMode ? 'dark' : 'light');
+  }, [darkMode]);
   return (
     <>
+      {isLegalPage && <Header simpleMode darkMode={darkMode} onToggleDark={() => setDarkMode(v => !v)} />}
       <Routes>
-        <Route path="/"        element={<ConversionUI />} />
+        <Route path="/"        element={<ConversionUI darkMode={darkMode} onToggleDark={() => setDarkMode(v => !v)} />} />
         <Route path="/about"   element={<About />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms"   element={<Terms />} />

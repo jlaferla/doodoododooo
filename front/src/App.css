@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
+  /* Brand */
   --navy:       #1e3a5f;
   --navy-dark:  #162d4a;
   --navy-light: #2d4a6f;
@@ -14,18 +15,55 @@
   --blue-light: #eff6ff;
   --green:      #16a34a;
   --green-light:#f0fdf4;
+  /* Light mode (default) */
   --bg:         #f5f7fa;
   --surface:    #ffffff;
+  --surface-2:  #f8fafc;
   --border:     #e2e8f0;
   --border-focus:#3b82f6;
   --text:       #0f172a;
   --text-2:     #475569;
   --text-3:     #94a3b8;
+  --row-hover:  #f8fafc;
+  --th-bg:      #f8fafc;
+  --error-bg:   #fef2f2;
+  --error-border:#fecaca;
+  --error-text: #dc2626;
+  --filter-bg:  #eff6ff;
+  --filter-border:#bfdbfe;
+  --filter-hover:#dbeafe;
+  --margin-bg:  #f0fdf4;
   --radius:     10px;
   --radius-lg:  16px;
   --shadow-sm:  0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
   --shadow:     0 4px 16px rgba(0,0,0,0.08), 0 1px 4px rgba(0,0,0,0.04);
   --shadow-lg:  0 10px 40px rgba(0,0,0,0.12), 0 4px 16px rgba(0,0,0,0.06);
+}
+
+/* ── Dark mode ── */
+[data-theme="dark"] {
+  --bg:         #0f1117;
+  --surface:    #1a1d27;
+  --surface-2:  #1e2130;
+  --border:     #2a2d3e;
+  --border-focus:#3b82f6;
+  --text:       #f1f5f9;
+  --text-2:     #94a3b8;
+  --text-3:     #4b5675;
+  --row-hover:  #1e2130;
+  --th-bg:      #1e2130;
+  --error-bg:   #2d1515;
+  --error-border:#7f1d1d;
+  --error-text: #fca5a5;
+  --filter-bg:  #1e2d4a;
+  --filter-border:#1d4ed8;
+  --filter-hover:#1e3a6e;
+  --margin-bg:  #14291a;
+  --blue-light: #1e2d4a;
+  --green-light:#14291a;
+  --shadow-sm:  0 1px 3px rgba(0,0,0,0.3), 0 1px 2px rgba(0,0,0,0.2);
+  --shadow:     0 4px 16px rgba(0,0,0,0.4), 0 1px 4px rgba(0,0,0,0.2);
+  --shadow-lg:  0 10px 40px rgba(0,0,0,0.5), 0 4px 16px rgba(0,0,0,0.3);
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -50,7 +88,7 @@ body {
 
 /* Error */
 .error-msg {
-  background: #fef2f2; border: 1px solid #fecaca; color: #dc2626;
+  background: var(--error-bg); border: 1px solid var(--error-border); color: var(--error-text);
   padding: 0.75rem 1rem; border-radius: var(--radius); text-align: center;
   font-size: 0.875rem; margin-bottom: 1.5rem;
 }
@@ -109,7 +147,7 @@ body {
 .fx-table { width: 100%; border-collapse: collapse; }
 .fx-table thead { position: sticky; top: 0; z-index: 3; }
 .fx-table th {
-  background: #f8fafc; border-bottom: 2px solid var(--border);
+  background: var(--th-bg); border-bottom: 2px solid var(--border);
   padding: 0.75rem 0.65rem; font-size: 0.68rem; font-weight: 700;
   letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-2);
   white-space: nowrap; user-select: none;
@@ -132,11 +170,11 @@ body {
 }
 .th-rate-filter { display: flex; align-items: center; gap: 4px; }
 .th-cmp-btn {
-  padding: 0.22rem 0.5rem; background: var(--blue-light); border: 1px solid #bfdbfe;
+  padding: 0.22rem 0.5rem; background: var(--filter-bg); border: 1px solid var(--filter-border);
   border-radius: 5px; color: var(--blue-pop); font-family: 'JetBrains Mono', monospace;
   font-size: 0.85rem; font-weight: 600; cursor: pointer; transition: background 0.15s;
 }
-.th-cmp-btn:hover { background: #dbeafe; }
+.th-cmp-btn:hover { background: var(--filter-hover); }
 
 /* Table body */
 .fx-table td {
@@ -144,7 +182,7 @@ body {
   font-size: 0.82rem; color: var(--text); vertical-align: middle;
 }
 .fx-table tbody tr { transition: background 0.1s; }
-.fx-table tbody tr:hover { background: #f8fafc; }
+.fx-table tbody tr:hover { background: var(--row-hover); }
 .fx-table tbody tr:last-child td { border-bottom: none; }
 .td-code { display: flex; align-items: center; gap: 0.5rem; }
 .td-flag { width: 20px; height: 15px; border-radius: 2px; flex-shrink: 0; vertical-align: middle; }
@@ -201,7 +239,7 @@ input[type=number] { -moz-appearance: textfield; }
 .card-label { font-size: .65rem; font-weight: 600; color: var(--text-3); text-transform: uppercase; letter-spacing: .06em; white-space: nowrap; }
 .card-value { font-family: 'JetBrains Mono', monospace; font-size: .82rem; font-weight: 500; color: var(--text); text-align: right; }
 .card-value-lg { font-family: 'JetBrains Mono', monospace; font-size: .95rem; font-weight: 600; color: var(--text); text-align: right; }
-.card-margin-block { display: flex; flex-direction: column; gap: .4rem; background: #f0fdf4; border-radius: 8px; padding: .5rem .65rem; margin-top: .1rem; }
+.card-margin-block { display: flex; flex-direction: column; gap: .4rem; background: var(--margin-bg); border-radius: 8px; padding: .5rem .65rem; margin-top: .1rem; }
 .card-margin-label { font-size: .65rem; font-weight: 700; color: var(--green); text-transform: uppercase; letter-spacing: .07em; }
 .card-value-green { font-family: 'JetBrains Mono', monospace; font-size: .82rem; font-weight: 600; color: var(--green); text-align: right; }
 

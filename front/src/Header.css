@@ -132,8 +132,8 @@
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
-  background: #fff;
-  border: 1px solid #e2e8f0;
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 10px;
   box-shadow: 0 10px 40px rgba(0,0,0,.12), 0 4px 16px rgba(0,0,0,.06);
   z-index: 200;
@@ -152,7 +152,7 @@
   font-family: 'Inter', sans-serif;
   font-size: .83rem;
   font-weight: 500;
-  color: #475569;
+  color: var(--text-2);
   background: none;
   border: none;
   border-radius: 6px;
@@ -365,19 +365,19 @@
   border-radius: 8px; cursor: pointer;
   transition: background .1s;
 }
-.burger-item:hover { background: #f1f5f9; }
+.burger-item:hover { background: var(--surface-2); }
 .burger-item-disabled {
-  color: #94a3b8 !important; cursor: default; pointer-events: none;
+  color: var(--text-3) !important; cursor: default; pointer-events: none;
 }
 .burger-item-disabled:hover { background: none; }
 
 .burger-divider {
-  height: 1px; background: #e2e8f0; margin: 4px 0;
+  height: 1px; background: var(--border); margin: 4px 0;
 }
 .burger-label {
   display: block;
   padding: .3rem .85rem .15rem;
-  font-size: .7rem; font-weight: 600; color: #94a3b8;
+  font-size: .7rem; font-weight: 600; color: var(--text-3);
   text-transform: uppercase; letter-spacing: .07em;
 }
 
@@ -445,3 +445,15 @@
   transition: background .15s, transform .2s;
 }
 .cd-nav-swap:hover { background: rgba(255,255,255,.22); transform: rotate(180deg); }
+
+/* Dark mode toggle button in burger menu */
+.burger-theme {
+  display: flex; align-items: center; gap: .5rem;
+  background: none; border: none; cursor: pointer;
+  width: 100%; text-align: left;
+  font-family: 'Inter', sans-serif; font-size: .85rem;
+  color: var(--text-2, #475569);
+  padding: .55rem .9rem;
+  transition: background .15s, color .15s;
+}
+.burger-theme:hover { background: var(--surface-2, #f8fafc); color: var(--text, #0f172a); }

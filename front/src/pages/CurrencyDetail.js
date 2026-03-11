@@ -308,6 +308,12 @@ export default function CurrencyDetail() {
         onDetailTargetChange={e => navigate(`/currency/${e.target.value}`, { state: { base: chartBase } })}
         onDetailSwap={() => navigate(`/currency/${chartBase}`, { state: { base: upper } })}
         onBack={() => navigate(-1)}
+        darkMode={localStorage.getItem('fxping_theme') === 'dark'}
+        onToggleDark={() => {
+          const next = localStorage.getItem('fxping_theme') !== 'dark';
+          localStorage.setItem('fxping_theme', next ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', next ? 'dark' : 'light');
+        }}
       />
 
       <div className="cd-body">
@@ -405,7 +411,16 @@ export default function CurrencyDetail() {
         </div>
 
         <div className="cd-source">
-          Historical data via <a href="https://frankfurter.dev" target="_blank" rel="noopener noreferrer">Frankfurter</a> · European Central Bank
+          Historical data via{' '}
+          <a href="https://frankfurter.dev" target="_blank" rel="noopener noreferrer">Frankfurter</a>
+          {' '}·{' '}
+          <a href="https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html" target="_blank" rel="noopener noreferrer">ECB reference rates</a>
+          <span className="cd-source-info">
+            <span className="cd-source-icon">ⓘ</span>
+            <span className="cd-source-tooltip">
+              ECB reference rates are official mid-market rates published by the European Central Bank on each business day at ~16:00 CET. They cover ~32 currencies and are intended for reference purposes, not transaction pricing.
+            </span>
+          </span>
         </div>
 
       </div>

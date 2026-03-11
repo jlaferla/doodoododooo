@@ -1,0 +1,90 @@
+.legal-page {
+  min-height: 100vh;
+  background: var(--bg);
+  padding: 2rem 2rem 5rem;
+}
+.legal-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Back link */
+.legal-back {
+  display: inline-flex; align-items: center; gap: .4rem;
+  font-family: 'Inter', sans-serif; font-size: .8rem; font-weight: 500;
+  color: var(--text-3); text-decoration: none;
+  margin-bottom: 2.5rem;
+  transition: color .15s;
+}
+.legal-back:hover { color: var(--navy); }
+.legal-back svg { flex-shrink: 0; }
+
+/* Page title */
+.legal-title {
+  font-family: 'Inter', sans-serif; font-size: 1.75rem; font-weight: 700;
+  color: var(--text); margin: 0 0 .4rem;
+}
+.legal-subtitle {
+  font-family: 'Inter', sans-serif; font-size: .85rem;
+  color: var(--text-3); margin: 0 0 2.5rem;
+}
+
+/* Sections */
+.legal-section { margin-bottom: 2rem; }
+.legal-section h2 {
+  font-family: 'Inter', sans-serif; font-size: 1rem; font-weight: 600;
+  color: var(--text); margin: 0 0 .6rem;
+  padding-bottom: .4rem;
+  border-bottom: 1px solid var(--border);
+}
+.legal-section p {
+  font-family: 'Inter', sans-serif; font-size: .875rem; line-height: 1.7;
+  color: var(--text-2); margin: 0 0 .75rem;
+}
+.legal-section p:last-child { margin-bottom: 0; }
+.legal-section a {
+  color: var(--blue-pop); text-decoration: none;
+}
+.legal-section a:hover { text-decoration: underline; }
+.legal-section ul {
+  font-family: 'Inter', sans-serif; font-size: .875rem; line-height: 1.7;
+  color: var(--text-2); margin: 0 0 .75rem; padding-left: 1.4rem;
+}
+.legal-section ul li { margin-bottom: .3rem; }
+
+/* Divider between page sections */
+.legal-divider {
+  border: none; border-top: 1px solid var(--border);
+  margin: 2.5rem 0;
+}
+
+/* Nav tabs (About / Privacy / Terms) */
+.legal-tabs {
+  display: flex; gap: .5rem; margin-bottom: 2.5rem;
+}
+.legal-tab {
+  font-family: 'Inter', sans-serif; font-size: .8rem; font-weight: 500;
+  padding: .4rem .9rem; border-radius: 20px;
+  text-decoration: none; color: var(--text-3);
+  border: 1px solid var(--border);
+  transition: background .15s, color .15s, border-color .15s;
+}
+.legal-tab:hover { background: var(--surface); color: var(--text); }
+.legal-tab.active {
+  background: var(--navy); color: #fff; border-color: var(--navy);
+}
+
+@media (max-width: 600px) {
+  .legal-page { padding: 2rem 1.25rem 4rem; }
+  .legal-title { font-size: 1.4rem; }
+}
+
+/* Dark mode overrides */
+[data-theme="dark"] .legal-page { background: var(--bg); }
+[data-theme="dark"] .legal-section h2 { color: var(--text); border-color: var(--border); }
+[data-theme="dark"] .legal-section p,
+[data-theme="dark"] .legal-section ul { color: var(--text-2); }
+[data-theme="dark"] .legal-tab { border-color: var(--border); color: var(--text-3); }
+[data-theme="dark"] .legal-tab:hover { background: var(--surface); color: var(--text); }
+[data-theme="dark"] .legal-back { color: var(--text-3); }
+[data-theme="dark"] .legal-back:hover { color: var(--text); }

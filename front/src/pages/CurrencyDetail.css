@@ -138,9 +138,43 @@
 /* ── Source ── */
 .cd-source {
   font-size: .72rem; color: var(--text-3); text-align: center;
+  display: flex; align-items: center; justify-content: center; gap: .3rem; flex-wrap: wrap;
 }
 .cd-source a { color: var(--blue-pop); text-decoration: none; }
 .cd-source a:hover { text-decoration: underline; }
+.cd-source-info { position: relative; display: inline-flex; align-items: center; }
+.cd-source-icon {
+  font-size: .72rem; color: var(--text-3); cursor: default;
+  opacity: .6; transition: opacity .15s;
+}
+.cd-source-info:hover .cd-source-icon { opacity: 1; }
+.cd-source-tooltip {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 280px;
+  background: #1e3a5f;
+  color: rgba(255,255,255,.88);
+  font-size: .7rem;
+  line-height: 1.5;
+  padding: .6rem .75rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.2);
+  pointer-events: none;
+  z-index: 10;
+  text-align: left;
+}
+.cd-source-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%; left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: #1e3a5f;
+}
+.cd-source-info:hover .cd-source-tooltip { display: block; }
 
 /* ── Not found ── */
 .cd-not-found {
@@ -234,3 +268,11 @@
   .cd-code { font-size: 1.4rem; }
   .cd-live-rate { font-size: 1.1rem; }
 }
+
+/* Dark mode overrides */
+[data-theme="dark"] .cd-page { background: var(--bg); }
+[data-theme="dark"] .cd-stat-card { background: var(--surface); border-color: var(--border); }
+[data-theme="dark"] .cd-chart-wrap { background: var(--surface); border-color: var(--border); }
+[data-theme="dark"] .cd-info-item { background: var(--surface); border-color: var(--border); }
+[data-theme="dark"] .cd-source-tooltip { background: #0f1117; }
+[data-theme="dark"] .cd-source-tooltip::after { border-top-color: #0f1117; }

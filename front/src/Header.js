@@ -21,12 +21,29 @@ const IconChevron = () => (
   </svg>
 );
 
+const IconMoon = () => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+  </svg>
+);
+const IconSun = () => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
+    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+    <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
+    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+  </svg>
+);
+
 function Header({
-  selectedBase, sortedBaseCodes, onBaseChange,
+  selectedBase = '', sortedBaseCodes = [], onBaseChange,
   amount, onAmountChange, onAmountPaste, amountInputRef,
-  margin, onMarginChange,
+  margin = '', onMarginChange,
   onExport,
   updatedDate,
+  darkMode = false, onToggleDark,
+  // Simple mode — logo + burger only (legal pages)
+  simpleMode = false,
   // Currency detail mode
   currencyDetailMode = false,
   detailCode, detailName, detailCountryCode,
@@ -61,7 +78,7 @@ function Header({
     } catch { return str; }
   };
 
-  const amountFormatted = amount.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  const amountFormatted = (amount || '').replace(/\B(?=(\d{3})+(?!\d))/g, ',');
   const summaryText = `${selectedBase} · ${amountFormatted} · ${margin || 0}%`;
 
   React.useEffect(() => {
@@ -83,7 +100,7 @@ function Header({
             <span className="logo-dot" />
             <span className="logo-ping">Ping</span>
           </Link>
-          {currencyDetailMode ? null : (
+          {currencyDetailMode || simpleMode ? null : (
             <>
               <div className="nav-divider" />
               <div className="nav-updated">
@@ -94,7 +111,7 @@ function Header({
           )}
         </div>
 
-        {currencyDetailMode ? (
+        {simpleMode ? null : currencyDetailMode ? (
           <div className="navbar-center">
             <div className="cd-nav-base-select-wrap">
               {detailChartBaseCountryCode && detailBaseSupported && <img src={`https://flagcdn.com/24x18/${detailChartBaseCountryCode}.png`} srcSet={`https://flagcdn.com/48x36/${detailChartBaseCountryCode}.png 2x`} width="24" height="18" alt={`${detailChartBase} flag`} className="cd-nav-flag" />}
@@ -161,6 +178,11 @@ function Header({
               <div className="burger-menu">
                 <Link to="/" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Rates</Link>
                 <Link to={chartsLink} state={chartsState} className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Charts</Link>
+                <div className="burger-divider" />
+                <button className="burger-item burger-theme" onClick={e => { e.stopPropagation(); onToggleDark && onToggleDark(); }}>
+                  {darkMode ? <IconSun /> : <IconMoon />}
+                  {darkMode ? 'Light mode' : 'Dark mode'}
+                </button>
               </div>
             )}
           </div>
@@ -218,6 +240,11 @@ function Header({
               <div className="burger-menu">
                 <Link to="/" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Rates</Link>
                 <Link to={chartsLink} state={chartsState} className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Charts</Link>
+                <div className="burger-divider" />
+                <button className="burger-item burger-theme" onClick={e => { e.stopPropagation(); onToggleDark && onToggleDark(); }}>
+                  {darkMode ? <IconSun /> : <IconMoon />}
+                  {darkMode ? 'Light mode' : 'Dark mode'}
+                </button>
               </div>
             )}
           </div>
