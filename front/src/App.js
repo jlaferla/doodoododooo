@@ -14,6 +14,9 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import Terms from './pages/Terms';
 import CurrencyDetail from './pages/CurrencyDetail';
 
+// ── Dark mode context ────────────────────────────────────────────────────────
+export const DarkModeContext = React.createContext({ darkMode: false, toggleDark: () => {} });
+
 // ── Inline SVG icons (no extra dependency) ──────────────────────────────────
 const IconDownload = () => (
   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -520,11 +523,12 @@ function AppRoutes() {
     document.documentElement.setAttribute('data-theme', darkMode ? 'dark' : 'light');
     localStorage.setItem('fxping_theme', darkMode ? 'dark' : 'light');
   }, [darkMode]);
+  const toggleDark = () => setDarkMode(v => !v);
   return (
-    <>
-      {isLegalPage && <Header simpleMode darkMode={darkMode} onToggleDark={() => setDarkMode(v => !v)} />}
+    <DarkModeContext.Provider value={{ darkMode, toggleDark }}>
+      {isLegalPage && <Header simpleMode darkMode={darkMode} onToggleDark={toggleDark} />}
       <Routes>
-        <Route path="/"        element={<ConversionUI darkMode={darkMode} onToggleDark={() => setDarkMode(v => !v)} />} />
+        <Route path="/"        element={<ConversionUI darkMode={darkMode} onToggleDark={toggleDark} />} />
         <Route path="/about"   element={<About />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms"   element={<Terms />} />
@@ -532,7 +536,7 @@ function AppRoutes() {
         <Route path="*"        element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
-    </>
+    </DarkModeContext.Provider>
   );
 }
 

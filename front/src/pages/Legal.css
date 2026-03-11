@@ -84,7 +84,7 @@
 [data-theme="dark"] .legal-section h2 { color: var(--text); border-color: var(--border); }
 [data-theme="dark"] .legal-section p,
 [data-theme="dark"] .legal-section ul { color: var(--text-2); }
-[data-theme="dark"] .legal-tab { border-color: var(--border); color: var(--text-3); }
+[data-theme="dark"] .legal-tab { border-color: var(--border); color: var(--text); }
 [data-theme="dark"] .legal-tab:hover { background: var(--surface); color: var(--text); }
 [data-theme="dark"] .legal-back { color: var(--text-3); }
 [data-theme="dark"] .legal-back:hover { color: var(--text); }

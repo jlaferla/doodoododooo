@@ -278,6 +278,8 @@ input[type=number] { -moz-appearance: textfield; }
   color: var(--navy);
   text-decoration: underline;
 }
+[data-theme="dark"] .td-code-link { color: var(--text); }
+[data-theme="dark"] .td-code-link:hover { color: var(--text-2); }
 
 /* ── Export button (in search row) ── */
 .export-wrap {
@@ -293,8 +295,8 @@ input[type=number] { -moz-appearance: textfield; }
 .btn-export:hover { background: var(--bg); color: var(--text) !important; }
 .export-menu {
   position: absolute; top: calc(100% + 6px); left: 0;
-  background: #fff; border: 1px solid #e2e8f0;
-  border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,.1);
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 10px; box-shadow: var(--shadow-lg);
   min-width: 120px; padding: 5px; z-index: 200;
   animation: menuFadeIn .12s ease;
 }

@@ -1,8 +1,9 @@
 // src/pages/CurrencyDetail.js
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useContext } from 'react';
 import { useParams, useNavigate, useLocation, Link } from 'react-router-dom';
 import currencyMapping from '../currencyMapping.json';
 import Header from '../Header';
+import { DarkModeContext } from '../App';
 import './CurrencyDetail.css';
 
 const FRANKFURTER_BASE = 'https://api.frankfurter.dev/v1';
@@ -118,9 +119,9 @@ function Sparkline({ data, width = 600, height = 200 }) {
       {yTicks.map((t, i) => (
         <g key={i}>
           <line x1={pad.left} y1={t.y} x2={pad.left + w} y2={t.y}
-            stroke="#e2e8f0" strokeWidth="1" strokeDasharray="3 3"/>
+            stroke="var(--border, #e2e8f0)" strokeWidth="1" strokeDasharray="3 3"/>
           <text x={pad.left + w + 8} y={t.y + 4}
-            textAnchor="start" fontSize="10" fill="#0f172a"
+            textAnchor="start" fontSize="10" fill="var(--text-2, #475569)"
             fontFamily="JetBrains Mono, monospace">
             {t.val.toFixed(4)}
           </text>
@@ -130,7 +131,7 @@ function Sparkline({ data, width = 600, height = 200 }) {
       {/* X-axis month labels */}
       {monthLabels.map((m, i) => (
         <text key={i} x={m.x} y={pad.top + h + 22}
-          textAnchor="middle" fontSize="10" fill="#0f172a"
+          textAnchor="middle" fontSize="10" fill="var(--text-2, #475569)"
           fontFamily="Inter, sans-serif">
           {m.label}
         </text>
@@ -210,6 +211,7 @@ export default function CurrencyDetail() {
   const [loading,   setLoading]   = useState(false);
   const [error,     setError]     = useState(null);
   const [allRates,  setAllRates]  = useState(null); // raw rates from your backend
+  const { darkMode, toggleDark } = useContext(DarkModeContext);
 
   const supported = FRANKFURTER_SUPPORTED.has(upper);
 
@@ -308,12 +310,8 @@ export default function CurrencyDetail() {
         onDetailTargetChange={e => navigate(`/currency/${e.target.value}`, { state: { base: chartBase } })}
         onDetailSwap={() => navigate(`/currency/${chartBase}`, { state: { base: upper } })}
         onBack={() => navigate(-1)}
-        darkMode={localStorage.getItem('fxping_theme') === 'dark'}
-        onToggleDark={() => {
-          const next = localStorage.getItem('fxping_theme') !== 'dark';
-          localStorage.setItem('fxping_theme', next ? 'dark' : 'light');
-          document.documentElement.setAttribute('data-theme', next ? 'dark' : 'light');
-        }}
+        darkMode={darkMode}
+        onToggleDark={toggleDark}
       />
 
       <div className="cd-body">

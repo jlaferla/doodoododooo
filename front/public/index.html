@@ -72,6 +72,14 @@
       gtag('config', 'G-5RN2X8MD4P');
     </script>
 
+  <script>
+    (function() {
+      try {
+        var theme = localStorage.getItem('fxping_theme');
+        if (theme === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+      } catch(e) {}
+    })();
+  </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

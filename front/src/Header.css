@@ -345,8 +345,8 @@
 
 .burger-menu {
   position: absolute; top: calc(100% + 8px); right: 0;
-  background: #fff; border: 1px solid var(--border, #e2e8f0);
-  border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,.12);
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; box-shadow: var(--shadow-lg);
   min-width: 180px; padding: 6px; z-index: 200;
   animation: menuFadeIn .12s ease;
 }
@@ -361,7 +361,7 @@
   display: block; width: 100%;
   padding: .55rem .85rem;
   font-family: 'Inter', sans-serif; font-size: .875rem; font-weight: 500;
-  color: #1e3a5f; text-decoration: none;
+  color: var(--text); text-decoration: none;
   border-radius: 8px; cursor: pointer;
   transition: background .1s;
 }
