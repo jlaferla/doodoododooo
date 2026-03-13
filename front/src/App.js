@@ -13,9 +13,8 @@ import About from './pages/About';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Terms from './pages/Terms';
 import CurrencyDetail from './pages/CurrencyDetail';
-
-// ── Dark mode context ────────────────────────────────────────────────────────
-export const DarkModeContext = React.createContext({ darkMode: false, toggleDark: () => {} });
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 
 // ── Inline SVG icons (no extra dependency) ──────────────────────────────────
 const IconDownload = () => (
@@ -515,28 +514,37 @@ function ConversionUI({ darkMode, onToggleDark }) {
   );
 }
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
+  return null;
+}
+
 function AppRoutes() {
   const location = useLocation();
   const isLegalPage = ['/about', '/privacy', '/terms'].includes(location.pathname);
+  const isBlogPage = location.pathname === '/blog' || location.pathname.startsWith('/blog/');
   const [darkMode, setDarkMode] = React.useState(() => localStorage.getItem('fxping_theme') === 'dark');
   React.useEffect(() => {
     document.documentElement.setAttribute('data-theme', darkMode ? 'dark' : 'light');
     localStorage.setItem('fxping_theme', darkMode ? 'dark' : 'light');
   }, [darkMode]);
-  const toggleDark = () => setDarkMode(v => !v);
   return (
-    <DarkModeContext.Provider value={{ darkMode, toggleDark }}>
-      {isLegalPage && <Header simpleMode darkMode={darkMode} onToggleDark={toggleDark} />}
+    <>
+      <ScrollToTop />
+      {(isLegalPage || isBlogPage) && <Header simpleMode darkMode={darkMode} onToggleDark={() => setDarkMode(v => !v)} />}
       <Routes>
-        <Route path="/"        element={<ConversionUI darkMode={darkMode} onToggleDark={toggleDark} />} />
+        <Route path="/"        element={<ConversionUI darkMode={darkMode} onToggleDark={() => setDarkMode(v => !v)} />} />
         <Route path="/about"   element={<About />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms"   element={<Terms />} />
         <Route path="/currency/:code" element={<CurrencyDetail key={location.pathname} />} />
+        <Route path="/blog"          element={<Blog />} />
+        <Route path="/blog/:slug"    element={<BlogPost />} />
         <Route path="*"        element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
-    </DarkModeContext.Provider>
+    </>
   );
 }
 

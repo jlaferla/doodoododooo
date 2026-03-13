@@ -1,9 +1,8 @@
 // src/pages/CurrencyDetail.js
-import React, { useState, useEffect, useCallback, useContext } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useParams, useNavigate, useLocation, Link } from 'react-router-dom';
 import currencyMapping from '../currencyMapping.json';
 import Header from '../Header';
-import { DarkModeContext } from '../App';
 import './CurrencyDetail.css';
 
 const FRANKFURTER_BASE = 'https://api.frankfurter.dev/v1';
@@ -211,7 +210,7 @@ export default function CurrencyDetail() {
   const [loading,   setLoading]   = useState(false);
   const [error,     setError]     = useState(null);
   const [allRates,  setAllRates]  = useState(null); // raw rates from your backend
-  const { darkMode, toggleDark } = useContext(DarkModeContext);
+  const [darkMode, setDarkMode] = useState(() => localStorage.getItem('fxping_theme') === 'dark');
 
   const supported = FRANKFURTER_SUPPORTED.has(upper);
 
@@ -311,7 +310,12 @@ export default function CurrencyDetail() {
         onDetailSwap={() => navigate(`/currency/${chartBase}`, { state: { base: upper } })}
         onBack={() => navigate(-1)}
         darkMode={darkMode}
-        onToggleDark={toggleDark}
+        onToggleDark={() => {
+          const next = !darkMode;
+          setDarkMode(next);
+          localStorage.setItem('fxping_theme', next ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', next ? 'dark' : 'light');
+        }}
       />
 
       <div className="cd-body">

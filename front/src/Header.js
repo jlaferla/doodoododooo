@@ -178,6 +178,7 @@ function Header({
               <div className="burger-menu">
                 <Link to="/" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Rates</Link>
                 <Link to={chartsLink} state={chartsState} className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Charts</Link>
+                <Link to="/blog" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Blog</Link>
                 <div className="burger-divider" />
                 <button className="burger-item burger-theme" onClick={e => { e.stopPropagation(); onToggleDark && onToggleDark(); }}>
                   {darkMode ? <IconSun /> : <IconMoon />}
@@ -240,6 +241,7 @@ function Header({
               <div className="burger-menu">
                 <Link to="/" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Rates</Link>
                 <Link to={chartsLink} state={chartsState} className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Charts</Link>
+                <Link to="/blog" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Blog</Link>
                 <div className="burger-divider" />
                 <button className="burger-item burger-theme" onClick={e => { e.stopPropagation(); onToggleDark && onToggleDark(); }}>
                   {darkMode ? <IconSun /> : <IconMoon />}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>FX Ping</title>
+    <script>
+      // GitHub Pages SPA fix — https://github.com/rafgraph/spa-github-pages
+      // When GitHub Pages serves a 404 for a deep link, this redirects to
+      // index.html with the original path encoded in the query string so
+      // React Router can handle it client-side.
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/?/' +
+        l.pathname.slice(1).replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>

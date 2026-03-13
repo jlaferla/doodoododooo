@@ -234,6 +234,8 @@ input[type=number] { -moz-appearance: textfield; }
 .card-flag { width: 24px; height: 18px; border-radius: 3px; flex-shrink: 0; box-shadow: 0 1px 3px rgba(0,0,0,.15); vertical-align: middle; }
 .card-code { font-size: 1rem; font-weight: 700; color: var(--navy); letter-spacing: .03em; }
 .card-name { font-size: .7rem; color: var(--text-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+[data-theme="dark"] .card-code { color: var(--text); }
+[data-theme="dark"] .card-name { color: var(--text-2); }
 .card-divider { border: none; border-top: 1px solid var(--border); }
 .card-rate-row { display: flex; align-items: baseline; justify-content: space-between; gap: .25rem; }
 .card-label { font-size: .65rem; font-weight: 600; color: var(--text-3); text-transform: uppercase; letter-spacing: .06em; white-space: nowrap; }

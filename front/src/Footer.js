@@ -26,6 +26,7 @@ function Footer() {
 
         {/* Legal nav */}
         <nav className="footer-legal">
+          <Link to="/blog">Blog</Link>
           <Link to="/about">About</Link>
           <Link to="/privacy">Privacy</Link>
           <Link to="/terms">Terms</Link>
