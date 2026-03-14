@@ -434,6 +434,7 @@ Exchange rates are always relative — they tell you about one currency in terms
   },
 ];
 
-export const blogPosts = allPosts;
+const today = new Date().toISOString().split('T')[0];
+export const blogPosts = allPosts.filter(p => p.date <= today);
 
 export const getPost = (slug) => blogPosts.find(p => p.slug === slug);
