@@ -2,7 +2,7 @@
 import React, { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import currencyMapping from './currencyMapping.json';
+import CurrencyDropdown from './CurrencyDropdown';
 
 const IconRefresh = () => (
   <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -113,42 +113,35 @@ function Header({
 
         {simpleMode ? null : currencyDetailMode ? (
           <div className="navbar-center">
-            <div className="cd-nav-base-select-wrap">
-              {detailChartBaseCountryCode && detailBaseSupported && <img src={`https://flagcdn.com/24x18/${detailChartBaseCountryCode}.png`} srcSet={`https://flagcdn.com/48x36/${detailChartBaseCountryCode}.png 2x`} width="24" height="18" alt={`${detailChartBase} flag`} className="cd-nav-flag" />}
-              <span className="cd-nav-select-label">{detailBaseSupported ? detailChartBase : ''}</span>
-              <select className="cd-nav-base-select" value={detailBaseSupported ? detailChartBase : ''} onChange={onDetailBaseChange}>
-                {!detailBaseSupported && <option value="" disabled> </option>}
-                {detailBaseOptions.map(c => <option key={c} value={c}>{c}</option>)}
-              </select>
-            </div>
+            <CurrencyDropdown
+              value={detailChartBase}
+              onChange={c => onDetailBaseChange({ target: { value: c } })}
+              codes={detailBaseOptions}
+              variant="header"
+            />
             <button className="cd-nav-swap" onClick={onDetailSwap} title="Swap currencies">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <polyline points="17 1 21 5 17 9"/><line x1="3" y1="5" x2="21" y2="5"/>
                 <polyline points="7 23 3 19 7 15"/><line x1="21" y1="19" x2="3" y2="19"/>
               </svg>
             </button>
-            <div className="cd-nav-base-select-wrap">
-              {detailSupported && detailCountryCode && <img src={`https://flagcdn.com/24x18/${detailCountryCode}.png`} srcSet={`https://flagcdn.com/48x36/${detailCountryCode}.png 2x`} width="24" height="18" alt={`${detailCode} flag`} className="cd-nav-flag" />}
-              <span className="cd-nav-select-label">{detailSupported ? detailCode : ''}</span>
-              <select className="cd-nav-base-select" value={detailSupported ? detailCode : ''} onChange={onDetailTargetChange}>
-                {!detailSupported && <option value="" disabled> </option>}
-                {detailTargetOptions.map(c => <option key={c} value={c}>{c}</option>)}
-              </select>
-            </div>
+            <CurrencyDropdown
+              value={detailCode}
+              onChange={c => onDetailTargetChange({ target: { value: c } })}
+              codes={detailTargetOptions}
+              variant="header"
+            />
           </div>
         ) : (
           <div className="navbar-center">
             <div className="tb-field">
               <span className="tb-label">Base</span>
-              <div className="cd-nav-base-select-wrap">
-                {currencyMapping[selectedBase]?.countryCode && (
-                  <img src={`https://flagcdn.com/24x18/${currencyMapping[selectedBase].countryCode}.png`} srcSet={`https://flagcdn.com/48x36/${currencyMapping[selectedBase].countryCode}.png 2x`} width="24" height="18" alt={`${selectedBase} flag`} className="cd-nav-flag" />
-                )}
-                <span className="cd-nav-select-label">{selectedBase}</span>
-                <select className="cd-nav-base-select" value={selectedBase} onChange={e => onBaseChange(e.target.value)}>
-                  {sortedBaseCodes.map(c => <option key={c} value={c}>{c}</option>)}
-                </select>
-              </div>
+              <CurrencyDropdown
+                value={selectedBase}
+                onChange={onBaseChange}
+                codes={sortedBaseCodes}
+                variant="header"
+              />
             </div>
             <div className="tb-divider" />
             <div className="tb-field">
@@ -170,6 +163,9 @@ function Header({
         )}
 
         <div className="navbar-right">
+          <button className="btn-theme" onClick={onToggleDark} title={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}>
+            {darkMode ? <IconSun /> : <IconMoon />}
+          </button>
           <div className="burger-wrap" ref={burgerRef}>
             <button className="btn-burger" onClick={e => { e.stopPropagation(); setBurgerOpen(v => !v); }}>
               <IconBurger />
@@ -178,12 +174,8 @@ function Header({
               <div className="burger-menu">
                 <Link to="/" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Rates</Link>
                 <Link to={chartsLink} state={chartsState} className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Charts</Link>
+                <Link to="/fee-checker" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Fee Checker</Link>
                 <Link to="/blog" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Blog</Link>
-                <div className="burger-divider" />
-                <button className="burger-item burger-theme" onClick={e => { e.stopPropagation(); onToggleDark && onToggleDark(); }}>
-                  {darkMode ? <IconSun /> : <IconMoon />}
-                  {darkMode ? 'Light mode' : 'Dark mode'}
-                </button>
               </div>
             )}
           </div>
@@ -224,7 +216,7 @@ function Header({
                 </select>
               </div>
             </div>
-          ) : (
+          ) : simpleMode ? null : (
             <div className="nav-summary" onClick={() => setPanelOpen(v => !v)}>
               <span className="nav-summary-text">{summaryText}</span>
               <span className={`nav-summary-chevron ${panelOpen ? 'open' : ''}`}>
@@ -233,6 +225,9 @@ function Header({
             </div>
           )}
 
+          <button className="btn-theme" onClick={onToggleDark} title={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}>
+            {darkMode ? <IconSun /> : <IconMoon />}
+          </button>
           <div className="burger-wrap" ref={burgerRef}>
             <button className="btn-burger" onClick={e => { e.stopPropagation(); setBurgerOpen(v => !v); }}>
               <IconBurger />
@@ -241,12 +236,8 @@ function Header({
               <div className="burger-menu">
                 <Link to="/" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Rates</Link>
                 <Link to={chartsLink} state={chartsState} className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Charts</Link>
+                <Link to="/fee-checker" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Fee Checker</Link>
                 <Link to="/blog" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Blog</Link>
-                <div className="burger-divider" />
-                <button className="burger-item burger-theme" onClick={e => { e.stopPropagation(); onToggleDark && onToggleDark(); }}>
-                  {darkMode ? <IconSun /> : <IconMoon />}
-                  {darkMode ? 'Light mode' : 'Dark mode'}
-                </button>
               </div>
             )}
           </div>
@@ -260,10 +251,13 @@ function Header({
             <div className="nav-expand-inner">
               <div className="nav-field-mobile">
                 <label className="nav-field-label">Base</label>
-                <select className="nav-field-input nav-field-select"
-                  value={selectedBase} onChange={e => onBaseChange(e.target.value)}>
-                  {sortedBaseCodes.map(c => <option key={c} value={c}>{c}</option>)}
-                </select>
+                <CurrencyDropdown
+                  value={selectedBase}
+                  onChange={onBaseChange}
+                  codes={sortedBaseCodes}
+                  variant="header"
+                  className="cdd-nav-field"
+                />
               </div>
               <div className="nav-field-mobile">
                 <label className="nav-field-label">Amount</label>

@@ -15,6 +15,7 @@ import Terms from './pages/Terms';
 import CurrencyDetail from './pages/CurrencyDetail';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
+import MarginCalculator from './pages/MarginCalculator';
 
 // ── Inline SVG icons (no extra dependency) ──────────────────────────────────
 const IconDownload = () => (
@@ -522,7 +523,7 @@ function ScrollToTop() {
 
 function AppRoutes() {
   const location = useLocation();
-  const isLegalPage = ['/about', '/privacy', '/terms'].includes(location.pathname);
+  const isLegalPage = ['/about', '/privacy', '/terms', '/fee-checker'].includes(location.pathname);
   const isBlogPage = location.pathname === '/blog' || location.pathname.startsWith('/blog/');
   const [darkMode, setDarkMode] = React.useState(() => localStorage.getItem('fxping_theme') === 'dark');
   React.useEffect(() => {
@@ -541,6 +542,8 @@ function AppRoutes() {
         <Route path="/currency/:code" element={<CurrencyDetail key={location.pathname} />} />
         <Route path="/blog"          element={<Blog />} />
         <Route path="/blog/:slug"    element={<BlogPost />} />
+        <Route path="/fee-checker"   element={<MarginCalculator />} />
+        <Route path="/margin"        element={<Navigate to="/fee-checker" replace />} />
         <Route path="*"        element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />

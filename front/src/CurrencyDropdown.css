@@ -1,0 +1,183 @@
+/* ═══════════════════════════════════════════════════
+   FX PING — CurrencyDropdown.css
+   Searchable currency picker — two context variants
+═══════════════════════════════════════════════════ */
+
+/* ── Trigger button ── */
+.cdd-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .38rem .55rem .38rem .6rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: .875rem;
+  font-weight: 500;
+  min-height: 36px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background .15s, border-color .15s;
+}
+
+/* On the dark navy header */
+.cdd-trigger--header {
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.18);
+  color: #fff;
+}
+.cdd-trigger--header:hover {
+  background: rgba(255,255,255,.18);
+  border-color: rgba(255,255,255,.32);
+}
+
+/* On the page body (uses CSS vars for dark/light) */
+.cdd-trigger--page {
+  background: var(--filter-bg);
+  border: 1px solid var(--filter-border);
+  color: var(--text);
+}
+.cdd-trigger--page:hover {
+  border-color: #2563eb;
+}
+
+.cdd-trigger-flag {
+  border-radius: 2px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.cdd-trigger-code {
+  font-weight: 700;
+  letter-spacing: .01em;
+}
+
+.cdd-chevron {
+  flex-shrink: 0;
+  transition: transform .2s ease;
+}
+.cdd-trigger--header .cdd-chevron { color: rgba(255,255,255,.55); }
+.cdd-trigger--page   .cdd-chevron { color: var(--text-3); }
+.cdd-chevron--open { transform: rotate(180deg); }
+
+/* ── Floating panel (position: fixed, bypasses overflow) ── */
+.cdd-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 16px 48px rgba(0,0,0,.18), 0 4px 16px rgba(0,0,0,.10);
+  overflow: hidden;
+  animation: cddPop .12s ease;
+}
+
+@keyframes cddPop {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Search row ── */
+.cdd-search-wrap {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .6rem .75rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.cdd-search-wrap svg {
+  flex-shrink: 0;
+  color: var(--text-3);
+}
+
+.cdd-search-input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+  font-size: .875rem;
+  color: var(--text);
+}
+.cdd-search-input::placeholder { color: var(--text-3); }
+
+.cdd-search-clear {
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-3);
+  font-size: 1.15rem;
+  line-height: 1;
+  padding: 0 .1rem;
+  transition: color .12s;
+}
+.cdd-search-clear:hover { color: var(--text); }
+
+/* ── Option list ── */
+.cdd-list {
+  overflow-y: auto;
+  max-height: 280px;
+  padding: .3rem;
+}
+
+.cdd-empty {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: .875rem;
+  color: var(--text-3);
+}
+
+.cdd-option {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  width: 100%;
+  padding: .42rem .6rem;
+  border: none;
+  border-radius: 6px;
+  background: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background .1s;
+}
+.cdd-option:hover       { background: var(--surface-2); }
+.cdd-option--active     { background: var(--filter-bg); }
+.cdd-option--active:hover { background: var(--filter-hover); }
+
+.cdd-opt-flag {
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.cdd-opt-code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .78rem;
+  font-weight: 600;
+  color: var(--text);
+  flex-shrink: 0;
+  min-width: 2.6rem;
+}
+.cdd-option--active .cdd-opt-code { color: #2563eb; }
+
+.cdd-opt-name {
+  font-size: .78rem;
+  color: var(--text-2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ── Mobile expand panel — full-width trigger ── */
+.cdd-nav-field {
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .cdd-trigger { padding: .28rem .45rem; gap: .25rem; }
+  .cdd-trigger-flag { display: none; }
+}

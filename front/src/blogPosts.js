@@ -1,6 +1,6 @@
 // src/blogPosts.js — FX Ping blog content
 
-export const blogPosts = [
+const allPosts = [
   {
     slug: "what-does-strong-weak-currency-mean",
     title: "What does it mean when a currency is strong or weak?",
@@ -60,9 +60,6 @@ The direction of change matters more than the number itself. On FX Ping, the bas
 Think of a currency's strength like purchasing power in a shop. A strong currency is a well-stocked wallet — it buys more. A weak currency is a thinner wallet — it buys less. The exchange rate is simply the price tag that tells you how much your wallet is worth in someone else's shop.
 `
   },
-];
-
-/* ── Posts 2–8 (not yet published — move into blogPosts array above to go live) ──
   {
     slug: "why-do-exchange-rates-change",
     title: "Why do exchange rates change?",
@@ -435,7 +432,8 @@ A rising line means the base currency strengthened against that pair. A falling 
 Exchange rates are always relative — they tell you about one currency in terms of another, never in isolation. "The pound is at 1.27" means nothing without knowing it's 1.27 dollars. Keep both sides of the pair in mind, and the numbers start to make intuitive sense.
 `
   },
+];
 
-── End of unpublished posts */
+export const blogPosts = allPosts;
 
 export const getPost = (slug) => blogPosts.find(p => p.slug === slug);

@@ -104,7 +104,7 @@
 .tb-input:-webkit-autofill { -webkit-text-fill-color: #fff; }
 
 /* ── Right ── */
-.navbar-right { display: flex; justify-content: flex-end; }
+.navbar-right { display: flex; align-items: center; justify-content: flex-end; gap: .5rem; }
 
 .export-wrap { position: relative; }
 
@@ -446,14 +446,15 @@
 }
 .cd-nav-swap:hover { background: rgba(255,255,255,.22); transform: rotate(180deg); }
 
-/* Dark mode toggle button in burger menu */
-.burger-theme {
-  display: flex; align-items: center; gap: .5rem;
-  background: none; border: none; cursor: pointer;
-  width: 100%; text-align: left;
-  font-family: 'Inter', sans-serif; font-size: .85rem;
-  color: var(--text-2, #475569);
-  padding: .55rem .9rem;
-  transition: background .15s, color .15s;
+/* ── Theme toggle button (navbar) ── */
+.btn-theme {
+  display: flex; align-items: center; justify-content: center;
+  width: 38px; height: 38px;
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 9px; cursor: pointer;
+  color: rgba(255,255,255,.85);
+  transition: background .15s;
+  flex-shrink: 0;
 }
-.burger-theme:hover { background: var(--surface-2, #f8fafc); color: var(--text, #0f172a); }
+.btn-theme:hover { background: rgba(255,255,255,.18); }

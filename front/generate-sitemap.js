@@ -11,15 +11,16 @@ const today    = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
 const currencyMapping = require('./src/currencyMapping.json');
 const currencyCodes   = Object.keys(currencyMapping);
 
-// ── Blog slugs (parse from blogPosts.js without needing ES module support) ───
-const blogSource = fs.readFileSync(path.join(__dirname, 'src/blogPosts.js'), 'utf8');
-const slugMatches = [...blogSource.matchAll(/slug:\s*["'`]([^"'`]+)["'`]/g)];
-const blogSlugs   = slugMatches.map(m => m[1]);
+// ── Blog slugs (only posts whose date <= today) ───────────────────────────────
+const blogSource  = fs.readFileSync(path.join(__dirname, 'src/blogPosts.js'), 'utf8');
+const postMatches = [...blogSource.matchAll(/slug:\s*["'`]([^"'`]+)["'`][\s\S]*?date:\s*["'`]([^"'`]+)["'`]/g)];
+const blogSlugs   = postMatches.filter(m => m[2] <= today).map(m => m[1]);
 
 // ── Static pages ─────────────────────────────────────────────────────────────
 const staticPages = [
   { url: '/',        priority: '1.0', changefreq: 'daily'   },
   { url: '/blog',    priority: '0.8', changefreq: 'weekly'  },
+  { url: '/fee-checker', priority: '0.7', changefreq: 'monthly' },
   { url: '/about',   priority: '0.5', changefreq: 'monthly' },
   { url: '/privacy', priority: '0.3', changefreq: 'yearly'  },
   { url: '/terms',   priority: '0.3', changefreq: 'yearly'  },

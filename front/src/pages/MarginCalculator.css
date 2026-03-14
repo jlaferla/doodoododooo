@@ -1,0 +1,376 @@
+/* ═══════════════════════════════════════════════════
+   FX PING — MarginCalculator.css
+═══════════════════════════════════════════════════ */
+
+.mc-page {
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+/* ── Inline page header (replaces hero) ── */
+.mc-page-header {
+  margin-bottom: 1.25rem;
+}
+
+.mc-page-pill {
+  display: inline-block;
+  background: var(--filter-bg);
+  color: #2563eb;
+  border: 1px solid var(--filter-border);
+  border-radius: 100px;
+  padding: .2rem .7rem;
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+
+.mc-page-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+  margin-bottom: .35rem;
+  letter-spacing: -.02em;
+}
+
+.mc-page-subtitle {
+  font-size: .875rem;
+  color: var(--text-2);
+  line-height: 1.6;
+}
+
+/* ── Body ── */
+.mc-body {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem 5rem;
+}
+
+.mc-error {
+  color: #dc2626;
+  font-size: .875rem;
+  margin-bottom: 1rem;
+  padding: .75rem 1rem;
+  background: rgba(220,38,38,0.08);
+  border: 1px solid rgba(220,38,38,0.2);
+  border-radius: 8px;
+}
+
+.mc-loading {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-3);
+  font-size: .875rem;
+}
+
+/* ── Input card ── */
+.mc-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.75rem 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.mc-field-group {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.mc-field-label {
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  color: var(--text-3);
+}
+
+.mc-field-row {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
+
+.mc-amount-input {
+  flex: 1;
+  min-width: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text);
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: -.01em;
+}
+
+.mc-amount-input::placeholder {
+  color: var(--border);
+}
+
+.mc-currency-name {
+  font-size: .75rem;
+  color: var(--text-3);
+  margin-top: .1rem;
+}
+
+
+/* ── Swap row ── */
+.mc-swap-row {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  margin: 1.25rem 0;
+}
+
+.mc-swap-line {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+.mc-swap-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-3);
+  cursor: pointer;
+  transition: color .15s, border-color .15s, background .15s;
+  flex-shrink: 0;
+}
+
+.mc-swap-btn:hover {
+  color: #2563eb;
+  border-color: #2563eb;
+  background: var(--filter-bg);
+}
+
+/* ── Results card ── */
+.mc-results {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 1.25rem;
+}
+
+.mc-results-header {
+  padding: .9rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.mc-results-label {
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  color: var(--text-3);
+}
+
+.mc-stats-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 1px solid var(--border);
+}
+
+.mc-stat {
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+}
+
+.mc-stat + .mc-stat {
+  border-left: 1px solid var(--border);
+}
+
+.mc-stat-label {
+  font-size: .7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  color: var(--text-3);
+}
+
+.mc-stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text);
+  font-family: 'JetBrains Mono', monospace;
+  line-height: 1.2;
+  letter-spacing: -.02em;
+}
+
+.mc-stat-sub {
+  font-size: .72rem;
+  color: var(--text-3);
+  line-height: 1.4;
+}
+
+/* ── Fee gauge ── */
+.mc-gauge {
+  padding: 1rem 1.5rem 1.1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.mc-gauge-track {
+  position: relative;
+  height: 8px;
+  border-radius: 4px;
+  background: linear-gradient(to right,
+    #16a34a 0%,  #16a34a 10%,
+    #2563eb 10%, #2563eb 30%,
+    #d97706 30%, #d97706 50%,
+    #dc2626 50%, #dc2626 100%
+  );
+  margin-bottom: .65rem;
+}
+
+.mc-gauge-marker {
+  position: absolute;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 3px solid;      /* color set inline to match marginColor */
+  box-shadow: 0 2px 8px rgba(0,0,0,.2);
+  transform: translate(-50%, -50%);
+  transition: left .45s cubic-bezier(.4,0,.2,1);
+}
+
+.mc-gauge-ticks {
+  position: relative;
+  height: 14px;
+}
+
+.mc-gauge-ticks span {
+  position: absolute;
+  transform: translateX(-50%);
+  font-size: .67rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  color: var(--text-3);
+  white-space: nowrap;
+}
+
+[data-theme="dark"] .mc-gauge-ticks span { color: #64748b; }
+
+/* ── Breakdown table ── */
+.mc-breakdown {
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: .65rem;
+}
+
+.mc-breakdown-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  font-size: .875rem;
+}
+
+.mc-breakdown-label {
+  color: var(--text-2);
+  flex-shrink: 0;
+}
+
+.mc-breakdown-value {
+  font-weight: 600;
+  color: var(--text);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .875rem;
+  text-align: right;
+}
+
+.mc-breakdown-also {
+  font-size: .75rem;
+  color: var(--text-3);
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.mc-breakdown-cost .mc-breakdown-label {
+  color: var(--text-2);
+}
+
+/* ── Empty prompt ── */
+.mc-prompt {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.25rem;
+  color: var(--text-3);
+  font-size: .875rem;
+}
+
+/* ── Info box ── */
+.mc-info-box {
+  background: var(--filter-bg);
+  border: 1px solid var(--filter-border);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+}
+
+.mc-info-text {
+  font-size: .875rem;
+  color: var(--text-2);
+  line-height: 1.75;
+  margin: 0;
+}
+
+.mc-info-text strong {
+  color: var(--text);
+}
+
+/* ── Dark mode overrides ── */
+[data-theme="dark"] .mc-field-label,
+[data-theme="dark"] .mc-results-label,
+[data-theme="dark"] .mc-stat-label,
+[data-theme="dark"] .mc-stat-sub,
+[data-theme="dark"] .mc-currency-name,
+[data-theme="dark"] .mc-breakdown-label,
+[data-theme="dark"] .mc-prompt {
+  color: #64748b;
+}
+
+[data-theme="dark"] .mc-breakdown-value {
+  color: #cbd5e1;
+}
+
+[data-theme="dark"] .mc-swap-btn {
+  color: #64748b;
+  border-color: #2a2d3e;
+}
+
+[data-theme="dark"] .mc-select-wrap::after {
+  color: #64748b;
+}
+
+[data-theme="dark"] .mc-amount-input::placeholder {
+  color: #2a2d3e;
+}
+
+/* ── Responsive ── */
+@media (max-width: 600px) {
+  .mc-body { padding: 1.5rem 1.25rem 4rem; }
+  .mc-page-title { font-size: 1.25rem; }
+  .mc-card { padding: 1.25rem; }
+  .mc-stats-row { grid-template-columns: 1fr; }
+  .mc-stat + .mc-stat { border-left: none; border-top: 1px solid var(--border); }
+  .mc-amount-input { font-size: 1.4rem; }
+  .mc-breakdown-row { font-size: .8rem; }
+}
