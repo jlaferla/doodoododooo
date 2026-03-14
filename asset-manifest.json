@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f9f49f74.css",
-    "main.js": "/static/js/main.b1bd6391.js",
+    "main.js": "/static/js/main.b1d8f350.js",
     "static/js/239.fcaddd2b.chunk.js": "/static/js/239.fcaddd2b.chunk.js",
     "static/js/977.19a68214.chunk.js": "/static/js/977.19a68214.chunk.js",
     "static/js/732.447e1da6.chunk.js": "/static/js/732.447e1da6.chunk.js",
@@ -74,13 +74,13 @@
     "static/media/zm.svg": "/static/media/zm.d0a453b1fcd36a5dc8b2.svg",
     "static/media/gq.svg": "/static/media/gq.0314b4987491a4c2d601.svg",
     "static/media/kg.svg": "/static/media/kg.7686278119d26d5a1bf4.svg",
+    "index.html": "/index.html",
     "static/media/sz.svg": "/static/media/sz.86d9e360ea288c0916df.svg",
     "static/media/gu.svg": "/static/media/gu.b55158cddaadbf16541a.svg",
     "static/media/pf.svg": "/static/media/pf.5d921946e92c3a04b94f.svg",
     "static/media/ug.svg": "/static/media/ug.222bcbd9d06e2864db96.svg",
     "static/media/pc.svg": "/static/media/pc.cac28e273f71820aef16.svg",
     "static/media/mw.svg": "/static/media/mw.8c7c71cfc01cf1f6bab5.svg",
-    "index.html": "/index.html",
     "static/media/ar.svg": "/static/media/ar.99c25968161ee34667ac.svg",
     "static/media/er.svg": "/static/media/er.86045916d43bfa374fbe.svg",
     "static/media/al.svg": "/static/media/al.1b9ec52da64852264638.svg",
@@ -278,13 +278,13 @@
     "static/media/pe.svg": "/static/media/pe.d64e9732fcaa8f765994.svg",
     "static/media/id.svg": "/static/media/id.f624e2c8444a7794b357.svg",
     "main.f9f49f74.css.map": "/static/css/main.f9f49f74.css.map",
-    "main.b1bd6391.js.map": "/static/js/main.b1bd6391.js.map",
+    "main.b1d8f350.js.map": "/static/js/main.b1d8f350.js.map",
     "239.fcaddd2b.chunk.js.map": "/static/js/239.fcaddd2b.chunk.js.map",
     "977.19a68214.chunk.js.map": "/static/js/977.19a68214.chunk.js.map",
     "732.447e1da6.chunk.js.map": "/static/js/732.447e1da6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9f49f74.css",
-    "static/js/main.b1bd6391.js"
+    "static/js/main.b1d8f350.js"
   ]
 }
