@@ -19,6 +19,7 @@ const blogSlugs   = postMatches.filter(m => m[2] <= today).map(m => m[1]);
 // ── Static pages ─────────────────────────────────────────────────────────────
 const staticPages = [
   { url: '/',        priority: '1.0', changefreq: 'daily'   },
+  { url: '/rates',   priority: '0.9', changefreq: 'daily'   },
   { url: '/blog',    priority: '0.8', changefreq: 'weekly'  },
   { url: '/fee-checker', priority: '0.7', changefreq: 'monthly' },
   { url: '/about',   priority: '0.5', changefreq: 'monthly' },

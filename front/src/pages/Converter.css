@@ -1,0 +1,336 @@
+/* ═══════════════════════════════════════════════════
+   FX PING — Converter.css (homepage)
+═══════════════════════════════════════════════════ */
+
+.cv-page {
+  min-height: 100vh;
+  background: var(--bg);
+  padding: 2.5rem 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ── Hero heading ── */
+.cv-hero {
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.cv-hero-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -.03em;
+  margin-bottom: .4rem;
+}
+
+.cv-hero-sub {
+  font-size: .95rem;
+  color: var(--text-2);
+}
+
+/* ── Card ── */
+.cv-card {
+  width: 100%;
+  max-width: 520px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.75rem 2rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,.06);
+}
+
+/* ── Field group (label + row + currency name) ── */
+.cv-field-group {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.cv-field-label {
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  color: var(--text-3);
+}
+
+.cv-field-row {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
+
+/* ── Amount input ── */
+.cv-amount-input {
+  flex: 1;
+  min-width: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text);
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: -.01em;
+}
+
+.cv-amount-input::placeholder {
+  color: var(--border);
+}
+
+/* ── Result (to side) ── */
+.cv-result {
+  flex: 1;
+  min-width: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: -.01em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cv-result-loading {
+  color: var(--text-3);
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+/* ── Currency name below input ── */
+.cv-currency-name {
+  font-size: .75rem;
+  color: var(--text-3);
+  margin-top: .1rem;
+}
+
+/* ── Swap row ── */
+.cv-swap-row {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  margin: 1.25rem 0;
+}
+
+.cv-swap-line {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+.cv-swap-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-3);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: color .15s, border-color .15s, background .15s;
+}
+
+.cv-swap-btn:hover {
+  color: #2563eb;
+  border-color: #2563eb;
+  background: var(--filter-bg);
+}
+
+/* Swap icon — smooth rotation on click */
+.cv-swap-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform .3s cubic-bezier(.4, 0, .2, 1);
+}
+
+/* ── Mid-rate note ── */
+.cv-rate-note {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  flex-wrap: wrap;
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+  font-size: .8rem;
+  color: var(--text-2);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.cv-rate-badge {
+  background: var(--filter-bg);
+  border: 1px solid var(--filter-border);
+  border-radius: 100px;
+  padding: .15rem .6rem;
+  font-size: .7rem;
+  font-weight: 600;
+  color: #2563eb;
+  letter-spacing: .04em;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+}
+
+/* ── CTAs ── */
+.cv-ctas {
+  display: flex;
+  gap: .75rem;
+  margin-top: 1.25rem;
+  width: 100%;
+  max-width: 520px;
+}
+
+.cv-cta {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .65rem 1.1rem;
+  border-radius: 8px;
+  font-size: .875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background .15s, opacity .15s;
+  flex: 1;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.cv-cta--primary {
+  background: #1d4ed8;
+  color: #fff;
+}
+
+.cv-cta--primary:hover { background: #1e40af; }
+
+.cv-cta--secondary {
+  background: var(--filter-bg);
+  color: var(--text);
+  border: 1px solid var(--filter-border);
+}
+
+.cv-cta--secondary:hover { opacity: .8; }
+
+/* ── Info box ── */
+.cv-info {
+  margin-top: 1.5rem;
+  width: 100%;
+  max-width: 520px;
+  font-size: .85rem;
+  color: var(--text-2);
+  line-height: 1.7;
+}
+
+.cv-info a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.cv-info a:hover { text-decoration: underline; }
+
+/* ── Tools showcase ── */
+.cv-tools-section {
+  width: 100%;
+  max-width: 520px;
+  margin-top: 3rem;
+}
+
+.cv-tools-heading {
+  font-size: .7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--text-3);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.cv-tools-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .75rem;
+}
+
+.cv-tool-card {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+  padding: 1.1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-decoration: none;
+  transition: border-color .15s, box-shadow .15s;
+}
+
+.cv-tool-card:hover {
+  border-color: #2563eb44;
+  box-shadow: 0 2px 12px rgba(0,0,0,.06);
+}
+
+.cv-tool-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.cv-tool-body {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+  flex: 1;
+}
+
+.cv-tool-title {
+  font-size: .875rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.cv-tool-desc {
+  font-size: .78rem;
+  color: var(--text-2);
+  line-height: 1.6;
+  flex: 1;
+}
+
+.cv-tool-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  font-size: .78rem;
+  font-weight: 600;
+  margin-top: .25rem;
+}
+
+/* ── Error ── */
+.cv-error {
+  font-size: .85rem;
+  color: #dc2626;
+  margin-bottom: 1rem;
+  padding: .75rem 1rem;
+  background: rgba(220,38,38,.08);
+  border: 1px solid rgba(220,38,38,.2);
+  border-radius: 8px;
+}
+
+/* ── Responsive ── */
+@media (max-width: 540px) {
+  .cv-hero-title { font-size: 1.6rem; }
+  .cv-card { padding: 1.25rem 1.25rem; }
+  .cv-amount-input,
+  .cv-result { font-size: 1.4rem; }
+  .cv-ctas { flex-direction: column; }
+  .cv-tools-grid { grid-template-columns: 1fr; }
+}

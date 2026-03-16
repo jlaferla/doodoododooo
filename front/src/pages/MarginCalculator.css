@@ -7,36 +7,22 @@
   background: var(--bg);
 }
 
-/* ── Inline page header (replaces hero) ── */
+/* ── Page header ── */
 .mc-page-header {
-  margin-bottom: 1.25rem;
-}
-
-.mc-page-pill {
-  display: inline-block;
-  background: var(--filter-bg);
-  color: #2563eb;
-  border: 1px solid var(--filter-border);
-  border-radius: 100px;
-  padding: .2rem .7rem;
-  font-size: .7rem;
-  font-weight: 600;
-  letter-spacing: .07em;
-  text-transform: uppercase;
-  margin-bottom: .5rem;
+  text-align: center;
+  margin-bottom: 1.75rem;
 }
 
 .mc-page-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--text);
-  line-height: 1.2;
-  margin-bottom: .35rem;
-  letter-spacing: -.02em;
+  letter-spacing: -.03em;
+  margin-bottom: .4rem;
 }
 
 .mc-page-subtitle {
-  font-size: .875rem;
+  font-size: .95rem;
   color: var(--text-2);
   line-height: 1.6;
 }
@@ -367,7 +353,7 @@
 /* ── Responsive ── */
 @media (max-width: 600px) {
   .mc-body { padding: 1.5rem 1.25rem 4rem; }
-  .mc-page-title { font-size: 1.25rem; }
+  .mc-page-title { font-size: 1.6rem; }
   .mc-card { padding: 1.25rem; }
   .mc-stats-row { grid-template-columns: 1fr; }
   .mc-stat + .mc-stat { border-left: none; border-top: 1px solid var(--border); }

@@ -16,6 +16,7 @@ import CurrencyDetail from './pages/CurrencyDetail';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import MarginCalculator from './pages/MarginCalculator';
+import Converter from './pages/Converter';
 
 // ── Inline SVG icons (no extra dependency) ──────────────────────────────────
 const IconDownload = () => (
@@ -523,7 +524,7 @@ function ScrollToTop() {
 
 function AppRoutes() {
   const location = useLocation();
-  const isLegalPage = ['/about', '/privacy', '/terms', '/fee-checker'].includes(location.pathname);
+  const isLegalPage = ['/', '/about', '/privacy', '/terms', '/fee-checker'].includes(location.pathname);
   const isBlogPage = location.pathname === '/blog' || location.pathname.startsWith('/blog/');
   const [darkMode, setDarkMode] = React.useState(() => localStorage.getItem('fxping_theme') === 'dark');
   React.useEffect(() => {
@@ -535,7 +536,8 @@ function AppRoutes() {
       <ScrollToTop />
       {(isLegalPage || isBlogPage) && <Header simpleMode darkMode={darkMode} onToggleDark={() => setDarkMode(v => !v)} />}
       <Routes>
-        <Route path="/"        element={<ConversionUI darkMode={darkMode} onToggleDark={() => setDarkMode(v => !v)} />} />
+        <Route path="/"        element={<Converter />} />
+        <Route path="/rates"   element={<ConversionUI darkMode={darkMode} onToggleDark={() => setDarkMode(v => !v)} />} />
         <Route path="/about"   element={<About />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/terms"   element={<Terms />} />

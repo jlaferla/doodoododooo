@@ -184,6 +184,11 @@ export default function MarginCalculator() {
 
       <div className="mc-body">
 
+        <div className="mc-page-header">
+          <h1 className="mc-page-title">Fee Checker</h1>
+          <p className="mc-page-subtitle">Enter the amount you have sent and received to reveal the estimated fee in your exchange rate.</p>
+        </div>
+
         {fetchError && <p className="mc-error">{fetchError}</p>}
         {loading    && <p className="mc-loading">Loading live rates…</p>}
 

@@ -57,6 +57,7 @@
     ],
     "include": [
       "/",
+      "/rates",
       "/fee-checker",
       "/blog",
       "/blog/what-does-strong-weak-currency-mean",
