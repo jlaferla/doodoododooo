@@ -25,8 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "node generate-sitemap.js && npm run build",
-    "deploy": "gh-pages -d build",
-    "postbuild": "react-snap"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
