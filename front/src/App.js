@@ -1,6 +1,6 @@
 // src/App.js  — FX Ping: Figma aesthetic + full original functionality
 import React, { useState, useEffect, useRef, useMemo } from 'react';
-import { Routes, Route, Navigate, Link, useLocation } from 'react-router-dom';
+import { Routes, Route, Navigate, Link, useLocation, useSearchParams } from 'react-router-dom';
 import ReactGA from 'react-ga4';
 import './App.css';
 import 'flag-icons/css/flag-icons.min.css';
@@ -100,10 +100,27 @@ function RateCard({ currency, showMargin, margin, selectedBase }) {
 
 // ── Main UI ──────────────────────────────────────────────────────────────────
 function ConversionUI({ darkMode, onToggleDark }) {
+  const [searchParams, setSearchParams] = useSearchParams();
+
   const [data, setData]                   = useState({ conversion_rates: {} });
-  const [amount, setAmount]               = useState('1');
-  const [selectedBase, setSelectedBase]   = useState(() => localStorage.getItem('fxping_base') || 'USD');
-  const [margin, setMargin]               = useState('0');
+  const [amount, setAmount]               = useState(() => {
+    const p = searchParams.get('amount')?.replace(/,/g, '');
+    return (p && /^[0-9]+(\.[0-9]{0,3})?$/.test(p)) ? p : '1';
+  });
+  const [selectedBase, setSelectedBase]   = useState(() => {
+    const p = searchParams.get('base')?.toUpperCase();
+    return (p && currencyMapping[p]) ? p : localStorage.getItem('fxping_base') || 'USD';
+  });
+  const [margin, setMargin]               = useState(() => {
+    const p = searchParams.get('margin');
+    if (!p || !/^[0-9]+(\.[0-9]+)?$/.test(p)) return '0';
+    let num = parseFloat(p);
+    if (num > 100) num = 100;
+    if (p.includes('.') && p.split('.')[1].length > 5) {
+      return (Math.round(num * 100000) / 100000).toString();
+    }
+    return num === parseFloat(p) ? p : num.toString();
+  });
   const [sortBy, setSortBy]               = useState('code');
   const [sortOrder, setSortOrder]         = useState('asc');
   const [filterText]                      = useState('');
@@ -138,6 +155,11 @@ function ConversionUI({ darkMode, onToggleDark }) {
     document.addEventListener('mousedown', handler);
     return () => document.removeEventListener('mousedown', handler);
   }, [exportMenuVisible]);
+
+  // Sync state → URL (replaceState so back button isn't polluted)
+  useEffect(() => {
+    setSearchParams({ base: selectedBase, amount: amount || '1', margin: margin || '0' }, { replace: true });
+  }, [selectedBase, amount, margin]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Fetch live rates - run once on mount only
   useEffect(() => {
@@ -335,9 +357,16 @@ function ConversionUI({ darkMode, onToggleDark }) {
         onMarginChange={e => {
           let raw = e.target.value;
           if (!/^[0-9]*\.?[0-9]*$/.test(raw)) return;
+          // Cap at 5 decimal places — round the last digit if exceeded (e.g. from paste)
+          if (raw.includes('.')) {
+            const dec = raw.split('.')[1];
+            if (dec.length > 5) {
+              const rounded = Math.round(parseFloat(raw) * 100000) / 100000;
+              raw = rounded.toString();
+            }
+          }
           const num = parseFloat(raw);
           if (!isNaN(num) && num > 100) raw = '100';
-          if (raw.length > 7) return;
           setMargin(raw);
         }}
         updatedDate={data.time_last_update_utc}

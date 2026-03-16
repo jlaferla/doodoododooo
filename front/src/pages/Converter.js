@@ -1,6 +1,6 @@
 // src/pages/Converter.js — FX Ping homepage currency converter
 import React, { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import CurrencyDropdown from '../CurrencyDropdown';
 import currencyMapping from '../currencyMapping.json';
 import './Converter.css';
@@ -91,14 +91,25 @@ function getDp(code) {
 const priority = ['USD', 'EUR', 'GBP', 'AUD', 'CAD', 'AED', 'ZAR'];
 
 export default function Converter() {
+  const [searchParams, setSearchParams] = useSearchParams();
+
   const [rates,     setRates]     = useState({});
   const [codes,     setCodes]     = useState([]);
-  const [fromCcy,   setFromCcy]   = useState(() => localStorage.getItem('fxping_base') || 'USD');
-  const [toCcy,     setToCcy]     = useState('EUR');
-  const [amount,    setAmount]    = useState('1');
+  const [fromCcy,   setFromCcy]   = useState(() => {
+    const p = searchParams.get('from')?.toUpperCase();
+    return (p && currencyMapping[p]) ? p : localStorage.getItem('fxping_base') || 'USD';
+  });
+  const [toCcy,     setToCcy]     = useState(() => {
+    const p = searchParams.get('to')?.toUpperCase();
+    return (p && currencyMapping[p]) ? p : 'EUR';
+  });
+  const [amount,    setAmount]    = useState(() => {
+    const p = searchParams.get('amount')?.replace(/,/g, '');
+    return (p && /^[0-9]+(\.[0-9]+)?$/.test(p)) ? p : '1';
+  });
   const [loading,   setLoading]   = useState(true);
   const [error,     setError]     = useState(null);
-  const [swapCount, setSwapCount] = useState(0); // drives swap icon rotation
+  const [swapCount, setSwapCount] = useState(0);
   const amountRef = useRef(null);
 
   // SEO
@@ -127,6 +138,14 @@ export default function Converter() {
       })
       .catch(err => { setError(err.message); setLoading(false); });
   }, []);
+
+  // Sync state → URL (replaceState so back button isn't polluted)
+  useEffect(() => {
+    setSearchParams(
+      { from: fromCcy, to: toCcy, amount: amount || '1' },
+      { replace: true }
+    );
+  }, [fromCcy, toCcy, amount]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Clip decimals when from currency changes
   useEffect(() => {

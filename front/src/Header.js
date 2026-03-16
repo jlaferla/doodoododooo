@@ -149,14 +149,15 @@ function Header({
               <input type="text" className="tb-input"
                 ref={amountInputRef}
                 value={amountFormatted}
-                style={{width: `${Math.max(4, amountFormatted.length + 1)}ch`}}
+                style={{width: `${Math.max(3.5, amountFormatted.length - (amountFormatted.match(/[,.]/g)||[]).length * 0.45 + 0.75)}ch`}}
                 onChange={onAmountChange} onPaste={onAmountPaste} placeholder="1" />
             </div>
             <div className="tb-divider" />
             <div className="tb-field">
               <span className="tb-label">Margin %</span>
               <input type="text" className="tb-input tb-input-sm"
-                value={margin} placeholder="0" maxLength={7}
+                value={margin} placeholder="0"
+                style={{width: `${Math.max(2.5, (margin || '0').length + 0.5)}ch`}}
                 onChange={onMarginChange} />
             </div>
           </div>
