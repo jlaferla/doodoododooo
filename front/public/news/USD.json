@@ -1,36 +1,24 @@
 {
-  "fetchedAt": "2026-03-18T19:04:08.582Z",
+  "fetchedAt": "2026-03-18T19:17:52.306Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "Rolls-Royce scraps goal to go all-electric by 2030",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/18/rolls-royce-scraps-all-electric-car-company",
-      "publishedAt": "2026-03-18T17:46:11Z"
+      "title": "Rupee falls 14 paise to 92.42 against US dollar in early trade",
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-falls-14-paise-to-92-42-against-us-dollar-in-early-trade/articleshow/129623563.cms",
+      "publishedAt": "2026-03-17T04:26:20.000000Z"
     },
     {
-      "title": "War in Middle East has ‘heightened the risks to the global economy’; markets in ‘panic mode’ as oil jumps and shares fall – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/18/oil-stock-markets-iraq-deal-exports-turkey-inflation-central-bankers-news-updates",
-      "publishedAt": "2026-03-18T16:44:46Z"
+      "title": "US Dollar Regime Is in Transition - Are Capital Corridors Realigning?",
+      "source": "investing.com",
+      "url": "https://www.investing.com/analysis/us-dollar-regime-is-in-transition--are-capital-corridors-realigning-200676594",
+      "publishedAt": "2026-03-13T09:35:00.000000Z"
     },
     {
-      "title": "The Albanese government needs to stop being afraid of the gas industry before the current fuel crisis goes to waste | Greg Jericho",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/grogonomics/2026/mar/19/australian-government-gas-industry-iran-war-fuel-crisis",
-      "publishedAt": "2026-03-18T14:00:41Z"
-    },
-    {
-      "title": "US postal service will run out of money by February 2027, says agency chief",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/17/us-postal-service-february-2027",
-      "publishedAt": "2026-03-18T00:07:55Z"
-    },
-    {
-      "title": "Rachel Reeves reveals push for fiscal devolution to English regions, says Brexit caused damage, and admits student loan system is ‘broken’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/17/rachel-reeves-mais-lecture-ai-adoption-deeper-eu-ties-regional-growth-business-live-news-updates",
-      "publishedAt": "2026-03-17T17:44:22Z"
+      "title": "Rupee falls 12 paise to settle at record low of 92.40 against US dollar",
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-falls-12-paise-to-settle-at-record-low-of-92-40-against-us-dollar/articleshow/129630438.cms",
+      "publishedAt": "2026-03-17T10:40:07.000000Z"
     }
   ]
 }

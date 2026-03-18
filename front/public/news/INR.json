@@ -1,36 +1,24 @@
 {
-  "fetchedAt": "2026-03-18T19:04:04.031Z",
+  "fetchedAt": "2026-03-18T19:17:49.512Z",
   "currency": "INR",
   "articles": [
     {
-      "title": "Australian households fear double whammy of rate hikes and higher petrol prices will lead to recession",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/17/australian-households-fear-double-whammy-of-rate-hikes-and-higher-petrol-prices-will-lead-to-recession",
-      "publishedAt": "2026-03-17T14:04:21Z"
+      "title": "Indian Equity Markets: Middle East war, crude prices to steer Dalal Street this week; Fed, inflation data also in focus",
+      "source": "timesofindia.indiatimes.com",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/middle-east-war-crude-prices-to-steer-dalal-street-this-week-fed-inflation-data-also-in-focus/articleshow/129588339.cms",
+      "publishedAt": "2026-03-15T10:51:15.000000Z"
     },
     {
-      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
-      "publishedAt": "2026-03-16T16:15:01Z"
+      "title": "Oil jolt ripples through corporate India’s FX hedges",
+      "source": "thehindubusinessline.com",
+      "url": "https://www.thehindubusinessline.com/markets/forex/oil-jolt-ripples-through-corporate-indias-fx-hedges/article70730013.ece",
+      "publishedAt": "2026-03-11T07:13:57.000000Z"
     },
     {
-      "title": "Oil company shares soar to all-time highs as Middle East war turbocharges price per barrel",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/15/oil-company-shares-soar-to-all-time-highs-as-middle-east-war-turbocharges-price-per-barrel",
-      "publishedAt": "2026-03-15T16:59:32Z"
-    },
-    {
-      "title": "Rate rises, helium shortages, EV sales spikes: how is the disruption in Iran’s strait of Hormuz affecting Australia?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/15/rate-rises-helium-shortages-ev-sales-spikes-how-is-the-disruption-in-irans-strait-of-hormuz-affecting-australia",
-      "publishedAt": "2026-03-14T19:00:03Z"
-    },
-    {
-      "title": "Oil price shock likely to ‘push the UK economy into recession’; US growth revised down – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/13/uk-gdp-report-economy-growing-iran-energy-shock-rachel-reeves-us-consumer-confidence-news-updates",
-      "publishedAt": "2026-03-13T16:57:41Z"
+      "title": "MNC banks resist RBI plan to access offshore deal data",
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/mnc-banks-resist-rbi-plan-to-access-offshore-deal-data/articleshow/129530946.cms",
+      "publishedAt": "2026-03-13T00:30:59.000000Z"
     }
   ]
 }

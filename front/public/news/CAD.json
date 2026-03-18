@@ -1,36 +1,24 @@
 {
-  "fetchedAt": "2026-03-18T19:04:00.681Z",
+  "fetchedAt": "2026-03-18T19:17:46.677Z",
   "currency": "CAD",
   "articles": [
     {
-      "title": "Rolls-Royce scraps goal to go all-electric by 2030",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/18/rolls-royce-scraps-all-electric-car-company",
-      "publishedAt": "2026-03-18T17:46:11Z"
+      "title": "Moving to the U.S.? Your locked-in RRSP may not be as locked in as you think",
+      "source": "moneysense.ca",
+      "url": "https://www.moneysense.ca/save/investing/rrsp/moving-to-the-us-lira/",
+      "publishedAt": "2026-03-13T04:23:14.000000Z"
     },
     {
-      "title": "War in Middle East has ‘heightened the risks to the global economy’; markets in ‘panic mode’ as oil jumps and shares fall – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/18/oil-stock-markets-iraq-deal-exports-turkey-inflation-central-bankers-news-updates",
-      "publishedAt": "2026-03-18T16:44:46Z"
+      "title": "Doman Building Materials Group Ltd. Announces Quarterly Dividend",
+      "source": "manilatimes.net",
+      "url": "https://www.manilatimes.net/2026/03/13/tmt-newswire/globenewswire/doman-building-materials-group-ltd-announces-quarterly-dividend/2299559",
+      "publishedAt": "2026-03-13T12:09:19.000000Z"
     },
     {
-      "title": "Australian households fear double whammy of rate hikes and higher petrol prices will lead to recession",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/17/australian-households-fear-double-whammy-of-rate-hikes-and-higher-petrol-prices-will-lead-to-recession",
-      "publishedAt": "2026-03-17T14:04:21Z"
-    },
-    {
-      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
-      "publishedAt": "2026-03-16T16:15:01Z"
-    },
-    {
-      "title": "Oil company shares soar to all-time highs as Middle East war turbocharges price per barrel",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/15/oil-company-shares-soar-to-all-time-highs-as-middle-east-war-turbocharges-price-per-barrel",
-      "publishedAt": "2026-03-15T16:59:32Z"
+      "title": "Week Ahead: 8 of the G10 Central Banks Meet, Maybe 1 Moves",
+      "source": "investing.com",
+      "url": "https://www.investing.com/analysis/week-ahead-8-of-the-g10-central-banks-meet-maybe-1-moves-200676686",
+      "publishedAt": "2026-03-16T09:03:00.000000Z"
     }
   ]
 }

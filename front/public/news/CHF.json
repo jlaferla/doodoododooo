@@ -1,36 +1,18 @@
 {
-  "fetchedAt": "2026-03-18T19:04:00.984Z",
+  "fetchedAt": "2026-03-18T19:17:47.069Z",
   "currency": "CHF",
   "articles": [
     {
-      "title": "War in Middle East has ‘heightened the risks to the global economy’; markets in ‘panic mode’ as oil jumps and shares fall – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/18/oil-stock-markets-iraq-deal-exports-turkey-inflation-central-bankers-news-updates",
-      "publishedAt": "2026-03-18T16:44:46Z"
+      "title": "Trump’s war jolts global central banks from Fed to ECB to BOJ",
+      "source": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/news/trump-war-jolts-global-central-200000508.html",
+      "publishedAt": "2026-03-14T20:00:00.000000Z"
     },
     {
-      "title": "Australian households fear double whammy of rate hikes and higher petrol prices will lead to recession",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/17/australian-households-fear-double-whammy-of-rate-hikes-and-higher-petrol-prices-will-lead-to-recession",
-      "publishedAt": "2026-03-17T14:04:21Z"
-    },
-    {
-      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
-      "publishedAt": "2026-03-16T16:15:01Z"
-    },
-    {
-      "title": "Oil company shares soar to all-time highs as Middle East war turbocharges price per barrel",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/15/oil-company-shares-soar-to-all-time-highs-as-middle-east-war-turbocharges-price-per-barrel",
-      "publishedAt": "2026-03-15T16:59:32Z"
-    },
-    {
-      "title": "Rate rises, helium shortages, EV sales spikes: how is the disruption in Iran’s strait of Hormuz affecting Australia?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/15/rate-rises-helium-shortages-ev-sales-spikes-how-is-the-disruption-in-irans-strait-of-hormuz-affecting-australia",
-      "publishedAt": "2026-03-14T19:00:03Z"
+      "title": "Compagnie de l'Odet : Results for fiscal year 2025",
+      "source": "manilatimes.net",
+      "url": "https://www.manilatimes.net/2026/03/18/tmt-newswire/globenewswire/compagnie-de-lodet-results-for-fiscal-year-2025/2302140",
+      "publishedAt": "2026-03-17T16:51:18.000000Z"
     }
   ]
 }

@@ -1,36 +1,24 @@
 {
-  "fetchedAt": "2026-03-18T19:04:02.824Z",
+  "fetchedAt": "2026-03-18T19:17:49.000Z",
   "currency": "HKD",
   "articles": [
     {
-      "title": "Rolls-Royce scraps goal to go all-electric by 2030",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/18/rolls-royce-scraps-all-electric-car-company",
-      "publishedAt": "2026-03-18T17:46:11Z"
+      "title": "Asian shares advance as markets await signals on when the war with Iran may end",
+      "source": "abcnews.go.com",
+      "url": "https://abcnews.com/Business/wireStory/asian-shares-advance-markets-await-signals-war-iran-130957147",
+      "publishedAt": "2026-03-11T07:31:00.000000Z"
     },
     {
-      "title": "War in Middle East has ‘heightened the risks to the global economy’; markets in ‘panic mode’ as oil jumps and shares fall – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/18/oil-stock-markets-iraq-deal-exports-turkey-inflation-central-bankers-news-updates",
-      "publishedAt": "2026-03-18T16:44:46Z"
+      "title": "Uzbekistan is gathering pace – what to look at now",
+      "source": "undervalued-shares.com",
+      "url": "https://www.undervalued-shares.com/weekly-dispatches/uzbekistan-is-gathering-pace-what-to-look-at-now/",
+      "publishedAt": "2026-03-12T17:54:19.000000Z"
     },
     {
-      "title": "Australian households fear double whammy of rate hikes and higher petrol prices will lead to recession",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/17/australian-households-fear-double-whammy-of-rate-hikes-and-higher-petrol-prices-will-lead-to-recession",
-      "publishedAt": "2026-03-17T14:04:21Z"
-    },
-    {
-      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
-      "publishedAt": "2026-03-16T16:15:01Z"
-    },
-    {
-      "title": "Chinese-owned Syngenta to build new £100m bioscience hub in UK",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/16/syngenta-china-new-bioscience-hub-uk",
-      "publishedAt": "2026-03-16T15:41:29Z"
+      "title": "MNC banks resist RBI plan to access offshore deal data",
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/mnc-banks-resist-rbi-plan-to-access-offshore-deal-data/articleshow/129530946.cms",
+      "publishedAt": "2026-03-13T00:30:59.000000Z"
     }
   ]
 }

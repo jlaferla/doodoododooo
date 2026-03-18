@@ -1,36 +1,24 @@
 {
-  "fetchedAt": "2026-03-18T19:04:02.189Z",
+  "fetchedAt": "2026-03-18T19:17:48.104Z",
   "currency": "EUR",
   "articles": [
     {
-      "title": "Rachel Reeves reveals push for fiscal devolution to English regions, says Brexit caused damage, and admits student loan system is ‘broken’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/17/rachel-reeves-mais-lecture-ai-adoption-deeper-eu-ties-regional-growth-business-live-news-updates",
-      "publishedAt": "2026-03-17T17:44:22Z"
+      "title": "EUR/USD Under Pressure as Iran Conflict Drives Energy Shock",
+      "source": "investing.com",
+      "url": "https://www.investing.com/analysis/eurusd-under-pressure-as-iran-conflict-drives-energy-shock-200676610",
+      "publishedAt": "2026-03-13T12:02:00.000000Z"
     },
     {
-      "title": "Australian households fear double whammy of rate hikes and higher petrol prices will lead to recession",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/17/australian-households-fear-double-whammy-of-rate-hikes-and-higher-petrol-prices-will-lead-to-recession",
-      "publishedAt": "2026-03-17T14:04:21Z"
+      "title": "Fed and ECB Policy Decisions Loom, but Oil Drives Markets",
+      "source": "investing.com",
+      "url": "https://www.investing.com/analysis/fed-and-ecb-policy-decisions-loom-but-oil-drives-markets-200676853",
+      "publishedAt": "2026-03-18T12:32:00.000000Z"
     },
     {
-      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
-      "publishedAt": "2026-03-16T16:15:01Z"
-    },
-    {
-      "title": "Oil company shares soar to all-time highs as Middle East war turbocharges price per barrel",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/15/oil-company-shares-soar-to-all-time-highs-as-middle-east-war-turbocharges-price-per-barrel",
-      "publishedAt": "2026-03-15T16:59:32Z"
-    },
-    {
-      "title": "Rate rises, helium shortages, EV sales spikes: how is the disruption in Iran’s strait of Hormuz affecting Australia?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/15/rate-rises-helium-shortages-ev-sales-spikes-how-is-the-disruption-in-irans-strait-of-hormuz-affecting-australia",
-      "publishedAt": "2026-03-14T19:00:03Z"
+      "title": "US Dollar Regime Is in Transition - Are Capital Corridors Realigning?",
+      "source": "investing.com",
+      "url": "https://www.investing.com/analysis/us-dollar-regime-is-in-transition--are-capital-corridors-realigning-200676594",
+      "publishedAt": "2026-03-13T09:35:00.000000Z"
     }
   ]
 }
