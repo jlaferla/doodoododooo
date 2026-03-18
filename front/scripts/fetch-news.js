@@ -1,7 +1,7 @@
 // scripts/fetch-news.js
 // Runs daily via GitHub Actions — fetches news for major currencies only
 // and writes to public/news/{CODE}.json
-// Uses Marketaux API — financial news focused, free tier 100 req/day
+// Uses The Guardian API — free, 5000 req/day, works server-side, recent articles
 
 const https = require('https');
 const fs = require('fs');
@@ -49,25 +49,19 @@ for (const file of existing) {
   }
 }
 
-// 30 days ago for published_after filter
-function thirtyDaysAgo() {
-  const d = new Date();
-  d.setDate(d.getDate() - 30);
-  return d.toISOString().split('T')[0] + 'T00:00:00';
-}
-
 function fetchNews(query) {
   return new Promise((resolve, reject) => {
     const params = new URLSearchParams({
-      search: query,
-      language: 'en',
-      limit: '5',
-      published_after: thirtyDaysAgo(),
-      api_token: API_KEY,
+      q: query,
+      'api-key': API_KEY,
+      'order-by': 'newest',
+      'page-size': '5',
+      'show-fields': 'trailText',
+      'section': 'business',
     });
     const options = {
-      hostname: 'api.marketaux.com',
-      path: `/v1/news/all?${params.toString()}`,
+      hostname: 'content.guardianapis.com',
+      path: `/search?${params.toString()}`,
       headers: { 'User-Agent': 'fxping.co/1.0' },
     };
     https.get(options, (res) => {
@@ -92,15 +86,15 @@ async function main() {
     try {
       const data = await fetchNews(query);
 
-      if (data.data?.length > 0) {
-        const articles = data.data
-          .filter(a => a.title && a.url)
+      if (data.response?.status === 'ok' && data.response.results?.length > 0) {
+        const articles = data.response.results
+          .filter(a => a.webTitle && a.webUrl)
           .slice(0, 5)
           .map(a => ({
-            title: a.title,
-            source: a.source,
-            url: a.url,
-            publishedAt: a.published_at,
+            title: a.webTitle,
+            source: 'The Guardian',
+            url: a.webUrl,
+            publishedAt: a.webPublicationDate,
           }));
 
         if (articles.length > 0) {
@@ -113,7 +107,7 @@ async function main() {
           console.log(`– ${code}: filtered to 0, keeping existing`);
         }
       } else {
-        console.log(`– ${code}: no results — ${data.error?.message || data.message || 'empty response'}`);
+        console.log(`– ${code}: ${data.response?.status || 'error'} — ${data.message || 'no results'}`);
       }
     } catch (e) {
       console.error(`✗ ${code}: ${e.message}`);
