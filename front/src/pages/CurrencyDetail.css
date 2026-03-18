@@ -135,6 +135,80 @@
 .cd-unsupported h3 { font-size: 1rem; color: var(--text-2); }
 .cd-unsupported p  { font-size: .85rem; color: var(--text-3); line-height: 1.6; }
 
+/* ── News ── */
+.cd-news {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+.cd-news-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .85rem 1.1rem;
+  border-bottom: 1px solid var(--border);
+}
+.cd-news-title {
+  font-size: .72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  color: var(--text-3);
+}
+.cd-news-updated {
+  font-size: .68rem;
+  color: var(--text-3);
+}
+.cd-news-list {
+  display: flex;
+  flex-direction: column;
+}
+.cd-news-item {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+  padding: .85rem 1.1rem;
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+  transition: background .12s;
+}
+.cd-news-item:last-child {
+  border-bottom: none;
+}
+.cd-news-item:hover {
+  background: var(--bg);
+}
+.cd-news-meta {
+  display: flex;
+  align-items: center;
+  gap: .35rem;
+}
+.cd-news-source {
+  font-size: .68rem;
+  font-weight: 600;
+  color: var(--blue-pop);
+}
+.cd-news-dot {
+  font-size: .68rem;
+  color: var(--text-3);
+}
+.cd-news-time {
+  font-size: .68rem;
+  color: var(--text-3);
+  font-family: 'JetBrains Mono', monospace;
+}
+.cd-news-headline {
+  font-size: .875rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.45;
+}
+.cd-news-item:hover .cd-news-headline {
+  color: var(--navy);
+}
+
 /* ── Source ── */
 .cd-source {
   font-size: .72rem; color: var(--text-3); text-align: center;

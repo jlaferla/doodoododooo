@@ -188,6 +188,13 @@ function Sparkline({ data, width = 600, height = 200 }) {
   );
 }
 
+function timeAgo(iso) {
+  const diff = (Date.now() - new Date(iso)) / 1000;
+  if (diff < 3600)  return `${Math.floor(diff / 60)}m ago`;
+  if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
+  return `${Math.floor(diff / 86400)}d ago`;
+}
+
 export default function CurrencyDetail() {
   const { code } = useParams();
   const navigate  = useNavigate();
@@ -211,6 +218,7 @@ export default function CurrencyDetail() {
   const [error,     setError]     = useState(null);
   const [allRates,  setAllRates]  = useState(null); // raw rates from your backend
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem('fxping_theme') === 'dark');
+  const [news, setNews] = useState(null);
 
   const supported = FRANKFURTER_SUPPORTED.has(upper);
 
@@ -261,6 +269,13 @@ export default function CurrencyDetail() {
   }, [upper, period, chartBase, supported]);
 
   useEffect(() => { fetchHistory(); }, [fetchHistory]);
+
+  useEffect(() => {
+    fetch(`/news/${upper}.json`)
+      .then(r => r.ok ? r.json() : null)
+      .then(data => { if (data) setNews(data); })
+      .catch(() => {});
+  }, [upper]);
 
   if (!meta) {
     return (
@@ -410,7 +425,53 @@ export default function CurrencyDetail() {
               <span className="cd-info-value">{meta.minorUnits}</span>
             </div>
           )}
+          {meta.currency && (
+            <div className="cd-info-item">
+              <span className="cd-info-label">Currency name</span>
+              <span className="cd-info-value">{meta.currency}</span>
+            </div>
+          )}
+          {meta.symbol && (
+            <div className="cd-info-item">
+              <span className="cd-info-label">Symbol</span>
+              <span className="cd-info-value">{meta.symbol}</span>
+            </div>
+          )}
+          {meta.centralBank && (
+            <div className="cd-info-item">
+              <span className="cd-info-label">Central bank</span>
+              <span className="cd-info-value">{meta.centralBank}</span>
+            </div>
+          )}
         </div>
+
+        {/* ── News ── */}
+        {news?.articles?.length > 0 && (
+          <div className="cd-news">
+            <div className="cd-news-header">
+              <span className="cd-news-title">Latest news</span>
+              <span className="cd-news-updated">Updated {new Date(news.fetchedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })}</span>
+            </div>
+            <div className="cd-news-list">
+              {news.articles.map((article, i) => (
+                <a
+                  key={i}
+                  href={article.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cd-news-item"
+                >
+                  <div className="cd-news-meta">
+                    <span className="cd-news-source">{article.source}</span>
+                    <span className="cd-news-dot">·</span>
+                    <span className="cd-news-time">{timeAgo(article.publishedAt)}</span>
+                  </div>
+                  <div className="cd-news-headline">{article.title}</div>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
 
         <div className="cd-source">
           Historical data via{' '}

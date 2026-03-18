@@ -1,0 +1,32 @@
+name: Fetch Currency News
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # 7am UTC daily, after European markets open
+  workflow_dispatch:        # allow manual trigger from GitHub Actions tab
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch news for all currencies
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+        run: node scripts/fetch-news.js
+
+      - name: Commit and push updated news files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/news/
+          git diff --staged --quiet || git commit -m "chore: daily currency news update"
+          git push
