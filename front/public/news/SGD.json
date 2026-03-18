@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-18T19:17:51.389Z",
+  "fetchedAt": "2026-03-18T19:21:38.344Z",
   "currency": "SGD",
   "articles": [
     {
@@ -9,16 +9,16 @@
       "publishedAt": "2026-03-12T12:37:00.000000Z"
     },
     {
-      "title": "REITs vs Bank Stocks: Where Should You Put Your Next Dollar?",
-      "source": "thesmartinvestor.com.sg",
-      "url": "https://thesmartinvestor.com.sg/reits-vs-bank-stocks-where-should-you-put-your-next-dollar/",
-      "publishedAt": "2026-03-17T09:30:00.000000Z"
-    },
-    {
       "title": "YY Group (NASDAQ: YYGH) Projects FY2026 Revenue Exceeding US$103 Million, Issues First Formal Guidance",
       "source": "manilatimes.net",
       "url": "https://www.manilatimes.net/2026/03/12/tmt-newswire/globenewswire/yy-group-nasdaq-yygh-projects-fy2026-revenue-exceeding-us103-million-issues-first-formal-guidance/2298838",
       "publishedAt": "2026-03-12T12:50:27.000000Z"
+    },
+    {
+      "title": "$1.725 mil Daedalus Income Portfolio Update – February 2026",
+      "source": "investmentmoats.com",
+      "url": "https://investmentmoats.com/notes/daedalus-income-portfolio-update-february-2026/",
+      "publishedAt": "2026-03-05T00:36:55.000000Z"
     }
   ]
 }

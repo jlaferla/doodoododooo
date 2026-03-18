@@ -1,36 +1,24 @@
 {
-  "fetchedAt": "2026-03-18T19:04:02.519Z",
+  "fetchedAt": "2026-03-18T19:21:34.041Z",
   "currency": "GBP",
   "articles": [
     {
-      "title": "War in Middle East has ‘heightened the risks to the global economy’; markets in ‘panic mode’ as oil jumps and shares fall – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/18/oil-stock-markets-iraq-deal-exports-turkey-inflation-central-bankers-news-updates",
-      "publishedAt": "2026-03-18T16:44:46Z"
+      "title": "US Dollar Softness, Euro Resilience, and Sterling at a Crossroads",
+      "source": "investing.com",
+      "url": "https://www.investing.com/analysis/us-dollar-softness-euro-resilience-and-sterling-at-a-crossroads-200675507",
+      "publishedAt": "2026-02-23T20:20:00.000000Z"
     },
     {
-      "title": "Rachel Reeves reveals push for fiscal devolution to English regions, says Brexit caused damage, and admits student loan system is ‘broken’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/17/rachel-reeves-mais-lecture-ai-adoption-deeper-eu-ties-regional-growth-business-live-news-updates",
-      "publishedAt": "2026-03-17T17:44:22Z"
+      "title": "GBP/USD Pauses Ahead of Bank of England Rate Decision",
+      "source": "investing.com",
+      "url": "https://www.investing.com/analysis/gbpusd-pauses-ahead-of-bank-of-england-rate-decision-200676757",
+      "publishedAt": "2026-03-17T07:40:00.000000Z"
     },
     {
-      "title": "Australian households fear double whammy of rate hikes and higher petrol prices will lead to recession",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/17/australian-households-fear-double-whammy-of-rate-hikes-and-higher-petrol-prices-will-lead-to-recession",
-      "publishedAt": "2026-03-17T14:04:21Z"
-    },
-    {
-      "title": "Train delays: compensation claims to be easier under Great British Railways",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/17/train-delays-compensation-claims-great-british-railways",
-      "publishedAt": "2026-03-17T00:01:33Z"
-    },
-    {
-      "title": "Thames Water rescue deal talks rumble on interminably but its future remains unclear | Nils Pratley",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/16/thames-water-rescue-deal-talks-rumbles-on-interminably-but-its-future-remains-unclear",
-      "publishedAt": "2026-03-16T18:56:20Z"
+      "title": "GBP/USD: Slide Enters 5th Consecutive Day",
+      "source": "investing.com",
+      "url": "https://www.investing.com/analysis/gbpusd-slide-enters-5th-consecutive-day-200675371",
+      "publishedAt": "2026-02-20T09:11:00.000000Z"
     }
   ]
 }

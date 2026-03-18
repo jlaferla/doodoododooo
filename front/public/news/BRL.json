@@ -1,24 +1,18 @@
 {
-  "fetchedAt": "2026-03-18T19:17:46.122Z",
+  "fetchedAt": "2026-03-18T19:21:31.222Z",
   "currency": "BRL",
   "articles": [
     {
-      "title": "Commodity currency carry trades see best returns in years",
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/commodity-currency-carry-trades-see-best-returns-in-years/articleshow/129644777.cms",
-      "publishedAt": "2026-03-18T00:45:40.000000Z"
+      "title": "Ultrapar Participacoes Q4 Earnings Call Highlights",
+      "source": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/news/ultrapar-participacoes-q4-earnings-call-104739741.html",
+      "publishedAt": "2026-03-06T10:47:39.000000Z"
     },
     {
-      "title": "Valneva Reports Full Year 2025 Audited Consolidated Financial Results",
+      "title": "CZR Exchange Expands Global Access With Multi-Language and Multi-Currency Platform Upgrade",
       "source": "manilatimes.net",
-      "url": "https://www.manilatimes.net/2026/03/18/tmt-newswire/globenewswire/valneva-reports-full-year-2025-audited-consolidated-financial-results/2302405",
-      "publishedAt": "2026-03-18T06:17:55.000000Z"
-    },
-    {
-      "title": "GUERBET : 2025 full-year results.",
-      "source": "manilatimes.net",
-      "url": "https://www.manilatimes.net/2026/03/12/tmt-newswire/globenewswire/guerbet-2025-full-year-results/2298186",
-      "publishedAt": "2026-03-11T16:49:17.000000Z"
+      "url": "https://www.manilatimes.net/2026/02/21/tmt-newswire/globenewswire/czr-exchange-expands-global-access-with-multi-language-and-multi-currency-platform-upgrade/2282233",
+      "publishedAt": "2026-02-21T03:02:41.000000Z"
     }
   ]
 }

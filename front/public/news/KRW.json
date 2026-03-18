@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-18T19:17:50.566Z",
+  "fetchedAt": "2026-03-18T19:21:36.714Z",
   "currency": "KRW",
   "articles": [
     {
@@ -9,16 +9,16 @@
       "publishedAt": "2026-03-18T14:49:04.000000Z"
     },
     {
-      "title": "Editorial: Oil, currency surge raises stagflation fears in South Korea",
-      "source": "upi.com",
-      "url": "https://www.upi.com/Top_News/World-News/2026/03/16/concerns-stagflation/5651773635320/",
-      "publishedAt": "2026-03-16T04:36:58.000000Z"
+      "title": "Systemic Risk: A 12-Order Cascading Analysis Of A Zero-Flow Strait Of Hormuz Closure",
+      "source": "zerohedge.com",
+      "url": "https://www.zerohedge.com/geopolitical/systemic-risk-12-order-cascading-analysis-zero-flow-strait-hormuz-closure",
+      "publishedAt": "2026-03-05T21:20:00.000000Z"
     },
     {
-      "title": "Asian shares advance as markets await signals on when the war with Iran may end",
-      "source": "abcnews.go.com",
-      "url": "https://abcnews.com/Business/wireStory/asian-shares-advance-markets-await-signals-war-iran-130957147",
-      "publishedAt": "2026-03-11T07:31:00.000000Z"
+      "title": "Futures Tumble But Off Session Lows On Expectations Of Global SPR Release",
+      "source": "zerohedge.com",
+      "url": "https://www.zerohedge.com/markets/futures-tumble-session-lows-expectations-global-spr-release",
+      "publishedAt": "2026-03-09T12:38:23.000000Z"
     }
   ]
 }

@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-03-18T19:17:46.677Z",
+  "fetchedAt": "2026-03-18T19:21:31.900Z",
   "currency": "CAD",
   "articles": [
     {
-      "title": "Moving to the U.S.? Your locked-in RRSP may not be as locked in as you think",
-      "source": "moneysense.ca",
-      "url": "https://www.moneysense.ca/save/investing/rrsp/moving-to-the-us-lira/",
-      "publishedAt": "2026-03-13T04:23:14.000000Z"
+      "title": "The Canadian Dollar Loves Conflict - Has The CAD Reached A Long-Term Bottom?",
+      "source": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4879081-canadian-dollar-loves-conflict-has-cad-reached-long-term-bottom",
+      "publishedAt": "2026-03-05T18:10:00.000000Z"
     },
     {
-      "title": "Doman Building Materials Group Ltd. Announces Quarterly Dividend",
-      "source": "manilatimes.net",
-      "url": "https://www.manilatimes.net/2026/03/13/tmt-newswire/globenewswire/doman-building-materials-group-ltd-announces-quarterly-dividend/2299559",
-      "publishedAt": "2026-03-13T12:09:19.000000Z"
-    },
-    {
-      "title": "Week Ahead: 8 of the G10 Central Banks Meet, Maybe 1 Moves",
+      "title": "USD/CAD Rebound Steadies Just Below 1.3700",
       "source": "investing.com",
-      "url": "https://www.investing.com/analysis/week-ahead-8-of-the-g10-central-banks-meet-maybe-1-moves-200676686",
-      "publishedAt": "2026-03-16T09:03:00.000000Z"
+      "url": "https://www.investing.com/analysis/usdcad-rebound-steadies-just-below-13700-200675381",
+      "publishedAt": "2026-02-20T10:54:00.000000Z"
+    },
+    {
+      "title": "USD/CAD Trickles Lower Within Range Toward 1.3650",
+      "source": "investing.com",
+      "url": "https://www.investing.com/analysis/usdcad-trickles-lower-within-range-toward-200676187",
+      "publishedAt": "2026-03-06T08:25:00.000000Z"
     }
   ]
 }

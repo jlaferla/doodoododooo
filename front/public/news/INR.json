@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-03-18T19:17:49.512Z",
+  "fetchedAt": "2026-03-18T19:21:35.206Z",
   "currency": "INR",
   "articles": [
     {
-      "title": "Indian Equity Markets: Middle East war, crude prices to steer Dalal Street this week; Fed, inflation data also in focus",
-      "source": "timesofindia.indiatimes.com",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/middle-east-war-crude-prices-to-steer-dalal-street-this-week-fed-inflation-data-also-in-focus/articleshow/129588339.cms",
-      "publishedAt": "2026-03-15T10:51:15.000000Z"
+      "title": "RBI pitches INR-led economic collaboration",
+      "source": "ft.lk",
+      "url": "https://www.ft.lk/top-story/RBI-pitches-INR-led-economic-collaboration/26-788563",
+      "publishedAt": "2026-02-20T00:00:00.000000Z"
     },
     {
-      "title": "Oil jolt ripples through corporate India’s FX hedges",
+      "title": "US-Israel attack on Iran rattles rupee, opens weak at 91.23",
       "source": "thehindubusinessline.com",
-      "url": "https://www.thehindubusinessline.com/markets/forex/oil-jolt-ripples-through-corporate-indias-fx-hedges/article70730013.ece",
-      "publishedAt": "2026-03-11T07:13:57.000000Z"
+      "url": "https://www.thehindubusinessline.com/markets/forex/us-israel-attack-on-iran-rattles-rupee-as-markets-feel-heat/article70694028.ece",
+      "publishedAt": "2026-03-02T05:49:21.000000Z"
     },
     {
-      "title": "MNC banks resist RBI plan to access offshore deal data",
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/mnc-banks-resist-rbi-plan-to-access-offshore-deal-data/articleshow/129530946.cms",
-      "publishedAt": "2026-03-13T00:30:59.000000Z"
+      "title": "Rupee likely to remain volatile through March amid geopolitical tensions: Union Bank report",
+      "source": "thehindubusinessline.com",
+      "url": "https://www.thehindubusinessline.com/markets/forex/rupee-likely-to-remain-volatile-through-march-amid-geopolitical-tensions-union-bank-report/article70742533.ece",
+      "publishedAt": "2026-03-14T07:33:40.000000Z"
     }
   ]
 }

@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-03-18T19:17:52.306Z",
+  "fetchedAt": "2026-03-18T19:21:39.491Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "Rupee falls 14 paise to 92.42 against US dollar in early trade",
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-falls-14-paise-to-92-42-against-us-dollar-in-early-trade/articleshow/129623563.cms",
-      "publishedAt": "2026-03-17T04:26:20.000000Z"
-    },
-    {
-      "title": "US Dollar Regime Is in Transition - Are Capital Corridors Realigning?",
+      "title": "EUR/USD: US Dollar Weakness Presents Buying Opportunities",
       "source": "investing.com",
-      "url": "https://www.investing.com/analysis/us-dollar-regime-is-in-transition--are-capital-corridors-realigning-200676594",
-      "publishedAt": "2026-03-13T09:35:00.000000Z"
+      "url": "https://www.investing.com/analysis/eurusd-us-dollar-weakness-presents-buying-opportunities-200675773",
+      "publishedAt": "2026-02-27T08:14:00.000000Z"
     },
     {
-      "title": "Rupee falls 12 paise to settle at record low of 92.40 against US dollar",
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-falls-12-paise-to-settle-at-record-low-of-92-40-against-us-dollar/articleshow/129630438.cms",
-      "publishedAt": "2026-03-17T10:40:07.000000Z"
+      "title": "USD/JPY Set to Resume Uptrend as US Dollar Momentum Builds",
+      "source": "investing.com",
+      "url": "https://www.investing.com/analysis/usdjpy-set-to-resume-uptrend-as-us-dollar-momentum-builds-200676028",
+      "publishedAt": "2026-03-04T09:18:00.000000Z"
+    },
+    {
+      "title": "USD/JPY, AUD/USD Outlook: US Dollar Slips as Risk Assets Rebound on Hormuz News",
+      "source": "investing.com",
+      "url": "https://www.investing.com/analysis/usdjpy-audusd-outlook-us-dollar-slips-as-risk-assets-rebound-on-hormuz-news-200676665",
+      "publishedAt": "2026-03-16T06:42:00.000000Z"
     }
   ]
 }
