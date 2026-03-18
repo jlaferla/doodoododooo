@@ -19,42 +19,42 @@ if (!fs.existsSync(NEWS_DIR)) {
 }
 
 const CURRENCIES = {
-  AUD: '"Australian dollar" OR "AUD" forex',
-  BGN: '"Bulgarian lev" OR "BGN" forex',
-  BRL: '"Brazilian real" OR "BRL" forex',
-  CAD: '"Canadian dollar" OR "CAD" forex',
-  CHF: '"Swiss franc" OR "CHF" forex',
-  CNY: '"Chinese yuan" OR "renminbi" OR "CNY" forex',
-  CZK: '"Czech koruna" OR "CZK" forex',
-  DKK: '"Danish krone" OR "DKK" forex',
-  EUR: '"euro" OR "EUR" OR "eurozone" exchange rate',
-  GBP: '"pound sterling" OR "GBP" OR "British pound" forex',
-  HKD: '"Hong Kong dollar" OR "HKD" forex',
-  HUF: '"Hungarian forint" OR "HUF" forex',
-  IDR: '"Indonesian rupiah" OR "IDR" forex',
-  ILS: '"Israeli shekel" OR "ILS" forex',
-  INR: '"Indian rupee" OR "INR" forex',
-  ISK: '"Icelandic krona" OR "ISK" forex',
-  JPY: '"Japanese yen" OR "JPY" forex',
-  KRW: '"South Korean won" OR "KRW" forex',
-  MXN: '"Mexican peso" OR "MXN" forex',
-  MYR: '"Malaysian ringgit" OR "MYR" forex',
-  NOK: '"Norwegian krone" OR "NOK" forex',
-  NZD: '"New Zealand dollar" OR "NZD" forex',
-  PHP: '"Philippine peso" OR "PHP" forex',
-  PLN: '"Polish zloty" OR "PLN" forex',
-  RON: '"Romanian leu" OR "RON" forex',
-  SEK: '"Swedish krona" OR "SEK" forex',
-  SGD: '"Singapore dollar" OR "SGD" forex',
-  THB: '"Thai baht" OR "THB" forex',
-  TRY: '"Turkish lira" OR "TRY" forex',
-  USD: '"US dollar" OR "USD" OR "Federal Reserve" forex',
-  ZAR: '"South African rand" OR "ZAR" forex',
+  AUD: 'Australian dollar exchange rate',
+  BGN: 'Bulgarian lev exchange rate',
+  BRL: 'Brazilian real exchange rate',
+  CAD: 'Canadian dollar exchange rate',
+  CHF: 'Swiss franc exchange rate',
+  CNY: 'Chinese yuan exchange rate',
+  CZK: 'Czech koruna exchange rate',
+  DKK: 'Danish krone exchange rate',
+  EUR: 'euro exchange rate',
+  GBP: 'British pound exchange rate',
+  HKD: 'Hong Kong dollar exchange rate',
+  HUF: 'Hungarian forint exchange rate',
+  IDR: 'Indonesian rupiah exchange rate',
+  ILS: 'Israeli shekel exchange rate',
+  INR: 'Indian rupee exchange rate',
+  ISK: 'Icelandic krona exchange rate',
+  JPY: 'Japanese yen exchange rate',
+  KRW: 'South Korean won exchange rate',
+  MXN: 'Mexican peso exchange rate',
+  MYR: 'Malaysian ringgit exchange rate',
+  NOK: 'Norwegian krone exchange rate',
+  NZD: 'New Zealand dollar exchange rate',
+  PHP: 'Philippine peso exchange rate',
+  PLN: 'Polish zloty exchange rate',
+  RON: 'Romanian leu exchange rate',
+  SEK: 'Swedish krona exchange rate',
+  SGD: 'Singapore dollar exchange rate',
+  THB: 'Thai baht exchange rate',
+  TRY: 'Turkish lira exchange rate',
+  USD: 'US dollar exchange rate',
+  ZAR: 'South African rand exchange rate',
 };
 
 function fetchNews(query) {
   return new Promise((resolve, reject) => {
-    const url = `https://newsapi.org/v2/everything?q=${encodeURIComponent(query)}&language=en&sortBy=publishedAt&pageSize=10&apiKey=${API_KEY}`;
+    const url = `https://newsapi.org/v2/everything?q=${encodeURIComponent(query)}&language=en&sortBy=publishedAt&pageSize=5&apiKey=${API_KEY}`;
     https.get(url, (res) => {
       let data = '';
       res.on('data', chunk => data += chunk);
@@ -95,16 +95,16 @@ async function main() {
           );
           console.log(`✓ ${code}: ${articles.length} articles`);
         } else {
-          console.log(`– ${code}: filtered to 0 articles, keeping existing`);
+          console.log(`– ${code}: filtered to 0, keeping existing`);
         }
       } else {
-        console.log(`– ${code}: no results (${data.status || 'unknown'}), keeping existing`);
+        console.log(`– ${code}: ${data.status} — ${data.message || 'no message'}`);
       }
     } catch (e) {
       console.error(`✗ ${code}: ${e.message}`);
     }
 
-    await sleep(350); // stay within rate limits
+    await sleep(350);
   }
 
   console.log('Done.');
