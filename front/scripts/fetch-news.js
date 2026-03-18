@@ -21,22 +21,22 @@ if (!fs.existsSync(NEWS_DIR)) {
 
 // Major currencies only — ones with enough financial news coverage
 const CURRENCIES = {
-  AUD: 'Australian dollar exchange rate',
-  BRL: 'Brazilian real exchange rate',
-  CAD: 'Canadian dollar exchange rate',
-  CHF: 'Swiss franc exchange rate',
-  CNY: 'Chinese yuan renminbi exchange rate',
-  EUR: 'euro eurozone exchange rate',
-  GBP: 'British pound sterling exchange rate',
-  HKD: 'Hong Kong dollar exchange rate',
-  INR: 'Indian rupee exchange rate',
-  JPY: 'Japanese yen exchange rate',
-  KRW: 'South Korean won exchange rate',
-  MXN: 'Mexican peso exchange rate',
-  SGD: 'Singapore dollar exchange rate',
-  TRY: 'Turkish lira exchange rate',
-  USD: 'US dollar Federal Reserve exchange rate',
-  ZAR: 'South African rand exchange rate',
+  AUD: 'Australian dollar AUD',
+  BRL: 'Brazilian real BRL',
+  CAD: 'Canadian dollar CAD',
+  CHF: 'Swiss franc CHF',
+  CNY: 'Chinese yuan CNY',
+  EUR: 'euro EUR',
+  GBP: 'pound sterling GBP',
+  HKD: 'Hong Kong dollar HKD',
+  INR: 'Indian rupee INR',
+  JPY: 'Japanese yen JPY',
+  KRW: 'South Korean won KRW',
+  MXN: 'Mexican peso MXN',
+  SGD: 'Singapore dollar SGD',
+  TRY: 'Turkish lira TRY',
+  USD: 'US dollar USD',
+  ZAR: 'South African rand ZAR',
 };
 
 // Delete stale JSON files for currencies no longer in the list
@@ -49,10 +49,10 @@ for (const file of existing) {
   }
 }
 
-// 7 days ago for published_after filter
-function sevenDaysAgo() {
+// 30 days ago for published_after filter
+function thirtyDaysAgo() {
   const d = new Date();
-  d.setDate(d.getDate() - 7);
+  d.setDate(d.getDate() - 30);
   return d.toISOString().split('T')[0] + 'T00:00:00';
 }
 
@@ -62,7 +62,7 @@ function fetchNews(query) {
       search: query,
       language: 'en',
       limit: '5',
-      published_after: sevenDaysAgo(),
+      published_after: thirtyDaysAgo(),
       api_token: API_KEY,
     });
     const options = {
