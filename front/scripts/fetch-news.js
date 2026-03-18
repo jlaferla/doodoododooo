@@ -1,7 +1,7 @@
 // scripts/fetch-news.js
-// Runs daily via GitHub Actions — fetches news for each Frankfurter currency
+// Runs daily via GitHub Actions — fetches news for major currencies only
 // and writes to public/news/{CODE}.json
-// Uses The Guardian API — free, 5000 req/day, works server-side
+// Uses Marketaux API — financial news focused, free tier 100 req/day
 
 const https = require('https');
 const fs = require('fs');
@@ -19,53 +19,55 @@ if (!fs.existsSync(NEWS_DIR)) {
   fs.mkdirSync(NEWS_DIR, { recursive: true });
 }
 
+// Major currencies only — ones with enough financial news coverage
 const CURRENCIES = {
   AUD: 'Australian dollar exchange rate',
-  BGN: 'Bulgarian lev exchange rate',
   BRL: 'Brazilian real exchange rate',
   CAD: 'Canadian dollar exchange rate',
   CHF: 'Swiss franc exchange rate',
-  CNY: 'Chinese yuan exchange rate',
-  CZK: 'Czech koruna exchange rate',
-  DKK: 'Danish krone exchange rate',
-  EUR: 'euro exchange rate',
-  GBP: 'British pound exchange rate',
+  CNY: 'Chinese yuan renminbi exchange rate',
+  EUR: 'euro eurozone exchange rate',
+  GBP: 'British pound sterling exchange rate',
   HKD: 'Hong Kong dollar exchange rate',
-  HUF: 'Hungarian forint exchange rate',
-  IDR: 'Indonesian rupiah exchange rate',
-  ILS: 'Israeli shekel exchange rate',
   INR: 'Indian rupee exchange rate',
-  ISK: 'Icelandic krona exchange rate',
   JPY: 'Japanese yen exchange rate',
   KRW: 'South Korean won exchange rate',
   MXN: 'Mexican peso exchange rate',
-  MYR: 'Malaysian ringgit exchange rate',
-  NOK: 'Norwegian krone exchange rate',
-  NZD: 'New Zealand dollar exchange rate',
-  PHP: 'Philippine peso exchange rate',
-  PLN: 'Polish zloty exchange rate',
-  RON: 'Romanian leu exchange rate',
-  SEK: 'Swedish krona exchange rate',
   SGD: 'Singapore dollar exchange rate',
-  THB: 'Thai baht exchange rate',
   TRY: 'Turkish lira exchange rate',
   USD: 'US dollar Federal Reserve exchange rate',
   ZAR: 'South African rand exchange rate',
 };
 
+// Delete stale JSON files for currencies no longer in the list
+const existing = fs.readdirSync(NEWS_DIR).filter(f => f.endsWith('.json'));
+for (const file of existing) {
+  const code = file.replace('.json', '');
+  if (!CURRENCIES[code]) {
+    fs.unlinkSync(path.join(NEWS_DIR, file));
+    console.log(`🗑 Removed stale file: ${file}`);
+  }
+}
+
+// 7 days ago for published_after filter
+function sevenDaysAgo() {
+  const d = new Date();
+  d.setDate(d.getDate() - 7);
+  return d.toISOString().split('T')[0] + 'T00:00:00';
+}
+
 function fetchNews(query) {
   return new Promise((resolve, reject) => {
     const params = new URLSearchParams({
-      q: query,
-      'api-key': API_KEY,
-      'order-by': 'newest',
-      'page-size': '5',
-      'show-fields': 'trailText',
-      'section': 'business',
+      search: query,
+      language: 'en',
+      limit: '5',
+      published_after: sevenDaysAgo(),
+      api_token: API_KEY,
     });
     const options = {
-      hostname: 'content.guardianapis.com',
-      path: `/search?${params.toString()}`,
+      hostname: 'api.marketaux.com',
+      path: `/v1/news/all?${params.toString()}`,
       headers: { 'User-Agent': 'fxping.co/1.0' },
     };
     https.get(options, (res) => {
@@ -90,15 +92,15 @@ async function main() {
     try {
       const data = await fetchNews(query);
 
-      if (data.response?.status === 'ok' && data.response.results?.length > 0) {
-        const articles = data.response.results
-          .filter(a => a.webTitle && a.webUrl)
+      if (data.data?.length > 0) {
+        const articles = data.data
+          .filter(a => a.title && a.url)
           .slice(0, 5)
           .map(a => ({
-            title: a.webTitle,
-            source: 'The Guardian',
-            url: a.webUrl,
-            publishedAt: a.webPublicationDate,
+            title: a.title,
+            source: a.source,
+            url: a.url,
+            publishedAt: a.published_at,
           }));
 
         if (articles.length > 0) {
@@ -111,7 +113,7 @@ async function main() {
           console.log(`– ${code}: filtered to 0, keeping existing`);
         }
       } else {
-        console.log(`– ${code}: ${data.response?.status || 'error'} — ${data.message || 'no results'}`);
+        console.log(`– ${code}: no results — ${data.error?.message || data.message || 'empty response'}`);
       }
     } catch (e) {
       console.error(`✗ ${code}: ${e.message}`);
