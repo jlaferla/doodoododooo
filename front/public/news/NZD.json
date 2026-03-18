@@ -1,19 +1,7 @@
 {
-  "fetchedAt": "2026-03-18T18:58:40.056Z",
+  "fetchedAt": "2026-03-18T19:04:06.142Z",
   "currency": "NZD",
   "articles": [
-    {
-      "title": "Supporters of Scotland’s assisted dying bill frustrated by lack of backing from Labour MSPs",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/society/2026/mar/18/supporters-scotland-assisted-dying-bill-frustrated-lack-labour-msps",
-      "publishedAt": "2026-03-18T18:41:53Z"
-    },
-    {
-      "title": "Trump nominee Markwayne Mullin grilled by senators at DHS confirmation hearing – live",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/live/2026/mar/18/donald-trump-iran-war-markwayne-mullin-security-immigration-intelligence-federal-reserve-interest-rates-latest-news-updates",
-      "publishedAt": "2026-03-18T18:39:45Z"
-    },
     {
       "title": "Rolls-Royce scraps goal to go all-electric by 2030",
       "source": "The Guardian",
@@ -27,10 +15,22 @@
       "publishedAt": "2026-03-18T16:44:46Z"
     },
     {
-      "title": "Damning audit finds NSW prison programs have ‘little to no impact’ on reoffending rates for Indigenous people",
+      "title": "Australian households fear double whammy of rate hikes and higher petrol prices will lead to recession",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/mar/19/indigenous-people-prison-programs-no-impact-reoffending-ntwnfb",
-      "publishedAt": "2026-03-18T14:00:42Z"
+      "url": "https://www.theguardian.com/business/2026/mar/17/australian-households-fear-double-whammy-of-rate-hikes-and-higher-petrol-prices-will-lead-to-recession",
+      "publishedAt": "2026-03-17T14:04:21Z"
+    },
+    {
+      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
+      "publishedAt": "2026-03-16T16:15:01Z"
+    },
+    {
+      "title": "Oil company shares soar to all-time highs as Middle East war turbocharges price per barrel",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/15/oil-company-shares-soar-to-all-time-highs-as-middle-east-war-turbocharges-price-per-barrel",
+      "publishedAt": "2026-03-15T16:59:32Z"
     }
   ]
 }

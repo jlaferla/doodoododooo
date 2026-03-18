@@ -1,13 +1,7 @@
 {
-  "fetchedAt": "2026-03-18T18:58:32.515Z",
+  "fetchedAt": "2026-03-18T19:03:59.759Z",
   "currency": "AUD",
   "articles": [
-    {
-      "title": "Trump nominee Markwayne Mullin grilled by senators at DHS confirmation hearing – live",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/live/2026/mar/18/donald-trump-iran-war-markwayne-mullin-security-immigration-intelligence-federal-reserve-interest-rates-latest-news-updates",
-      "publishedAt": "2026-03-18T18:39:45Z"
-    },
     {
       "title": "Rolls-Royce scraps goal to go all-electric by 2030",
       "source": "The Guardian",
@@ -21,16 +15,22 @@
       "publishedAt": "2026-03-18T16:44:46Z"
     },
     {
-      "title": "Where have all the designers gone? Australia’s fashion brain drain",
+      "title": "Australian households fear double whammy of rate hikes and higher petrol prices will lead to recession",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/fashion/2026/mar/18/australian-fashion-designers-brain-drain",
-      "publishedAt": "2026-03-18T14:00:43Z"
+      "url": "https://www.theguardian.com/business/2026/mar/17/australian-households-fear-double-whammy-of-rate-hikes-and-higher-petrol-prices-will-lead-to-recession",
+      "publishedAt": "2026-03-17T14:04:21Z"
     },
     {
-      "title": "Damning audit finds NSW prison programs have ‘little to no impact’ on reoffending rates for Indigenous people",
+      "title": "Chris Bowen declares rush on jerry cans ‘un-Australian’ as he urges end to panic buying of petrol",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/mar/19/indigenous-people-prison-programs-no-impact-reoffending-ntwnfb",
-      "publishedAt": "2026-03-18T14:00:42Z"
+      "url": "https://www.theguardian.com/australia-news/2026/mar/17/australia-petrol-panic-buying-jerry-cans",
+      "publishedAt": "2026-03-17T04:05:25Z"
+    },
+    {
+      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
+      "publishedAt": "2026-03-16T16:15:01Z"
     }
   ]
 }

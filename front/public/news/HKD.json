@@ -1,13 +1,7 @@
 {
-  "fetchedAt": "2026-03-18T18:58:36.121Z",
+  "fetchedAt": "2026-03-18T19:04:02.824Z",
   "currency": "HKD",
   "articles": [
-    {
-      "title": "Trump nominee Markwayne Mullin grilled by senators at DHS confirmation hearing – live",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/live/2026/mar/18/donald-trump-iran-war-markwayne-mullin-security-immigration-intelligence-federal-reserve-interest-rates-latest-news-updates",
-      "publishedAt": "2026-03-18T18:39:45Z"
-    },
     {
       "title": "Rolls-Royce scraps goal to go all-electric by 2030",
       "source": "The Guardian",
@@ -21,16 +15,22 @@
       "publishedAt": "2026-03-18T16:44:46Z"
     },
     {
-      "title": "Oscars 2027: who might be up for next year’s awards?",
+      "title": "Australian households fear double whammy of rate hikes and higher petrol prices will lead to recession",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/film/2026/mar/18/oscars-2027-early-prediction-wins",
-      "publishedAt": "2026-03-18T15:23:16Z"
+      "url": "https://www.theguardian.com/business/2026/mar/17/australian-households-fear-double-whammy-of-rate-hikes-and-higher-petrol-prices-will-lead-to-recession",
+      "publishedAt": "2026-03-17T14:04:21Z"
     },
     {
-      "title": "Damning audit finds NSW prison programs have ‘little to no impact’ on reoffending rates for Indigenous people",
+      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/mar/19/indigenous-people-prison-programs-no-impact-reoffending-ntwnfb",
-      "publishedAt": "2026-03-18T14:00:42Z"
+      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
+      "publishedAt": "2026-03-16T16:15:01Z"
+    },
+    {
+      "title": "Chinese-owned Syngenta to build new £100m bioscience hub in UK",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/16/syngenta-china-new-bioscience-hub-uk",
+      "publishedAt": "2026-03-16T15:41:29Z"
     }
   ]
 }

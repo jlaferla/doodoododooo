@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-03-18T18:58:37.210Z",
+  "fetchedAt": "2026-03-18T19:04:03.723Z",
   "currency": "ILS",
   "articles": [
     {
-      "title": "Middle East crisis live: Israel strike on Iranian gas field reportedly coordinated with US; Tehran confirms intelligence minister killed ",
+      "title": "War in Middle East has ‘heightened the risks to the global economy’; markets in ‘panic mode’ as oil jumps and shares fall – as it happened",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/live/2026/mar/18/iran-war-live-updates-oil-prices-hormuz-trump-larijani-key-leader-killed-israel-strikes",
-      "publishedAt": "2026-03-18T18:48:26Z"
+      "url": "https://www.theguardian.com/business/live/2026/mar/18/oil-stock-markets-iraq-deal-exports-turkey-inflation-central-bankers-news-updates",
+      "publishedAt": "2026-03-18T16:44:46Z"
     },
     {
-      "title": "Trump nominee Markwayne Mullin grilled by senators at DHS confirmation hearing – live",
+      "title": "Oil and gas prices rise again after Iran attacks production facilities ",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/live/2026/mar/18/donald-trump-iran-war-markwayne-mullin-security-immigration-intelligence-federal-reserve-interest-rates-latest-news-updates",
-      "publishedAt": "2026-03-18T18:39:45Z"
+      "url": "https://www.theguardian.com/business/2026/mar/17/oil-gas-prices-rise-iran-us-israel-war-brent-crude-uae-strikes",
+      "publishedAt": "2026-03-17T18:59:53Z"
     },
     {
-      "title": "Canada in push for joint G7 and Middle East effort to de-escalate Iran war",
+      "title": "Australian households fear double whammy of rate hikes and higher petrol prices will lead to recession",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/mar/18/canada-in-push-for-joint-g7-and-middle-east-effort-to-de-escalating-iran-war",
-      "publishedAt": "2026-03-18T18:38:09Z"
+      "url": "https://www.theguardian.com/business/2026/mar/17/australian-households-fear-double-whammy-of-rate-hikes-and-higher-petrol-prices-will-lead-to-recession",
+      "publishedAt": "2026-03-17T14:04:21Z"
     },
     {
-      "title": "US and Israel’s strategy to kill Iran’s top figures may prove counterproductive",
+      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/mar/18/us-and-israel-strategy-to-kill-irans-top-figures-may-prove-counterproductive",
-      "publishedAt": "2026-03-18T18:27:24Z"
+      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
+      "publishedAt": "2026-03-16T16:15:01Z"
     },
     {
-      "title": "As Trump shows lack of direction on Iran, even Badenoch distances herself",
+      "title": "Oil company shares soar to all-time highs as Middle East war turbocharges price per barrel",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/mar/18/as-trump-shows-lack-of-direction-on-iran-even-badenoch-distances-herself",
-      "publishedAt": "2026-03-18T18:19:18Z"
+      "url": "https://www.theguardian.com/business/2026/mar/15/oil-company-shares-soar-to-all-time-highs-as-middle-east-war-turbocharges-price-per-barrel",
+      "publishedAt": "2026-03-15T16:59:32Z"
     }
   ]
 }

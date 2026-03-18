@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-03-18T18:58:38.639Z",
+  "fetchedAt": "2026-03-18T19:04:04.949Z",
   "currency": "KRW",
   "articles": [
     {
-      "title": "Middle East crisis live: Israel strike on Iranian gas field reportedly coordinated with US; Tehran confirms intelligence minister killed ",
+      "title": "Fuel rations and no air con: south-east Asian nations race to conserve energy",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/live/2026/mar/18/iran-war-live-updates-oil-prices-hormuz-trump-larijani-key-leader-killed-israel-strikes",
-      "publishedAt": "2026-03-18T18:48:26Z"
+      "url": "https://www.theguardian.com/world/2026/mar/18/south-east-asia-nations-conserve-energy-oil-soaring-costs",
+      "publishedAt": "2026-03-18T09:28:00Z"
     },
     {
-      "title": "Trump nominee Markwayne Mullin grilled by senators at DHS confirmation hearing – live",
+      "title": "Australian households fear double whammy of rate hikes and higher petrol prices will lead to recession",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/live/2026/mar/18/donald-trump-iran-war-markwayne-mullin-security-immigration-intelligence-federal-reserve-interest-rates-latest-news-updates",
-      "publishedAt": "2026-03-18T18:39:45Z"
+      "url": "https://www.theguardian.com/business/2026/mar/17/australian-households-fear-double-whammy-of-rate-hikes-and-higher-petrol-prices-will-lead-to-recession",
+      "publishedAt": "2026-03-17T14:04:21Z"
     },
     {
-      "title": "Iran threatens Gulf energy facilities after Israeli attack on its largest gasfield",
+      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/mar/18/iran-gulf-energy-facilities-israel-south-pars-gas-field-saudi-arabia-uae-qatar",
-      "publishedAt": "2026-03-18T16:22:01Z"
+      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
+      "publishedAt": "2026-03-16T16:15:01Z"
     },
     {
-      "title": " Tulsi Gabbard tells Senate panel US strikes on Iran are strategic success",
+      "title": "Oil company shares soar to all-time highs as Middle East war turbocharges price per barrel",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/mar/18/tulsi-gabbard-iran-war-senate-hearing",
-      "publishedAt": "2026-03-18T16:11:54Z"
+      "url": "https://www.theguardian.com/business/2026/mar/15/oil-company-shares-soar-to-all-time-highs-as-middle-east-war-turbocharges-price-per-barrel",
+      "publishedAt": "2026-03-15T16:59:32Z"
     },
     {
-      "title": "Israel faces stiff Hezbollah resistance as it attempts to push deeper into Lebanon",
+      "title": "Rate rises, helium shortages, EV sales spikes: how is the disruption in Iran’s strait of Hormuz affecting Australia?",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/mar/18/fighting-intensifies-israel-hezbollah-southern-lebanon",
-      "publishedAt": "2026-03-18T15:25:19Z"
+      "url": "https://www.theguardian.com/business/2026/mar/15/rate-rises-helium-shortages-ev-sales-spikes-how-is-the-disruption-in-irans-strait-of-hormuz-affecting-australia",
+      "publishedAt": "2026-03-14T19:00:03Z"
     }
   ]
 }
