@@ -1,6 +1,7 @@
 // scripts/fetch-news.js
 // Runs daily via GitHub Actions — fetches news for each Frankfurter currency
 // and writes to public/news/{CODE}.json
+// Uses The Guardian API — free, 5000 req/day, works server-side
 
 const https = require('https');
 const fs = require('fs');
@@ -48,15 +49,25 @@ const CURRENCIES = {
   SGD: 'Singapore dollar exchange rate',
   THB: 'Thai baht exchange rate',
   TRY: 'Turkish lira exchange rate',
-  USD: 'US dollar exchange rate',
+  USD: 'US dollar Federal Reserve exchange rate',
   ZAR: 'South African rand exchange rate',
 };
 
 function fetchNews(query) {
   return new Promise((resolve, reject) => {
-    const url = `https://newsapi.org/v2/everything?q=${encodeURIComponent(query)}&language=en&sortBy=publishedAt&pageSize=5&apiKey=${API_KEY}`;
-    const options = { headers: { 'User-Agent': 'fxping.co news fetcher' } };
-    https.get(url, options, (res) => {
+    const params = new URLSearchParams({
+      q: query,
+      'api-key': API_KEY,
+      'order-by': 'newest',
+      'page-size': '5',
+      'show-fields': 'trailText',
+    });
+    const options = {
+      hostname: 'content.guardianapis.com',
+      path: `/search?${params.toString()}`,
+      headers: { 'User-Agent': 'fxping.co/1.0' },
+    };
+    https.get(options, (res) => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
@@ -78,15 +89,15 @@ async function main() {
     try {
       const data = await fetchNews(query);
 
-      if (data.status === 'ok' && data.articles?.length > 0) {
-        const articles = data.articles
-          .filter(a => a.title && a.url && !a.title.includes('[Removed]'))
+      if (data.response?.status === 'ok' && data.response.results?.length > 0) {
+        const articles = data.response.results
+          .filter(a => a.webTitle && a.webUrl)
           .slice(0, 5)
           .map(a => ({
-            title: a.title,
-            source: a.source.name,
-            url: a.url,
-            publishedAt: a.publishedAt,
+            title: a.webTitle,
+            source: 'The Guardian',
+            url: a.webUrl,
+            publishedAt: a.webPublicationDate,
           }));
 
         if (articles.length > 0) {
@@ -99,13 +110,13 @@ async function main() {
           console.log(`– ${code}: filtered to 0, keeping existing`);
         }
       } else {
-        console.log(`– ${code}: ${data.status} — ${data.message || 'no message'}`);
+        console.log(`– ${code}: ${data.response?.status || 'error'} — ${data.message || 'no results'}`);
       }
     } catch (e) {
       console.error(`✗ ${code}: ${e.message}`);
     }
 
-    await sleep(350);
+    await sleep(200);
   }
 
   console.log('Done.');
