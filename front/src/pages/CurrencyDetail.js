@@ -271,7 +271,7 @@ export default function CurrencyDetail() {
   useEffect(() => { fetchHistory(); }, [fetchHistory]);
 
   useEffect(() => {
-    fetch(`/news/${upper}.json`)
+    fetch(`https://raw.githubusercontent.com/jlaferla/doodoododooo/master/front/public/news/${upper}.json`)
       .then(r => r.ok ? r.json() : null)
       .then(data => { if (data) setNews(data); })
       .catch(() => {});
