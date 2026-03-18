@@ -1,24 +1,36 @@
 {
-  "fetchedAt": "2026-03-18T19:21:37.681Z",
+  "fetchedAt": "2026-03-18T19:31:49.096Z",
   "currency": "MXN",
   "articles": [
     {
-      "title": "Grupo Aeroportuario del Centro Norte, S.A.B. de C.V. (NASDAQ:OMAB) Q4 2025 Earnings Call Transcript",
-      "source": "insidermonkey.com",
-      "url": "https://www.insidermonkey.com/blog/grupo-aeroportuario-del-centro-norte-s-a-b-de-c-v-nasdaqomab-q4-2025-earnings-call-transcript-1703117/",
-      "publishedAt": "2026-02-25T13:20:22.000000Z"
+      "title": "Stock markets rally and US dollar dips after supreme court rules against Trump’s sweeping tariffs; Hat-trick of good UK economic news – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/feb/20/retail-sales-and-public-finances-data-to-show-state-of-british-economy-business-live",
+      "publishedAt": "2026-02-20T17:27:47Z"
     },
     {
-      "title": "Tether Officially Sunsets Support for Offshore Chinese Yuan Stablecoin CNHT",
-      "source": "financefeeds.com",
-      "url": "https://financefeeds.com/tether-officially-sunsets-support-for-offshore-chinese-yuan-stablecoin-cnht/",
-      "publishedAt": "2026-02-23T06:38:31.000000Z"
+      "title": "Thinking of trashing a small business on social media? Please, think again | Gene Marks",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/feb/08/social-media-criticism-small-businesses",
+      "publishedAt": "2026-02-08T15:00:34Z"
     },
     {
-      "title": "CZR Exchange Expands Global Access With Multi-Language and Multi-Currency Platform Upgrade",
-      "source": "manilatimes.net",
-      "url": "https://www.manilatimes.net/2026/02/21/tmt-newswire/globenewswire/czr-exchange-expands-global-access-with-multi-language-and-multi-currency-platform-upgrade/2282233",
-      "publishedAt": "2026-02-21T03:02:41.000000Z"
+      "title": "Bald eagles and Lynyrd Skynyrd: is Budweiser’s all-American Super Bowl ad serious?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/feb/05/budweiser-super-bowl-ad",
+      "publishedAt": "2026-02-05T22:28:19Z"
+    },
+    {
+      "title": "Why the white America Trump dreams of is just a fantasy",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jan/10/trump-immigration-whiteness",
+      "publishedAt": "2026-01-10T11:00:55Z"
+    },
+    {
+      "title": "Silver and other precious metals hit new peaks before falling back; oil price rises after Trump-Zelenskyy meeting – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2025/dec/29/silver-precious-metals-prices-fed-rate-cut-oil-rises-trump-zelenskyy-meeting-business-live",
+      "publishedAt": "2025-12-29T15:05:46Z"
     }
   ]
 }

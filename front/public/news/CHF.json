@@ -1,24 +1,36 @@
 {
-  "fetchedAt": "2026-03-18T19:21:32.604Z",
+  "fetchedAt": "2026-03-18T19:31:46.153Z",
   "currency": "CHF",
   "articles": [
     {
-      "title": "Deutsche Bank–Backed AllUnity Debuts Swiss Franc Stablecoin CHFAU",
-      "source": "financefeeds.com",
-      "url": "https://financefeeds.com/deutsche-bank-backed-allunity-debuts-swiss-franc/",
-      "publishedAt": "2026-02-26T17:58:41.000000Z"
+      "title": "War in Middle East has ‘heightened the risks to the global economy’; markets in ‘panic mode’ as oil jumps and shares fall – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/18/oil-stock-markets-iraq-deal-exports-turkey-inflation-central-bankers-news-updates",
+      "publishedAt": "2026-03-18T16:44:46Z"
     },
     {
-      "title": "USD/CHF Recovers After Falling to a Multi-Year Low",
-      "source": "financefeeds.com",
-      "url": "https://financefeeds.com/usd-chf-recovers-after-falling-to-a-multi-year-low/",
-      "publishedAt": "2026-03-06T11:57:29.000000Z"
+      "title": "Oil price shock likely to ‘push the UK economy into recession’; US growth revised down – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/13/uk-gdp-report-economy-growing-iran-energy-shock-rachel-reeves-us-consumer-confidence-news-updates",
+      "publishedAt": "2026-03-13T16:57:41Z"
     },
     {
-      "title": "USD/JPY, USD/CHF Forecast: Yields Back in Charge as Oil Shock Muddies Haven Trades",
-      "source": "investing.com",
-      "url": "https://www.investing.com/analysis/usdjpy-usdchf-forecast-yields-back-in-charge-as-oil-shock-muddies-haven-trades-200676503",
-      "publishedAt": "2026-03-12T06:36:00.000000Z"
+      "title": "FTSE 100 share index records biggest fall since November as Iran war drives up oil and gas prices – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/02/oil-price-us-israel-iran-war-100-dollars-a-barrel-stock-markets-drop-travel-news-updates",
+      "publishedAt": "2026-03-02T17:18:10Z"
+    },
+    {
+      "title": "France’s Engie strikes deal to buy UK Power Networks for £10.5bn",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/feb/25/frances-engie-strikes-deal-to-buy-uk-power-networks-for-105bn",
+      "publishedAt": "2026-02-25T21:43:28Z"
+    },
+    {
+      "title": "AstraZeneca boss Pascal Soriot’s pay rises to £17.7m",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/feb/24/astrazeneca-boss-pascal-soriot-pay-rise",
+      "publishedAt": "2026-02-24T14:01:54Z"
     }
   ]
 }

@@ -1,24 +1,36 @@
 {
-  "fetchedAt": "2026-03-18T19:21:33.090Z",
+  "fetchedAt": "2026-03-18T19:31:46.520Z",
   "currency": "CNY",
   "articles": [
     {
-      "title": "Yen under pressure after Takaichi report; Aussie higher on inflation",
-      "source": "economictimes.indiatimes.com",
-      "url": "https://economictimes.indiatimes.com/markets/forex/yen-under-pressure-after-takaichi-report-aussie-higher-on-inflation/articleshow/128767473.cms",
-      "publishedAt": "2026-02-25T01:53:08.000000Z"
+      "title": "Chinese-owned Syngenta to build new £100m bioscience hub in UK",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/16/syngenta-china-new-bioscience-hub-uk",
+      "publishedAt": "2026-03-16T15:41:29Z"
     },
     {
-      "title": "YANG Plunges 44% And Now The Macro Clock Is Ticking",
-      "source": "finance.yahoo.com",
-      "url": "https://finance.yahoo.com/news/yang-plunges-44-now-macro-133032808.html",
-      "publishedAt": "2026-02-23T13:30:32.000000Z"
+      "title": "Middle East war creating ‘largest supply disruption in the history of oil markets’, as Brent crude hits $100 again – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/12/stagflation-fears-escalating-iranian-war-oil-price-andrew-bailey-stability-us-jobless-claims-news-updates",
+      "publishedAt": "2026-03-12T15:51:29Z"
     },
     {
-      "title": "Middle East Conflict Escalates: Iran Threatens UAE Ports as Oil Surges Past $100",
-      "source": "thestockmarketwatch.com",
-      "url": "https://stockmarketwatch.com/stock-market-news/middle-east-conflict-escalates-iran-threatens-uae-ports-as-oil-surges-past-100/59769/",
-      "publishedAt": "2026-03-14T09:38:29.000000Z"
+      "title": "VW to cut 50,000 jobs by 2030 amid Trump tariffs and falling Chinese sales",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/10/vw-cut-jobs-trump-tariffs-chinese-sales-audi-porsche",
+      "publishedAt": "2026-03-10T11:40:02Z"
+    },
+    {
+      "title": "Trump’s Iran strikes accelerate the world’s drift from dollar dominance  | Heather Stewart",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/mar/01/trump-world-slow-drift-dollar-dominance-iran-strikes-currency",
+      "publishedAt": "2026-03-01T10:46:28Z"
+    },
+    {
+      "title": "Trump threatens ‘more powerful and obnoxious’ tariffs, amid confusion in UK and EU; Wall Street drops – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/feb/23/us-dollar-stock-markets-losses-trump-global-tariff-supreme-court-news-updates",
+      "publishedAt": "2026-02-23T17:44:39Z"
     }
   ]
 }

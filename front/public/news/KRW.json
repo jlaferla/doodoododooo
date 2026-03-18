@@ -1,24 +1,36 @@
 {
-  "fetchedAt": "2026-03-18T19:21:36.714Z",
+  "fetchedAt": "2026-03-18T19:31:48.738Z",
   "currency": "KRW",
   "articles": [
     {
-      "title": "The case for a stronger Korean won",
-      "source": "tradefinanceglobal.com",
-      "url": "https://www.tradefinanceglobal.com/posts/the-case-for-a-stronger-korean-won/",
-      "publishedAt": "2026-03-18T14:49:04.000000Z"
+      "title": "Fuel rations and no air con: south-east Asian nations race to conserve energy",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/mar/18/south-east-asia-nations-conserve-energy-oil-soaring-costs",
+      "publishedAt": "2026-03-18T09:28:00Z"
     },
     {
-      "title": "Systemic Risk: A 12-Order Cascading Analysis Of A Zero-Flow Strait Of Hormuz Closure",
-      "source": "zerohedge.com",
-      "url": "https://www.zerohedge.com/geopolitical/systemic-risk-12-order-cascading-analysis-zero-flow-strait-hormuz-closure",
-      "publishedAt": "2026-03-05T21:20:00.000000Z"
+      "title": "UK, Germany and Italy ‘working together’ to navigate commercial shipping through strait of Hormuz - as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/10/oil-price-drops-stocks-rebound-trump-iran-war-end-market-news",
+      "publishedAt": "2026-03-10T15:38:22Z"
     },
     {
-      "title": "Futures Tumble But Off Session Lows On Expectations Of Global SPR Release",
-      "source": "zerohedge.com",
-      "url": "https://www.zerohedge.com/markets/futures-tumble-session-lows-expectations-global-spr-release",
-      "publishedAt": "2026-03-09T12:38:23.000000Z"
+      "title": "Qantas hikes international air fares citing volatile oil prices from war in Middle East",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/10/qantas-hikes-international-airfares-citing-volatile-oil-prices-from-war-in-middle-east",
+      "publishedAt": "2026-03-10T07:50:22Z"
+    },
+    {
+      "title": "Why has the Iran war sparked fears of stagflation for the global economy?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/09/iran-war-oil-prices-stagflation-global-economy",
+      "publishedAt": "2026-03-10T00:01:09Z"
+    },
+    {
+      "title": "North Korean agents using AI to trick western firms into hiring them, Microsoft says",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/06/north-korean-agents-using-ai-to-trick-western-firms-into-hiring-them-microsoft-says",
+      "publishedAt": "2026-03-06T17:00:27Z"
     }
   ]
 }

@@ -1,24 +1,36 @@
 {
-  "fetchedAt": "2026-03-18T19:21:30.587Z",
+  "fetchedAt": "2026-03-18T19:31:44.987Z",
   "currency": "AUD",
   "articles": [
     {
-      "title": "AUD/USD Outlook: Australian Dollar Eyes Breakout as RBA Hawkish Tilt Meets Hormuz",
-      "source": "investing.com",
-      "url": "https://www.investing.com/analysis/audusd-outlook-australian-dollar-eyes-breakout-as-rba-hawkish-tilt-meets-hormuz-200676411",
-      "publishedAt": "2026-03-11T04:24:00.000000Z"
+      "title": "Rolls-Royce scraps goal to go all-electric by 2030",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/18/rolls-royce-scraps-all-electric-car-company",
+      "publishedAt": "2026-03-18T17:46:11Z"
     },
     {
-      "title": "AUD/USD Forecast: Australian Dollar Dumped as Fed Repricing Bites",
-      "source": "investing.com",
-      "url": "https://www.investing.com/analysis/audusd-forecast-australian-dollar-dumped-as-fed-repricing-bites-200676573",
-      "publishedAt": "2026-03-13T04:56:00.000000Z"
+      "title": "War in Middle East has ‘heightened the risks to the global economy’; markets in ‘panic mode’ as oil jumps and shares fall – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/18/oil-stock-markets-iraq-deal-exports-turkey-inflation-central-bankers-news-updates",
+      "publishedAt": "2026-03-18T16:44:46Z"
     },
     {
-      "title": "AUD Hits 3-Year High as Taiwan Bolsters Security and LG Expands Luxury Tech",
-      "source": "thestockmarketwatch.com",
-      "url": "https://stockmarketwatch.com/stock-market-news/aud-hits-3-year-high-as-taiwan-bolsters-security-and-lg-expands-luxury-tech/58556/",
-      "publishedAt": "2026-02-16T02:08:37.000000Z"
+      "title": "Australian households fear double whammy of rate hikes and higher petrol prices will lead to recession",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/17/australian-households-fear-double-whammy-of-rate-hikes-and-higher-petrol-prices-will-lead-to-recession",
+      "publishedAt": "2026-03-17T14:04:21Z"
+    },
+    {
+      "title": "Chris Bowen declares rush on jerry cans ‘un-Australian’ as he urges end to panic buying of petrol",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/mar/17/australia-petrol-panic-buying-jerry-cans",
+      "publishedAt": "2026-03-17T04:05:25Z"
+    },
+    {
+      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
+      "publishedAt": "2026-03-16T16:15:01Z"
     }
   ]
 }

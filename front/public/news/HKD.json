@@ -1,24 +1,36 @@
 {
-  "fetchedAt": "2026-03-18T19:21:34.700Z",
+  "fetchedAt": "2026-03-18T19:31:47.619Z",
   "currency": "HKD",
   "articles": [
     {
-      "title": "Middle East Conflict Escalates as Iran Strikes U.S. Assets; Japan-U.S. to Unveil ¥11 Trillion Investment",
-      "source": "thestockmarketwatch.com",
-      "url": "https://stockmarketwatch.com/stock-market-news/middle-east-conflict-escalates-as-iran-strikes-u-s-assets-japan-u-s-to-unveil-%c2%a511-trillion-investment/59893/",
-      "publishedAt": "2026-03-18T03:38:37.000000Z"
+      "title": "Rolls-Royce scraps goal to go all-electric by 2030",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/18/rolls-royce-scraps-all-electric-car-company",
+      "publishedAt": "2026-03-18T17:46:11Z"
     },
     {
-      "title": "CZR Exchange Expands Global Access With Multi-Language and Multi-Currency Platform Upgrade",
-      "source": "manilatimes.net",
-      "url": "https://www.manilatimes.net/2026/02/21/tmt-newswire/globenewswire/czr-exchange-expands-global-access-with-multi-language-and-multi-currency-platform-upgrade/2282233",
-      "publishedAt": "2026-02-21T03:02:41.000000Z"
+      "title": "War in Middle East has ‘heightened the risks to the global economy’; markets in ‘panic mode’ as oil jumps and shares fall – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/18/oil-stock-markets-iraq-deal-exports-turkey-inflation-central-bankers-news-updates",
+      "publishedAt": "2026-03-18T16:44:46Z"
     },
     {
-      "title": "Pokémon's 30th Anniversary: MemeStrategy (HKEX:2440) Launches World's First Tokenized Collectible Card Fund",
-      "source": "manilatimes.net",
-      "url": "https://www.manilatimes.net/2026/03/02/tmt-newswire/media-outreach-newswire/pokemons-30th-anniversary-memestrategy-hkex2440-launches-worlds-first-tokenized-collectible-card-fund/2290909",
-      "publishedAt": "2026-03-02T08:57:10.000000Z"
+      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
+      "publishedAt": "2026-03-16T16:15:01Z"
+    },
+    {
+      "title": "Chinese-owned Syngenta to build new £100m bioscience hub in UK",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/16/syngenta-china-new-bioscience-hub-uk",
+      "publishedAt": "2026-03-16T15:41:29Z"
+    },
+    {
+      "title": "Oil company shares soar to all-time highs as Middle East war turbocharges price per barrel",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/15/oil-company-shares-soar-to-all-time-highs-as-middle-east-war-turbocharges-price-per-barrel",
+      "publishedAt": "2026-03-15T16:59:32Z"
     }
   ]
 }

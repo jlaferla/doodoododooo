@@ -1,24 +1,36 @@
 {
-  "fetchedAt": "2026-03-18T19:21:35.774Z",
+  "fetchedAt": "2026-03-18T19:31:48.382Z",
   "currency": "JPY",
   "articles": [
     {
-      "title": "Yen Strength Explodes: Best AUD/JPY and EUR/JPY Sell Setups This Week",
-      "source": "investing.com",
-      "url": "https://www.investing.com/analysis/yen-strength-explodes-best-audjpy-and-eurjpy-sell-setups-this-week-200675053",
-      "publishedAt": "2026-02-16T05:50:00.000000Z"
+      "title": "Car park firm NCP falls into administration, putting nearly 700 jobs at risk",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/16/car-park-firm-ncp-falls-into-administration-putting-nearly-700-jobs-at-risk",
+      "publishedAt": "2026-03-16T18:01:36Z"
     },
     {
-      "title": "USD/JPY Forecast: Rate Repricing Hits Yen While Nikkei Eyes Records",
-      "source": "investing.com",
-      "url": "https://www.investing.com/analysis/usdjpy-forecast-rate-repricing-hits-yen-while-nikkei-eyes-records-200675603",
-      "publishedAt": "2026-02-25T06:40:00.000000Z"
+      "title": "How high could oil prices go – and what might the global economic fallout be?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/09/how-high-could-oil-go-and-what-might-the-global-economic-fallout-be",
+      "publishedAt": "2026-03-09T18:35:50Z"
     },
     {
-      "title": "EUR/JPY, GBP/JPY: Bearish Weekly Reversals Test Bullish Trends",
-      "source": "investing.com",
-      "url": "https://www.investing.com/analysis/eurjpy-gbpjpy-bearish-weekly-reversals-test-bullish-trends-200675048",
-      "publishedAt": "2026-02-16T08:09:00.000000Z"
+      "title": "Rachel Reeves warns fuel retailers not to make ‘excess profits’ from oil crisis; G7 ‘stands ready’ to release crude reserves – as it happens",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/09/stock-markets-plunge-oil-over-100-a-barrel-g7-emergency-oil-reserves-news-updates",
+      "publishedAt": "2026-03-09T17:32:08Z"
+    },
+    {
+      "title": "Nissan ‘says Sunderland plant could close’ if UK excluded from Made in Europe rules",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/05/nissan-sunderland-plant-could-close-if-uk-excluded-from-made-in-europe-rules-eu",
+      "publishedAt": "2026-03-05T16:11:23Z"
+    },
+    {
+      "title": "Slower UK interest rate cuts likely as some mortgage providers hike rates; oil and gas prices rising again – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/05/wizz-air-profits-warning-iran-travel-middle-east-crisis-airlines-china-diesel-gasoline-exports-news-updates",
+      "publishedAt": "2026-03-05T15:35:45Z"
     }
   ]
 }

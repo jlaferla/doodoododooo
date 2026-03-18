@@ -1,24 +1,36 @@
 {
-  "fetchedAt": "2026-03-18T19:21:34.041Z",
+  "fetchedAt": "2026-03-18T19:31:47.260Z",
   "currency": "GBP",
   "articles": [
     {
-      "title": "US Dollar Softness, Euro Resilience, and Sterling at a Crossroads",
-      "source": "investing.com",
-      "url": "https://www.investing.com/analysis/us-dollar-softness-euro-resilience-and-sterling-at-a-crossroads-200675507",
-      "publishedAt": "2026-02-23T20:20:00.000000Z"
+      "title": "War in Middle East has ‘heightened the risks to the global economy’; markets in ‘panic mode’ as oil jumps and shares fall – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/18/oil-stock-markets-iraq-deal-exports-turkey-inflation-central-bankers-news-updates",
+      "publishedAt": "2026-03-18T16:44:46Z"
     },
     {
-      "title": "GBP/USD Pauses Ahead of Bank of England Rate Decision",
-      "source": "investing.com",
-      "url": "https://www.investing.com/analysis/gbpusd-pauses-ahead-of-bank-of-england-rate-decision-200676757",
-      "publishedAt": "2026-03-17T07:40:00.000000Z"
+      "title": "Rachel Reeves reveals push for fiscal devolution to English regions, says Brexit caused damage, and admits student loan system is ‘broken’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/17/rachel-reeves-mais-lecture-ai-adoption-deeper-eu-ties-regional-growth-business-live-news-updates",
+      "publishedAt": "2026-03-17T17:44:22Z"
     },
     {
-      "title": "GBP/USD: Slide Enters 5th Consecutive Day",
-      "source": "investing.com",
-      "url": "https://www.investing.com/analysis/gbpusd-slide-enters-5th-consecutive-day-200675371",
-      "publishedAt": "2026-02-20T09:11:00.000000Z"
+      "title": "Thames Water rescue deal talks rumble on interminably but its future remains unclear | Nils Pratley",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/16/thames-water-rescue-deal-talks-rumbles-on-interminably-but-its-future-remains-unclear",
+      "publishedAt": "2026-03-16T18:56:20Z"
+    },
+    {
+      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
+      "publishedAt": "2026-03-16T16:15:01Z"
+    },
+    {
+      "title": "Oil price shock likely to ‘push the UK economy into recession’; US growth revised down – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/13/uk-gdp-report-economy-growing-iran-energy-shock-rachel-reeves-us-consumer-confidence-news-updates",
+      "publishedAt": "2026-03-13T16:57:41Z"
     }
   ]
 }

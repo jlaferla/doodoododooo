@@ -1,24 +1,36 @@
 {
-  "fetchedAt": "2026-03-18T19:21:35.206Z",
+  "fetchedAt": "2026-03-18T19:31:47.987Z",
   "currency": "INR",
   "articles": [
     {
-      "title": "RBI pitches INR-led economic collaboration",
-      "source": "ft.lk",
-      "url": "https://www.ft.lk/top-story/RBI-pitches-INR-led-economic-collaboration/26-788563",
-      "publishedAt": "2026-02-20T00:00:00.000000Z"
+      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
+      "publishedAt": "2026-03-16T16:15:01Z"
     },
     {
-      "title": "US-Israel attack on Iran rattles rupee, opens weak at 91.23",
-      "source": "thehindubusinessline.com",
-      "url": "https://www.thehindubusinessline.com/markets/forex/us-israel-attack-on-iran-rattles-rupee-as-markets-feel-heat/article70694028.ece",
-      "publishedAt": "2026-03-02T05:49:21.000000Z"
+      "title": "Oil price shock likely to ‘push the UK economy into recession’; US growth revised down – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/13/uk-gdp-report-economy-growing-iran-energy-shock-rachel-reeves-us-consumer-confidence-news-updates",
+      "publishedAt": "2026-03-13T16:57:41Z"
     },
     {
-      "title": "Rupee likely to remain volatile through March amid geopolitical tensions: Union Bank report",
-      "source": "thehindubusinessline.com",
-      "url": "https://www.thehindubusinessline.com/markets/forex/rupee-likely-to-remain-volatile-through-march-amid-geopolitical-tensions-union-bank-report/article70742533.ece",
-      "publishedAt": "2026-03-14T07:33:40.000000Z"
+      "title": "Oil prices fall and stocks rebound after Trump says Iran war could end ‘very soon’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/10/oil-prices-drop-trump-iran-war",
+      "publishedAt": "2026-03-10T09:01:13Z"
+    },
+    {
+      "title": "Brent crude hits $90 as Kuwait ‘starts cutting oil production’; shock as US economy loses 92,000 jobs in February – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/06/oil-biggest-weekly-gain-four-years-strait-of-hormuz-traffic-halt-stock-markets-dollar-imf-news-updates",
+      "publishedAt": "2026-03-06T16:44:34Z"
+    },
+    {
+      "title": "US grants waiver to allow India to buy Russian oil amid Iran war",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/us-news/2026/mar/05/us-waiver-india-russian-oil",
+      "publishedAt": "2026-03-06T09:28:32Z"
     }
   ]
 }

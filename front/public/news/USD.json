@@ -1,24 +1,36 @@
 {
-  "fetchedAt": "2026-03-18T19:21:39.491Z",
+  "fetchedAt": "2026-03-18T19:31:50.178Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "EUR/USD: US Dollar Weakness Presents Buying Opportunities",
-      "source": "investing.com",
-      "url": "https://www.investing.com/analysis/eurusd-us-dollar-weakness-presents-buying-opportunities-200675773",
-      "publishedAt": "2026-02-27T08:14:00.000000Z"
+      "title": "Rolls-Royce scraps goal to go all-electric by 2030",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/18/rolls-royce-scraps-all-electric-car-company",
+      "publishedAt": "2026-03-18T17:46:11Z"
     },
     {
-      "title": "USD/JPY Set to Resume Uptrend as US Dollar Momentum Builds",
-      "source": "investing.com",
-      "url": "https://www.investing.com/analysis/usdjpy-set-to-resume-uptrend-as-us-dollar-momentum-builds-200676028",
-      "publishedAt": "2026-03-04T09:18:00.000000Z"
+      "title": "War in Middle East has ‘heightened the risks to the global economy’; markets in ‘panic mode’ as oil jumps and shares fall – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/18/oil-stock-markets-iraq-deal-exports-turkey-inflation-central-bankers-news-updates",
+      "publishedAt": "2026-03-18T16:44:46Z"
     },
     {
-      "title": "USD/JPY, AUD/USD Outlook: US Dollar Slips as Risk Assets Rebound on Hormuz News",
-      "source": "investing.com",
-      "url": "https://www.investing.com/analysis/usdjpy-audusd-outlook-us-dollar-slips-as-risk-assets-rebound-on-hormuz-news-200676665",
-      "publishedAt": "2026-03-16T06:42:00.000000Z"
+      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
+      "publishedAt": "2026-03-16T16:15:01Z"
+    },
+    {
+      "title": "Oil company shares soar to all-time highs as Middle East war turbocharges price per barrel",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/15/oil-company-shares-soar-to-all-time-highs-as-middle-east-war-turbocharges-price-per-barrel",
+      "publishedAt": "2026-03-15T16:59:32Z"
+    },
+    {
+      "title": "AI could give us our lives back – if we don’t blow it",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/15/ai-future-of-work",
+      "publishedAt": "2026-03-15T14:00:35Z"
     }
   ]
 }
