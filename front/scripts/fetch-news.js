@@ -61,6 +61,7 @@ function fetchNews(query) {
       'order-by': 'newest',
       'page-size': '5',
       'show-fields': 'trailText',
+      'section': 'business',
     });
     const options = {
       hostname: 'content.guardianapis.com',
