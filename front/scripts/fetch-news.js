@@ -55,7 +55,8 @@ const CURRENCIES = {
 function fetchNews(query) {
   return new Promise((resolve, reject) => {
     const url = `https://newsapi.org/v2/everything?q=${encodeURIComponent(query)}&language=en&sortBy=publishedAt&pageSize=5&apiKey=${API_KEY}`;
-    https.get(url, (res) => {
+    const options = { headers: { 'User-Agent': 'fxping.co news fetcher' } };
+    https.get(url, options, (res) => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
