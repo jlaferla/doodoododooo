@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-18T19:31:47.987Z",
+  "fetchedAt": "2026-03-19T07:41:34.269Z",
   "currency": "INR",
   "articles": [
+    {
+      "title": "UK to double steel tariffs to 50% to save plants from collapse",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/19/uk-steel-tariffs-competition-peter-kyle-tata-steel-port-talbot",
+      "publishedAt": "2026-03-19T00:01:53Z"
+    },
     {
       "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/06/oil-biggest-weekly-gain-four-years-strait-of-hormuz-traffic-halt-stock-markets-dollar-imf-news-updates",
       "publishedAt": "2026-03-06T16:44:34Z"
-    },
-    {
-      "title": "US grants waiver to allow India to buy Russian oil amid Iran war",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/us-news/2026/mar/05/us-waiver-india-russian-oil",
-      "publishedAt": "2026-03-06T09:28:32Z"
     }
   ]
 }

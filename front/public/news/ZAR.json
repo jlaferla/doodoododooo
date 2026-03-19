@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-18T19:31:50.531Z",
+  "fetchedAt": "2026-03-19T07:41:36.820Z",
   "currency": "ZAR",
   "articles": [
+    {
+      "title": "Bank of England expected to leave interest rates on hold as oil and gas prices surge; UK pay growth hits five-year low– business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/19/bank-of-england-interest-rates-decision-hold-inflation-oil-gas-iran-wage-growth-slows-latest-news-updates",
+      "publishedAt": "2026-03-19T07:40:46Z"
+    },
     {
       "title": "Fuel rations and no air con: south-east Asian nations race to conserve energy",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/06/bailiffs-debt-recovery-homes-water-england-wales",
       "publishedAt": "2026-03-06T06:00:12Z"
-    },
-    {
-      "title": "South East Water fined £22.5m for ‘repeated supply failures’ in Kent and Sussex",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/05/south-east-water-fined-repeated-supply-failures-kent-sussex",
-      "publishedAt": "2026-03-05T08:31:03Z"
     }
   ]
 }

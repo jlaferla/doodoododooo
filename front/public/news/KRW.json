@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-18T19:31:48.738Z",
+  "fetchedAt": "2026-03-19T07:41:35.017Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Bank of England expected to leave interest rates on hold as oil and gas prices surge; UK pay growth hits five-year low– business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/19/bank-of-england-interest-rates-decision-hold-inflation-oil-gas-iran-wage-growth-slows-latest-news-updates",
+      "publishedAt": "2026-03-19T07:40:46Z"
+    },
     {
       "title": "Fuel rations and no air con: south-east Asian nations race to conserve energy",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/09/iran-war-oil-prices-stagflation-global-economy",
       "publishedAt": "2026-03-10T00:01:09Z"
-    },
-    {
-      "title": "North Korean agents using AI to trick western firms into hiring them, Microsoft says",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/06/north-korean-agents-using-ai-to-trick-western-firms-into-hiring-them-microsoft-says",
-      "publishedAt": "2026-03-06T17:00:27Z"
     }
   ]
 }
