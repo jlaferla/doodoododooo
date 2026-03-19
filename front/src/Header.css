@@ -163,7 +163,7 @@
 .export-menu button:hover { background: #eff6ff; color: #2563eb; }
 
 /* ── Mobile ── */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .navbar-inner {
     grid-template-columns: 1fr;
     height: auto;
@@ -267,13 +267,13 @@
 .nav-field-select option { background: #1e3a5f; }
 
 /* ── RESPONSIVE ── */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .navbar-inner  { display: none; }
   .mobile-navbar { display: block; }
 }
 
 /* Prevent iOS Safari auto-zoom on all inputs — must be 16px+ */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .tb-select, .tb-input, .nav-field-input {
     font-size: 16px;
   }
@@ -325,7 +325,7 @@
   display: flex; align-items: center; gap: .5rem; flex: 1; min-width: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .cd-nav-name { display: none; }
 }
 
@@ -427,11 +427,15 @@
 
 }
 .cd-nav-base-select:focus { outline: none; }
-@media (max-width: 768px) {
-  .cd-nav-base-select-wrap { gap: .2rem; padding: .28rem .45rem; }
+@media (max-width: 500px) {
+  .cd-nav-base-select-wrap { gap: .2rem; padding: .28rem .45rem; flex: 1; }
   .cd-nav-flag { display: none; }
   .cd-nav-base-select { font-size: .78rem; padding-right: 1.1rem; }
   .cd-nav-swap { width: 24px; height: 24px; }
+  .navbar-center { flex: 1; flex-wrap: nowrap; justify-content: center; }
+}
+@media (max-width: 379px) {
+  .mobile-nav-bar .nav-logo { display: none; }
 }
 .cd-nav-base-select option { background: #1e3a5f; color: #fff; }
 
