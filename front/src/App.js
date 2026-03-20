@@ -143,8 +143,10 @@ function ConversionUI({ darkMode, onToggleDark }) {
     ...baseCodes.filter(c => !priority.includes(c)).sort()
   ];
 
-  ReactGA.initialize('G-5RN2X8MD4P');
-  ReactGA.send('pageview');
+  if (window.location.hostname === 'fxping.co') {
+    ReactGA.initialize('G-5RN2X8MD4P');
+    ReactGA.send('pageview');
+  }
 
   // Click-outside for export menu
   useEffect(() => {
