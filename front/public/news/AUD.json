@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-03-19T07:41:31.296Z",
+  "fetchedAt": "2026-03-20T07:40:53.819Z",
   "currency": "AUD",
   "articles": [
+    {
+      "title": "Bank of England tipped to raise UK interest rates twice this year to fight inflation shock from Middle East crisis, as oil and gas prices rise – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/19/bank-of-england-interest-rates-decision-hold-inflation-oil-gas-iran-wage-growth-slows-latest-news-updates",
+      "publishedAt": "2026-03-19T16:44:42Z"
+    },
+    {
+      "title": "Bank of England holds interest rates at 3.75% and signals rise is possible within months",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/19/bank-of-england-holds-interest-rates-iran-war-inflation",
+      "publishedAt": "2026-03-19T12:27:47Z"
+    },
     {
       "title": "Rolls-Royce scraps goal to go all-electric by 2030",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/17/australian-households-fear-double-whammy-of-rate-hikes-and-higher-petrol-prices-will-lead-to-recession",
       "publishedAt": "2026-03-17T14:04:21Z"
-    },
-    {
-      "title": "Chris Bowen declares rush on jerry cans ‘un-Australian’ as he urges end to panic buying of petrol",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/mar/17/australia-petrol-panic-buying-jerry-cans",
-      "publishedAt": "2026-03-17T04:05:25Z"
-    },
-    {
-      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
-      "publishedAt": "2026-03-16T16:15:01Z"
     }
   ]
 }

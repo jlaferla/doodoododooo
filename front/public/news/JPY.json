@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-19T07:41:34.636Z",
+  "fetchedAt": "2026-03-20T07:40:56.564Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "High charges, poor service: NCP hits the skids as drivers change habits",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/20/ncp-car-park-operator-high-charges-administration-debt",
+      "publishedAt": "2026-03-20T06:00:11Z"
+    },
     {
       "title": "Car park firm NCP falls into administration, putting nearly 700 jobs at risk",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/05/nissan-sunderland-plant-could-close-if-uk-excluded-from-made-in-europe-rules-eu",
       "publishedAt": "2026-03-05T16:11:23Z"
-    },
-    {
-      "title": "Slower UK interest rate cuts likely as some mortgage providers hike rates; oil and gas prices rising again – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/05/wizz-air-profits-warning-iran-travel-middle-east-crisis-airlines-china-diesel-gasoline-exports-news-updates",
-      "publishedAt": "2026-03-05T15:35:45Z"
     }
   ]
 }

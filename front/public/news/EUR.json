@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-19T07:41:33.177Z",
+  "fetchedAt": "2026-03-20T07:40:55.364Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "High charges, poor service: NCP hits the skids as drivers change habits",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/20/ncp-car-park-operator-high-charges-administration-debt",
+      "publishedAt": "2026-03-20T06:00:11Z"
+    },
     {
       "title": "Rachel Reeves reveals push for fiscal devolution to English regions, says Brexit caused damage, and admits student loan system is ‘broken’ – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/11/oil-prices-asian-shares-rise-iea-reserve-release-business-live-news-updates",
       "publishedAt": "2026-03-11T15:15:45Z"
-    },
-    {
-      "title": "Why has the Iran war sparked fears of stagflation for the global economy?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/09/iran-war-oil-prices-stagflation-global-economy",
-      "publishedAt": "2026-03-10T00:01:09Z"
     }
   ]
 }

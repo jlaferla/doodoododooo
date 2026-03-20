@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-03-19T07:41:33.907Z",
+  "fetchedAt": "2026-03-20T07:40:55.964Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "Bank of England tipped to raise UK interest rates twice this year to fight inflation shock from Middle East crisis, as oil and gas prices rise – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/19/bank-of-england-interest-rates-decision-hold-inflation-oil-gas-iran-wage-growth-slows-latest-news-updates",
+      "publishedAt": "2026-03-19T16:44:42Z"
+    },
+    {
+      "title": "Oil and gas prices jump after Iran and Israel attack gasfields",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump",
+      "publishedAt": "2026-03-19T14:21:54Z"
+    },
+    {
+      "title": "Bank of England holds interest rates at 3.75% and signals rise is possible within months",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/19/bank-of-england-holds-interest-rates-iran-war-inflation",
+      "publishedAt": "2026-03-19T12:27:47Z"
+    },
     {
       "title": "Rolls-Royce scraps goal to go all-electric by 2030",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/18/oil-stock-markets-iraq-deal-exports-turkey-inflation-central-bankers-news-updates",
       "publishedAt": "2026-03-18T16:44:46Z"
-    },
-    {
-      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
-      "publishedAt": "2026-03-16T16:15:01Z"
-    },
-    {
-      "title": "Chinese-owned Syngenta to build new £100m bioscience hub in UK",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/16/syngenta-china-new-bioscience-hub-uk",
-      "publishedAt": "2026-03-16T15:41:29Z"
-    },
-    {
-      "title": "Oil company shares soar to all-time highs as Middle East war turbocharges price per barrel",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/15/oil-company-shares-soar-to-all-time-highs-as-middle-east-war-turbocharges-price-per-barrel",
-      "publishedAt": "2026-03-15T16:59:32Z"
     }
   ]
 }

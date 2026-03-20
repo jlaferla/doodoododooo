@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-03-19T07:41:36.465Z",
+  "fetchedAt": "2026-03-20T07:40:58.069Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "Bank of England tipped to raise UK interest rates twice this year to fight inflation shock from Middle East crisis, as oil and gas prices rise – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/19/bank-of-england-interest-rates-decision-hold-inflation-oil-gas-iran-wage-growth-slows-latest-news-updates",
+      "publishedAt": "2026-03-19T16:44:42Z"
+    },
+    {
+      "title": "Bank of England holds interest rates at 3.75% and signals rise is possible within months",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/19/bank-of-england-holds-interest-rates-iran-war-inflation",
+      "publishedAt": "2026-03-19T12:27:47Z"
+    },
     {
       "title": "Rolls-Royce scraps goal to go all-electric by 2030",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
       "publishedAt": "2026-03-16T16:15:01Z"
-    },
-    {
-      "title": "Oil company shares soar to all-time highs as Middle East war turbocharges price per barrel",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/15/oil-company-shares-soar-to-all-time-highs-as-middle-east-war-turbocharges-price-per-barrel",
-      "publishedAt": "2026-03-15T16:59:32Z"
-    },
-    {
-      "title": "AI could give us our lives back – if we don’t blow it",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/15/ai-future-of-work",
-      "publishedAt": "2026-03-15T14:00:35Z"
     }
   ]
 }

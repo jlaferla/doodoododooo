@@ -1,12 +1,24 @@
 {
-  "fetchedAt": "2026-03-19T07:41:36.820Z",
+  "fetchedAt": "2026-03-20T07:40:58.367Z",
   "currency": "ZAR",
   "articles": [
     {
-      "title": "Bank of England expected to leave interest rates on hold as oil and gas prices surge; UK pay growth hits five-year low– business live",
+      "title": "Bank of England tipped to raise UK interest rates twice this year to fight inflation shock from Middle East crisis, as oil and gas prices rise – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/19/bank-of-england-interest-rates-decision-hold-inflation-oil-gas-iran-wage-growth-slows-latest-news-updates",
-      "publishedAt": "2026-03-19T07:40:46Z"
+      "publishedAt": "2026-03-19T16:44:42Z"
+    },
+    {
+      "title": "Oil and gas prices jump after Iran and Israel attack gasfields",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump",
+      "publishedAt": "2026-03-19T14:21:54Z"
+    },
+    {
+      "title": "BP to sell German oil refinery as part of $20bn cost-cutting plan",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/19/bp-sell-german-oil-refinery-gelsenkirchen-klesch-group-london-hq",
+      "publishedAt": "2026-03-19T11:20:54Z"
     },
     {
       "title": "Fuel rations and no air con: south-east Asian nations race to conserve energy",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/10/oil-price-drops-stocks-rebound-trump-iran-war-end-market-news",
       "publishedAt": "2026-03-10T15:38:22Z"
-    },
-    {
-      "title": "Qantas hikes international air fares citing volatile oil prices from war in Middle East",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/10/qantas-hikes-international-airfares-citing-volatile-oil-prices-from-war-in-middle-east",
-      "publishedAt": "2026-03-10T07:50:22Z"
-    },
-    {
-      "title": "Water firms sent bailiffs to tens of thousands of homes for debts under £1,000",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/06/bailiffs-debt-recovery-homes-water-england-wales",
-      "publishedAt": "2026-03-06T06:00:12Z"
     }
   ]
 }
