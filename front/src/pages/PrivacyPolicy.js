@@ -14,7 +14,7 @@ function PrivacyPolicy() {
     <div className="legal-page">
       <div className="legal-inner">
 
-        <Link to="/" className="legal-back"><IconArrow /> Back to rates</Link>
+        <Link to="/" className="legal-back"><IconArrow /> Back to home</Link>
 
         <h1 className="legal-title">Privacy Policy</h1>
         <p className="legal-subtitle">Last updated March 2026</p>

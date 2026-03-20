@@ -173,6 +173,7 @@ function Header({
             </button>
             {burgerOpen && (
               <div className="burger-menu">
+                <Link to="/" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Currency Converter</Link>
                 <Link to="/rates" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Rates</Link>
                 <Link to={chartsLink} state={chartsState} className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Charts</Link>
                 <Link to="/fee-checker" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Fee Checker</Link>
@@ -235,6 +236,7 @@ function Header({
             </button>
             {burgerOpen && (
               <div className="burger-menu">
+                <Link to="/" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Currency Converter</Link>
                 <Link to="/rates" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Rates</Link>
                 <Link to={chartsLink} state={chartsState} className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Charts</Link>
                 <Link to="/fee-checker" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Fee Checker</Link>
