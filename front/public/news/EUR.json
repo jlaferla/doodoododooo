@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-20T07:40:55.364Z",
+  "fetchedAt": "2026-03-21T07:28:21.170Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "FTSE 100 loses all its 2026 gains as Middle East conflict hits shares, and UK borrowing costs reach highest since 2008 – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/20/demand-destruction-fears-iran-war-oil-and-gas-prices-uk-government-borrowing-jumps-latest-news-updates",
+      "publishedAt": "2026-03-20T17:26:56Z"
+    },
     {
       "title": "High charges, poor service: NCP hits the skids as drivers change habits",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/13/uk-gdp-report-economy-growing-iran-energy-shock-rachel-reeves-us-consumer-confidence-news-updates",
       "publishedAt": "2026-03-13T16:57:41Z"
-    },
-    {
-      "title": "World’s energy watchdog orders emergency release of 400m barrels of oil to curb prices – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/11/oil-prices-asian-shares-rise-iea-reserve-release-business-live-news-updates",
-      "publishedAt": "2026-03-11T15:15:45Z"
     }
   ]
 }

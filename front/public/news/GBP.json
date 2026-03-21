@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-03-20T07:40:55.664Z",
+  "fetchedAt": "2026-03-21T07:28:21.480Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "FTSE 100 loses all its 2026 gains as Middle East conflict hits shares, and UK borrowing costs reach highest since 2008 – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/20/demand-destruction-fears-iran-war-oil-and-gas-prices-uk-government-borrowing-jumps-latest-news-updates",
+      "publishedAt": "2026-03-20T17:26:56Z"
+    },
+    {
+      "title": "UK borrowing costs hit highest since 2008 as markets expect up to three interest rate rises",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/20/uk-borrowing-rises-unexpectedly-in-february",
+      "publishedAt": "2026-03-20T15:58:06Z"
+    },
     {
       "title": "Bank of England holds interest rates at 3.75% and signals rise is possible within months",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/17/rachel-reeves-mais-lecture-ai-adoption-deeper-eu-ties-regional-growth-business-live-news-updates",
       "publishedAt": "2026-03-17T17:44:22Z"
-    },
-    {
-      "title": "Thames Water rescue deal talks rumble on interminably but its future remains unclear | Nils Pratley",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/16/thames-water-rescue-deal-talks-rumbles-on-interminably-but-its-future-remains-unclear",
-      "publishedAt": "2026-03-16T18:56:20Z"
-    },
-    {
-      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
-      "publishedAt": "2026-03-16T16:15:01Z"
     }
   ]
 }
