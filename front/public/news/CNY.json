@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-21T07:28:20.856Z",
+  "fetchedAt": "2026-03-22T07:33:34.428Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "‘It’s stupid’: why western carmakers’ retreat from electric risks dooming them to irrelevance",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/21/west-carmakers-retreat-electric-vehicle-risks-irrelevance-iran-war-evs-china",
+      "publishedAt": "2026-03-21T12:00:52Z"
+    },
     {
       "title": "Chinese-owned Syngenta to build new £100m bioscience hub in UK",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/mar/01/trump-world-slow-drift-dollar-dominance-iran-strikes-currency",
       "publishedAt": "2026-03-01T10:46:28Z"
-    },
-    {
-      "title": "Trump threatens ‘more powerful and obnoxious’ tariffs, amid confusion in UK and EU; Wall Street drops – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/feb/23/us-dollar-stock-markets-losses-trump-global-tariff-supreme-court-news-updates",
-      "publishedAt": "2026-02-23T17:44:39Z"
     }
   ]
 }

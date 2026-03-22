@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-21T07:28:22.406Z",
+  "fetchedAt": "2026-03-22T07:33:35.968Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "‘It’s stupid’: why western carmakers’ retreat from electric risks dooming them to irrelevance",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/21/west-carmakers-retreat-electric-vehicle-risks-irrelevance-iran-war-evs-china",
+      "publishedAt": "2026-03-21T12:00:52Z"
+    },
     {
       "title": "High charges, poor service: NCP hits the skids as drivers change habits",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/09/stock-markets-plunge-oil-over-100-a-barrel-g7-emergency-oil-reserves-news-updates",
       "publishedAt": "2026-03-09T17:32:08Z"
-    },
-    {
-      "title": "Nissan ‘says Sunderland plant could close’ if UK excluded from Made in Europe rules",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/05/nissan-sunderland-plant-could-close-if-uk-excluded-from-made-in-europe-rules-eu",
-      "publishedAt": "2026-03-05T16:11:23Z"
     }
   ]
 }

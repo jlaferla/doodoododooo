@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-21T07:28:21.797Z",
+  "fetchedAt": "2026-03-22T07:33:35.361Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "US interest in electric vehicles surges as gas prices jump amid Iran war",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/21/us-gas-price-surge-iran-electric-cars",
+      "publishedAt": "2026-03-21T11:00:51Z"
+    },
     {
       "title": "FTSE 100 loses all its 2026 gains as Middle East conflict hits shares, and UK borrowing costs reach highest since 2008 – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump",
       "publishedAt": "2026-03-19T14:21:54Z"
-    },
-    {
-      "title": "Bank of England holds interest rates at 3.75% and signals rise is possible within months",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/19/bank-of-england-holds-interest-rates-iran-war-inflation",
-      "publishedAt": "2026-03-19T12:27:47Z"
     }
   ]
 }
