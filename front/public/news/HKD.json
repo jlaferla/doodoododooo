@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-22T07:33:35.361Z",
+  "fetchedAt": "2026-03-23T07:57:33.596Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "Stock markets rocked by Trump’s Iran ultimatum, as UK economy faces growth hit – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
+      "publishedAt": "2026-03-23T07:57:21Z"
+    },
     {
       "title": "US interest in electric vehicles surges as gas prices jump amid Iran war",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/19/bank-of-england-interest-rates-decision-hold-inflation-oil-gas-iran-wage-growth-slows-latest-news-updates",
       "publishedAt": "2026-03-19T16:44:42Z"
-    },
-    {
-      "title": "Oil and gas prices jump after Iran and Israel attack gasfields",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump",
-      "publishedAt": "2026-03-19T14:21:54Z"
     }
   ]
 }

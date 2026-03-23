@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-22T07:33:35.054Z",
+  "fetchedAt": "2026-03-23T07:57:33.258Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "Stock markets rocked by Trump’s Iran ultimatum, as UK economy faces growth hit – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
+      "publishedAt": "2026-03-23T07:57:21Z"
+    },
     {
       "title": "FTSE 100 loses all its 2026 gains as Middle East conflict hits shares, and UK borrowing costs reach highest since 2008 – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/18/oil-stock-markets-iraq-deal-exports-turkey-inflation-central-bankers-news-updates",
       "publishedAt": "2026-03-18T16:44:46Z"
-    },
-    {
-      "title": "Rachel Reeves reveals push for fiscal devolution to English regions, says Brexit caused damage, and admits student loan system is ‘broken’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/17/rachel-reeves-mais-lecture-ai-adoption-deeper-eu-ties-regional-growth-business-live-news-updates",
-      "publishedAt": "2026-03-17T17:44:22Z"
     }
   ]
 }

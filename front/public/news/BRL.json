@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-22T07:33:33.517Z",
+  "fetchedAt": "2026-03-23T07:57:31.580Z",
   "currency": "BRL",
   "articles": [
+    {
+      "title": "It’s time to take politics out of the Small Business Administration",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/22/small-business-administration-immigrants-political",
+      "publishedAt": "2026-03-22T14:00:23Z"
+    },
     {
       "title": "Oil price shock likely to ‘push the UK economy into recession’; US growth revised down – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/australia-news/2026/feb/02/real-estate-agents-in-australia-using-apps-that-leave-millions-of-lease-documents-at-risk-digital-researcher-says",
       "publishedAt": "2026-02-01T14:00:32Z"
-    },
-    {
-      "title": "Twelve top central bankers defend Fed’s Jerome Powell over DoJ investigation; oil hits two-month high as Trump threatens Iran’s trading partners – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jan/13/oil-price-trump-iran-trading-partners-tariffs-supreme-court-business-live-news-updates",
-      "publishedAt": "2026-01-13T15:16:20Z"
     }
   ]
 }

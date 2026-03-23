@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-22T07:33:35.665Z",
+  "fetchedAt": "2026-03-23T07:57:33.926Z",
   "currency": "INR",
   "articles": [
+    {
+      "title": "Stock markets rocked by Trump’s Iran ultimatum, as UK economy faces growth hit – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
+      "publishedAt": "2026-03-23T07:57:21Z"
+    },
     {
       "title": "UK to double steel tariffs to 50% to save plants from collapse",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/10/oil-prices-drop-trump-iran-war",
       "publishedAt": "2026-03-10T09:01:13Z"
-    },
-    {
-      "title": "Brent crude hits $90 as Kuwait ‘starts cutting oil production’; shock as US economy loses 92,000 jobs in February – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/06/oil-biggest-weekly-gain-four-years-strait-of-hormuz-traffic-halt-stock-markets-dollar-imf-news-updates",
-      "publishedAt": "2026-03-06T16:44:34Z"
     }
   ]
 }

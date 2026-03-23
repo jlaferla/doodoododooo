@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-22T07:33:36.872Z",
+  "fetchedAt": "2026-03-23T07:57:35.262Z",
   "currency": "SGD",
   "articles": [
+    {
+      "title": "Stock markets rocked by Trump’s Iran ultimatum, as UK economy faces growth hit – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
+      "publishedAt": "2026-03-23T07:57:21Z"
+    },
     {
       "title": "FTSE 100 loses all its 2026 gains as Middle East conflict hits shares, and UK borrowing costs reach highest since 2008 – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/19/bank-of-england-holds-interest-rates-iran-war-inflation",
       "publishedAt": "2026-03-19T12:27:47Z"
-    },
-    {
-      "title": "Rolls-Royce scraps goal to go all-electric by 2030",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/18/rolls-royce-scraps-all-electric-car-company",
-      "publishedAt": "2026-03-18T17:46:11Z"
     }
   ]
 }

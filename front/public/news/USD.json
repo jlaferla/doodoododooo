@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-03-22T07:33:37.477Z",
+  "fetchedAt": "2026-03-23T07:57:35.952Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "Stock markets rocked by Trump’s Iran ultimatum, as UK economy faces growth hit – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
+      "publishedAt": "2026-03-23T07:57:21Z"
+    },
+    {
+      "title": "Starmer adviser urges ministers to look at profits cap for energy and petrol firms",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/money/2026/mar/22/starmer-adviser-richard-walker-profits-cap-energy-petrol-firms",
+      "publishedAt": "2026-03-23T00:02:57Z"
+    },
+    {
+      "title": "It’s time to take politics out of the Small Business Administration",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/22/small-business-administration-immigrants-political",
+      "publishedAt": "2026-03-22T14:00:23Z"
+    },
     {
       "title": "FTSE 100 loses all its 2026 gains as Middle East conflict hits shares, and UK borrowing costs reach highest since 2008 – as it happened",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/20/uk-borrowing-rises-unexpectedly-in-february",
       "publishedAt": "2026-03-20T15:58:06Z"
-    },
-    {
-      "title": "Bank of England tipped to raise UK interest rates twice this year to fight inflation shock from Middle East crisis, as oil and gas prices rise – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/19/bank-of-england-interest-rates-decision-hold-inflation-oil-gas-iran-wage-growth-slows-latest-news-updates",
-      "publishedAt": "2026-03-19T16:44:42Z"
-    },
-    {
-      "title": "Bank of England holds interest rates at 3.75% and signals rise is possible within months",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/19/bank-of-england-holds-interest-rates-iran-war-inflation",
-      "publishedAt": "2026-03-19T12:27:47Z"
-    },
-    {
-      "title": "Rolls-Royce scraps goal to go all-electric by 2030",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/18/rolls-royce-scraps-all-electric-car-company",
-      "publishedAt": "2026-03-18T17:46:11Z"
     }
   ]
 }
