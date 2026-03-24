@@ -6,6 +6,7 @@ import time
 import os
 import psycopg2
 import psycopg2.extras
+import psycopg2.pool
 from datetime import datetime, timedelta
 from apscheduler.schedulers.background import BackgroundScheduler
 
@@ -19,15 +20,34 @@ exchange_data = {}
 # Database helpers
 # ─────────────────────────────────────────
 
+_pool = None
+
+def init_pool():
+    """Create a persistent connection pool at startup."""
+    global _pool
+    database_url = os.environ.get("DATABASE_URL", "")
+    if not database_url:
+        return
+    if database_url.startswith("postgres://"):
+        database_url = database_url.replace("postgres://", "postgresql://", 1)
+    _pool = psycopg2.pool.SimpleConnectionPool(1, 5, database_url)
+    print("Connection pool initialised.")
+
 def get_db():
-    """Return a new Postgres connection using the DATABASE_URL env var set by Heroku."""
+    """Return a connection from the pool (or a fresh one if pool unavailable)."""
+    if _pool:
+        return _pool.getconn()
     database_url = os.environ.get("DATABASE_URL")
     if not database_url:
         raise RuntimeError("DATABASE_URL environment variable is not set.")
-    # Heroku sometimes returns postgres:// but psycopg2 needs postgresql://
     if database_url.startswith("postgres://"):
         database_url = database_url.replace("postgres://", "postgresql://", 1)
     return psycopg2.connect(database_url)
+
+def return_db(conn):
+    """Return a connection to the pool."""
+    if _pool and conn:
+        _pool.putconn(conn)
 
 
 def init_db():
@@ -45,7 +65,7 @@ def init_db():
         """)
         conn.commit()
         cur.close()
-        conn.close()
+        return_db(conn)
         print("Database initialised.")
     except Exception as e:
         print("Database init error:", e)
@@ -87,7 +107,7 @@ def store_daily_rates():
 
         conn.commit()
         cur.close()
-        conn.close()
+        return_db(conn)
         print(f"store_daily_rates: stored {len(rows)} rates for {today}.")
     except Exception as e:
         print("store_daily_rates error:", e)
@@ -153,10 +173,10 @@ def get_historical_rates():
     try:
         conn = get_db()
         cur = conn.cursor()
-        cur.execute("SELECT currency, rate FROM daily_rates WHERE date::date = %s", (date_str,))
+        cur.execute("SELECT currency, rate FROM daily_rates WHERE date = %s::date", (date_str,))
         rows = cur.fetchall()
         cur.close()
-        conn.close()
+        return_db(conn)
     except RuntimeError as e:
         return jsonify({"error": str(e)}), 503
     except Exception as e:
@@ -210,7 +230,7 @@ def get_history():
 
         rows = cur.fetchall()
         cur.close()
-        conn.close()
+        return_db(conn)
 
         # Organise into {date: {currency: rate}}
         by_date = {}
@@ -256,6 +276,7 @@ if __name__ == '__main__':
 
     # Initialise DB table (no-op if already exists)
     if os.environ.get("DATABASE_URL"):
+        init_pool()
         init_db()
         store_daily_rates()  # Store today's rates immediately on boot
 

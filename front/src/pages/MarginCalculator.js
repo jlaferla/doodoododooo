@@ -289,13 +289,13 @@ export default function MarginCalculator() {
                 <div className="mc-stats-row">
                   <div className="mc-stat">
                     <span className="mc-stat-label">Mid-market rate</span>
-                    <span className="mc-stat-value">{result.midRate.toFixed(3)}</span>
-                    <span className="mc-stat-sub">1 {sendCurrency} = {result.midRate.toFixed(3)} {recvCurrency}</span>
+                    <span className="mc-stat-value">{result.midRate.toFixed(4)}</span>
+                    <span className="mc-stat-sub">1 {sendCurrency} = {result.midRate.toFixed(4)} {recvCurrency}</span>
                   </div>
                   <div className="mc-stat">
                     <span className="mc-stat-label">Your rate</span>
-                    <span className="mc-stat-value">{result.impliedRate.toFixed(3)}</span>
-                    <span className="mc-stat-sub">1 {sendCurrency} = {result.impliedRate.toFixed(3)} {recvCurrency}</span>
+                    <span className="mc-stat-value">{result.impliedRate.toFixed(4)}</span>
+                    <span className="mc-stat-sub">1 {sendCurrency} = {result.impliedRate.toFixed(4)} {recvCurrency}</span>
                   </div>
                   <div className="mc-stat">
                     <span className="mc-stat-label">Estimated margin</span>
