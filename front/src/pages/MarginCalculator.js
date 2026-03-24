@@ -20,7 +20,7 @@ export default function MarginCalculator() {
   const [rates, setRates]             = useState({});
   const [loading, setLoading]         = useState(true);
   const [fetchError, setFetchError]   = useState(null);
-  const [selectedDate, setSelectedDate] = useState(''); // '' = live rates
+  const [selectedDate, setSelectedDate] = useState(() => new Date().toISOString().slice(0, 10));
 
   const [sendAmount, setSendAmount]     = useState('1000');
   const [sendCurrency, setSendCurrency] = useState('USD');
@@ -212,8 +212,8 @@ export default function MarginCalculator() {
             max={new Date().toISOString().slice(0, 10)}
             onChange={e => setSelectedDate(e.target.value)}
           />
-          {selectedDate && (
-            <button className="mc-date-clear" onClick={() => setSelectedDate('')} title="Use live rates">
+          {selectedDate !== new Date().toISOString().slice(0, 10) && (
+            <button className="mc-date-clear" onClick={() => setSelectedDate(new Date().toISOString().slice(0, 10))} title="Use live rates">
               Live rates
             </button>
           )}

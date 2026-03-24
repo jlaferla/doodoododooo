@@ -90,17 +90,24 @@ def store_daily_rates():
             print("store_daily_rates: no rates available.")
             return
 
-        today = datetime.utcnow().date()
+        # Use the date the API says the rates are for, not the current clock date.
+        # This prevents storing yesterday's rates under today's date on early dyno restarts.
+        rate_timestamp = exchange_data.get("time_last_update_unix")
+        if rate_timestamp:
+            rate_date = datetime.utcfromtimestamp(rate_timestamp).date()
+        else:
+            rate_date = datetime.utcnow().date()
+
         conn = get_db()
         cur = conn.cursor()
 
-        rows = [(today, currency, rate) for currency, rate in rates.items()]
+        rows = [(rate_date, currency, rate) for currency, rate in rates.items()]
         psycopg2.extras.execute_values(
             cur,
             """
             INSERT INTO daily_rates (date, currency, rate)
             VALUES %s
-            ON CONFLICT (date, currency) DO NOTHING
+            ON CONFLICT (date, currency) DO UPDATE SET rate = EXCLUDED.rate
             """,
             rows
         )
@@ -108,7 +115,7 @@ def store_daily_rates():
         conn.commit()
         cur.close()
         return_db(conn)
-        print(f"store_daily_rates: stored {len(rows)} rates for {today}.")
+        print(f"store_daily_rates: stored {len(rows)} rates for {rate_date}.")
     except Exception as e:
         print("store_daily_rates error:", e)
 
