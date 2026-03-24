@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-23T07:57:34.596Z",
+  "fetchedAt": "2026-03-24T07:50:23.126Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Dow Jones Industrial Average posts best day since early February as hopes of Middle East de-escalation lift markets – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
+      "publishedAt": "2026-03-23T20:17:23Z"
+    },
     {
       "title": "Bank of England tipped to raise UK interest rates twice this year to fight inflation shock from Middle East crisis, as oil and gas prices rise – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/mar/18/south-east-asia-nations-conserve-energy-oil-soaring-costs",
       "publishedAt": "2026-03-18T09:28:00Z"
-    },
-    {
-      "title": "UK, Germany and Italy ‘working together’ to navigate commercial shipping through strait of Hormuz - as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/10/oil-price-drops-stocks-rebound-trump-iran-war-end-market-news",
-      "publishedAt": "2026-03-10T15:38:22Z"
     }
   ]
 }

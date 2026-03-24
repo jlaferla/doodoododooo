@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-23T07:57:32.589Z",
+  "fetchedAt": "2026-03-24T07:50:21.073Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "Dow Jones Industrial Average posts best day since early February as hopes of Middle East de-escalation lift markets – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
+      "publishedAt": "2026-03-23T20:17:23Z"
+    },
     {
       "title": "‘It’s stupid’: why western carmakers’ retreat from electric risks dooming them to irrelevance",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/10/vw-cut-jobs-trump-tariffs-chinese-sales-audi-porsche",
       "publishedAt": "2026-03-10T11:40:02Z"
-    },
-    {
-      "title": "Trump’s Iran strikes accelerate the world’s drift from dollar dominance  | Heather Stewart",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/mar/01/trump-world-slow-drift-dollar-dominance-iran-strikes-currency",
-      "publishedAt": "2026-03-01T10:46:28Z"
     }
   ]
 }

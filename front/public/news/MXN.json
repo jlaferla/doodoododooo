@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-23T07:57:34.927Z",
+  "fetchedAt": "2026-03-24T07:50:23.467Z",
   "currency": "MXN",
   "articles": [
+    {
+      "title": "Dow Jones Industrial Average posts best day since early February as hopes of Middle East de-escalation lift markets – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
+      "publishedAt": "2026-03-23T20:17:23Z"
+    },
     {
       "title": "Stock markets rally and US dollar dips after supreme court rules against Trump’s sweeping tariffs; Hat-trick of good UK economic news – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jan/10/trump-immigration-whiteness",
       "publishedAt": "2026-01-10T11:00:55Z"
-    },
-    {
-      "title": "Silver and other precious metals hit new peaks before falling back; oil price rises after Trump-Zelenskyy meeting – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2025/dec/29/silver-precious-metals-prices-fed-rate-cut-oil-rises-trump-zelenskyy-meeting-business-live",
-      "publishedAt": "2025-12-29T15:05:46Z"
     }
   ]
 }

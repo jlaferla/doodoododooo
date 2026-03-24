@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-23T07:57:32.928Z",
+  "fetchedAt": "2026-03-24T07:50:21.405Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "Dow Jones Industrial Average posts best day since early February as hopes of Middle East de-escalation lift markets – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
+      "publishedAt": "2026-03-23T20:17:23Z"
+    },
     {
       "title": "FTSE 100 loses all its 2026 gains as Middle East conflict hits shares, and UK borrowing costs reach highest since 2008 – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
       "publishedAt": "2026-03-16T16:15:01Z"
-    },
-    {
-      "title": "Oil price shock likely to ‘push the UK economy into recession’; US growth revised down – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/13/uk-gdp-report-economy-growing-iran-energy-shock-rachel-reeves-us-consumer-confidence-news-updates",
-      "publishedAt": "2026-03-13T16:57:41Z"
     }
   ]
 }
