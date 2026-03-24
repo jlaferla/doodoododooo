@@ -553,6 +553,15 @@ function ScrollToTop() {
   return null;
 }
 
+function CanonicalUpdater() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    const tag = document.querySelector('link[rel="canonical"]');
+    if (tag) tag.setAttribute('href', `https://fxping.co${pathname}`);
+  }, [pathname]);
+  return null;
+}
+
 function AppRoutes() {
   const location = useLocation();
   const isLegalPage = ['/', '/about', '/privacy', '/terms', '/fee-checker'].includes(location.pathname);
@@ -565,6 +574,7 @@ function AppRoutes() {
   return (
     <>
       <ScrollToTop />
+      <CanonicalUpdater />
       {(isLegalPage || isBlogPage) && <Header simpleMode darkMode={darkMode} onToggleDark={() => setDarkMode(v => !v)} />}
       <Routes>
         <Route path="/"        element={<Converter />} />

@@ -178,6 +178,82 @@
   text-transform: uppercase;
 }
 
+/* ── Margin calculator ── */
+.cv-margin-section {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.cv-margin-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+}
+
+.cv-margin-label {
+  font-size: .8rem;
+  color: var(--text-2);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.cv-margin-input-wrap {
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+  background: var(--filter-bg);
+  border: 1px solid var(--filter-border);
+  border-radius: 8px;
+  padding: .35rem .65rem;
+}
+
+.cv-margin-input {
+  width: 56px;
+  font-size: .9rem;
+  font-weight: 600;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text);
+  background: transparent;
+  border: none;
+  outline: none;
+  text-align: right;
+}
+
+.cv-margin-input::placeholder { color: var(--border); }
+
+.cv-margin-pct {
+  font-size: .85rem;
+  font-weight: 600;
+  color: var(--text-2);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.cv-margin-breakdown {
+  margin-top: .75rem;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+
+.cv-margin-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: .8rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.cv-margin-line-label {
+  color: var(--text-2);
+}
+
+.cv-margin-line-value {
+  font-weight: 600;
+  color: var(--text);
+}
+
+
 /* ── CTAs ── */
 .cv-ctas {
   display: flex;

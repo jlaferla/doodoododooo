@@ -136,6 +136,41 @@ def get_rates():
     return jsonify(exchange_data)
 
 
+@app.route('/rates/historical', methods=['GET'])
+def get_historical_rates():
+    """
+    Returns all currency rates for a specific date.
+
+    Query params:
+      date - YYYY-MM-DD (required)
+
+    Response: { "base_code": "USD", "conversion_rates": { "EUR": 0.92, ... } }
+    """
+    date_str = request.args.get('date')
+    if not date_str:
+        return jsonify({"error": "date parameter required (YYYY-MM-DD)"}), 400
+
+    try:
+        conn = get_db()
+        cur = conn.cursor()
+        cur.execute("SELECT currency, rate FROM daily_rates WHERE date::date = %s", (date_str,))
+        rows = cur.fetchall()
+        cur.close()
+        conn.close()
+    except RuntimeError as e:
+        return jsonify({"error": str(e)}), 503
+    except Exception as e:
+        return jsonify({"error": f"Database error: {str(e)}"}), 500
+
+    if not rows:
+        return jsonify({"error": f"No data available for {date_str}"}), 404
+
+    return jsonify({
+        "base_code": "USD",
+        "conversion_rates": {row[0]: float(row[1]) for row in rows}
+    })
+
+
 @app.route('/history', methods=['GET'])
 def get_history():
     """

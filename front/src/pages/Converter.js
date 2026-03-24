@@ -107,6 +107,10 @@ export default function Converter() {
     const p = searchParams.get('amount')?.replace(/,/g, '');
     return (p && /^[0-9]+(\.[0-9]+)?$/.test(p)) ? p : '1';
   });
+  const [margin,    setMargin]    = useState(() => {
+    const p = searchParams.get('m');
+    return (p && /^[0-9]+(\.[0-9]+)?$/.test(p) && parseFloat(p) <= 100) ? p : '';
+  });
   const [loading,   setLoading]   = useState(true);
   const [error,     setError]     = useState(null);
   const [swapCount, setSwapCount] = useState(0);
@@ -141,11 +145,10 @@ export default function Converter() {
 
   // Sync state → URL (replaceState so back button isn't polluted)
   useEffect(() => {
-    setSearchParams(
-      { from: fromCcy, to: toCcy, amount: amount || '1' },
-      { replace: true }
-    );
-  }, [fromCcy, toCcy, amount]); // eslint-disable-line react-hooks/exhaustive-deps
+    const params = { from: fromCcy, to: toCcy, amount: amount || '1' };
+    if (margin) params.m = margin;
+    setSearchParams(params, { replace: true });
+  }, [fromCcy, toCcy, amount, margin]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Clip decimals when from currency changes
   useEffect(() => {
@@ -157,13 +160,16 @@ export default function Converter() {
     }
   }, [fromCcy]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const fromDp   = getDp(fromCcy);
-  const toDp     = getDp(toCcy);
-  const num      = parseFloat(amount) || 0;
-  const result   = rates[fromCcy] && rates[toCcy] && num ? num * (rates[toCcy] / rates[fromCcy]) : null;
-  const midRate  = rates[fromCcy] && rates[toCcy] ? rates[toCcy] / rates[fromCcy] : null;
-  const fromName = currencyMapping[fromCcy]?.currency;
-  const toName   = currencyMapping[toCcy]?.currency;
+  const fromDp        = getDp(fromCcy);
+  const toDp          = getDp(toCcy);
+  const num           = parseFloat(amount) || 0;
+  const result        = rates[fromCcy] && rates[toCcy] && num ? num * (rates[toCcy] / rates[fromCcy]) : null;
+  const midRate       = rates[fromCcy] && rates[toCcy] ? rates[toCcy] / rates[fromCcy] : null;
+  const fromName      = currencyMapping[fromCcy]?.currency;
+  const toName        = currencyMapping[toCcy]?.currency;
+  const marginPct      = parseFloat(margin) || 0;
+  const marginedRate   = midRate !== null && marginPct > 0 ? midRate * (1 + marginPct / 100) : null;
+  const marginedResult = result !== null && marginPct > 0 ? result * (1 + marginPct / 100) : null;
 
   const handleAmountChange = e => {
     const input = amountRef.current;
@@ -198,6 +204,16 @@ export default function Converter() {
   const handleFromChange = c => {
     setFromCcy(c);
     localStorage.setItem('fxping_base', c);
+  };
+
+  const handleMarginChange = e => {
+    const raw = e.target.value.replace(/[^0-9.]/g, '');
+    // allow at most one decimal, max 2dp, max value 100
+    const parts = raw.split('.');
+    if (parts.length > 2) return;
+    if (parts[1] !== undefined && parts[1].length > 2) return;
+    if (parseFloat(raw) > 100) return;
+    setMargin(raw);
   };
 
   // Swap icon rotates 180deg per click, smoothly alternating direction
@@ -284,6 +300,37 @@ export default function Converter() {
           <div className="cv-rate-note">
             <span>1 {fromCcy} = {midRate.toLocaleString(undefined, { minimumFractionDigits: 4, maximumFractionDigits: 4 })} {toCcy}</span>
             <span className="cv-rate-badge">Mid-market rate</span>
+          </div>
+        )}
+
+        {/* Margin calculator */}
+        {midRate !== null && (
+          <div className="cv-margin-section">
+            <div className="cv-margin-row">
+              <span className="cv-margin-label">Apply margin</span>
+              <div className="cv-margin-input-wrap">
+                <input
+                  className="cv-margin-input"
+                  type="text"
+                  inputMode="decimal"
+                  value={margin}
+                  onChange={handleMarginChange}
+                  placeholder="0"
+                  aria-label="Margin percentage"
+                />
+                <span className="cv-margin-pct">%</span>
+              </div>
+            </div>
+            {marginedResult !== null && (
+              <div className="cv-margin-breakdown">
+                <div className="cv-margin-line">
+                  <span className="cv-margin-line-label">1 {fromCcy} = {marginedRate.toLocaleString(undefined, { minimumFractionDigits: 4, maximumFractionDigits: 4 })} {toCcy}</span>
+                  <span className="cv-margin-line-value">
+                    {marginedResult.toLocaleString(undefined, { minimumFractionDigits: toDp, maximumFractionDigits: toDp })} {toCcy}
+                  </span>
+                </div>
+              </div>
+            )}
           </div>
         )}
       </div>

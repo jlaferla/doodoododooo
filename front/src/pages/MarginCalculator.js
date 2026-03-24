@@ -4,8 +4,10 @@ import currencyMapping from '../currencyMapping.json';
 import CurrencyDropdown from '../CurrencyDropdown';
 import './MarginCalculator.css';
 
-const EXCLUDED = ['ANG','BGN','FOK','GGP','HRK','IMP','JEP','KID','SLL','TVD','XDR','ZWL'];
-const PRIORITY  = ['USD','EUR','GBP','AUD','CAD','ZAR','CHF','JPY','CNY','INR','AED','SGD','HKD','NZD'];
+const EXCLUDED    = ['ANG','BGN','FOK','GGP','HRK','IMP','JEP','KID','SLL','TVD','XDR','ZWL'];
+const PRIORITY    = ['USD','EUR','GBP','AUD','CAD','ZAR','CHF','JPY','CNY','INR','AED','SGD','HKD','NZD'];
+const HEROKU_BASE = 'https://fxping-d496a549fbaa.herokuapp.com';
+const HISTORY_MIN = '2026-03-08'; // earliest date in daily_rates
 
 const IconSwap = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -18,6 +20,7 @@ export default function MarginCalculator() {
   const [rates, setRates]             = useState({});
   const [loading, setLoading]         = useState(true);
   const [fetchError, setFetchError]   = useState(null);
+  const [selectedDate, setSelectedDate] = useState(''); // '' = live rates
 
   const [sendAmount, setSendAmount]     = useState('1000');
   const [sendCurrency, setSendCurrency] = useState('USD');
@@ -79,11 +82,20 @@ export default function MarginCalculator() {
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    fetch('https://fxping-d496a549fbaa.herokuapp.com/rates')
+    setLoading(true);
+    setFetchError(null);
+    const url = selectedDate
+      ? `${HEROKU_BASE}/rates/historical?date=${selectedDate}`
+      : `${HEROKU_BASE}/rates`;
+    fetch(url)
       .then(r => r.json())
-      .then(json => { setRates(json.conversion_rates || {}); setLoading(false); })
-      .catch(() => { setFetchError('Unable to load live rates. Please try again.'); setLoading(false); });
-  }, []);
+      .then(json => {
+        if (json.error) { setFetchError(json.error); setLoading(false); return; }
+        setRates(json.conversion_rates || {});
+        setLoading(false);
+      })
+      .catch(() => { setFetchError('Unable to load rates. Please try again.'); setLoading(false); });
+  }, [selectedDate]);
 
   const sortedCodes = useMemo(() => {
     const all = Object.keys(currencyMapping).filter(c => !EXCLUDED.includes(c) && rates[c]);
@@ -189,8 +201,26 @@ export default function MarginCalculator() {
           <p className="mc-page-subtitle">Enter the amount you have sent and received to reveal the estimated fee in your exchange rate.</p>
         </div>
 
+        {/* ── Date picker ── */}
+        <div className="mc-date-row">
+          <label className="mc-date-label">Rates as of</label>
+          <input
+            type="date"
+            className="mc-date-input"
+            value={selectedDate}
+            min={HISTORY_MIN}
+            max={new Date().toISOString().slice(0, 10)}
+            onChange={e => setSelectedDate(e.target.value)}
+          />
+          {selectedDate && (
+            <button className="mc-date-clear" onClick={() => setSelectedDate('')} title="Use live rates">
+              Live rates
+            </button>
+          )}
+        </div>
+
         {fetchError && <p className="mc-error">{fetchError}</p>}
-        {loading    && <p className="mc-loading">Loading live rates…</p>}
+        {loading    && <p className="mc-loading">Loading {selectedDate ? `rates for ${selectedDate}` : 'live rates'}…</p>}
 
         {!loading && !fetchError && (
           <>
