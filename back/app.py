@@ -74,25 +74,24 @@ def init_db():
 def store_daily_rates():
     """
     Fetch today's USD-base rates and write them to Postgres.
-    Skips if today's data already exists (safe to call multiple times).
+    Always fetches fresh from the API so the date and rates are guaranteed current.
     """
     global exchange_data
     try:
-        # Use in-memory data if available, otherwise fetch fresh
-        if exchange_data and exchange_data.get("conversion_rates"):
-            rates = exchange_data["conversion_rates"]
-        else:
-            response = requests.get(EXCHANGE_API_URL, timeout=10)
-            response.raise_for_status()
-            rates = response.json().get("conversion_rates", {})
+        # Always fetch fresh so we get the correct date from the API,
+        # not stale in-memory data that may still reference yesterday.
+        response = requests.get(EXCHANGE_API_URL, timeout=10)
+        response.raise_for_status()
+        fresh = response.json()
+        exchange_data = fresh  # keep in-memory cache up to date too
+        rates = fresh.get("conversion_rates", {})
 
         if not rates:
             print("store_daily_rates: no rates available.")
             return
 
         # Use the date the API says the rates are for, not the current clock date.
-        # This prevents storing yesterday's rates under today's date on early dyno restarts.
-        rate_timestamp = exchange_data.get("time_last_update_unix")
+        rate_timestamp = fresh.get("time_last_update_unix")
         if rate_timestamp:
             rate_date = datetime.utcfromtimestamp(rate_timestamp).date()
         else:
