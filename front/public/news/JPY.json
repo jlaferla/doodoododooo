@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-24T07:50:22.766Z",
+  "fetchedAt": "2026-03-25T07:48:46.160Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "Energy price shock and interest rate rises could cause ‘pronounced’ UK recession, economist warns – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/24/brent-crude-oil-100-dollars-a-barrel-middle-east-iran-stock-markets-economic-growth-latest-news-updates",
+      "publishedAt": "2026-03-24T15:46:57Z"
+    },
     {
       "title": "‘It’s stupid’: why western carmakers’ retreat from electric risks dooming them to irrelevance",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/09/how-high-could-oil-go-and-what-might-the-global-economic-fallout-be",
       "publishedAt": "2026-03-09T18:35:50Z"
-    },
-    {
-      "title": "Rachel Reeves warns fuel retailers not to make ‘excess profits’ from oil crisis; G7 ‘stands ready’ to release crude reserves – as it happens",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/09/stock-markets-plunge-oil-over-100-a-barrel-g7-emergency-oil-reserves-news-updates",
-      "publishedAt": "2026-03-09T17:32:08Z"
     }
   ]
 }

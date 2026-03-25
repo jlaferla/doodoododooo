@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-03-24T07:50:21.737Z",
+  "fetchedAt": "2026-03-25T07:48:45.082Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "Energy price shock and interest rate rises could cause ‘pronounced’ UK recession, economist warns – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/24/brent-crude-oil-100-dollars-a-barrel-middle-east-iran-stock-markets-economic-growth-latest-news-updates",
+      "publishedAt": "2026-03-24T15:46:57Z"
+    },
+    {
+      "title": "UK manufacturers hit by sharpest rise in cost inflation since Black Wednesday in 1992",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/24/uk-manufacturers-rise-cost-inflation-pmi-oil-prices-iran-war",
+      "publishedAt": "2026-03-24T11:34:48Z"
+    },
     {
       "title": "Dow Jones Industrial Average posts best day since early February as hopes of Middle East de-escalation lift markets – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/20/uk-borrowing-rises-unexpectedly-in-february",
       "publishedAt": "2026-03-20T15:58:06Z"
-    },
-    {
-      "title": "Bank of England holds interest rates at 3.75% and signals rise is possible within months",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/19/bank-of-england-holds-interest-rates-iran-war-inflation",
-      "publishedAt": "2026-03-19T12:27:47Z"
-    },
-    {
-      "title": "War in Middle East has ‘heightened the risks to the global economy’; markets in ‘panic mode’ as oil jumps and shares fall – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/18/oil-stock-markets-iraq-deal-exports-turkey-inflation-central-bankers-news-updates",
-      "publishedAt": "2026-03-18T16:44:46Z"
     }
   ]
 }

@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-24T07:50:21.073Z",
+  "fetchedAt": "2026-03-25T07:48:44.332Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "Energy price shock and interest rate rises could cause ‘pronounced’ UK recession, economist warns – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/24/brent-crude-oil-100-dollars-a-barrel-middle-east-iran-stock-markets-economic-growth-latest-news-updates",
+      "publishedAt": "2026-03-24T15:46:57Z"
+    },
     {
       "title": "Dow Jones Industrial Average posts best day since early February as hopes of Middle East de-escalation lift markets – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/12/stagflation-fears-escalating-iranian-war-oil-price-andrew-bailey-stability-us-jobless-claims-news-updates",
       "publishedAt": "2026-03-12T15:51:29Z"
-    },
-    {
-      "title": "VW to cut 50,000 jobs by 2030 amid Trump tariffs and falling Chinese sales",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/10/vw-cut-jobs-trump-tariffs-chinese-sales-audi-porsche",
-      "publishedAt": "2026-03-10T11:40:02Z"
     }
   ]
 }

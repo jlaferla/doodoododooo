@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-24T07:50:24.465Z",
+  "fetchedAt": "2026-03-25T07:48:47.980Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "Energy price shock and interest rate rises could cause ‘pronounced’ UK recession, economist warns – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/24/brent-crude-oil-100-dollars-a-barrel-middle-east-iran-stock-markets-economic-growth-latest-news-updates",
+      "publishedAt": "2026-03-24T15:46:57Z"
+    },
     {
       "title": "Dow Jones Industrial Average posts best day since early February as hopes of Middle East de-escalation lift markets – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/23/uk-mortgage-interest-rates-markets-bank-of-england-iran-war",
       "publishedAt": "2026-03-23T13:48:05Z"
-    },
-    {
-      "title": "World’s broadcasters urge EU to tighten rules for big tech in smart TV battle",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/23/broadcasters-eu-big-tech-smart-tv-google-amazon-apple-samsung",
-      "publishedAt": "2026-03-23T13:31:06Z"
     }
   ]
 }
