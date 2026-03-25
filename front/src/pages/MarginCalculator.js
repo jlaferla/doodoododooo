@@ -279,6 +279,22 @@ export default function MarginCalculator() {
               </div>
             </div>
 
+            {/* ── Wise affiliate banner ── */}
+            {result && (
+              <div style={{ marginTop: '12px', marginBottom: '12px' }}>
+                <a href="https://wise.prf.hn/click/camref:1011l5EJVV/creativeref:1101l102638/pubref:fee-checker" rel="sponsored noopener noreferrer" target="_blank">
+                  <img
+                    src="https://wise-creative.prf.hn/source/camref:1011l5EJVV/creativeref:1101l102638"
+                    width="1456"
+                    height="180"
+                    border="0"
+                    style={{ width: '100%', height: 'auto', display: 'block' }}
+                    alt="Wise"
+                  />
+                </a>
+              </div>
+            )}
+
             {/* ── Results ── */}
             {result && (
               <div className="mc-results">

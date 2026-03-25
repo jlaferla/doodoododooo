@@ -174,7 +174,7 @@ function Header({
             {burgerOpen && (
               <div className="burger-menu">
                 <Link to="/" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Currency Converter</Link>
-                <Link to="/rates" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Rates</Link>
+                <Link to="/rates" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Rates Table</Link>
                 <Link to={chartsLink} state={chartsState} className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Charts</Link>
                 <Link to="/fee-checker" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Fee Checker</Link>
                 <Link to="/blog" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Blog</Link>
@@ -237,7 +237,7 @@ function Header({
             {burgerOpen && (
               <div className="burger-menu">
                 <Link to="/" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Currency Converter</Link>
-                <Link to="/rates" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Rates</Link>
+                <Link to="/rates" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Rates Table</Link>
                 <Link to={chartsLink} state={chartsState} className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Charts</Link>
                 <Link to="/fee-checker" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Fee Checker</Link>
                 <Link to="/blog" className="burger-item" onClick={e => { e.stopPropagation(); setBurgerOpen(false); }}>Blog</Link>

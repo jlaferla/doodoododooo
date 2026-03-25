@@ -335,6 +335,15 @@ export default function Converter() {
         )}
       </div>
 
+      {/* Wise affiliate banner — shown when margin > 0 */}
+      {marginPct > 0 && (
+        <div style={{ marginTop: '16px', marginBottom: '0', width: '100%', maxWidth: '520px' }}>
+          <a href="https://wise.prf.hn/click/camref:1011l5EJVV/creativeref:1101l102638/pubref:homepage-converter" rel="sponsored noopener noreferrer" target="_blank">
+            <img src="https://wise-creative.prf.hn/source/camref:1011l5EJVV/creativeref:1101l102638" style={{ width: '100%', height: 'auto', display: 'block' }} border="0" alt="Wise - mid-market exchange rate and fair fees" />
+          </a>
+        </div>
+      )}
+
       {/* Tools showcase */}
       <div className="cv-tools-section">
         <h2 className="cv-tools-heading">Everything FX Ping offers</h2>
