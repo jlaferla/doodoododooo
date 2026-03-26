@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-25T07:48:47.616Z",
+  "fetchedAt": "2026-03-26T07:57:27.009Z",
   "currency": "TRY",
   "articles": [
+    {
+      "title": "Crispin Odey tried to ‘manipulate’ sexual assault victim, FCA tells court",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/25/crispin-odey-tried-to-manipulate-sexual-assault-victim-fca",
+      "publishedAt": "2026-03-25T18:00:05Z"
+    },
     {
       "title": "European stock markets rally after report of ‘secret outreach’ by Iran to try to end war",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jan/29/gold-price-weak-dollar-silver-debasement-trade-markets-business-live-news-updates",
       "publishedAt": "2026-01-29T17:15:49Z"
-    },
-    {
-      "title": "Wall Street index rises above 7,000 for the first time; SpaceX mulls $1.5tn IPO in June – business live",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jan/28/ai-boom-produce-dollar-federal-reserve-interest-rates-business-live-latest-news-updates",
-      "publishedAt": "2026-01-28T14:52:45Z"
     }
   ]
 }

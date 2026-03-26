@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-25T07:48:45.444Z",
+  "fetchedAt": "2026-03-26T07:57:25.150Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "Stocks rise and oil dips on hopes of 15-point Iran peace plan",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/25/stocks-rise-oil-dips-iran-peace-plan-market-optimism",
+      "publishedAt": "2026-03-25T18:03:29Z"
+    },
     {
       "title": "Energy price shock and interest rate rises could cause ‘pronounced’ UK recession, economist warns – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/23/idris-elba-huel-bought-danone-jonathan-ross-julian-hearn",
       "publishedAt": "2026-03-23T14:10:42Z"
-    },
-    {
-      "title": "UK mortgage interest rates expected to rise despite Trump’s Iran pause",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/23/uk-mortgage-interest-rates-markets-bank-of-england-iran-war",
-      "publishedAt": "2026-03-23T13:48:05Z"
     }
   ]
 }

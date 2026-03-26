@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-25T07:48:46.528Z",
+  "fetchedAt": "2026-03-26T07:57:26.084Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Stocks rise and oil dips on hopes of 15-point Iran peace plan",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/25/stocks-rise-oil-dips-iran-peace-plan-market-optimism",
+      "publishedAt": "2026-03-25T18:03:29Z"
+    },
     {
       "title": "Dow Jones Industrial Average posts best day since early February as hopes of Middle East de-escalation lift markets – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/19/bp-sell-german-oil-refinery-gelsenkirchen-klesch-group-london-hq",
       "publishedAt": "2026-03-19T11:20:54Z"
-    },
-    {
-      "title": "Fuel rations and no air con: south-east Asian nations race to conserve energy",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/mar/18/south-east-asia-nations-conserve-energy-oil-soaring-costs",
-      "publishedAt": "2026-03-18T09:28:00Z"
     }
   ]
 }
