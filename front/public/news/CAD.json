@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-26T07:57:23.568Z",
+  "fetchedAt": "2026-03-27T07:55:37.374Z",
   "currency": "CAD",
   "articles": [
+    {
+      "title": "Two salon owners wanted to go zero-waste. Could they do it and keep their business afloat?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/26/scisters-salon-california-low-waste-salon",
+      "publishedAt": "2026-03-26T15:00:39Z"
+    },
     {
       "title": "Stocks rise and oil dips on hopes of 15-point Iran peace plan",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/23/stock-markets-donald-trump-iran-gold-oil-prices",
       "publishedAt": "2026-03-23T19:01:30Z"
-    },
-    {
-      "title": "Idris Elba-backed firm Huel bought by Danone in €1bn deal ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/23/idris-elba-huel-bought-danone-jonathan-ross-julian-hearn",
-      "publishedAt": "2026-03-23T14:10:42Z"
     }
   ]
 }

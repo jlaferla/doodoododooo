@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-26T07:57:22.945Z",
+  "fetchedAt": "2026-03-27T07:55:36.715Z",
   "currency": "AUD",
   "articles": [
+    {
+      "title": "Australian growth forecasts slashed as global economy faces inflation spike",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/26/oecd-finds-global-economy-on-brink-of-inflation-spike-due-to-us-israeli-attacks-on-iran-with-australia-not-immune",
+      "publishedAt": "2026-03-26T10:07:03Z"
+    },
     {
       "title": "Stocks rise and oil dips on hopes of 15-point Iran peace plan",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/23/stock-markets-donald-trump-iran-gold-oil-prices",
       "publishedAt": "2026-03-23T19:01:30Z"
-    },
-    {
-      "title": "Idris Elba-backed firm Huel bought by Danone in €1bn deal ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/23/idris-elba-huel-bought-danone-jonathan-ross-julian-hearn",
-      "publishedAt": "2026-03-23T14:10:42Z"
     }
   ]
 }

@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-03-26T07:57:24.519Z",
+  "fetchedAt": "2026-03-27T07:55:38.390Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "NS&I chief executive replaced in ‘fresh start’ over missing savings crisis; bad day for markets – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/26/uk-mortgage-rates-iran-war-borrowing-costs-oil-gas-economic-growth-business-live",
+      "publishedAt": "2026-03-26T17:10:33Z"
+    },
+    {
+      "title": "Australian growth forecasts slashed as global economy faces inflation spike",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/26/oecd-finds-global-economy-on-brink-of-inflation-spike-due-to-us-israeli-attacks-on-iran-with-australia-not-immune",
+      "publishedAt": "2026-03-26T10:07:03Z"
+    },
     {
       "title": "Energy price shock and interest rate rises could cause ‘pronounced’ UK recession, economist warns – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/20/demand-destruction-fears-iran-war-oil-and-gas-prices-uk-government-borrowing-jumps-latest-news-updates",
       "publishedAt": "2026-03-20T17:26:56Z"
-    },
-    {
-      "title": "High charges, poor service: NCP hits the skids as drivers change habits",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/20/ncp-car-park-operator-high-charges-administration-debt",
-      "publishedAt": "2026-03-20T06:00:11Z"
-    },
-    {
-      "title": "Rachel Reeves reveals push for fiscal devolution to English regions, says Brexit caused damage, and admits student loan system is ‘broken’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/17/rachel-reeves-mais-lecture-ai-adoption-deeper-eu-ties-regional-growth-business-live-news-updates",
-      "publishedAt": "2026-03-17T17:44:22Z"
     }
   ]
 }
