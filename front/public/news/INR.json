@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-27T07:55:39.392Z",
+  "fetchedAt": "2026-03-28T07:40:05.815Z",
   "currency": "INR",
   "articles": [
+    {
+      "title": "Wall Street hits six-month low and Dow falls into correction as Trump ‘appears to lose his grip on markets’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/27/oil-price-trump-iran-extension-uk-consumer-confidence-stock-markets-latest-news-updates",
+      "publishedAt": "2026-03-27T20:04:30Z"
+    },
     {
       "title": "Dow Jones Industrial Average posts best day since early February as hopes of Middle East de-escalation lift markets – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/13/uk-gdp-report-economy-growing-iran-energy-shock-rachel-reeves-us-consumer-confidence-news-updates",
       "publishedAt": "2026-03-13T16:57:41Z"
-    },
-    {
-      "title": "Oil prices fall and stocks rebound after Trump says Iran war could end ‘very soon’",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/10/oil-prices-drop-trump-iran-war",
-      "publishedAt": "2026-03-10T09:01:13Z"
     }
   ]
 }

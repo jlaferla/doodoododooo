@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-03-27T07:55:39.706Z",
+  "fetchedAt": "2026-03-28T07:40:06.163Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "Wall Street hits six-month low and Dow falls into correction as Trump ‘appears to lose his grip on markets’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/27/oil-price-trump-iran-extension-uk-consumer-confidence-stock-markets-latest-news-updates",
+      "publishedAt": "2026-03-27T20:04:30Z"
+    },
+    {
+      "title": "‘It’s fired people up’: support grows, including within Labor, for new gas tax to curb wartime profits",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/28/its-fired-people-up-support-grows-including-within-labor-for-new-gas-tax-to-curb-wartime-profits",
+      "publishedAt": "2026-03-27T14:00:06Z"
+    },
+    {
+      "title": "UK car production falls 17% as industry warns of ‘worrying’ decline",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/27/uk-car-production-falls-worrying-decline",
+      "publishedAt": "2026-03-27T11:59:16Z"
+    },
     {
       "title": "Energy price shock and interest rate rises could cause ‘pronounced’ UK recession, economist warns – as it happened",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/21/west-carmakers-retreat-electric-vehicle-risks-irrelevance-iran-war-evs-china",
       "publishedAt": "2026-03-21T12:00:52Z"
-    },
-    {
-      "title": "High charges, poor service: NCP hits the skids as drivers change habits",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/20/ncp-car-park-operator-high-charges-administration-debt",
-      "publishedAt": "2026-03-20T06:00:11Z"
-    },
-    {
-      "title": "Car park firm NCP falls into administration, putting nearly 700 jobs at risk",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/16/car-park-firm-ncp-falls-into-administration-putting-nearly-700-jobs-at-risk",
-      "publishedAt": "2026-03-16T18:01:36Z"
-    },
-    {
-      "title": "How high could oil prices go – and what might the global economic fallout be?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/09/how-high-could-oil-go-and-what-might-the-global-economic-fallout-be",
-      "publishedAt": "2026-03-09T18:35:50Z"
     }
   ]
 }

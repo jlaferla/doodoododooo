@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-03-27T07:55:37.374Z",
+  "fetchedAt": "2026-03-28T07:40:03.614Z",
   "currency": "CAD",
   "articles": [
+    {
+      "title": "Wall Street hits six-month low and Dow falls into correction as Trump ‘appears to lose his grip on markets’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/27/oil-price-trump-iran-extension-uk-consumer-confidence-stock-markets-latest-news-updates",
+      "publishedAt": "2026-03-27T20:04:30Z"
+    },
+    {
+      "title": "Blink and miss: Trump’s tactic of threats first and U-turn later is proving stale in Iran war",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/27/trump-iran-strategy-taco",
+      "publishedAt": "2026-03-27T14:00:05Z"
+    },
     {
       "title": "Two salon owners wanted to go zero-waste. Could they do it and keep their business afloat?",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/24/brent-crude-oil-100-dollars-a-barrel-middle-east-iran-stock-markets-economic-growth-latest-news-updates",
       "publishedAt": "2026-03-24T15:46:57Z"
-    },
-    {
-      "title": "Dow Jones Industrial Average posts best day since early February as hopes of Middle East de-escalation lift markets – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
-      "publishedAt": "2026-03-23T20:17:23Z"
-    },
-    {
-      "title": "Stock markets swing and oil prices fall after Trump postpones strikes on Iran power plants",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/23/stock-markets-donald-trump-iran-gold-oil-prices",
-      "publishedAt": "2026-03-23T19:01:30Z"
     }
   ]
 }
