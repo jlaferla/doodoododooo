@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-29T07:48:15.482Z",
+  "fetchedAt": "2026-03-30T08:18:14.576Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Price of oil hits $116 a barrel after Trump says he wants to ‘take the oil in Iran’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/30/price-of-oil-trump-iran-stock-markets-middle-east",
+      "publishedAt": "2026-03-30T07:28:08Z"
+    },
     {
       "title": "Stocks rise and oil dips on hopes of 15-point Iran peace plan",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump",
       "publishedAt": "2026-03-19T14:21:54Z"
-    },
-    {
-      "title": "BP to sell German oil refinery as part of $20bn cost-cutting plan",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/19/bp-sell-german-oil-refinery-gelsenkirchen-klesch-group-london-hq",
-      "publishedAt": "2026-03-19T11:20:54Z"
     }
   ]
 }

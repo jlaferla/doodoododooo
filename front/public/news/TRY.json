@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-29T07:48:16.379Z",
+  "fetchedAt": "2026-03-30T08:18:15.644Z",
   "currency": "TRY",
   "articles": [
+    {
+      "title": "Oil on track for record monthly surge as Iran war disrupts markets",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/29/oil-monthly-surge-record-iran-war-markets-gold",
+      "publishedAt": "2026-03-29T11:20:00Z"
+    },
     {
       "title": "Crispin Odey tried to ‘manipulate’ sexual assault victim, FCA tells court",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/feb/17/british-steel-turkey-high-speed-rail-order",
       "publishedAt": "2026-02-17T22:00:50Z"
-    },
-    {
-      "title": "Brent crude tops $70 per barrel on Iran concern; gold and silver tumble from record highs – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jan/29/gold-price-weak-dollar-silver-debasement-trade-markets-business-live-news-updates",
-      "publishedAt": "2026-01-29T17:15:49Z"
     }
   ]
 }
