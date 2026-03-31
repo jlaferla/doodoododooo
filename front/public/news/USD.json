@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-03-30T08:18:16.000Z",
+  "fetchedAt": "2026-03-31T08:03:47.333Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "Brent crude rises after Trump says he wants to ‘take the oil’ in Iran and Yemeni Houthis launch second attack on Israel – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/30/brent-crude-rises-trump-oil-iran-war-starmer-business-leaders-emergency-measures-rachel-reeves-g7-business-latest-news-updates",
+      "publishedAt": "2026-03-30T14:11:58Z"
+    },
+    {
+      "title": "Mounjaro maker wants NHS drug price rises in return for more investment in UK",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/30/mounjaro-maker-eli-lilly-wants-nhs-drug-price-rises-in-return-for-more-investment-in-uk",
+      "publishedAt": "2026-03-30T09:34:20Z"
+    },
     {
       "title": "Wall Street hits six-month low and Dow falls into correction as Trump ‘appears to lose his grip on markets’ – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/27/trump-iran-strategy-taco",
       "publishedAt": "2026-03-27T14:00:05Z"
-    },
-    {
-      "title": "Five firms including Autotrader and Just Eat investigated over fake review failings",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/27/five-firms-including-autotrader-and-just-eat-investigated-over-fake-review-failings",
-      "publishedAt": "2026-03-27T10:35:56Z"
-    },
-    {
-      "title": "Australian growth forecasts slashed as global economy faces inflation spike",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/26/oecd-finds-global-economy-on-brink-of-inflation-spike-due-to-us-israeli-attacks-on-iran-with-australia-not-immune",
-      "publishedAt": "2026-03-26T10:07:03Z"
     }
   ]
 }

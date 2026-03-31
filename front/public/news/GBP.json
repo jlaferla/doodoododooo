@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-03-30T08:18:13.108Z",
+  "fetchedAt": "2026-03-31T08:03:44.461Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "How many sweeteners does JP Morgan need to build an office in Canary Wharf? | Nils Pratley",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/mar/30/how-many-sweeteners-does-jp-morgan-need-to-build-an-office-in-canary-wharf",
+      "publishedAt": "2026-03-30T17:50:19Z"
+    },
+    {
+      "title": "Brent crude rises after Trump says he wants to ‘take the oil’ in Iran and Yemeni Houthis launch second attack on Israel – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/30/brent-crude-rises-trump-oil-iran-war-starmer-business-leaders-emergency-measures-rachel-reeves-g7-business-latest-news-updates",
+      "publishedAt": "2026-03-30T14:11:58Z"
+    },
     {
       "title": "Energy price shock and interest rate rises could cause ‘pronounced’ UK recession, economist warns – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
       "publishedAt": "2026-03-23T20:17:23Z"
-    },
-    {
-      "title": "FTSE 100 loses all its 2026 gains as Middle East conflict hits shares, and UK borrowing costs reach highest since 2008 – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/20/demand-destruction-fears-iran-war-oil-and-gas-prices-uk-government-borrowing-jumps-latest-news-updates",
-      "publishedAt": "2026-03-20T17:26:56Z"
-    },
-    {
-      "title": "UK borrowing costs hit highest since 2008 as markets expect up to three interest rate rises",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/20/uk-borrowing-rises-unexpectedly-in-february",
-      "publishedAt": "2026-03-20T15:58:06Z"
     }
   ]
 }

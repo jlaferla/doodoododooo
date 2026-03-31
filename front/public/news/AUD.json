@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-30T08:18:10.845Z",
+  "fetchedAt": "2026-03-31T08:03:42.282Z",
   "currency": "AUD",
   "articles": [
+    {
+      "title": "Brent crude rises after Trump says he wants to ‘take the oil’ in Iran and Yemeni Houthis launch second attack on Israel – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/mar/30/brent-crude-rises-trump-oil-iran-war-starmer-business-leaders-emergency-measures-rachel-reeves-g7-business-latest-news-updates",
+      "publishedAt": "2026-03-30T14:11:58Z"
+    },
     {
       "title": "Wall Street hits six-month low and Dow falls into correction as Trump ‘appears to lose his grip on markets’ – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/25/stocks-rise-oil-dips-iran-peace-plan-market-optimism",
       "publishedAt": "2026-03-25T18:03:29Z"
-    },
-    {
-      "title": "Energy price shock and interest rate rises could cause ‘pronounced’ UK recession, economist warns – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/24/brent-crude-oil-100-dollars-a-barrel-middle-east-iran-stock-markets-economic-growth-latest-news-updates",
-      "publishedAt": "2026-03-24T15:46:57Z"
     }
   ]
 }

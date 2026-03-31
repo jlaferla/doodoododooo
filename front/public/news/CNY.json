@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-30T08:18:12.357Z",
+  "fetchedAt": "2026-03-31T08:03:43.731Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "British Steel on track to be fully nationalised within weeks",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/30/british-steel-on-track-to-be-fully-nationalised-within-weeks",
+      "publishedAt": "2026-03-30T17:21:45Z"
+    },
     {
       "title": "Energy price shock and interest rate rises could cause ‘pronounced’ UK recession, economist warns – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/16/syngenta-china-new-bioscience-hub-uk",
       "publishedAt": "2026-03-16T15:41:29Z"
-    },
-    {
-      "title": "Middle East war creating ‘largest supply disruption in the history of oil markets’, as Brent crude hits $100 again – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/12/stagflation-fears-escalating-iranian-war-oil-price-andrew-bailey-stability-us-jobless-claims-news-updates",
-      "publishedAt": "2026-03-12T15:51:29Z"
     }
   ]
 }
