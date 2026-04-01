@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-03-31T08:03:47.333Z",
+  "fetchedAt": "2026-04-01T08:11:34.439Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "Unilever’s food mashup is hardly a delectable prospect for shareholders",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/31/unilever-food-mashup-hardly-delectable-prospect-shareholders",
+      "publishedAt": "2026-03-31T17:23:46Z"
+    },
     {
       "title": "Brent crude rises after Trump says he wants to ‘take the oil’ in Iran and Yemeni Houthis launch second attack on Israel – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/27/uk-government-borrowing-iran-war-bond-market-sell-off",
       "publishedAt": "2026-03-27T16:59:52Z"
-    },
-    {
-      "title": "Blink and miss: Trump’s tactic of threats first and U-turn later is proving stale in Iran war",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/27/trump-iran-strategy-taco",
-      "publishedAt": "2026-03-27T14:00:05Z"
     }
   ]
 }

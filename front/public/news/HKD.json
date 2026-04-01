@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-03-31T08:03:44.818Z",
+  "fetchedAt": "2026-04-01T08:11:32.319Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "Oil tumbles below $100 a barrel and stock markets soar on hopes Middle East war will end soon – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/01/oil-tumbles-stock-markets-gold-bonds-dollar-middle-east-war-manufacturing-factories-news-updates",
+      "publishedAt": "2026-04-01T07:58:15Z"
+    },
+    {
+      "title": "Investors tell Thames Water to ‘eat humble pie’ over failed takeover and open bids",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/mar/31/investors-call-on-thames-water-to-let-them-bid-for-it-after-last-years-failed-takeover",
+      "publishedAt": "2026-03-31T17:41:34Z"
+    },
     {
       "title": "Brent crude rises after Trump says he wants to ‘take the oil’ in Iran and Yemeni Houthis launch second attack on Israel – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/27/oil-price-trump-iran-extension-uk-consumer-confidence-stock-markets-latest-news-updates",
       "publishedAt": "2026-03-27T20:04:30Z"
-    },
-    {
-      "title": "Blink and miss: Trump’s tactic of threats first and U-turn later is proving stale in Iran war",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/27/trump-iran-strategy-taco",
-      "publishedAt": "2026-03-27T14:00:05Z"
-    },
-    {
-      "title": "Stocks rise and oil dips on hopes of 15-point Iran peace plan",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/25/stocks-rise-oil-dips-iran-peace-plan-market-optimism",
-      "publishedAt": "2026-03-25T18:03:29Z"
     }
   ]
 }
