@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-01T08:11:30.470Z",
+  "fetchedAt": "2026-04-02T08:00:39.631Z",
   "currency": "BRL",
   "articles": [
+    {
+      "title": "Australia’s land value has gone through the roof. Where does that leave young people who want to buy a home? | Greg Jericho",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/grogonomics/2026/apr/02/australia-land-grab-young-people-little-hope-buying-home",
+      "publishedAt": "2026-04-01T14:00:05Z"
+    },
     {
       "title": "Dow Jones Industrial Average posts best day since early February as hopes of Middle East de-escalation lift markets – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/grogonomics/2026/feb/18/real-wages-fall-australia-workers-economy",
       "publishedAt": "2026-02-18T14:00:36Z"
-    },
-    {
-      "title": "What are the odds? The RBA has raised interest rates – for no real reason other than to meet the desires of speculators | Greg Jericho",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/grogonomics/2026/feb/04/rba-interest-rates-decision-analysis-reserve-bank-australia",
-      "publishedAt": "2026-02-03T14:00:01Z"
     }
   ]
 }

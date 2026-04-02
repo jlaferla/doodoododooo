@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-04-01T08:11:32.319Z",
+  "fetchedAt": "2026-04-02T08:00:41.758Z",
   "currency": "HKD",
   "articles": [
     {
-      "title": "Oil tumbles below $100 a barrel and stock markets soar on hopes Middle East war will end soon – business live",
+      "title": "UK hit by record rise in fuel prices as Iran war bites; Trump sends European stock markets sliding – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/02/uk-record-rise-fuel-prices-mortgage-shock-stock-markets-iran-war-oil-dollar-news-updates",
+      "publishedAt": "2026-04-02T07:55:36Z"
+    },
+    {
+      "title": "Polymarket and other prediction platforms driving oil market, traders say",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/02/energy-traders-polymarket-prediction-datafeeds-global-oil-market",
+      "publishedAt": "2026-04-02T04:00:16Z"
+    },
+    {
+      "title": "Oil tumbles and UK’s FTSE 100 posts biggest daily rise in a year on hopes Middle East war will end soon – as it happened ",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/01/oil-tumbles-stock-markets-gold-bonds-dollar-middle-east-war-manufacturing-factories-news-updates",
-      "publishedAt": "2026-04-01T07:58:15Z"
+      "publishedAt": "2026-04-01T15:49:52Z"
     },
     {
-      "title": "Investors tell Thames Water to ‘eat humble pie’ over failed takeover and open bids",
+      "title": "Australia’s land value has gone through the roof. Where does that leave young people who want to buy a home? | Greg Jericho",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/31/investors-call-on-thames-water-to-let-them-bid-for-it-after-last-years-failed-takeover",
-      "publishedAt": "2026-03-31T17:41:34Z"
+      "url": "https://www.theguardian.com/business/grogonomics/2026/apr/02/australia-land-grab-young-people-little-hope-buying-home",
+      "publishedAt": "2026-04-01T14:00:05Z"
     },
     {
-      "title": "Brent crude rises after Trump says he wants to ‘take the oil’ in Iran and Yemeni Houthis launch second attack on Israel – as it happened",
+      "title": "Housebuilder Berkeley to halt buying new land and hiring staff",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/30/brent-crude-rises-trump-oil-iran-war-starmer-business-leaders-emergency-measures-rachel-reeves-g7-business-latest-news-updates",
-      "publishedAt": "2026-03-30T14:11:58Z"
-    },
-    {
-      "title": "Brent crude hits $116 a barrel as Trump threatens to ‘blow up’ Iran’s oilwells and export hub",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/30/price-of-oil-trump-iran-stock-markets-middle-east",
-      "publishedAt": "2026-03-30T14:06:33Z"
-    },
-    {
-      "title": "Wall Street hits six-month low and Dow falls into correction as Trump ‘appears to lose his grip on markets’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/27/oil-price-trump-iran-extension-uk-consumer-confidence-stock-markets-latest-news-updates",
-      "publishedAt": "2026-03-27T20:04:30Z"
+      "url": "https://www.theguardian.com/business/2026/apr/01/housebuilder-berkeley-to-halt-buying-new-land-and-hiring-staff",
+      "publishedAt": "2026-04-01T11:38:01Z"
     }
   ]
 }

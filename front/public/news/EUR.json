@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-01T08:11:31.712Z",
+  "fetchedAt": "2026-04-02T08:00:41.046Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "Oil tumbles and UK’s FTSE 100 posts biggest daily rise in a year on hopes Middle East war will end soon – as it happened ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/01/oil-tumbles-stock-markets-gold-bonds-dollar-middle-east-war-manufacturing-factories-news-updates",
+      "publishedAt": "2026-04-01T15:49:52Z"
+    },
     {
       "title": "NS&I chief executive replaced in ‘fresh start’ over missing savings crisis; bad day for markets – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
       "publishedAt": "2026-03-23T20:17:23Z"
-    },
-    {
-      "title": "FTSE 100 loses all its 2026 gains as Middle East conflict hits shares, and UK borrowing costs reach highest since 2008 – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/20/demand-destruction-fears-iran-war-oil-and-gas-prices-uk-government-borrowing-jumps-latest-news-updates",
-      "publishedAt": "2026-03-20T17:26:56Z"
     }
   ]
 }
