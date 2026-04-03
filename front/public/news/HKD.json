@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-04-02T08:00:41.758Z",
+  "fetchedAt": "2026-04-03T07:57:38.582Z",
   "currency": "HKD",
   "articles": [
     {
-      "title": "UK hit by record rise in fuel prices as Iran war bites; Trump sends European stock markets sliding – business live",
+      "title": "Oil price jumps and markets slide after Trump warning to Iran",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/02/oil-price-rises-markets-slide-following-trump-iran-war-address",
+      "publishedAt": "2026-04-02T15:59:03Z"
+    },
+    {
+      "title": "US crude oil hits $110 a barrel and markets drop as Trump dashes Iran de-escalation hopes – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/02/uk-record-rise-fuel-prices-mortgage-shock-stock-markets-iran-war-oil-dollar-news-updates",
-      "publishedAt": "2026-04-02T07:55:36Z"
+      "publishedAt": "2026-04-02T15:48:47Z"
     },
     {
-      "title": "Polymarket and other prediction platforms driving oil market, traders say",
+      "title": "UK firms expect to raise prices more quickly as Iran war pushes up costs",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/02/energy-traders-polymarket-prediction-datafeeds-global-oil-market",
-      "publishedAt": "2026-04-02T04:00:16Z"
+      "url": "https://www.theguardian.com/business/2026/apr/02/uk-firms-expect-to-raise-prices-more-quickly-as-iran-war-pushes-up-costs",
+      "publishedAt": "2026-04-02T11:41:13Z"
     },
     {
-      "title": "Oil tumbles and UK’s FTSE 100 posts biggest daily rise in a year on hopes Middle East war will end soon – as it happened ",
+      "title": "‘From high flyer to dead parrot’: former billion-dollar eco-shoe brand Allbirds sold for $39m",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/01/oil-tumbles-stock-markets-gold-bonds-dollar-middle-east-war-manufacturing-factories-news-updates",
-      "publishedAt": "2026-04-01T15:49:52Z"
+      "url": "https://www.theguardian.com/business/2026/apr/02/eco-shoe-brand-allbirds-sold-american-exchange-group",
+      "publishedAt": "2026-04-02T11:35:29Z"
     },
     {
-      "title": "Australia’s land value has gone through the roof. Where does that leave young people who want to buy a home? | Greg Jericho",
+      "title": "‘If he’d stayed on the golf course, we’d be in a better place’: experts on Trump’s tariffs, one year on",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/grogonomics/2026/apr/02/australia-land-grab-young-people-little-hope-buying-home",
-      "publishedAt": "2026-04-01T14:00:05Z"
-    },
-    {
-      "title": "Housebuilder Berkeley to halt buying new land and hiring staff",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/01/housebuilder-berkeley-to-halt-buying-new-land-and-hiring-staff",
-      "publishedAt": "2026-04-01T11:38:01Z"
+      "url": "https://www.theguardian.com/business/2026/apr/02/trump-liberation-day-us-tariffs-trade",
+      "publishedAt": "2026-04-02T10:00:22Z"
     }
   ]
 }

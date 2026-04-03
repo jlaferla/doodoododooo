@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-02T08:00:40.339Z",
+  "fetchedAt": "2026-04-03T07:57:37.258Z",
   "currency": "CHF",
   "articles": [
+    {
+      "title": "‘From high flyer to dead parrot’: former billion-dollar eco-shoe brand Allbirds sold for $39m",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/02/eco-shoe-brand-allbirds-sold-american-exchange-group",
+      "publishedAt": "2026-04-02T11:35:29Z"
+    },
     {
       "title": "Bank of England tipped to raise UK interest rates twice this year to fight inflation shock from Middle East crisis, as oil and gas prices rise – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/02/oil-price-us-israel-iran-war-100-dollars-a-barrel-stock-markets-drop-travel-news-updates",
       "publishedAt": "2026-03-02T17:18:10Z"
-    },
-    {
-      "title": "France’s Engie strikes deal to buy UK Power Networks for £10.5bn",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/feb/25/frances-engie-strikes-deal-to-buy-uk-power-networks-for-105bn",
-      "publishedAt": "2026-02-25T21:43:28Z"
     }
   ]
 }

@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-02T08:00:43.826Z",
+  "fetchedAt": "2026-04-03T07:57:40.636Z",
   "currency": "TRY",
   "articles": [
+    {
+      "title": "Blue Owl Capital limits withdrawals after investors try to redeem $5.4bn",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/02/blue-owl-capital-private-credit-investment-limits-withdrawals",
+      "publishedAt": "2026-04-02T16:14:02Z"
+    },
     {
       "title": "Oil on track for record monthly surge as Iran war disrupts markets",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/commentisfree/2026/feb/19/coles-shameless-down-down-promotions-have-been-exposed-so-why-arent-they-even-trying-to-rebuilt-trust",
       "publishedAt": "2026-02-18T22:33:52Z"
-    },
-    {
-      "title": "Boost to British Steel as Turkey places high-speed rail order",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/feb/17/british-steel-turkey-high-speed-rail-order",
-      "publishedAt": "2026-02-17T22:00:50Z"
     }
   ]
 }

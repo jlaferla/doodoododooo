@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-04-02T08:00:41.417Z",
+  "fetchedAt": "2026-04-03T07:57:38.262Z",
   "currency": "GBP",
   "articles": [
     {
-      "title": "UK hit by record rise in fuel prices as Iran war bites; Trump sends European stock markets sliding – business live",
+      "title": "Oil price jumps and markets slide after Trump warning to Iran",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/02/oil-price-rises-markets-slide-following-trump-iran-war-address",
+      "publishedAt": "2026-04-02T15:59:03Z"
+    },
+    {
+      "title": "US crude oil hits $110 a barrel and markets drop as Trump dashes Iran de-escalation hopes – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/02/uk-record-rise-fuel-prices-mortgage-shock-stock-markets-iran-war-oil-dollar-news-updates",
-      "publishedAt": "2026-04-02T07:55:36Z"
+      "publishedAt": "2026-04-02T15:48:47Z"
     },
     {
       "title": "Oil tumbles and UK’s FTSE 100 posts biggest daily rise in a year on hopes Middle East war will end soon – as it happened ",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/31/uk-house-prices-economic-growth-iran-outlook-business-news",
       "publishedAt": "2026-03-31T14:19:43Z"
-    },
-    {
-      "title": "How many sweeteners does JP Morgan need to build an office in Canary Wharf? | Nils Pratley",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/mar/30/how-many-sweeteners-does-jp-morgan-need-to-build-an-office-in-canary-wharf",
-      "publishedAt": "2026-03-30T17:50:19Z"
     }
   ]
 }

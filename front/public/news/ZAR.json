@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-02T08:00:44.519Z",
+  "fetchedAt": "2026-04-03T07:57:41.282Z",
   "currency": "ZAR",
   "articles": [
+    {
+      "title": "Oil price jumps and markets slide after Trump warning to Iran",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/02/oil-price-rises-markets-slide-following-trump-iran-war-address",
+      "publishedAt": "2026-04-02T15:59:03Z"
+    },
     {
       "title": "Stocks rise and oil dips on hopes of 15-point Iran peace plan",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump",
       "publishedAt": "2026-03-19T14:21:54Z"
-    },
-    {
-      "title": "BP to sell German oil refinery as part of $20bn cost-cutting plan",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/19/bp-sell-german-oil-refinery-gelsenkirchen-klesch-group-london-hq",
-      "publishedAt": "2026-03-19T11:20:54Z"
     }
   ]
 }

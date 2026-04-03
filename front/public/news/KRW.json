@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-02T08:00:42.813Z",
+  "fetchedAt": "2026-04-03T07:57:39.599Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Oil price jumps and markets slide after Trump warning to Iran",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/02/oil-price-rises-markets-slide-following-trump-iran-war-address",
+      "publishedAt": "2026-04-02T15:59:03Z"
+    },
     {
       "title": "Brent crude hits $116 a barrel as Trump threatens to ‘blow up’ Iran’s oilwells and export hub",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/19/bank-of-england-interest-rates-decision-hold-inflation-oil-gas-iran-wage-growth-slows-latest-news-updates",
       "publishedAt": "2026-03-19T16:44:42Z"
-    },
-    {
-      "title": "Oil and gas prices jump after Iran and Israel attack gasfields",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump",
-      "publishedAt": "2026-03-19T14:21:54Z"
     }
   ]
 }
