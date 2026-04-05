@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-04T07:43:27.027Z",
+  "fetchedAt": "2026-04-05T07:51:09.284Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "UK food halls buck downbeat hospitality trend: ‘In this impossible climate, they shine hope’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/04/uk-food-halls-buck-downbeat-hospitality-trend",
+      "publishedAt": "2026-04-04T09:00:17Z"
+    },
     {
       "title": "Oil price jumps and markets slide after Trump warning to Iran",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/02/eco-shoe-brand-allbirds-sold-american-exchange-group",
       "publishedAt": "2026-04-02T11:35:29Z"
-    },
-    {
-      "title": "‘If he’d stayed on the golf course, we’d be in a better place’: experts on Trump’s tariffs, one year on",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/02/trump-liberation-day-us-tariffs-trade",
-      "publishedAt": "2026-04-02T10:00:22Z"
     }
   ]
 }

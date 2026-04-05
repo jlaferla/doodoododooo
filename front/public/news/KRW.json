@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-04-04T07:43:28.019Z",
+  "fetchedAt": "2026-04-05T07:51:10.191Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Waitrose employee sacked after stopping shoplifter from taking Easter eggs",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/05/waitrose-employee-sacked-after-stopping-shoplifter-from-taking-easter-eggs",
+      "publishedAt": "2026-04-05T05:00:43Z"
+    },
+    {
+      "title": "UK food halls buck downbeat hospitality trend: ‘In this impossible climate, they shine hope’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/04/uk-food-halls-buck-downbeat-hospitality-trend",
+      "publishedAt": "2026-04-04T09:00:17Z"
+    },
     {
       "title": "Oil price jumps and markets slide after Trump warning to Iran",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/25/stocks-rise-oil-dips-iran-peace-plan-market-optimism",
       "publishedAt": "2026-03-25T18:03:29Z"
-    },
-    {
-      "title": "Dow Jones Industrial Average posts best day since early February as hopes of Middle East de-escalation lift markets – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
-      "publishedAt": "2026-03-23T20:17:23Z"
-    },
-    {
-      "title": "Bank of England tipped to raise UK interest rates twice this year to fight inflation shock from Middle East crisis, as oil and gas prices rise – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/19/bank-of-england-interest-rates-decision-hold-inflation-oil-gas-iran-wage-growth-slows-latest-news-updates",
-      "publishedAt": "2026-03-19T16:44:42Z"
     }
   ]
 }

@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-04T07:43:25.721Z",
+  "fetchedAt": "2026-04-05T07:51:08.061Z",
   "currency": "CHF",
   "articles": [
+    {
+      "title": "‘It’s all fear and headlines’: energy traders race to keep pace with volatile oil markets",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/05/its-all-fear-and-headlines-energy-traders-race-to-keep-pace-with-volatile-oil-markets",
+      "publishedAt": "2026-04-05T05:00:43Z"
+    },
     {
       "title": "‘From high flyer to dead parrot’: former billion-dollar eco-shoe brand Allbirds sold for $39m",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/13/uk-gdp-report-economy-growing-iran-energy-shock-rachel-reeves-us-consumer-confidence-news-updates",
       "publishedAt": "2026-03-13T16:57:41Z"
-    },
-    {
-      "title": "FTSE 100 share index records biggest fall since November as Iran war drives up oil and gas prices – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/02/oil-price-us-israel-iran-war-100-dollars-a-barrel-stock-markets-drop-travel-news-updates",
-      "publishedAt": "2026-03-02T17:18:10Z"
     }
   ]
 }

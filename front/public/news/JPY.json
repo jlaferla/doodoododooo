@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-04T07:43:27.691Z",
+  "fetchedAt": "2026-04-05T07:51:09.899Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "UK food halls buck downbeat hospitality trend: ‘In this impossible climate, they shine hope’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/04/uk-food-halls-buck-downbeat-hospitality-trend",
+      "publishedAt": "2026-04-04T09:00:17Z"
+    },
     {
       "title": "Oil tumbles and UK’s FTSE 100 posts biggest daily rise in a year on hopes Middle East war will end soon – as it happened ",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/27/uk-car-production-falls-worrying-decline",
       "publishedAt": "2026-03-27T11:59:16Z"
-    },
-    {
-      "title": "Energy price shock and interest rate rises could cause ‘pronounced’ UK recession, economist warns – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/24/brent-crude-oil-100-dollars-a-barrel-middle-east-iran-stock-markets-economic-growth-latest-news-updates",
-      "publishedAt": "2026-03-24T15:46:57Z"
     }
   ]
 }
