@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-06T08:19:18.206Z",
+  "fetchedAt": "2026-04-07T08:07:04.621Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Waitrose under pressure to reinstate worker sacked after stopping shoplifter ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/06/waitrose-employee-sacked-stopping-shoplifter-walker-smith-easter-egg",
+      "publishedAt": "2026-04-06T18:20:26Z"
+    },
     {
       "title": "Waitrose employee sacked after stopping shoplifter from taking Easter eggs",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/30/price-of-oil-trump-iran-stock-markets-middle-east",
       "publishedAt": "2026-03-30T14:06:33Z"
-    },
-    {
-      "title": "Stocks rise and oil dips on hopes of 15-point Iran peace plan",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/25/stocks-rise-oil-dips-iran-peace-plan-market-optimism",
-      "publishedAt": "2026-03-25T18:03:29Z"
     }
   ]
 }

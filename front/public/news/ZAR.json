@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-06T08:19:20.033Z",
+  "fetchedAt": "2026-04-07T08:07:06.112Z",
   "currency": "ZAR",
   "articles": [
+    {
+      "title": "Waitrose under pressure to reinstate worker sacked after stopping shoplifter ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/06/waitrose-employee-sacked-stopping-shoplifter-walker-smith-easter-egg",
+      "publishedAt": "2026-04-06T18:20:26Z"
+    },
     {
       "title": "Waitrose employee sacked after stopping shoplifter from taking Easter eggs",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
       "publishedAt": "2026-03-23T20:17:23Z"
-    },
-    {
-      "title": "Bank of England tipped to raise UK interest rates twice this year to fight inflation shock from Middle East crisis, as oil and gas prices rise – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/19/bank-of-england-interest-rates-decision-hold-inflation-oil-gas-iran-wage-growth-slows-latest-news-updates",
-      "publishedAt": "2026-03-19T16:44:42Z"
     }
   ]
 }

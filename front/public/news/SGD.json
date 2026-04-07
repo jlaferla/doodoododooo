@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-04-06T08:19:18.938Z",
+  "fetchedAt": "2026-04-07T08:07:05.225Z",
   "currency": "SGD",
   "articles": [
+    {
+      "title": "Oil rises above $110 as Trump deadline looms for Iran to reopen strait – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/07/oil-price-rises-trump-deadline-iran-reopen-strait-of-hormuz-imf-business-live-news",
+      "publishedAt": "2026-04-07T07:47:03Z"
+    },
+    {
+      "title": " ‘Italy has the best benefits’: Milan takes on Dubai as home for the super-rich",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/07/milan-dubai-super-wealthy-italy-rich",
+      "publishedAt": "2026-04-07T04:00:39Z"
+    },
     {
       "title": "Oil price jumps and markets slide after Trump warning to Iran",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/02/uk-firms-expect-to-raise-prices-more-quickly-as-iran-war-pushes-up-costs",
       "publishedAt": "2026-04-02T11:41:13Z"
-    },
-    {
-      "title": "‘From high flyer to dead parrot’: former billion-dollar eco-shoe brand Allbirds sold for $39m",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/02/eco-shoe-brand-allbirds-sold-american-exchange-group",
-      "publishedAt": "2026-04-02T11:35:29Z"
-    },
-    {
-      "title": "‘If he’d stayed on the golf course, we’d be in a better place’: experts on Trump’s tariffs, one year on",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/02/trump-liberation-day-us-tariffs-trade",
-      "publishedAt": "2026-04-02T10:00:22Z"
     }
   ]
 }
