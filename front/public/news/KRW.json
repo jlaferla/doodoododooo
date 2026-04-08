@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-04-07T08:07:04.621Z",
+  "fetchedAt": "2026-04-08T08:08:20.985Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "UK house prices fall in March amid uncertain impact of Middle East conflict",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/08/uk-house-prices-fall-march-middle-east-conflict-iran",
+      "publishedAt": "2026-04-08T07:55:28Z"
+    },
+    {
+      "title": "JP Morgan reaches agreement with City airport for Canary Wharf’s tallest tower",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/07/jp-morgan-clears-hurdle-canary-wharf-tallest-tower-london-city-airport",
+      "publishedAt": "2026-04-07T12:47:27Z"
+    },
     {
       "title": "Waitrose under pressure to reinstate worker sacked after stopping shoplifter ",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/04/uk-food-halls-buck-downbeat-hospitality-trend",
       "publishedAt": "2026-04-04T09:00:17Z"
-    },
-    {
-      "title": "Oil price jumps and markets slide after Trump warning to Iran",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/02/oil-price-rises-markets-slide-following-trump-iran-war-address",
-      "publishedAt": "2026-04-02T15:59:03Z"
-    },
-    {
-      "title": "Brent crude hits $116 a barrel as Trump threatens to ‘blow up’ Iran’s oilwells and export hub",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/30/price-of-oil-trump-iran-stock-markets-middle-east",
-      "publishedAt": "2026-03-30T14:06:33Z"
     }
   ]
 }

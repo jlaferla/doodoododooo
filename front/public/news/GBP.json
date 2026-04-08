@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-04-07T08:07:03.405Z",
+  "fetchedAt": "2026-04-08T08:08:19.543Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "Oil prices plunge 15% to below $100, stocks surge and dollar slumps after Trump announces US-Iran ceasefire – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/08/oil-prices-drop-stocks-rise-dollar-down-us-iran-ceasefire-business-live",
+      "publishedAt": "2026-04-08T08:01:46Z"
+    },
+    {
+      "title": "Oil back above $110 in volatile markets as Trump deadline looms for Iran to reopen strait – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/07/oil-price-rises-trump-deadline-iran-reopen-strait-of-hormuz-imf-business-live-news",
+      "publishedAt": "2026-04-07T14:46:26Z"
+    },
     {
       "title": "Oil price jumps and markets slide after Trump warning to Iran",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/01/oil-tumbles-stock-markets-gold-bonds-dollar-middle-east-war-manufacturing-factories-news-updates",
       "publishedAt": "2026-04-01T15:49:52Z"
-    },
-    {
-      "title": "Investors tell Thames Water to ‘eat humble pie’ over failed takeover and open bids",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/31/investors-call-on-thames-water-to-let-them-bid-for-it-after-last-years-failed-takeover",
-      "publishedAt": "2026-03-31T17:41:34Z"
-    },
-    {
-      "title": "Oil price jumps to $118 a barrel after Trump comments; cost of filling up family car with diesel passes £100 – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/31/uk-house-prices-economic-growth-iran-outlook-business-news",
-      "publishedAt": "2026-03-31T14:19:43Z"
     }
   ]
 }

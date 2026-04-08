@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-04-07T08:07:03.705Z",
+  "fetchedAt": "2026-04-08T08:08:19.902Z",
   "currency": "HKD",
   "articles": [
     {
-      "title": "Oil rises above $110 as Trump deadline looms for Iran to reopen strait – business live",
+      "title": "Oil prices plunge 15% to below $100, stocks surge and dollar slumps after Trump announces US-Iran ceasefire – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/08/oil-prices-drop-stocks-rise-dollar-down-us-iran-ceasefire-business-live",
+      "publishedAt": "2026-04-08T08:01:46Z"
+    },
+    {
+      "title": "Shell oil trading profits soar amid Iran war but Qatar strikes hit gas output",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/08/shell-oil-trading-profits-soar-amid-iran-war-but-qatar-strikes-hit-gas-output",
+      "publishedAt": "2026-04-08T07:37:52Z"
+    },
+    {
+      "title": "Oil and gas crisis from Iran war worse than 1973, ​1979 and 2022 together, says IEA",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/07/oil-prices-donald-trump-iran-stock-market-imf-inflation",
+      "publishedAt": "2026-04-07T16:42:27Z"
+    },
+    {
+      "title": "Oil back above $110 in volatile markets as Trump deadline looms for Iran to reopen strait – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/07/oil-price-rises-trump-deadline-iran-reopen-strait-of-hormuz-imf-business-live-news",
-      "publishedAt": "2026-04-07T07:47:03Z"
+      "publishedAt": "2026-04-07T14:46:26Z"
     },
     {
-      "title": " ‘Italy has the best benefits’: Milan takes on Dubai as home for the super-rich",
+      "title": "Hedge fund borrowing exposes emerging markets to greater Iran war risk, says IMF",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/07/milan-dubai-super-wealthy-italy-rich",
-      "publishedAt": "2026-04-07T04:00:39Z"
-    },
-    {
-      "title": "UK food halls buck downbeat hospitality trend: ‘In this impossible climate, they shine hope’",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/04/uk-food-halls-buck-downbeat-hospitality-trend",
-      "publishedAt": "2026-04-04T09:00:17Z"
-    },
-    {
-      "title": "Oil price jumps and markets slide after Trump warning to Iran",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/02/oil-price-rises-markets-slide-following-trump-iran-war-address",
-      "publishedAt": "2026-04-02T15:59:03Z"
-    },
-    {
-      "title": "US crude oil hits $110 a barrel and markets drop as Trump dashes Iran de-escalation hopes – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/02/uk-record-rise-fuel-prices-mortgage-shock-stock-markets-iran-war-oil-dollar-news-updates",
-      "publishedAt": "2026-04-02T15:48:47Z"
+      "url": "https://www.theguardian.com/business/2026/apr/07/emerging-economies-greater-risk-high-interest-currency-shocks-iran-war-imf",
+      "publishedAt": "2026-04-07T14:00:49Z"
     }
   ]
 }

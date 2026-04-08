@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-04-07T08:07:06.112Z",
+  "fetchedAt": "2026-04-08T08:08:22.767Z",
   "currency": "ZAR",
   "articles": [
+    {
+      "title": "UK house prices fall in March amid uncertain impact of Middle East conflict",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/08/uk-house-prices-fall-march-middle-east-conflict-iran",
+      "publishedAt": "2026-04-08T07:55:28Z"
+    },
+    {
+      "title": "JP Morgan reaches agreement with City airport for Canary Wharf’s tallest tower",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/07/jp-morgan-clears-hurdle-canary-wharf-tallest-tower-london-city-airport",
+      "publishedAt": "2026-04-07T12:47:27Z"
+    },
     {
       "title": "Waitrose under pressure to reinstate worker sacked after stopping shoplifter ",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/02/oil-price-rises-markets-slide-following-trump-iran-war-address",
       "publishedAt": "2026-04-02T15:59:03Z"
-    },
-    {
-      "title": "Stocks rise and oil dips on hopes of 15-point Iran peace plan",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/25/stocks-rise-oil-dips-iran-peace-plan-market-optimism",
-      "publishedAt": "2026-03-25T18:03:29Z"
-    },
-    {
-      "title": "Dow Jones Industrial Average posts best day since early February as hopes of Middle East de-escalation lift markets – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
-      "publishedAt": "2026-03-23T20:17:23Z"
     }
   ]
 }
