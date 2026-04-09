@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-04-08T08:08:20.985Z",
+  "fetchedAt": "2026-04-09T08:14:49.226Z",
   "currency": "KRW",
   "articles": [
     {
-      "title": "UK house prices fall in March amid uncertain impact of Middle East conflict",
+      "title": "Oil rises and global stocks wobble amid worries over ‘fragile’ ceasefire deal in Middle East – business live",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/08/uk-house-prices-fall-march-middle-east-conflict-iran",
-      "publishedAt": "2026-04-08T07:55:28Z"
+      "url": "https://www.theguardian.com/business/live/2026/apr/09/oil-stocks-fall-fragile-ceasefire-middle-east-business-news",
+      "publishedAt": "2026-04-09T08:00:15Z"
+    },
+    {
+      "title": "Oil price rises as markets question durability of Middle East ceasefire",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/09/oil-price-rises-as-markets-question-durability-of-middle-east-ceasefire-iran",
+      "publishedAt": "2026-04-09T07:44:26Z"
     },
     {
       "title": "JP Morgan reaches agreement with City airport for Canary Wharf’s tallest tower",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/05/waitrose-employee-sacked-after-stopping-shoplifter-from-taking-easter-eggs",
       "publishedAt": "2026-04-05T12:28:28Z"
-    },
-    {
-      "title": "UK food halls buck downbeat hospitality trend: ‘In this impossible climate, they shine hope’",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/04/uk-food-halls-buck-downbeat-hospitality-trend",
-      "publishedAt": "2026-04-04T09:00:17Z"
     }
   ]
 }

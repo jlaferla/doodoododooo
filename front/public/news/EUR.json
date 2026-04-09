@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-08T08:08:19.174Z",
+  "fetchedAt": "2026-04-09T08:14:47.603Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "Oil prices plunge 15% to below $100, stocks surge and dollar slumps after Trump announces US-Iran ceasefire – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/08/oil-prices-drop-stocks-rise-dollar-down-us-iran-ceasefire-business-live",
+      "publishedAt": "2026-04-08T14:40:18Z"
+    },
     {
       "title": "US crude oil hits $110 a barrel and markets drop as Trump dashes Iran de-escalation hopes – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/26/oecd-finds-global-economy-on-brink-of-inflation-spike-due-to-us-israeli-attacks-on-iran-with-australia-not-immune",
       "publishedAt": "2026-03-26T10:07:03Z"
-    },
-    {
-      "title": "Energy price shock and interest rate rises could cause ‘pronounced’ UK recession, economist warns – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/24/brent-crude-oil-100-dollars-a-barrel-middle-east-iran-stock-markets-economic-growth-latest-news-updates",
-      "publishedAt": "2026-03-24T15:46:57Z"
     }
   ]
 }

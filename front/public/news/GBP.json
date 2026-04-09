@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-04-08T08:08:19.543Z",
+  "fetchedAt": "2026-04-09T08:14:47.937Z",
   "currency": "GBP",
   "articles": [
     {
-      "title": "Oil prices plunge 15% to below $100, stocks surge and dollar slumps after Trump announces US-Iran ceasefire – business live",
+      "title": "Oil prices plunge 15% to below $100, stocks surge and dollar slumps after Trump announces US-Iran ceasefire – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/08/oil-prices-drop-stocks-rise-dollar-down-us-iran-ceasefire-business-live",
-      "publishedAt": "2026-04-08T08:01:46Z"
+      "publishedAt": "2026-04-08T14:40:18Z"
+    },
+    {
+      "title": "‘We can’t increase prices any more’: UK hospitality firms hit by cost triple blow",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/08/uk-pubs-hospitality-costs-minimum-wage-business-rates",
+      "publishedAt": "2026-04-08T12:00:31Z"
     },
     {
       "title": "Oil back above $110 in volatile markets as Trump deadline looms for Iran to reopen strait – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/02/uk-record-rise-fuel-prices-mortgage-shock-stock-markets-iran-war-oil-dollar-news-updates",
       "publishedAt": "2026-04-02T15:48:47Z"
-    },
-    {
-      "title": "Oil tumbles and UK’s FTSE 100 posts biggest daily rise in a year on hopes Middle East war will end soon – as it happened ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/01/oil-tumbles-stock-markets-gold-bonds-dollar-middle-east-war-manufacturing-factories-news-updates",
-      "publishedAt": "2026-04-01T15:49:52Z"
     }
   ]
 }
