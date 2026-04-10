@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-09T08:14:48.583Z",
+  "fetchedAt": "2026-04-10T08:17:47.453Z",
   "currency": "INR",
   "articles": [
+    {
+      "title": "UK to give £380m grant to Tata battery factory in Somerset",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/09/somerset-battery-factory-jaguar-land-rover-government-funding",
+      "publishedAt": "2026-04-09T17:00:00Z"
+    },
     {
       "title": "Hedge fund borrowing exposes emerging markets to greater Iran war risk, says IMF",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/19/uk-steel-tariffs-competition-peter-kyle-tata-steel-port-talbot",
       "publishedAt": "2026-03-19T00:01:53Z"
-    },
-    {
-      "title": "UK mortgage rates jump, and petrol prices rise, amid ‘Trumpflation’ worries; Oil price falls as Bessent says US is letting Iran ship its crude – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/16/uk-mortgage-shelf-life-nosedives-interest-rates-oil-iran-inflation-news-updates",
-      "publishedAt": "2026-03-16T16:15:01Z"
     }
   ]
 }

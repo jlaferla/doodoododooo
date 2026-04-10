@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-09T08:14:47.271Z",
+  "fetchedAt": "2026-04-10T08:17:46.138Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "Oil prices tick up amid doubt on Iran war ceasefire; Chinese factory gate costs increase for first time in four years",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/10/oil-rise-iran-war-ceasefire-china-factory-increase-business-latest-news-updates",
+      "publishedAt": "2026-04-10T08:11:33Z"
+    },
     {
       "title": "British Steel on track to be fully nationalised within weeks",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/21/west-carmakers-retreat-electric-vehicle-risks-irrelevance-iran-war-evs-china",
       "publishedAt": "2026-03-21T12:00:52Z"
-    },
-    {
-      "title": "Chinese-owned Syngenta to build new £100m bioscience hub in UK",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/16/syngenta-china-new-bioscience-hub-uk",
-      "publishedAt": "2026-03-16T15:41:29Z"
     }
   ]
 }

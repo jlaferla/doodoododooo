@@ -1,12 +1,24 @@
 {
-  "fetchedAt": "2026-04-09T08:14:45.951Z",
+  "fetchedAt": "2026-04-10T08:17:44.808Z",
   "currency": "AUD",
   "articles": [
     {
-      "title": "Oil price rises as markets question durability of Middle East ceasefire",
+      "title": "Welcome to Y’all Street: bullish Dallas aims to steal New York’s financial crown",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/10/dallas-new-york-business",
+      "publishedAt": "2026-04-10T06:00:12Z"
+    },
+    {
+      "title": "Oil rises and global stocks wobble amid worries over ‘fragile’ ceasefire deal in Middle East – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/09/oil-stocks-fall-fragile-ceasefire-middle-east-business-news",
+      "publishedAt": "2026-04-09T14:26:13Z"
+    },
+    {
+      "title": "Strait of Hormuz not open, Abu Dhabi’s oil chief says as crude prices rise",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/09/oil-price-rises-as-markets-question-durability-of-middle-east-ceasefire-iran",
-      "publishedAt": "2026-04-09T07:44:26Z"
+      "publishedAt": "2026-04-09T14:14:06Z"
     },
     {
       "title": "Shell oil trading profits soar amid Iran war but Qatar strikes hit gas output",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/08/oil-prices-drop-stocks-rise-dollar-down-us-iran-ceasefire-business-live",
       "publishedAt": "2026-04-08T14:40:18Z"
-    },
-    {
-      "title": "UK interest rate predictions fall as US and Iran agree two-week ceasefire",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/08/uk-interest-rate-predictions-us-iran-two-week-ceasefire",
-      "publishedAt": "2026-04-08T09:09:07Z"
-    },
-    {
-      "title": "Oil back above $110 in volatile markets as Trump deadline looms for Iran to reopen strait – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/07/oil-price-rises-trump-deadline-iran-reopen-strait-of-hormuz-imf-business-live-news",
-      "publishedAt": "2026-04-07T14:46:26Z"
     }
   ]
 }
