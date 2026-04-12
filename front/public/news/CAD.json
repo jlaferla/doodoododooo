@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-11T07:44:45.421Z",
+  "fetchedAt": "2026-04-12T07:58:54.580Z",
   "currency": "CAD",
   "articles": [
+    {
+      "title": "Low-tax Texas opens London office to lure jobs and investment",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/12/texas-opens-london-office-lure-jobs-investment-low-tax-subsidies",
+      "publishedAt": "2026-04-12T05:00:08Z"
+    },
     {
       "title": "Welcome to Y’all Street: bullish Dallas aims to steal New York’s financial crown",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/08/shell-oil-trading-profits-soar-amid-iran-war-but-qatar-strikes-hit-gas-output",
       "publishedAt": "2026-04-08T15:00:22Z"
-    },
-    {
-      "title": "Oil prices plunge 15% to below $100, stocks surge and dollar slumps after Trump announces US-Iran ceasefire – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/08/oil-prices-drop-stocks-rise-dollar-down-us-iran-ceasefire-business-live",
-      "publishedAt": "2026-04-08T14:40:18Z"
     }
   ]
 }

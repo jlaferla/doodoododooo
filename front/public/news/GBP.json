@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-11T07:44:46.670Z",
+  "fetchedAt": "2026-04-12T07:58:55.820Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "McDonald’s CEO blames mother’s etiquette training for awkward burger bite in video",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/11/mcdonalds-ceo-taste-test-video-blames-etiquette",
+      "publishedAt": "2026-04-11T09:00:43Z"
+    },
     {
       "title": "Oil prices plunge 15% to below $100, stocks surge and dollar slumps after Trump announces US-Iran ceasefire – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/02/oil-price-rises-markets-slide-following-trump-iran-war-address",
       "publishedAt": "2026-04-02T15:59:03Z"
-    },
-    {
-      "title": "US crude oil hits $110 a barrel and markets drop as Trump dashes Iran de-escalation hopes – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/02/uk-record-rise-fuel-prices-mortgage-shock-stock-markets-iran-war-oil-dollar-news-updates",
-      "publishedAt": "2026-04-02T15:48:47Z"
     }
   ]
 }
