@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-12T07:58:56.731Z",
+  "fetchedAt": "2026-04-13T08:58:12.447Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "Rolls-Royce secures nearly £600m in UK government cash to develop small reactors",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/13/rolls-royce-secures-nearly-600m-in-uk-goverment-cash-to-develop-small-reactors",
+      "publishedAt": "2026-04-13T08:38:02Z"
+    },
     {
       "title": "UK food halls buck downbeat hospitality trend: ‘In this impossible climate, they shine hope’",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/28/its-fired-people-up-support-grows-including-within-labor-for-new-gas-tax-to-curb-wartime-profits",
       "publishedAt": "2026-03-27T14:00:06Z"
-    },
-    {
-      "title": "UK car production falls 17% as industry warns of ‘worrying’ decline",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/27/uk-car-production-falls-worrying-decline",
-      "publishedAt": "2026-03-27T11:59:16Z"
     }
   ]
 }

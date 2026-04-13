@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-12T07:58:55.820Z",
+  "fetchedAt": "2026-04-13T08:58:11.539Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "Oil price tops $100 a barrel again after Trump announces strait of Hormuz blockade – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/13/oil-price-barrel-trump-naval-blockade-strait-of-hormuz-stock-markets-ftse-latest-news-updates",
+      "publishedAt": "2026-04-13T08:54:15Z"
+    },
     {
       "title": "McDonald’s CEO blames mother’s etiquette training for awkward burger bite in video",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/07/oil-price-rises-trump-deadline-iran-reopen-strait-of-hormuz-imf-business-live-news",
       "publishedAt": "2026-04-07T14:46:26Z"
-    },
-    {
-      "title": "Oil price jumps and markets slide after Trump warning to Iran",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/02/oil-price-rises-markets-slide-following-trump-iran-war-address",
-      "publishedAt": "2026-04-02T15:59:03Z"
     }
   ]
 }

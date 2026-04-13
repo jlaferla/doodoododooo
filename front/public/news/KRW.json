@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-12T07:58:57.028Z",
+  "fetchedAt": "2026-04-13T08:58:12.750Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Oil price tops $100 a barrel again after Trump announces strait of Hormuz blockade – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/13/oil-price-barrel-trump-naval-blockade-strait-of-hormuz-stock-markets-ftse-latest-news-updates",
+      "publishedAt": "2026-04-13T08:54:15Z"
+    },
     {
       "title": "Low-tax Texas opens London office to lure jobs and investment",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/09/oil-price-rises-as-markets-question-durability-of-middle-east-ceasefire-iran",
       "publishedAt": "2026-04-09T14:14:06Z"
-    },
-    {
-      "title": "JP Morgan reaches agreement with City airport for Canary Wharf’s tallest tower",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/07/jp-morgan-clears-hurdle-canary-wharf-tallest-tower-london-city-airport",
-      "publishedAt": "2026-04-07T12:47:27Z"
     }
   ]
 }

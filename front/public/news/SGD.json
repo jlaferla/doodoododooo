@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-12T07:58:57.628Z",
+  "fetchedAt": "2026-04-13T08:58:13.346Z",
   "currency": "SGD",
   "articles": [
+    {
+      "title": "Oil price tops $100 a barrel again after Trump announces strait of Hormuz blockade – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/13/oil-price-barrel-trump-naval-blockade-strait-of-hormuz-stock-markets-ftse-latest-news-updates",
+      "publishedAt": "2026-04-13T08:54:15Z"
+    },
     {
       "title": "Low-tax Texas opens London office to lure jobs and investment",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/09/oil-price-rises-as-markets-question-durability-of-middle-east-ceasefire-iran",
       "publishedAt": "2026-04-09T14:14:06Z"
-    },
-    {
-      "title": "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/world/2026/apr/08/oil-prices-stock-today-futures-crude-donald-trump-iran-ceasefire",
-      "publishedAt": "2026-04-08T20:32:33Z"
     }
   ]
 }

@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-12T07:58:55.503Z",
+  "fetchedAt": "2026-04-13T08:58:11.232Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "Oil price tops $100 a barrel again after Trump announces strait of Hormuz blockade – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/13/oil-price-barrel-trump-naval-blockade-strait-of-hormuz-stock-markets-ftse-latest-news-updates",
+      "publishedAt": "2026-04-13T08:54:15Z"
+    },
     {
       "title": "Oil prices plunge 15% to below $100, stocks surge and dollar slumps after Trump announces US-Iran ceasefire – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/26/uk-mortgage-rates-iran-war-borrowing-costs-oil-gas-economic-growth-business-live",
       "publishedAt": "2026-03-26T17:10:33Z"
-    },
-    {
-      "title": "Australian growth forecasts slashed as global economy faces inflation spike",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/26/oecd-finds-global-economy-on-brink-of-inflation-spike-due-to-us-israeli-attacks-on-iran-with-australia-not-immune",
-      "publishedAt": "2026-03-26T10:07:03Z"
     }
   ]
 }
