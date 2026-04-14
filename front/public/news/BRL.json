@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-13T08:58:09.902Z",
+  "fetchedAt": "2026-04-14T08:22:36.314Z",
   "currency": "BRL",
   "articles": [
+    {
+      "title": "The UK needs more North Sea gas; imports from the US are the real enemy | Nils Pratley",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/apr/14/uk-needs-north-sea-gas-not-us-imports-lng",
+      "publishedAt": "2026-04-13T23:01:54Z"
+    },
     {
       "title": "Australia’s land value has gone through the roof. Where does that leave young people who want to buy a home? | Greg Jericho",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/13/uk-gdp-report-economy-growing-iran-energy-shock-rachel-reeves-us-consumer-confidence-news-updates",
       "publishedAt": "2026-03-13T16:57:41Z"
-    },
-    {
-      "title": "As real wage growth falls again, Australian workers must feel the economy is rigged against them | Greg Jericho",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/grogonomics/2026/feb/18/real-wages-fall-australia-workers-economy",
-      "publishedAt": "2026-02-18T14:00:36Z"
     }
   ]
 }

@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-04-13T08:58:12.750Z",
+  "fetchedAt": "2026-04-14T08:22:39.626Z",
   "currency": "KRW",
   "articles": [
     {
-      "title": "Oil price tops $100 a barrel again after Trump announces strait of Hormuz blockade – business live",
+      "title": "Holidays take a hit as UK cost of living fears and Iran war bite",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/14/holidays-hit-cost-of-living-iran-war-travel",
+      "publishedAt": "2026-04-14T05:01:00Z"
+    },
+    {
+      "title": "Oil price tops $100 a barrel as US blockades strait of Hormuz; Goldman Sachs posts rise in profits – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/13/oil-price-barrel-trump-naval-blockade-strait-of-hormuz-stock-markets-ftse-latest-news-updates",
-      "publishedAt": "2026-04-13T08:54:15Z"
+      "publishedAt": "2026-04-13T15:42:14Z"
     },
     {
       "title": "Low-tax Texas opens London office to lure jobs and investment",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/09/oil-stocks-fall-fragile-ceasefire-middle-east-business-news",
       "publishedAt": "2026-04-09T14:26:13Z"
-    },
-    {
-      "title": "Strait of Hormuz not open, Abu Dhabi’s oil chief says as crude prices rise",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/09/oil-price-rises-as-markets-question-durability-of-middle-east-ceasefire-iran",
-      "publishedAt": "2026-04-09T14:14:06Z"
     }
   ]
 }

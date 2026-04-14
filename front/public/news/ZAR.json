@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-13T08:58:14.242Z",
+  "fetchedAt": "2026-04-14T08:22:41.398Z",
   "currency": "ZAR",
   "articles": [
+    {
+      "title": "Holidays take a hit as UK cost of living fears and Iran war bite",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/14/holidays-hit-cost-of-living-iran-war-travel",
+      "publishedAt": "2026-04-14T05:01:00Z"
+    },
     {
       "title": "Strait of Hormuz not open, Abu Dhabi’s oil chief says as crude prices rise",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/05/waitrose-employee-sacked-after-stopping-shoplifter-from-taking-easter-eggs",
       "publishedAt": "2026-04-05T12:28:28Z"
-    },
-    {
-      "title": "Oil price jumps and markets slide after Trump warning to Iran",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/02/oil-price-rises-markets-slide-following-trump-iran-war-address",
-      "publishedAt": "2026-04-02T15:59:03Z"
     }
   ]
 }

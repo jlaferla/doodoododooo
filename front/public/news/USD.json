@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-04-13T08:58:13.955Z",
+  "fetchedAt": "2026-04-14T08:22:41.050Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "Oil price tops $100 a barrel again after Trump announces strait of Hormuz blockade – business live",
+      "title": "Qantas cuts domestic flights and raises fares as travel patterns shift due to Middle East turmoil",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/13/oil-price-barrel-trump-naval-blockade-strait-of-hormuz-stock-markets-ftse-latest-news-updates",
-      "publishedAt": "2026-04-13T08:54:15Z"
+      "url": "https://www.theguardian.com/australia-news/2026/apr/14/qantas-fares-cuts-flights",
+      "publishedAt": "2026-04-14T05:34:13Z"
     },
     {
-      "title": "Oil price tops $100 a barrel after peace talks fail and Trump orders blockade ",
+      "title": "The UK needs more North Sea gas; imports from the US are the real enemy | Nils Pratley",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/apr/14/uk-needs-north-sea-gas-not-us-imports-lng",
+      "publishedAt": "2026-04-13T23:01:54Z"
+    },
+    {
+      "title": "Oil price dips below $100 a barrel after Trump claims Iran wants deal",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/13/oil-price-tops-100-dollars-barrel-us-blockade-strait-of-hormuz",
-      "publishedAt": "2026-04-13T07:16:39Z"
+      "publishedAt": "2026-04-13T18:59:58Z"
+    },
+    {
+      "title": "Oil price tops $100 a barrel as US blockades strait of Hormuz; Goldman Sachs posts rise in profits – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/13/oil-price-barrel-trump-naval-blockade-strait-of-hormuz-stock-markets-ftse-latest-news-updates",
+      "publishedAt": "2026-04-13T15:42:14Z"
     },
     {
       "title": "Collapse of US-Iran talks heightens fears of prolonged energy shock",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/12/collapse-us-iran-talks-energy-shock-oil-prices",
       "publishedAt": "2026-04-12T13:07:45Z"
-    },
-    {
-      "title": "Low-tax Texas opens London office to lure jobs and investment",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/12/texas-opens-london-office-lure-jobs-investment-low-tax-subsidies",
-      "publishedAt": "2026-04-12T05:00:08Z"
-    },
-    {
-      "title": "Federal workers struggle to find roles a year after Trump cuts: ‘I’ve applied to over 250 jobs’",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/11/federal-government-workers-trump-cuts",
-      "publishedAt": "2026-04-11T11:00:45Z"
     }
   ]
 }
