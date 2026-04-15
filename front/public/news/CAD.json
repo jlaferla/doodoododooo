@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-04-14T08:22:36.676Z",
+  "fetchedAt": "2026-04-15T08:23:37.462Z",
   "currency": "CAD",
   "articles": [
+    {
+      "title": "Stock markets recovering Iran war losses amid peace deal hopes; Reeves and Bessent to meet at IMF – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/15/stock-markets-iran-war-peace-deal-reeves-bessent-imf-business-latest-news-updates",
+      "publishedAt": "2026-04-15T08:00:33Z"
+    },
+    {
+      "title": "UK growth forecasts slashed by IMF as Iran war hurts global economy – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
+      "publishedAt": "2026-04-14T15:07:45Z"
+    },
+    {
+      "title": "Gina Rinehart and rival heirs brace for court verdict on claim to billion-dollar fortune",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/14/gina-rinehart-iron-ore-heirs-court-verdict-hancock-prospecting-ntwnfb",
+      "publishedAt": "2026-04-14T09:12:07Z"
+    },
     {
       "title": "Oil price tops $100 a barrel as US blockades strait of Hormuz; Goldman Sachs posts rise in profits – as it happened",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/12/texas-opens-london-office-lure-jobs-investment-low-tax-subsidies",
       "publishedAt": "2026-04-12T05:00:08Z"
-    },
-    {
-      "title": "Welcome to Y’all Street: bullish Dallas aims to steal New York’s financial crown",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/10/dallas-new-york-business",
-      "publishedAt": "2026-04-10T06:00:12Z"
-    },
-    {
-      "title": "Oil rises and global stocks wobble amid worries over ‘fragile’ ceasefire deal in Middle East – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/09/oil-stocks-fall-fragile-ceasefire-middle-east-business-news",
-      "publishedAt": "2026-04-09T14:26:13Z"
-    },
-    {
-      "title": "Strait of Hormuz not open, Abu Dhabi’s oil chief says as crude prices rise",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/09/oil-price-rises-as-markets-question-durability-of-middle-east-ceasefire-iran",
-      "publishedAt": "2026-04-09T14:14:06Z"
     }
   ]
 }

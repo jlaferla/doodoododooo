@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-04-14T08:22:41.050Z",
+  "fetchedAt": "2026-04-15T08:23:41.555Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "Stock markets recovering Iran war losses amid peace deal hopes; Reeves and Bessent to meet at IMF – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/15/stock-markets-iran-war-peace-deal-reeves-bessent-imf-business-latest-news-updates",
+      "publishedAt": "2026-04-15T08:00:33Z"
+    },
+    {
+      "title": "UK growth forecasts slashed by IMF as Iran war hurts global economy – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
+      "publishedAt": "2026-04-14T15:07:45Z"
+    },
+    {
+      "title": "Gina Rinehart and rival heirs brace for court verdict on claim to billion-dollar fortune",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/14/gina-rinehart-iron-ore-heirs-court-verdict-hancock-prospecting-ntwnfb",
+      "publishedAt": "2026-04-14T09:12:07Z"
+    },
     {
       "title": "Qantas cuts domestic flights and raises fares as travel patterns shift due to Middle East turmoil",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/apr/14/uk-needs-north-sea-gas-not-us-imports-lng",
       "publishedAt": "2026-04-13T23:01:54Z"
-    },
-    {
-      "title": "Oil price dips below $100 a barrel after Trump claims Iran wants deal",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/13/oil-price-tops-100-dollars-barrel-us-blockade-strait-of-hormuz",
-      "publishedAt": "2026-04-13T18:59:58Z"
-    },
-    {
-      "title": "Oil price tops $100 a barrel as US blockades strait of Hormuz; Goldman Sachs posts rise in profits – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/13/oil-price-barrel-trump-naval-blockade-strait-of-hormuz-stock-markets-ftse-latest-news-updates",
-      "publishedAt": "2026-04-13T15:42:14Z"
-    },
-    {
-      "title": "Collapse of US-Iran talks heightens fears of prolonged energy shock",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/12/collapse-us-iran-talks-energy-shock-oil-prices",
-      "publishedAt": "2026-04-12T13:07:45Z"
     }
   ]
 }

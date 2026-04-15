@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-04-14T08:22:39.626Z",
+  "fetchedAt": "2026-04-15T08:23:40.206Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Stock markets recovering Iran war losses amid peace deal hopes; Reeves and Bessent to meet at IMF – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/15/stock-markets-iran-war-peace-deal-reeves-bessent-imf-business-latest-news-updates",
+      "publishedAt": "2026-04-15T08:00:33Z"
+    },
+    {
+      "title": "South East Water chief executive to forgo his bonus over ‘unacceptable outages’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/14/south-east-water-chief-executive-to-forgo-his-bonus-over-unacceptable-outages",
+      "publishedAt": "2026-04-14T17:46:23Z"
+    },
     {
       "title": "Holidays take a hit as UK cost of living fears and Iran war bite",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/12/texas-opens-london-office-lure-jobs-investment-low-tax-subsidies",
       "publishedAt": "2026-04-12T05:00:08Z"
-    },
-    {
-      "title": "European airports ‘face jet fuel shortages within three weeks’; Irish army called in over fuel protests - as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/10/oil-rise-iran-war-ceasefire-china-factory-increase-business-latest-news-updates",
-      "publishedAt": "2026-04-10T14:33:02Z"
-    },
-    {
-      "title": "Oil rises and global stocks wobble amid worries over ‘fragile’ ceasefire deal in Middle East – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/09/oil-stocks-fall-fragile-ceasefire-middle-east-business-news",
-      "publishedAt": "2026-04-09T14:26:13Z"
     }
   ]
 }

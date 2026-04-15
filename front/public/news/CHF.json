@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-14T08:22:37.060Z",
+  "fetchedAt": "2026-04-15T08:23:37.809Z",
   "currency": "CHF",
   "articles": [
+    {
+      "title": "UK growth forecasts slashed by IMF as Iran war hurts global economy – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
+      "publishedAt": "2026-04-14T15:07:45Z"
+    },
     {
       "title": "GSK reports promising early results in ovarian and womb cancer drug trial",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/19/bank-of-england-interest-rates-decision-hold-inflation-oil-gas-iran-wage-growth-slows-latest-news-updates",
       "publishedAt": "2026-03-19T16:44:42Z"
-    },
-    {
-      "title": "War in Middle East has ‘heightened the risks to the global economy’; markets in ‘panic mode’ as oil jumps and shares fall – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/18/oil-stock-markets-iraq-deal-exports-turkey-inflation-central-bankers-news-updates",
-      "publishedAt": "2026-03-18T16:44:46Z"
     }
   ]
 }

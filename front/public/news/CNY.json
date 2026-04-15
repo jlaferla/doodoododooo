@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-14T08:22:37.422Z",
+  "fetchedAt": "2026-04-15T08:23:38.155Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "UK steel exports to EU at risk as bloc doubles tariffs and halves quotas",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/14/uk-steel-exports-eu-risk-tariffs-quotas",
+      "publishedAt": "2026-04-14T13:53:35Z"
+    },
     {
       "title": "British Steel on track to be fully nationalised within weeks",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/21/west-carmakers-retreat-electric-vehicle-risks-irrelevance-iran-war-evs-china",
       "publishedAt": "2026-03-21T12:00:52Z"
-    },
-    {
-      "title": "Chinese-owned Syngenta to build new £100m bioscience hub in UK",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/16/syngenta-china-new-bioscience-hub-uk",
-      "publishedAt": "2026-03-16T15:41:29Z"
     }
   ]
 }

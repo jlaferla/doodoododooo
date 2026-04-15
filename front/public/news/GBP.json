@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-04-14T08:22:38.171Z",
+  "fetchedAt": "2026-04-15T08:23:38.854Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "AA driving schools ordered to refund 80,000 learner drivers over hidden fees",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/15/aa-driving-schools-refund-learner-drivers-hidden-lessons-fees",
+      "publishedAt": "2026-04-15T06:59:37Z"
+    },
+    {
+      "title": "Jamie Dimon says private credit defaults are not threat to major banks",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/14/jamie-dimon-private-credit-defaults-not-threat-major-banks",
+      "publishedAt": "2026-04-14T16:25:55Z"
+    },
+    {
+      "title": "UK growth forecasts slashed by IMF as Iran war hurts global economy – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
+      "publishedAt": "2026-04-14T15:07:45Z"
+    },
     {
       "title": "Oil price tops $100 a barrel as US blockades strait of Hormuz; Goldman Sachs posts rise in profits – as it happened",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/11/mcdonalds-ceo-taste-test-video-blames-etiquette",
       "publishedAt": "2026-04-11T09:00:43Z"
-    },
-    {
-      "title": "Oil prices plunge 15% to below $100, stocks surge and dollar slumps after Trump announces US-Iran ceasefire – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/08/oil-prices-drop-stocks-rise-dollar-down-us-iran-ceasefire-business-live",
-      "publishedAt": "2026-04-08T14:40:18Z"
-    },
-    {
-      "title": "‘We can’t increase prices any more’: UK hospitality firms hit by cost triple blow",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/08/uk-pubs-hospitality-costs-minimum-wage-business-rates",
-      "publishedAt": "2026-04-08T12:00:31Z"
-    },
-    {
-      "title": "Oil back above $110 in volatile markets as Trump deadline looms for Iran to reopen strait – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/07/oil-price-rises-trump-deadline-iran-reopen-strait-of-hormuz-imf-business-live-news",
-      "publishedAt": "2026-04-07T14:46:26Z"
     }
   ]
 }

@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-14T08:22:40.694Z",
+  "fetchedAt": "2026-04-15T08:23:41.214Z",
   "currency": "TRY",
   "articles": [
+    {
+      "title": " United Airlines CEO reportedly pitched merger with American, sparking competition fears",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/14/united-airlines-merger-american-airlines",
+      "publishedAt": "2026-04-14T15:48:49Z"
+    },
     {
       "title": "Blue Owl Capital limits withdrawals after investors try to redeem $5.4bn",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/04/stock-market-fall-trump-hormuz-oil-prices",
       "publishedAt": "2026-03-04T15:28:40Z"
-    },
-    {
-      "title": "Coles’ shameless ‘Down Down’ promotions have been exposed. So why aren’t they even trying to rebuild trust? | John Quiggin",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/commentisfree/2026/feb/19/coles-shameless-down-down-promotions-have-been-exposed-so-why-arent-they-even-trying-to-rebuilt-trust",
-      "publishedAt": "2026-02-18T22:33:52Z"
     }
   ]
 }

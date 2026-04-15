@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-14T08:22:37.799Z",
+  "fetchedAt": "2026-04-15T08:23:38.515Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "UK growth forecasts slashed by IMF as Iran war hurts global economy – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
+      "publishedAt": "2026-04-14T15:07:45Z"
+    },
     {
       "title": "Oil price tops $100 a barrel as US blockades strait of Hormuz; Goldman Sachs posts rise in profits – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/01/oil-tumbles-stock-markets-gold-bonds-dollar-middle-east-war-manufacturing-factories-news-updates",
       "publishedAt": "2026-04-01T15:49:52Z"
-    },
-    {
-      "title": "NS&I chief executive replaced in ‘fresh start’ over missing savings crisis; bad day for markets – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/26/uk-mortgage-rates-iran-war-borrowing-costs-oil-gas-economic-growth-business-live",
-      "publishedAt": "2026-03-26T17:10:33Z"
     }
   ]
 }

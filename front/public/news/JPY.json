@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-14T08:22:39.263Z",
+  "fetchedAt": "2026-04-15T08:23:39.868Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "Nissan turnaround plan pins hopes on ‘AI-defined vehicles’ ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/14/nissan-turnaround-plan-pins-hopes-on-ai-defined-vehicles",
+      "publishedAt": "2026-04-14T12:25:51Z"
+    },
     {
       "title": "Rolls-Royce secures nearly £600m in UK government cash to develop small reactors",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/27/oil-price-trump-iran-extension-uk-consumer-confidence-stock-markets-latest-news-updates",
       "publishedAt": "2026-03-27T20:04:30Z"
-    },
-    {
-      "title": "‘It’s fired people up’: support grows, including within Labor, for new gas tax to curb wartime profits",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/28/its-fired-people-up-support-grows-including-within-labor-for-new-gas-tax-to-curb-wartime-profits",
-      "publishedAt": "2026-03-27T14:00:06Z"
     }
   ]
 }
