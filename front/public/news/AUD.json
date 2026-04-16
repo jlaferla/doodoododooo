@@ -1,12 +1,24 @@
 {
-  "fetchedAt": "2026-04-15T08:23:36.774Z",
+  "fetchedAt": "2026-04-16T08:23:58.138Z",
   "currency": "AUD",
   "articles": [
     {
-      "title": "Stock markets recovering Iran war losses amid peace deal hopes; Reeves and Bessent to meet at IMF – business live",
+      "title": "IMF calls for countries to economise on energy supplies, and hails UK’s budget deficit improvement – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/15/stock-markets-iran-war-peace-deal-reeves-bessent-imf-business-latest-news-updates",
-      "publishedAt": "2026-04-15T08:00:33Z"
+      "publishedAt": "2026-04-15T17:13:42Z"
+    },
+    {
+      "title": "The IMF refuses to name the cause of this global chaos. It starts with ‘Donald’ and ends in ‘Trump’ | Greg Jericho",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/grogonomics/2026/apr/15/imf-world-economic-outlook-chaos-donald-trump",
+      "publishedAt": "2026-04-15T15:00:31Z"
+    },
+    {
+      "title": "Who is the rival family pitted against Gina Rinehart in a long-running court case – and is she still the richest person in Australia? ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/15/who-is-the-rival-family-pitted-against-gina-rinehart-in-a-long-running-court-case-and-is-she-still-the-richest-person-in-australia-ntwnfb",
+      "publishedAt": "2026-04-15T10:19:57Z"
     },
     {
       "title": "Gina Rinehart’s son says he wants to be a ‘united family’ in olive branch to mother after court ruling ",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
       "publishedAt": "2026-04-14T15:07:45Z"
-    },
-    {
-      "title": "Gina Rinehart and rival heirs brace for court verdict on claim to billion-dollar fortune",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/14/gina-rinehart-iron-ore-heirs-court-verdict-hancock-prospecting-ntwnfb",
-      "publishedAt": "2026-04-14T09:12:07Z"
-    },
-    {
-      "title": "Qantas cuts domestic flights and raises fares as travel patterns shift due to Middle East turmoil",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/apr/14/qantas-fares-cuts-flights",
-      "publishedAt": "2026-04-14T05:34:13Z"
     }
   ]
 }

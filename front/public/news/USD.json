@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-04-15T08:23:41.555Z",
+  "fetchedAt": "2026-04-16T08:24:02.428Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "Stock markets recovering Iran war losses amid peace deal hopes; Reeves and Bessent to meet at IMF – business live",
+      "title": "IMF calls for countries to economise on energy supplies, and hails UK’s budget deficit improvement – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/15/stock-markets-iran-war-peace-deal-reeves-bessent-imf-business-latest-news-updates",
-      "publishedAt": "2026-04-15T08:00:33Z"
+      "publishedAt": "2026-04-15T17:13:42Z"
+    },
+    {
+      "title": "Big US banks rake in near $50bn profit as Iran war shakes markets",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/15/big-us-banks-profit-iran-war-markets-morgan-stanley-jp-morgan",
+      "publishedAt": "2026-04-15T15:04:55Z"
     },
     {
       "title": "UK growth forecasts slashed by IMF as Iran war hurts global economy – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/australia-news/2026/apr/14/qantas-fares-cuts-flights",
       "publishedAt": "2026-04-14T05:34:13Z"
-    },
-    {
-      "title": "The UK needs more North Sea gas; imports from the US are the real enemy | Nils Pratley",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/apr/14/uk-needs-north-sea-gas-not-us-imports-lng",
-      "publishedAt": "2026-04-13T23:01:54Z"
     }
   ]
 }

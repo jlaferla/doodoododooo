@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-04-15T08:23:37.462Z",
+  "fetchedAt": "2026-04-16T08:23:58.761Z",
   "currency": "CAD",
   "articles": [
     {
-      "title": "Stock markets recovering Iran war losses amid peace deal hopes; Reeves and Bessent to meet at IMF – business live",
+      "title": "Drax claimed record £999m in subsidies for burning trees in 2025, thinktank says",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/16/drax-renewable-energy-subsidies-wood-pellets",
+      "publishedAt": "2026-04-15T23:01:41Z"
+    },
+    {
+      "title": "IMF calls for countries to economise on energy supplies, and hails UK’s budget deficit improvement – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/15/stock-markets-iran-war-peace-deal-reeves-bessent-imf-business-latest-news-updates",
-      "publishedAt": "2026-04-15T08:00:33Z"
+      "publishedAt": "2026-04-15T17:13:42Z"
     },
     {
       "title": "UK growth forecasts slashed by IMF as Iran war hurts global economy – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/13/oil-price-barrel-trump-naval-blockade-strait-of-hormuz-stock-markets-ftse-latest-news-updates",
       "publishedAt": "2026-04-13T15:42:14Z"
-    },
-    {
-      "title": "Low-tax Texas opens London office to lure jobs and investment",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/12/texas-opens-london-office-lure-jobs-investment-low-tax-subsidies",
-      "publishedAt": "2026-04-12T05:00:08Z"
     }
   ]
 }

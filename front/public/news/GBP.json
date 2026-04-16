@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-04-15T08:23:38.854Z",
+  "fetchedAt": "2026-04-16T08:23:59.986Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "UK could face gaps on supermarket shelves by summer if Iran war continues",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/16/uk-possible-food-shortages-iran-war-co2",
+      "publishedAt": "2026-04-16T08:01:48Z"
+    },
+    {
+      "title": "UK economy showed surprise 0.5% growth before Iran war",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/16/uk-economy-in-surprise-05-growth-jump-before-iran-war",
+      "publishedAt": "2026-04-16T07:33:12Z"
+    },
+    {
+      "title": "Tesco warns profits could fall amid Iran war uncertainty",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/16/tesco-warns-profits-iran-war-uncertainty",
+      "publishedAt": "2026-04-16T06:49:06Z"
+    },
     {
       "title": "AA driving schools ordered to refund 80,000 learner drivers over hidden fees",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/14/jamie-dimon-private-credit-defaults-not-threat-major-banks",
       "publishedAt": "2026-04-14T16:25:55Z"
-    },
-    {
-      "title": "UK growth forecasts slashed by IMF as Iran war hurts global economy – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
-      "publishedAt": "2026-04-14T15:07:45Z"
-    },
-    {
-      "title": "Oil price tops $100 a barrel as US blockades strait of Hormuz; Goldman Sachs posts rise in profits – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/13/oil-price-barrel-trump-naval-blockade-strait-of-hormuz-stock-markets-ftse-latest-news-updates",
-      "publishedAt": "2026-04-13T15:42:14Z"
-    },
-    {
-      "title": "McDonald’s CEO blames mother’s etiquette training for awkward burger bite in video",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/11/mcdonalds-ceo-taste-test-video-blames-etiquette",
-      "publishedAt": "2026-04-11T09:00:43Z"
     }
   ]
 }
