@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-04-16T08:23:59.986Z",
+  "fetchedAt": "2026-04-17T08:22:53.457Z",
   "currency": "GBP",
   "articles": [
     {
-      "title": "UK could face gaps on supermarket shelves by summer if Iran war continues",
+      "title": "Europe has only six weeks’ supply of jet fuel left owing to Iran war, says energy chief",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/16/uk-possible-food-shortages-iran-war-co2",
-      "publishedAt": "2026-04-16T08:01:48Z"
-    },
-    {
-      "title": "UK economy showed surprise 0.5% growth before Iran war",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/16/uk-economy-in-surprise-05-growth-jump-before-iran-war",
-      "publishedAt": "2026-04-16T07:33:12Z"
+      "url": "https://www.theguardian.com/business/2026/apr/16/europe-supply-jet-fuel-iran-war-flight-cancellations-iea",
+      "publishedAt": "2026-04-16T16:59:54Z"
     },
     {
       "title": "Tesco warns profits could fall amid Iran war uncertainty",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/16/tesco-warns-profits-iran-war-uncertainty",
-      "publishedAt": "2026-04-16T06:49:06Z"
+      "publishedAt": "2026-04-16T09:26:28Z"
+    },
+    {
+      "title": "UK could face gaps on supermarket shelves by summer if Iran war continues",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/16/uk-possible-food-shortages-iran-war-co2",
+      "publishedAt": "2026-04-16T09:04:50Z"
+    },
+    {
+      "title": "EasyJet warns of impact on profits as Iran war hits bookings and fuel prices",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/16/easyjet-profits-iran-war-bookings-fuel-prices-flights",
+      "publishedAt": "2026-04-16T08:53:11Z"
     },
     {
       "title": "AA driving schools ordered to refund 80,000 learner drivers over hidden fees",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/15/aa-driving-schools-refund-learner-drivers-hidden-lessons-fees",
       "publishedAt": "2026-04-15T06:59:37Z"
-    },
-    {
-      "title": "Jamie Dimon says private credit defaults are not threat to major banks",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/14/jamie-dimon-private-credit-defaults-not-threat-major-banks",
-      "publishedAt": "2026-04-14T16:25:55Z"
     }
   ]
 }
