@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-17T08:22:53.134Z",
+  "fetchedAt": "2026-04-18T07:55:23.066Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "Oil tumbles 10% and stock markets rally as Iran declares strait of Hormuz ‘completely open’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/17/wheat-price-jump-iran-war-fertiliser-food-insecurity-oil-stock-markets-latest-updates",
+      "publishedAt": "2026-04-17T16:13:09Z"
+    },
     {
       "title": "UK growth forecasts slashed by IMF as Iran war hurts global economy – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/02/uk-record-rise-fuel-prices-mortgage-shock-stock-markets-iran-war-oil-dollar-news-updates",
       "publishedAt": "2026-04-02T15:48:47Z"
-    },
-    {
-      "title": "Oil tumbles and UK’s FTSE 100 posts biggest daily rise in a year on hopes Middle East war will end soon – as it happened ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/01/oil-tumbles-stock-markets-gold-bonds-dollar-middle-east-war-manufacturing-factories-news-updates",
-      "publishedAt": "2026-04-01T15:49:52Z"
     }
   ]
 }
