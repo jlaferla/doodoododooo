@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-18T07:55:26.057Z",
+  "fetchedAt": "2026-04-19T08:02:24.560Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "Central bank bosses enlist for war game to gauge threat of Lehman-style bust",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/18/central-bank-bosses-enlist-for-war-game-to-gauge-threat-of-lehman-style-bust",
+      "publishedAt": "2026-04-18T09:00:09Z"
+    },
     {
       "title": "IMF calls for countries to economise on energy supplies, and hails UK’s budget deficit improvement – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/14/gina-rinehart-iron-ore-heirs-court-verdict-hancock-prospecting-ntwnfb",
       "publishedAt": "2026-04-14T09:12:07Z"
-    },
-    {
-      "title": "Qantas cuts domestic flights and raises fares as travel patterns shift due to Middle East turmoil",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/apr/14/qantas-fares-cuts-flights",
-      "publishedAt": "2026-04-14T05:34:13Z"
     }
   ]
 }
