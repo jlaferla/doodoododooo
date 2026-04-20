@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-19T08:02:20.923Z",
+  "fetchedAt": "2026-04-20T09:04:35.596Z",
   "currency": "CAD",
   "articles": [
+    {
+      "title": "European stock markets fall and oil and gas prices jump 5% as strait of Hormuz ‘chaos’ worries investors – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/20/oil-price-stock-markets-us-iran-ceasefire-strait-of-hormuz-open-closed-live-updates",
+      "publishedAt": "2026-04-20T08:56:56Z"
+    },
     {
       "title": "Drax claimed record £999m in subsidies for burning trees in 2025, thinktank says",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/14/gina-rinehart-iron-ore-heirs-court-verdict-hancock-prospecting-ntwnfb",
       "publishedAt": "2026-04-14T09:12:07Z"
-    },
-    {
-      "title": "Oil price tops $100 a barrel as US blockades strait of Hormuz; Goldman Sachs posts rise in profits – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/13/oil-price-barrel-trump-naval-blockade-strait-of-hormuz-stock-markets-ftse-latest-news-updates",
-      "publishedAt": "2026-04-13T15:42:14Z"
     }
   ]
 }

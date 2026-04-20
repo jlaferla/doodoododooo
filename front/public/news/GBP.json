@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-19T08:02:22.143Z",
+  "fetchedAt": "2026-04-20T09:04:36.802Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "European stock markets fall and oil and gas prices jump 5% as strait of Hormuz ‘chaos’ worries investors – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/20/oil-price-stock-markets-us-iran-ceasefire-strait-of-hormuz-open-closed-live-updates",
+      "publishedAt": "2026-04-20T08:56:56Z"
+    },
     {
       "title": "Europe has only six weeks’ supply of jet fuel left owing to Iran war, says energy chief",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/16/easyjet-profits-iran-war-bookings-fuel-prices-flights",
       "publishedAt": "2026-04-16T08:53:11Z"
-    },
-    {
-      "title": "AA driving schools ordered to refund 80,000 learner drivers over hidden fees",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/15/aa-driving-schools-refund-learner-drivers-hidden-lessons-fees",
-      "publishedAt": "2026-04-15T06:59:37Z"
     }
   ]
 }

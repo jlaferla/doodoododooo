@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-19T08:02:21.225Z",
+  "fetchedAt": "2026-04-20T09:04:35.892Z",
   "currency": "CHF",
   "articles": [
+    {
+      "title": "Labour’s ‘crabwise’ approach to closer EU ties must address damage of Brexit | Heather Stewart",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/19/labour-approach-closer-eu-ties-address-damage-of-brexit",
+      "publishedAt": "2026-04-19T10:50:18Z"
+    },
     {
       "title": "UK growth forecasts slashed by IMF as Iran war hurts global economy – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/02/eco-shoe-brand-allbirds-sold-american-exchange-group",
       "publishedAt": "2026-04-02T11:35:29Z"
-    },
-    {
-      "title": "Bank of England tipped to raise UK interest rates twice this year to fight inflation shock from Middle East crisis, as oil and gas prices rise – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/19/bank-of-england-interest-rates-decision-hold-inflation-oil-gas-iran-wage-growth-slows-latest-news-updates",
-      "publishedAt": "2026-03-19T16:44:42Z"
     }
   ]
 }

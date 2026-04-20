@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-19T08:02:24.560Z",
+  "fetchedAt": "2026-04-20T09:04:39.231Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "European stock markets fall and oil and gas prices jump 5% as strait of Hormuz ‘chaos’ worries investors – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/20/oil-price-stock-markets-us-iran-ceasefire-strait-of-hormuz-open-closed-live-updates",
+      "publishedAt": "2026-04-20T08:56:56Z"
+    },
     {
       "title": "Central bank bosses enlist for war game to gauge threat of Lehman-style bust",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
       "publishedAt": "2026-04-14T15:07:45Z"
-    },
-    {
-      "title": "Gina Rinehart and rival heirs brace for court verdict on claim to billion-dollar fortune",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/14/gina-rinehart-iron-ore-heirs-court-verdict-hancock-prospecting-ntwnfb",
-      "publishedAt": "2026-04-14T09:12:07Z"
     }
   ]
 }

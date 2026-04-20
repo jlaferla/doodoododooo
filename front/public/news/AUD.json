@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-19T08:02:20.304Z",
+  "fetchedAt": "2026-04-20T09:04:34.982Z",
   "currency": "AUD",
   "articles": [
+    {
+      "title": "European stock markets fall and oil and gas prices jump 5% as strait of Hormuz ‘chaos’ worries investors – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/20/oil-price-stock-markets-us-iran-ceasefire-strait-of-hormuz-open-closed-live-updates",
+      "publishedAt": "2026-04-20T08:56:56Z"
+    },
     {
       "title": "IMF calls for countries to economise on energy supplies, and hails UK’s budget deficit improvement – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/15/gina-rinehart-son-olive-branch-after-court-ruling-ntwnfb",
       "publishedAt": "2026-04-15T07:32:56Z"
-    },
-    {
-      "title": "UK growth forecasts slashed by IMF as Iran war hurts global economy – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
-      "publishedAt": "2026-04-14T15:07:45Z"
     }
   ]
 }
