@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-21T08:28:40.325Z",
+  "fetchedAt": "2026-04-22T08:26:02.133Z",
   "currency": "AUD",
   "articles": [
+    {
+      "title": "Takeaway coffee sales plunge as fuel and living costs dent Australian spending. Is the economy next?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/22/takeaway-coffee-sales-australian-economy-fuel-living-costs",
+      "publishedAt": "2026-04-22T00:00:03Z"
+    },
     {
       "title": "European stock markets fall and oil and gas prices jump as strait of Hormuz ‘chaos’ worries investors – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/15/who-is-the-rival-family-pitted-against-gina-rinehart-in-a-long-running-court-case-and-is-she-still-the-richest-person-in-australia-ntwnfb",
       "publishedAt": "2026-04-15T10:19:57Z"
-    },
-    {
-      "title": "Gina Rinehart’s son says he wants to be a ‘united family’ in olive branch to mother after court ruling ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/15/gina-rinehart-son-olive-branch-after-court-ruling-ntwnfb",
-      "publishedAt": "2026-04-15T07:32:56Z"
     }
   ]
 }

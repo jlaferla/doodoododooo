@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-21T08:28:42.489Z",
+  "fetchedAt": "2026-04-22T08:26:04.340Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "UK inflation climbs to 3.3%, driven by largest increase in fuel prices in over three years – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/22/uk-inflation-increase-fuel-prices-oil-falls-trump-ceasefire-extended-business-live-news-updates",
+      "publishedAt": "2026-04-22T08:01:36Z"
+    },
     {
       "title": "European stock markets fall and oil and gas prices jump as strait of Hormuz ‘chaos’ worries investors – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
       "publishedAt": "2026-04-14T15:07:45Z"
-    },
-    {
-      "title": "China Evergrande’s billionaire boss pleads guilty to fraud",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/14/china-evergrande-fraud-hui-ka-yan-trial-property",
-      "publishedAt": "2026-04-14T14:09:40Z"
     }
   ]
 }
