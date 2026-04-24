@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-04-23T08:29:40.539Z",
+  "fetchedAt": "2026-04-24T08:56:32.221Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "American Airlines says soaring price of jet fuel will cost it $4bn this year",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/23/american-airlines--jet-fuel-cost-4bn-this-year",
+      "publishedAt": "2026-04-23T15:58:13Z"
+    },
+    {
+      "title": "Fertiliser is in short supply. What does it mean for Australia’s farmers – and your bread?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/23/fertiliser-short-supply-australia-farmers-bread-prices-strait-of-hormuz",
+      "publishedAt": "2026-04-23T15:00:15Z"
+    },
     {
       "title": "European stock markets fall and oil and gas prices jump as strait of Hormuz ‘chaos’ worries investors – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/15/stock-markets-iran-war-peace-deal-reeves-bessent-imf-business-latest-news-updates",
       "publishedAt": "2026-04-15T17:13:42Z"
-    },
-    {
-      "title": "Big US banks rake in near $50bn profit as Iran war shakes markets",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/15/big-us-banks-profit-iran-war-markets-morgan-stanley-jp-morgan",
-      "publishedAt": "2026-04-15T15:04:55Z"
-    },
-    {
-      "title": "UK growth forecasts slashed by IMF as Iran war hurts global economy – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
-      "publishedAt": "2026-04-14T15:07:45Z"
     }
   ]
 }

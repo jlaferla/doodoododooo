@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-23T08:29:37.920Z",
+  "fetchedAt": "2026-04-24T08:56:29.636Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": " Bank of England deputy governor warns stock markets will fall; Trump threatens UK with ‘big tariff’ over digital services tax – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/24/stock-market-warning-bank-of-england-deputy-governor-trump-threatens-uk-tariff-business-live",
+      "publishedAt": "2026-04-24T08:52:45Z"
+    },
     {
       "title": "European stock markets fall and oil and gas prices jump as strait of Hormuz ‘chaos’ worries investors – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/16/uk-possible-food-shortages-iran-war-co2",
       "publishedAt": "2026-04-16T09:04:50Z"
-    },
-    {
-      "title": "EasyJet warns of impact on profits as Iran war hits bookings and fuel prices",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/16/easyjet-profits-iran-war-bookings-fuel-prices-flights",
-      "publishedAt": "2026-04-16T08:53:11Z"
     }
   ]
 }

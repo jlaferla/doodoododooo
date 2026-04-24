@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-04-23T08:29:38.255Z",
+  "fetchedAt": "2026-04-24T08:56:29.965Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "Revealed: UK oil refinery owner moved Russian loans to offshore subsidiary where sanctions did not apply",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/24/revealed-uk-oil-refinery-owner-moved-russian-loans-to-offshore-subsidiary-where-sanctions-did-not-apply",
+      "publishedAt": "2026-04-24T05:00:32Z"
+    },
+    {
+      "title": "Fertiliser is in short supply. What does it mean for Australia’s farmers – and your bread?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/23/fertiliser-short-supply-australia-farmers-bread-prices-strait-of-hormuz",
+      "publishedAt": "2026-04-23T15:00:15Z"
+    },
     {
       "title": "Middle East war ‘could wipe out 75% of chancellor’s budget headroom’; UK inflation climbs to 3.3% – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/15/stock-markets-iran-war-peace-deal-reeves-bessent-imf-business-latest-news-updates",
       "publishedAt": "2026-04-15T17:13:42Z"
-    },
-    {
-      "title": "Trump’s push to cut interest rates has echoes of ‘banana republic’, says Yellen",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/15/donald-trump-cut-interest-rates-janet-yellen-us-inflation",
-      "publishedAt": "2026-04-15T10:51:50Z"
-    },
-    {
-      "title": "UK growth forecasts slashed by IMF as Iran war hurts global economy – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
-      "publishedAt": "2026-04-14T15:07:45Z"
     }
   ]
 }

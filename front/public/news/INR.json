@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-23T08:29:38.586Z",
+  "fetchedAt": "2026-04-24T08:56:30.288Z",
   "currency": "INR",
   "articles": [
+    {
+      "title": "Revealed: UK oil refinery owner moved Russian loans to offshore subsidiary where sanctions did not apply",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/24/revealed-uk-oil-refinery-owner-moved-russian-loans-to-offshore-subsidiary-where-sanctions-did-not-apply",
+      "publishedAt": "2026-04-24T05:00:32Z"
+    },
     {
       "title": "UK to give £380m grant to Tata battery factory in Somerset",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
       "publishedAt": "2026-03-23T20:17:23Z"
-    },
-    {
-      "title": "UK to double steel tariffs to 50% to save plants from collapse",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/19/uk-steel-tariffs-competition-peter-kyle-tata-steel-port-talbot",
-      "publishedAt": "2026-03-19T00:01:53Z"
     }
   ]
 }

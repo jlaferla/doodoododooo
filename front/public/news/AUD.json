@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-23T08:29:35.928Z",
+  "fetchedAt": "2026-04-24T08:56:27.674Z",
   "currency": "AUD",
   "articles": [
+    {
+      "title": "Fertiliser is in short supply. What does it mean for Australia’s farmers – and your bread?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/23/fertiliser-short-supply-australia-farmers-bread-prices-strait-of-hormuz",
+      "publishedAt": "2026-04-23T15:00:15Z"
+    },
     {
       "title": "Takeaway coffee sales plunge as fuel and living costs dent Australian spending. Is the economy next?",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/grogonomics/2026/apr/15/imf-world-economic-outlook-chaos-donald-trump",
       "publishedAt": "2026-04-15T15:00:31Z"
-    },
-    {
-      "title": "Who is the rival family pitted against Gina Rinehart in a long-running court case – and is she still the richest person in Australia? ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/15/who-is-the-rival-family-pitted-against-gina-rinehart-in-a-long-running-court-case-and-is-she-still-the-richest-person-in-australia-ntwnfb",
-      "publishedAt": "2026-04-15T10:19:57Z"
     }
   ]
 }
