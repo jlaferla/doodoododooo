@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-26T08:13:16.075Z",
+  "fetchedAt": "2026-04-27T09:13:18.069Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "Oil at three-week high as US-Iran peace talks stall; China blocks Meta’s takeover of AI agent Manus – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/27/oil-prices-high-us-iran-peace-talks-stock-markets-house-prices-latest-news-updates",
+      "publishedAt": "2026-04-27T09:11:00Z"
+    },
     {
       "title": "IMF calls for countries to economise on energy supplies, and hails UK’s budget deficit improvement – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/04/uk-food-halls-buck-downbeat-hospitality-trend",
       "publishedAt": "2026-04-04T09:00:17Z"
-    },
-    {
-      "title": "Oil tumbles and UK’s FTSE 100 posts biggest daily rise in a year on hopes Middle East war will end soon – as it happened ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/01/oil-tumbles-stock-markets-gold-bonds-dollar-middle-east-war-manufacturing-factories-news-updates",
-      "publishedAt": "2026-04-01T15:49:52Z"
     }
   ]
 }

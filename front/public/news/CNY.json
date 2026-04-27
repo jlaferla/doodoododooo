@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-26T08:13:14.557Z",
+  "fetchedAt": "2026-04-27T09:13:16.443Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "The great energy pivot: US oil and Chinese solar are the winners in Trump’s war on Iran",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/26/more-than-oil-prices-iran-war-threatens-to-reshape-global-energy-order",
+      "publishedAt": "2026-04-26T11:00:12Z"
+    },
     {
       "title": "UK steel exports to EU at risk as bloc doubles tariffs and halves quotas",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
       "publishedAt": "2026-03-23T20:17:23Z"
-    },
-    {
-      "title": "‘It’s stupid’: why western carmakers’ retreat from electric risks dooming them to irrelevance",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/21/west-carmakers-retreat-electric-vehicle-risks-irrelevance-iran-war-evs-china",
-      "publishedAt": "2026-03-21T12:00:52Z"
     }
   ]
 }
