@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-27T09:13:15.130Z",
+  "fetchedAt": "2026-04-28T09:14:20.046Z",
   "currency": "AUD",
   "articles": [
+    {
+      "title": "Goldman raises oil price forecasts as Iran war deadlock continues; Shell buying Canada’s ARC in $13.6bn deal – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/27/oil-prices-high-us-iran-peace-talks-stock-markets-house-prices-latest-news-updates",
+      "publishedAt": "2026-04-27T15:39:33Z"
+    },
     {
       "title": "Gina Rinehart calls for immigrants’ social media to be screened in Anzac memorial speech ",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/20/oil-price-stock-markets-us-iran-ceasefire-strait-of-hormuz-open-closed-live-updates",
       "publishedAt": "2026-04-20T15:44:01Z"
-    },
-    {
-      "title": "IMF calls for countries to economise on energy supplies, and hails UK’s budget deficit improvement – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/15/stock-markets-iran-war-peace-deal-reeves-bessent-imf-business-latest-news-updates",
-      "publishedAt": "2026-04-15T17:13:42Z"
     }
   ]
 }

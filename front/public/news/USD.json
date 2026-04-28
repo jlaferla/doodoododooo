@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-27T09:13:19.676Z",
+  "fetchedAt": "2026-04-28T09:14:24.831Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "Goldman raises oil price forecasts as Iran war deadlock continues; Shell buying Canada’s ARC in $13.6bn deal – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/27/oil-prices-high-us-iran-peace-talks-stock-markets-house-prices-latest-news-updates",
+      "publishedAt": "2026-04-27T15:39:33Z"
+    },
     {
       "title": "The great energy pivot: US oil and Chinese solar are the winners in Trump’s war on Iran",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/20/oil-price-stock-markets-us-iran-ceasefire-strait-of-hormuz-open-closed-live-updates",
       "publishedAt": "2026-04-20T15:44:01Z"
-    },
-    {
-      "title": "Central bank bosses enlist for war game to gauge threat of Lehman-style bust",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/18/central-bank-bosses-enlist-for-war-game-to-gauge-threat-of-lehman-style-bust",
-      "publishedAt": "2026-04-18T09:00:09Z"
     }
   ]
 }

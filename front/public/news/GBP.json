@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-27T09:13:17.098Z",
+  "fetchedAt": "2026-04-28T09:14:22.024Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "Goldman raises oil price forecasts as Iran war deadlock continues; Shell buying Canada’s ARC in $13.6bn deal – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/27/oil-prices-high-us-iran-peace-talks-stock-markets-house-prices-latest-news-updates",
+      "publishedAt": "2026-04-27T15:39:33Z"
+    },
     {
       "title": "Oil hits highest level since US-Iran ceasefire began, as conflict hurts Gulf crude production – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/16/tesco-warns-profits-iran-war-uncertainty",
       "publishedAt": "2026-04-16T09:26:28Z"
-    },
-    {
-      "title": "UK could face gaps on supermarket shelves by summer if Iran war continues",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/16/uk-possible-food-shortages-iran-war-co2",
-      "publishedAt": "2026-04-16T09:04:50Z"
     }
   ]
 }

@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-27T09:13:17.421Z",
+  "fetchedAt": "2026-04-28T09:14:22.446Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "Goldman raises oil price forecasts as Iran war deadlock continues; Shell buying Canada’s ARC in $13.6bn deal – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/27/oil-prices-high-us-iran-peace-talks-stock-markets-house-prices-latest-news-updates",
+      "publishedAt": "2026-04-27T15:39:33Z"
+    },
     {
       "title": "HSBC ‘reviewing’ private school perk for bankers in Hong Kong",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/22/uk-inflation-increase-fuel-prices-oil-falls-trump-ceasefire-extended-business-live-news-updates",
       "publishedAt": "2026-04-22T14:19:05Z"
-    },
-    {
-      "title": "European stock markets fall and oil and gas prices jump as strait of Hormuz ‘chaos’ worries investors – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/20/oil-price-stock-markets-us-iran-ceasefire-strait-of-hormuz-open-closed-live-updates",
-      "publishedAt": "2026-04-20T15:44:01Z"
     }
   ]
 }

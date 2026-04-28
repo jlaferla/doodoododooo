@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-27T09:13:19.036Z",
+  "fetchedAt": "2026-04-28T09:14:24.202Z",
   "currency": "SGD",
   "articles": [
+    {
+      "title": "Goldman raises oil price forecasts as Iran war deadlock continues; Shell buying Canada’s ARC in $13.6bn deal – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/27/oil-prices-high-us-iran-peace-talks-stock-markets-house-prices-latest-news-updates",
+      "publishedAt": "2026-04-27T15:39:33Z"
+    },
     {
       "title": "Fertiliser is in short supply. What does it mean for Australia’s farmers – and your bread?",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
       "publishedAt": "2026-04-14T15:07:45Z"
-    },
-    {
-      "title": "IMF warns ‘unprecedented’ energy crisis could trigger global recession as Australia prepares for Washington talks",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/14/imf-world-economic-outlook-energy-crisis-global-recession-australia-fuel",
-      "publishedAt": "2026-04-14T13:00:57Z"
     }
   ]
 }

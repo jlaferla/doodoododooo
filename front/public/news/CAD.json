@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-04-27T09:13:15.783Z",
+  "fetchedAt": "2026-04-28T09:14:20.697Z",
   "currency": "CAD",
   "articles": [
+    {
+      "title": "Shell to buy Canadian shale producer ARC Resources for $16.4bn",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/27/shell-to-buy-canadian-shale-producer-arc-resources-for-164bn",
+      "publishedAt": "2026-04-27T17:35:04Z"
+    },
+    {
+      "title": "Goldman raises oil price forecasts as Iran war deadlock continues; Shell buying Canada’s ARC in $13.6bn deal – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/27/oil-prices-high-us-iran-peace-talks-stock-markets-house-prices-latest-news-updates",
+      "publishedAt": "2026-04-27T15:39:33Z"
+    },
     {
       "title": "The great energy pivot: US oil and Chinese solar are the winners in Trump’s war on Iran",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/20/oil-price-stock-markets-us-iran-ceasefire-strait-of-hormuz-open-closed-live-updates",
       "publishedAt": "2026-04-20T15:44:01Z"
-    },
-    {
-      "title": "Drax claimed record £999m in subsidies for burning trees in 2025, thinktank says",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/16/drax-renewable-energy-subsidies-wood-pellets",
-      "publishedAt": "2026-04-15T23:01:41Z"
-    },
-    {
-      "title": "IMF calls for countries to economise on energy supplies, and hails UK’s budget deficit improvement – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/15/stock-markets-iran-war-peace-deal-reeves-bessent-imf-business-latest-news-updates",
-      "publishedAt": "2026-04-15T17:13:42Z"
     }
   ]
 }
