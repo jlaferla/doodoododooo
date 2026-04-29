@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-28T09:14:22.446Z",
+  "fetchedAt": "2026-04-29T09:06:03.877Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "BP profits more than double as oil prices soar in Iran war",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/28/bp-profits-oil-gas-prices-iran-war-first-quarter",
+      "publishedAt": "2026-04-28T11:02:41Z"
+    },
     {
       "title": "Goldman raises oil price forecasts as Iran war deadlock continues; Shell buying Canada’s ARC in $13.6bn deal – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/23/fertiliser-short-supply-australia-farmers-bread-prices-strait-of-hormuz",
       "publishedAt": "2026-04-23T15:00:15Z"
-    },
-    {
-      "title": "Middle East war ‘could wipe out 75% of chancellor’s budget headroom’; UK inflation climbs to 3.3% – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/22/uk-inflation-increase-fuel-prices-oil-falls-trump-ceasefire-extended-business-live-news-updates",
-      "publishedAt": "2026-04-22T14:19:05Z"
     }
   ]
 }

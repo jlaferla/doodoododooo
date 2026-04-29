@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-28T09:14:22.024Z",
+  "fetchedAt": "2026-04-29T09:06:03.543Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "UK faces £35bn hit and risk of recession this year over impact of Iran war, thinktank warns",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/29/uk-risk-of-recession-this-year-over-impact-of-iran-war-thinktank-warns",
+      "publishedAt": "2026-04-28T23:01:38Z"
+    },
     {
       "title": "Goldman raises oil price forecasts as Iran war deadlock continues; Shell buying Canada’s ARC in $13.6bn deal – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/16/europe-supply-jet-fuel-iran-war-flight-cancellations-iea",
       "publishedAt": "2026-04-16T16:59:54Z"
-    },
-    {
-      "title": "Tesco warns profits could fall amid Iran war uncertainty",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/16/tesco-warns-profits-iran-war-uncertainty",
-      "publishedAt": "2026-04-16T09:26:28Z"
     }
   ]
 }

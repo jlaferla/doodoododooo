@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-28T09:14:23.164Z",
+  "fetchedAt": "2026-04-29T09:06:04.551Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "UAE quits Opec in ‘pivotal moment’ for oil producing group – as it happened ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/28/bp-profits-double-iran-war-oil-price-stock-markets-live-updates",
+      "publishedAt": "2026-04-28T14:37:25Z"
+    },
     {
       "title": "Goldman raises oil price forecasts as Iran war deadlock continues; Shell buying Canada’s ARC in $13.6bn deal – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/13/rolls-royce-secures-nearly-600m-in-uk-goverment-cash-to-develop-small-reactors",
       "publishedAt": "2026-04-13T08:38:02Z"
-    },
-    {
-      "title": "UK food halls buck downbeat hospitality trend: ‘In this impossible climate, they shine hope’",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/04/uk-food-halls-buck-downbeat-hospitality-trend",
-      "publishedAt": "2026-04-04T09:00:17Z"
     }
   ]
 }

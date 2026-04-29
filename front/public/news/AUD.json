@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-04-28T09:14:20.046Z",
+  "fetchedAt": "2026-04-29T09:06:01.469Z",
   "currency": "AUD",
   "articles": [
+    {
+      "title": "Inflation jumps to 4.6% in Australia as Iran war fuel shock begins to bite ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/29/inflation-increase-australia-rba-reserve-bank-interest-rates-fuel-iran",
+      "publishedAt": "2026-04-29T02:32:25Z"
+    },
+    {
+      "title": "BP profits more than double as oil prices soar in Iran war",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/28/bp-profits-oil-gas-prices-iran-war-first-quarter",
+      "publishedAt": "2026-04-28T11:02:41Z"
+    },
     {
       "title": "Goldman raises oil price forecasts as Iran war deadlock continues; Shell buying Canada’s ARC in $13.6bn deal – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/23/fertiliser-short-supply-australia-farmers-bread-prices-strait-of-hormuz",
       "publishedAt": "2026-04-23T15:00:15Z"
-    },
-    {
-      "title": "Takeaway coffee sales plunge as fuel and living costs dent Australian spending. Is the economy next?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/22/takeaway-coffee-sales-australian-economy-fuel-living-costs",
-      "publishedAt": "2026-04-22T00:00:03Z"
-    },
-    {
-      "title": "European stock markets fall and oil and gas prices jump as strait of Hormuz ‘chaos’ worries investors – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/20/oil-price-stock-markets-us-iran-ceasefire-strait-of-hormuz-open-closed-live-updates",
-      "publishedAt": "2026-04-20T15:44:01Z"
     }
   ]
 }

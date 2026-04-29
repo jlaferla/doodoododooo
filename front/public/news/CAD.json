@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-28T09:14:20.697Z",
+  "fetchedAt": "2026-04-29T09:06:02.169Z",
   "currency": "CAD",
   "articles": [
+    {
+      "title": "BP profits more than double as oil prices soar in Iran war",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/28/bp-profits-oil-gas-prices-iran-war-first-quarter",
+      "publishedAt": "2026-04-28T11:02:41Z"
+    },
     {
       "title": "Shell to buy Canadian shale producer ARC Resources for $16.4bn",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/23/fertiliser-short-supply-australia-farmers-bread-prices-strait-of-hormuz",
       "publishedAt": "2026-04-23T15:00:15Z"
-    },
-    {
-      "title": "European stock markets fall and oil and gas prices jump as strait of Hormuz ‘chaos’ worries investors – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/20/oil-price-stock-markets-us-iran-ceasefire-strait-of-hormuz-open-closed-live-updates",
-      "publishedAt": "2026-04-20T15:44:01Z"
     }
   ]
 }
