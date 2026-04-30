@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-04-29T09:06:02.512Z",
+  "fetchedAt": "2026-04-30T09:07:43.918Z",
   "currency": "CHF",
   "articles": [
+    {
+      "title": "Brent crude jumps to new four-year high; Bank of England expected to hold interest rates at noon – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/30/bank-of-england-expected-hold-interest-rates-noon-assesses-fallout-iran-war-live-updates",
+      "publishedAt": "2026-04-30T09:05:13Z"
+    },
+    {
+      "title": "Barclay family avoids bankruptcy after deal with HSBC over £143m debt",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/29/barclay-brothers-hsbc-settlement-high-court",
+      "publishedAt": "2026-04-29T13:21:44Z"
+    },
     {
       "title": "Labour’s ‘crabwise’ approach to closer EU ties must address damage of Brexit | Heather Stewart",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/12/gsk-promising-early-results-ovarian-womb-cancer-drug-trial",
       "publishedAt": "2026-04-12T15:02:28Z"
-    },
-    {
-      "title": "‘It’s all fear and headlines’: energy traders race to keep pace with volatile oil markets",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/05/its-all-fear-and-headlines-energy-traders-race-to-keep-pace-with-volatile-oil-markets",
-      "publishedAt": "2026-04-05T05:00:43Z"
-    },
-    {
-      "title": "‘From high flyer to dead parrot’: former billion-dollar eco-shoe brand Allbirds sold for $39m",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/02/eco-shoe-brand-allbirds-sold-american-exchange-group",
-      "publishedAt": "2026-04-02T11:35:29Z"
     }
   ]
 }

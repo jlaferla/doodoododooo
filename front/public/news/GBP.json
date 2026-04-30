@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-29T09:06:03.543Z",
+  "fetchedAt": "2026-04-30T09:07:44.893Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "Barclay family avoids bankruptcy after deal with HSBC over £143m debt",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/29/barclay-brothers-hsbc-settlement-high-court",
+      "publishedAt": "2026-04-29T13:21:44Z"
+    },
     {
       "title": "UK faces £35bn hit and risk of recession this year over impact of Iran war, thinktank warns",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/20/oil-price-stock-markets-us-iran-ceasefire-strait-of-hormuz-open-closed-live-updates",
       "publishedAt": "2026-04-20T15:44:01Z"
-    },
-    {
-      "title": "Europe has only six weeks’ supply of jet fuel left owing to Iran war, says energy chief",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/16/europe-supply-jet-fuel-iran-war-flight-cancellations-iea",
-      "publishedAt": "2026-04-16T16:59:54Z"
     }
   ]
 }

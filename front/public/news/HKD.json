@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-29T09:06:03.877Z",
+  "fetchedAt": "2026-04-30T09:07:45.213Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "Brent crude jumps to new four-year high; Bank of England expected to hold interest rates at noon – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/apr/30/bank-of-england-expected-hold-interest-rates-noon-assesses-fallout-iran-war-live-updates",
+      "publishedAt": "2026-04-30T09:05:13Z"
+    },
     {
       "title": "BP profits more than double as oil prices soar in Iran war",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/24/revealed-uk-oil-refinery-owner-moved-russian-loans-to-offshore-subsidiary-where-sanctions-did-not-apply",
       "publishedAt": "2026-04-24T05:00:32Z"
-    },
-    {
-      "title": "Fertiliser is in short supply. What does it mean for Australia’s farmers – and your bread?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/23/fertiliser-short-supply-australia-farmers-bread-prices-strait-of-hormuz",
-      "publishedAt": "2026-04-23T15:00:15Z"
     }
   ]
 }
