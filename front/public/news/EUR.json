@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-30T09:07:44.571Z",
+  "fetchedAt": "2026-05-01T08:54:29.199Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "Eurozone inflation soars to 3% as Iran war drives up energy prices",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/30/eurozone-inflation-increase-iran-war-drives-up-energy-prices",
+      "publishedAt": "2026-04-30T12:30:05Z"
+    },
     {
       "title": "European stock markets fall and oil and gas prices jump as strait of Hormuz ‘chaos’ worries investors – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/13/oil-price-barrel-trump-naval-blockade-strait-of-hormuz-stock-markets-ftse-latest-news-updates",
       "publishedAt": "2026-04-13T15:42:14Z"
-    },
-    {
-      "title": "Oil prices plunge 15% to below $100, stocks surge and dollar slumps after Trump announces US-Iran ceasefire – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/08/oil-prices-drop-stocks-rise-dollar-down-us-iran-ceasefire-business-live",
-      "publishedAt": "2026-04-08T14:40:18Z"
     }
   ]
 }

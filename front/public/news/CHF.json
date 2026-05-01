@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-04-30T09:07:43.918Z",
+  "fetchedAt": "2026-05-01T08:54:28.596Z",
   "currency": "CHF",
   "articles": [
     {
-      "title": "Brent crude jumps to new four-year high; Bank of England expected to hold interest rates at noon – business live",
+      "title": "Bank of England leaves interest rates on hold with committee split 8-1; ECB also keeps rates steady – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/30/bank-of-england-expected-hold-interest-rates-noon-assesses-fallout-iran-war-live-updates",
-      "publishedAt": "2026-04-30T09:05:13Z"
+      "publishedAt": "2026-04-30T14:55:26Z"
+    },
+    {
+      "title": "Air France-KLM cuts capacity growth forecast amid expected $2.4bn fuel bill rise",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/30/air-france-klm-cuts-capacity-growth-forecast-amid-expected-24bn-fuel-bill-rise",
+      "publishedAt": "2026-04-30T09:13:47Z"
     },
     {
       "title": "Barclay family avoids bankruptcy after deal with HSBC over £143m debt",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
       "publishedAt": "2026-04-14T15:07:45Z"
-    },
-    {
-      "title": "GSK reports promising early results in ovarian and womb cancer drug trial",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/12/gsk-promising-early-results-ovarian-womb-cancer-drug-trial",
-      "publishedAt": "2026-04-12T15:02:28Z"
     }
   ]
 }

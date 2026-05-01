@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-30T09:07:47.854Z",
+  "fetchedAt": "2026-05-01T08:54:32.315Z",
   "currency": "ZAR",
   "articles": [
+    {
+      "title": "MPs accuse South East Water leaders of incompetence over repeated outages",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/01/mps-accuse-south-east-water-leaders-of-incompetence-over-repeated-outages",
+      "publishedAt": "2026-05-01T07:26:13Z"
+    },
     {
       "title": "Norwegian group in talks to buy former Liberty Steel works in South Yorkshire",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/09/oil-price-rises-as-markets-question-durability-of-middle-east-ceasefire-iran",
       "publishedAt": "2026-04-09T14:14:06Z"
-    },
-    {
-      "title": "JP Morgan reaches agreement with City airport for Canary Wharf’s tallest tower",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/07/jp-morgan-clears-hurdle-canary-wharf-tallest-tower-london-city-airport",
-      "publishedAt": "2026-04-07T12:47:27Z"
     }
   ]
 }

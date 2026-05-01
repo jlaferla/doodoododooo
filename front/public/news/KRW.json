@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-04-30T09:07:46.186Z",
+  "fetchedAt": "2026-05-01T08:54:30.790Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "MPs accuse South East Water leaders of incompetence over repeated outages",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/01/mps-accuse-south-east-water-leaders-of-incompetence-over-repeated-outages",
+      "publishedAt": "2026-05-01T07:26:13Z"
+    },
     {
       "title": "Norwegian group in talks to buy former Liberty Steel works in South Yorkshire",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/13/oil-price-barrel-trump-naval-blockade-strait-of-hormuz-stock-markets-ftse-latest-news-updates",
       "publishedAt": "2026-04-13T15:42:14Z"
-    },
-    {
-      "title": "Low-tax Texas opens London office to lure jobs and investment",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/12/texas-opens-london-office-lure-jobs-investment-low-tax-subsidies",
-      "publishedAt": "2026-04-12T05:00:08Z"
     }
   ]
 }
