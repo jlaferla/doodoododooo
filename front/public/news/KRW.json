@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-01T08:54:30.790Z",
+  "fetchedAt": "2026-05-02T08:18:18.684Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "‘Temu Range Rover’: what the bestselling Jaecoo 7 says about China’s electric car ascendancy",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/01/jaecoo-7-china-electric-car-chery-price-temu-range-rover",
+      "publishedAt": "2026-05-01T14:00:00Z"
+    },
     {
       "title": "MPs accuse South East Water leaders of incompetence over repeated outages",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/14/holidays-hit-cost-of-living-iran-war-travel",
       "publishedAt": "2026-04-14T05:01:00Z"
-    },
-    {
-      "title": "Oil price tops $100 a barrel as US blockades strait of Hormuz; Goldman Sachs posts rise in profits – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/13/oil-price-barrel-trump-naval-blockade-strait-of-hormuz-stock-markets-ftse-latest-news-updates",
-      "publishedAt": "2026-04-13T15:42:14Z"
     }
   ]
 }

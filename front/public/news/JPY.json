@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-01T08:54:30.499Z",
+  "fetchedAt": "2026-05-02T08:18:18.391Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "‘Temu Range Rover’: what the bestselling Jaecoo 7 says about China’s electric car ascendancy",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/01/jaecoo-7-china-electric-car-chery-price-temu-range-rover",
+      "publishedAt": "2026-05-01T14:00:00Z"
+    },
     {
       "title": "UAE quits Opec in ‘pivotal moment’ for oil producing group – as it happened ",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/14/nissan-turnaround-plan-pins-hopes-on-ai-defined-vehicles",
       "publishedAt": "2026-04-14T12:25:51Z"
-    },
-    {
-      "title": "Rolls-Royce secures nearly £600m in UK government cash to develop small reactors",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/13/rolls-royce-secures-nearly-600m-in-uk-goverment-cash-to-develop-small-reactors",
-      "publishedAt": "2026-04-13T08:38:02Z"
     }
   ]
 }

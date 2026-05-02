@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-05-01T08:54:29.492Z",
+  "fetchedAt": "2026-05-02T08:18:17.468Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "Firm bookings, fast refunds: easyJet and On The Beach aim to reassure jittery travellers with holiday pledges",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/01/fastest-refund-guaranteed-uk-travel-firms-compete-for-custom",
+      "publishedAt": "2026-05-01T16:09:59Z"
+    },
     {
       "title": "NatWest faces £140m hit from Iran war as UK growth slows and inflation rises",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/01/natwest-faces-140m-hit-from-iran-war-as-uk-growth-slows-and-inflation-rises",
-      "publishedAt": "2026-05-01T07:15:06Z"
+      "publishedAt": "2026-05-01T09:31:08Z"
     },
     {
       "title": "Barclay family avoids bankruptcy after deal with HSBC over £143m debt",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/27/oil-prices-high-us-iran-peace-talks-stock-markets-house-prices-latest-news-updates",
       "publishedAt": "2026-04-27T15:39:33Z"
-    },
-    {
-      "title": "Oil hits highest level since US-Iran ceasefire began, as conflict hurts Gulf crude production – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/24/stock-market-warning-bank-of-england-deputy-governor-trump-threatens-uk-tariff-business-live",
-      "publishedAt": "2026-04-24T15:42:17Z"
     }
   ]
 }
