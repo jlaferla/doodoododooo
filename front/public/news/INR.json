@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-03T08:29:36.903Z",
+  "fetchedAt": "2026-05-04T09:12:11.926Z",
   "currency": "INR",
   "articles": [
+    {
+      "title": "Trump may not be a fan of clean energy but Iran war is accelerating global shift from oil and gas | Heather Stewart",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/03/trump-clean-energy-iran-war-global-shift-oil-gas",
+      "publishedAt": "2026-05-03T10:17:41Z"
+    },
     {
       "title": "Revealed: UK oil refinery owner moved Russian loans to offshore subsidiary where sanctions did not apply",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/27/oil-price-trump-iran-extension-uk-consumer-confidence-stock-markets-latest-news-updates",
       "publishedAt": "2026-03-27T20:04:30Z"
-    },
-    {
-      "title": "Dow Jones Industrial Average posts best day since early February as hopes of Middle East de-escalation lift markets – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
-      "publishedAt": "2026-03-23T20:17:23Z"
     }
   ]
 }

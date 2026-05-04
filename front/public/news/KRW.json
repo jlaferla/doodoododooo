@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-03T08:29:37.599Z",
+  "fetchedAt": "2026-05-04T09:12:12.572Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Trump may not be a fan of clean energy but Iran war is accelerating global shift from oil and gas | Heather Stewart",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/03/trump-clean-energy-iran-war-global-shift-oil-gas",
+      "publishedAt": "2026-05-03T10:17:41Z"
+    },
     {
       "title": "‘Temu Range Rover’: what the bestselling Jaecoo 7 says about China’s electric car ascendancy",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/14/south-east-water-chief-executive-to-forgo-his-bonus-over-unacceptable-outages",
       "publishedAt": "2026-04-14T17:46:23Z"
-    },
-    {
-      "title": "Holidays take a hit as UK cost of living fears and Iran war bite",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/14/holidays-hit-cost-of-living-iran-war-travel",
-      "publishedAt": "2026-04-14T05:01:00Z"
     }
   ]
 }
