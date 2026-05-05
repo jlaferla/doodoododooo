@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-04T09:12:13.844Z",
+  "fetchedAt": "2026-05-05T09:04:11.294Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "UK car sales jump in April as two millionth EV registered; Rachel Reeves ‘clashed with Scott Bessent’ over Iran war criticism – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/05/hsbc-400m-uk-fraud-charge-rachel-reeves-scott-bessent-row-stock-markets-car-sales-live-updates",
+      "publishedAt": "2026-05-05T09:01:49Z"
+    },
     {
       "title": "Trump may not be a fan of clean energy but Iran war is accelerating global shift from oil and gas | Heather Stewart",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/26/more-than-oil-prices-iran-war-threatens-to-reshape-global-energy-order",
       "publishedAt": "2026-04-26T11:00:12Z"
-    },
-    {
-      "title": "American Airlines says soaring price of jet fuel will cost it $4bn this year",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/23/american-airlines--jet-fuel-cost-4bn-this-year",
-      "publishedAt": "2026-04-23T15:58:13Z"
     }
   ]
 }

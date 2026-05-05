@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-04T09:12:12.572Z",
+  "fetchedAt": "2026-05-05T09:04:09.993Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Shipping firms question safety in strait of Hormuz despite Trump plan",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/04/strait-of-hormuz-donald-trump-us-navy-iran-shipping",
+      "publishedAt": "2026-05-04T16:10:14Z"
+    },
     {
       "title": "Trump may not be a fan of clean energy but Iran war is accelerating global shift from oil and gas | Heather Stewart",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/15/norwegian-group-liberty-steel-blastr-ssuk-south-yorkshire-rotherham-stocksbridge",
       "publishedAt": "2026-04-15T11:42:14Z"
-    },
-    {
-      "title": "South East Water chief executive to forgo his bonus over ‘unacceptable outages’",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/14/south-east-water-chief-executive-to-forgo-his-bonus-over-unacceptable-outages",
-      "publishedAt": "2026-04-14T17:46:23Z"
     }
   ]
 }

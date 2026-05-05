@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-05-04T09:12:11.610Z",
+  "fetchedAt": "2026-05-05T09:04:08.963Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "Vodafone to take full control of UK mobile operator in £4.3bn deal",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/05/vodafone-full-control-uk-mobile-operator-ck-hutchison",
+      "publishedAt": "2026-05-05T09:03:45Z"
+    },
+    {
+      "title": "UK car sales jump in April as two millionth EV registered; Rachel Reeves ‘clashed with Scott Bessent’ over Iran war criticism – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/05/hsbc-400m-uk-fraud-charge-rachel-reeves-scott-bessent-row-stock-markets-car-sales-live-updates",
+      "publishedAt": "2026-05-05T09:01:49Z"
+    },
     {
       "title": "Bank of England leaves interest rates on hold with committee split 8-1; ECB also keeps rates steady – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/27/oil-prices-high-us-iran-peace-talks-stock-markets-house-prices-latest-news-updates",
       "publishedAt": "2026-04-27T15:39:33Z"
-    },
-    {
-      "title": "HSBC ‘reviewing’ private school perk for bankers in Hong Kong",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/27/hsbc-reviewing-private-school-perk-for-bankers-in-hong-kong",
-      "publishedAt": "2026-04-27T08:31:05Z"
-    },
-    {
-      "title": "Revealed: UK oil refinery owner moved Russian loans to offshore subsidiary where sanctions did not apply",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/24/revealed-uk-oil-refinery-owner-moved-russian-loans-to-offshore-subsidiary-where-sanctions-did-not-apply",
-      "publishedAt": "2026-04-24T05:00:32Z"
     }
   ]
 }

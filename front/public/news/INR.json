@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-04T09:12:11.926Z",
+  "fetchedAt": "2026-05-05T09:04:09.293Z",
   "currency": "INR",
   "articles": [
+    {
+      "title": "Jaguar Land Rover could have shifted production from UK without £380m battery subsidy, officials warned",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/05/jaguar-land-rover-production-uk-battery-subsidy",
+      "publishedAt": "2026-05-05T05:00:42Z"
+    },
     {
       "title": "Trump may not be a fan of clean energy but Iran war is accelerating global shift from oil and gas | Heather Stewart",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/07/emerging-economies-greater-risk-high-interest-currency-shocks-iran-war-imf",
       "publishedAt": "2026-04-07T14:00:49Z"
-    },
-    {
-      "title": "Wall Street hits six-month low and Dow falls into correction as Trump ‘appears to lose his grip on markets’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/27/oil-price-trump-iran-extension-uk-consumer-confidence-stock-markets-latest-news-updates",
-      "publishedAt": "2026-03-27T20:04:30Z"
     }
   ]
 }

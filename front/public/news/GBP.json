@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-05-04T09:12:11.284Z",
+  "fetchedAt": "2026-05-05T09:04:08.629Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "‘There is a good deal of fear’: what would a Labour leadership challenge mean for bond markets?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/05/labour-leadership-challenge-bond-markets-angela-rayner-andy-burnham-keir-starmer",
+      "publishedAt": "2026-05-05T06:00:45Z"
+    },
+    {
+      "title": "Concierge firm co-founded by queen’s nephew went on ‘ill-timed’ hiring spree before Iran war",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/05/concierge-firm-quintessentially-queen-nephew-ben-elliot-hiring-spree-iran-war-middle-east-gulf",
+      "publishedAt": "2026-05-05T05:00:44Z"
+    },
     {
       "title": "Firm bookings, fast refunds: easyJet and On The Beach aim to reassure jittery travellers with holiday pledges",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/29/barclay-brothers-hsbc-settlement-high-court",
       "publishedAt": "2026-04-29T13:21:44Z"
-    },
-    {
-      "title": "UK faces £35bn hit and risk of recession this year over impact of Iran war, thinktank warns",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/29/uk-risk-of-recession-this-year-over-impact-of-iran-war-thinktank-warns",
-      "publishedAt": "2026-04-28T23:01:38Z"
-    },
-    {
-      "title": "Goldman raises oil price forecasts as Iran war deadlock continues; Shell buying Canada’s ARC in $13.6bn deal – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/27/oil-prices-high-us-iran-peace-talks-stock-markets-house-prices-latest-news-updates",
-      "publishedAt": "2026-04-27T15:39:33Z"
     }
   ]
 }
