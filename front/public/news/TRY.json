@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-05-05T09:04:10.962Z",
+  "fetchedAt": "2026-05-06T09:15:44.250Z",
   "currency": "TRY",
   "articles": [
+    {
+      "title": "Two million airline seats cut amid soaring jet fuel prices",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/05/airline-seats-cut-jet-fuel-prices",
+      "publishedAt": "2026-05-05T18:08:42Z"
+    },
+    {
+      "title": "UK electric car sales leap ‘could be hit by Iran war inflation and energy price rises’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/05/uk-electric-car-sales--iran-war-inflation-energy-price-bev-smmt",
+      "publishedAt": "2026-05-05T10:36:24Z"
+    },
     {
       "title": " United Airlines CEO reportedly pitched merger with American, sparking competition fears",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/29/oil-monthly-surge-record-iran-war-markets-gold",
       "publishedAt": "2026-03-29T11:20:00Z"
-    },
-    {
-      "title": "Crispin Odey tried to ‘manipulate’ sexual assault victim, FCA tells court",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/25/crispin-odey-tried-to-manipulate-sexual-assault-victim-fca",
-      "publishedAt": "2026-03-25T18:00:05Z"
-    },
-    {
-      "title": "European stock markets rally after report of ‘secret outreach’ by Iran to try to end war",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/04/stock-market-fall-trump-hormuz-oil-prices",
-      "publishedAt": "2026-03-04T15:28:40Z"
     }
   ]
 }

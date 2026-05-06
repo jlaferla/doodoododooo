@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-05T09:04:07.981Z",
+  "fetchedAt": "2026-05-06T09:15:40.999Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "‘Our competitors are everyone’: Joybuy leads ‘China’s Amazon’ into the UK",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/06/joybuy-uk-amazon-china-ecommerce",
+      "publishedAt": "2026-05-06T07:00:02Z"
+    },
     {
       "title": "Reliance on Chinese green tech poses ‘serious’ risk for Europe, experts say",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/mar/30/british-steel-on-track-to-be-fully-nationalised-within-weeks",
       "publishedAt": "2026-03-30T17:21:45Z"
-    },
-    {
-      "title": "Energy price shock and interest rate rises could cause ‘pronounced’ UK recession, economist warns – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/24/brent-crude-oil-100-dollars-a-barrel-middle-east-iran-stock-markets-economic-growth-latest-news-updates",
-      "publishedAt": "2026-03-24T15:46:57Z"
     }
   ]
 }

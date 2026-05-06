@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-05-05T09:04:08.629Z",
+  "fetchedAt": "2026-05-06T09:15:41.733Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "Global finance watchdog warns over private credit industry fuelling AI boom",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/06/global-finance-watchdog-warns-over-private-credit-industry-fuelling-ai-boom",
+      "publishedAt": "2026-05-06T06:00:01Z"
+    },
+    {
+      "title": "UK 30-year borrowing costs hit highest since 1998 amid oil price surge and political uncertainty – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/05/hsbc-400m-uk-fraud-charge-rachel-reeves-scott-bessent-row-stock-markets-car-sales-live-updates",
+      "publishedAt": "2026-05-05T16:08:18Z"
+    },
     {
       "title": "‘There is a good deal of fear’: what would a Labour leadership challenge mean for bond markets?",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/01/fastest-refund-guaranteed-uk-travel-firms-compete-for-custom",
       "publishedAt": "2026-05-01T16:09:59Z"
-    },
-    {
-      "title": "NatWest faces £140m hit from Iran war as UK growth slows and inflation rises",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/01/natwest-faces-140m-hit-from-iran-war-as-uk-growth-slows-and-inflation-rises",
-      "publishedAt": "2026-05-01T09:31:08Z"
-    },
-    {
-      "title": "Barclay family avoids bankruptcy after deal with HSBC over £143m debt",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/29/barclay-brothers-hsbc-settlement-high-court",
-      "publishedAt": "2026-04-29T13:21:44Z"
     }
   ]
 }

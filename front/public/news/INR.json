@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-05T09:04:09.293Z",
+  "fetchedAt": "2026-05-06T09:15:42.456Z",
   "currency": "INR",
   "articles": [
+    {
+      "title": "Totally grounded? How the jet fuel crisis could change our holidays – and world history",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/06/totally-grounded-how-the-jet-fuel-crisis-could-change-our-summer-holidays-and-world-history",
+      "publishedAt": "2026-05-06T04:00:03Z"
+    },
     {
       "title": "Jaguar Land Rover could have shifted production from UK without £380m battery subsidy, officials warned",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/09/somerset-battery-factory-jaguar-land-rover-government-funding",
       "publishedAt": "2026-04-09T17:00:00Z"
-    },
-    {
-      "title": "Hedge fund borrowing exposes emerging markets to greater Iran war risk, says IMF",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/07/emerging-economies-greater-risk-high-interest-currency-shocks-iran-war-imf",
-      "publishedAt": "2026-04-07T14:00:49Z"
     }
   ]
 }

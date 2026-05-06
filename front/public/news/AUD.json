@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-05-05T09:04:06.689Z",
+  "fetchedAt": "2026-05-06T09:15:39.564Z",
   "currency": "AUD",
   "articles": [
+    {
+      "title": "Oil prices retreat and global stocks hit record highs after Trump hails ‘great progress’ on Iran deal – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/06/oil-prices-retreat-global-stocks-hit-record-highs-trump-great-progress-iran-deal-live-updates",
+      "publishedAt": "2026-05-06T08:59:56Z"
+    },
+    {
+      "title": "Australians are poorer because of war on the other side of the world – Michele Bullock’s logic is hard to fault",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/05/australians-are-poorer-because-of-war-on-the-other-side-of-the-world-michele-bullocks-logic-is-hard-to-fault",
+      "publishedAt": "2026-05-05T10:11:39Z"
+    },
+    {
+      "title": "Our national energy transition is a rare opportunity to enrich and reward Australian workers | Thom Woodroofe",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/04/australia-national-energy-transition",
+      "publishedAt": "2026-05-03T15:00:06Z"
+    },
     {
       "title": "Inflation jumps to 4.6% in Australia as Iran war fuel shock begins to bite ",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/28/bp-profits-oil-gas-prices-iran-war-first-quarter",
       "publishedAt": "2026-04-28T11:02:41Z"
-    },
-    {
-      "title": "Goldman raises oil price forecasts as Iran war deadlock continues; Shell buying Canada’s ARC in $13.6bn deal – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/27/oil-prices-high-us-iran-peace-talks-stock-markets-house-prices-latest-news-updates",
-      "publishedAt": "2026-04-27T15:39:33Z"
-    },
-    {
-      "title": "Gina Rinehart calls for immigrants’ social media to be screened in Anzac memorial speech ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/27/gina-rinehart-immigrant-social-media-screening-anzac-day-sydney-opera-house-ntwnfb",
-      "publishedAt": "2026-04-27T05:09:51Z"
-    },
-    {
-      "title": "Fertiliser is in short supply. What does it mean for Australia’s farmers – and your bread?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/23/fertiliser-short-supply-australia-farmers-bread-prices-strait-of-hormuz",
-      "publishedAt": "2026-04-23T15:00:15Z"
     }
   ]
 }

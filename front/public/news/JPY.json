@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-05T09:04:09.653Z",
+  "fetchedAt": "2026-05-06T09:15:42.830Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "UK 30-year borrowing costs hit highest since 1998 amid oil price surge and political uncertainty – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/05/hsbc-400m-uk-fraud-charge-rachel-reeves-scott-bessent-row-stock-markets-car-sales-live-updates",
+      "publishedAt": "2026-05-05T16:08:18Z"
+    },
     {
       "title": "‘Temu Range Rover’: what the bestselling Jaecoo 7 says about China’s electric car ascendancy",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/15/stock-markets-iran-war-peace-deal-reeves-bessent-imf-business-latest-news-updates",
       "publishedAt": "2026-04-15T17:13:42Z"
-    },
-    {
-      "title": "Nissan turnaround plan pins hopes on ‘AI-defined vehicles’ ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/14/nissan-turnaround-plan-pins-hopes-on-ai-defined-vehicles",
-      "publishedAt": "2026-04-14T12:25:51Z"
     }
   ]
 }

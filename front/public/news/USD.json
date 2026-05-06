@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-05-05T09:04:11.294Z",
+  "fetchedAt": "2026-05-06T09:15:44.607Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "UK car sales jump in April as two millionth EV registered; Rachel Reeves ‘clashed with Scott Bessent’ over Iran war criticism – business live",
+      "title": "Oil prices retreat and global stocks hit record highs after Trump hails ‘great progress’ on Iran deal – business live",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/05/hsbc-400m-uk-fraud-charge-rachel-reeves-scott-bessent-row-stock-markets-car-sales-live-updates",
-      "publishedAt": "2026-05-05T09:01:49Z"
+      "url": "https://www.theguardian.com/business/live/2026/may/06/oil-prices-retreat-global-stocks-hit-record-highs-trump-great-progress-iran-deal-live-updates",
+      "publishedAt": "2026-05-06T08:59:56Z"
+    },
+    {
+      "title": "Our national energy transition is a rare opportunity to enrich and reward Australian workers | Thom Woodroofe",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/04/australia-national-energy-transition",
+      "publishedAt": "2026-05-03T15:00:06Z"
     },
     {
       "title": "Trump may not be a fan of clean energy but Iran war is accelerating global shift from oil and gas | Heather Stewart",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/27/oil-prices-high-us-iran-peace-talks-stock-markets-house-prices-latest-news-updates",
       "publishedAt": "2026-04-27T15:39:33Z"
-    },
-    {
-      "title": "The great energy pivot: US oil and Chinese solar are the winners in Trump’s war on Iran",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/26/more-than-oil-prices-iran-war-threatens-to-reshape-global-energy-order",
-      "publishedAt": "2026-04-26T11:00:12Z"
     }
   ]
 }
