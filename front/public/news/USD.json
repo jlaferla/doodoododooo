@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-05-06T09:15:44.607Z",
+  "fetchedAt": "2026-05-07T09:26:44.444Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "Oil prices retreat and global stocks hit record highs after Trump hails ‘great progress’ on Iran deal – business live",
+      "title": "Iran deal optimism pushes oil price down; UK builders hit by surge in costs – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/07/iran-deal-shell-profits-oil-gas-stock-markets-business-live",
+      "publishedAt": "2026-05-07T09:12:06Z"
+    },
+    {
+      "title": "Oil and gas prices fall sharply, driven by hopes of strait of Hormuz reopening – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/06/oil-prices-retreat-global-stocks-hit-record-highs-trump-great-progress-iran-deal-live-updates",
-      "publishedAt": "2026-05-06T08:59:56Z"
+      "publishedAt": "2026-05-06T14:13:42Z"
     },
     {
       "title": "Our national energy transition is a rare opportunity to enrich and reward Australian workers | Thom Woodroofe",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/28/bp-profits-oil-gas-prices-iran-war-first-quarter",
       "publishedAt": "2026-04-28T11:02:41Z"
-    },
-    {
-      "title": "Goldman raises oil price forecasts as Iran war deadlock continues; Shell buying Canada’s ARC in $13.6bn deal – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/27/oil-prices-high-us-iran-peace-talks-stock-markets-house-prices-latest-news-updates",
-      "publishedAt": "2026-04-27T15:39:33Z"
     }
   ]
 }

@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-05-06T09:15:42.098Z",
+  "fetchedAt": "2026-05-07T09:26:42.029Z",
   "currency": "HKD",
   "articles": [
     {
-      "title": "Oil prices retreat and global stocks hit record highs after Trump hails ‘great progress’ on Iran deal – business live",
+      "title": "Iran deal optimism pushes oil price down; UK builders hit by surge in costs – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/07/iran-deal-shell-profits-oil-gas-stock-markets-business-live",
+      "publishedAt": "2026-05-07T09:12:06Z"
+    },
+    {
+      "title": "Oil and gas prices fall sharply, driven by hopes of strait of Hormuz reopening – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/06/oil-prices-retreat-global-stocks-hit-record-highs-trump-great-progress-iran-deal-live-updates",
-      "publishedAt": "2026-05-06T08:59:56Z"
+      "publishedAt": "2026-05-06T14:13:42Z"
     },
     {
       "title": "UK 30-year borrowing costs hit highest since 1998 amid oil price surge and political uncertainty – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/04/australia-national-energy-transition",
       "publishedAt": "2026-05-03T15:00:06Z"
-    },
-    {
-      "title": "Bank of England leaves interest rates on hold with committee split 8-1; ECB also keeps rates steady – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/30/bank-of-england-expected-hold-interest-rates-noon-assesses-fallout-iran-war-live-updates",
-      "publishedAt": "2026-04-30T14:55:26Z"
     }
   ]
 }
