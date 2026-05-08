@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-05-07T09:26:41.675Z",
+  "fetchedAt": "2026-05-08T08:18:20.515Z",
   "currency": "GBP",
   "articles": [
     {
-      "title": "Fertiliser shortages will have ‘dramatic’ effect on global food prices, warns farming boss",
+      "title": "Oil back over $100 as US-Iran ceasefire comes under pressure; British Airways’ parent company warns jet fuel could be ‘restricted’ – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/08/oil-us-iran-ceasefire-uk-house-prices-food-prices-jobs-report-pound-bonds-elections-latest-news-updates",
+      "publishedAt": "2026-05-08T08:17:13Z"
+    },
+    {
+      "title": "British Airways owner issues profit warning over soaring jet fuel costs",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/08/british-airways-owner-issues-profit-warning-over-soaring-jet-fuel-costs",
+      "publishedAt": "2026-05-08T08:10:15Z"
+    },
+    {
+      "title": "Financial stability risks are rising as AI fuels cyber-attacks, IMF warns; oil below $100 on Iran peace hopes – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/07/iran-deal-shell-profits-oil-gas-stock-markets-business-live",
+      "publishedAt": "2026-05-07T15:53:57Z"
+    },
+    {
+      "title": "Fertiliser shortages to have dramatic effect on food prices, says Duke of Westminster’s firm",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/06/fertiliser-shortages-iran-war-global-food-prices-farming",
-      "publishedAt": "2026-05-06T21:30:30Z"
+      "publishedAt": "2026-05-07T09:39:54Z"
     },
     {
       "title": "Global finance watchdog warns over private credit industry fuelling AI boom",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/06/global-finance-watchdog-warns-over-private-credit-industry-fuelling-ai-boom",
       "publishedAt": "2026-05-06T06:00:01Z"
-    },
-    {
-      "title": "UK 30-year borrowing costs hit highest since 1998 amid oil price surge and political uncertainty – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/05/hsbc-400m-uk-fraud-charge-rachel-reeves-scott-bessent-row-stock-markets-car-sales-live-updates",
-      "publishedAt": "2026-05-05T16:08:18Z"
-    },
-    {
-      "title": "‘There is a good deal of fear’: what would a Labour leadership challenge mean for bond markets?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/05/labour-leadership-challenge-bond-markets-angela-rayner-andy-burnham-keir-starmer",
-      "publishedAt": "2026-05-05T06:00:45Z"
-    },
-    {
-      "title": "Concierge firm co-founded by queen’s nephew went on ‘ill-timed’ hiring spree before Iran war",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/05/concierge-firm-quintessentially-queen-nephew-ben-elliot-hiring-spree-iran-war-middle-east-gulf",
-      "publishedAt": "2026-05-05T05:00:44Z"
     }
   ]
 }

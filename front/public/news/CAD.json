@@ -1,12 +1,24 @@
 {
-  "fetchedAt": "2026-05-07T09:26:40.304Z",
+  "fetchedAt": "2026-05-08T08:18:19.312Z",
   "currency": "CAD",
   "articles": [
     {
-      "title": "Iran deal optimism pushes oil price down; UK builders hit by surge in costs – business live",
+      "title": "Oil back over $100 as US-Iran ceasefire comes under pressure; British Airways’ parent company warns jet fuel could be ‘restricted’ – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/08/oil-us-iran-ceasefire-uk-house-prices-food-prices-jobs-report-pound-bonds-elections-latest-news-updates",
+      "publishedAt": "2026-05-08T08:17:13Z"
+    },
+    {
+      "title": "Financial stability risks are rising as AI fuels cyber-attacks, IMF warns; oil below $100 on Iran peace hopes – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/07/iran-deal-shell-profits-oil-gas-stock-markets-business-live",
-      "publishedAt": "2026-05-07T09:12:06Z"
+      "publishedAt": "2026-05-07T15:53:57Z"
+    },
+    {
+      "title": "Airlines still have to pay compensation if flights cancelled due to fuel crisis, EU says",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/07/airlines-still-have-to-pay-compensation-if-flights-cancelled-due-to-fuel-crisis-eu-says",
+      "publishedAt": "2026-05-07T11:12:33Z"
     },
     {
       "title": "Oil and gas prices fall sharply, driven by hopes of strait of Hormuz reopening – as it happened",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/04/australia-national-energy-transition",
       "publishedAt": "2026-05-03T15:00:06Z"
-    },
-    {
-      "title": "BP profits more than double as oil prices soar in Iran war",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/28/bp-profits-oil-gas-prices-iran-war-first-quarter",
-      "publishedAt": "2026-04-28T11:02:41Z"
-    },
-    {
-      "title": "Shell to buy Canadian shale producer ARC Resources for $16.4bn",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/27/shell-to-buy-canadian-shale-producer-arc-resources-for-164bn",
-      "publishedAt": "2026-04-27T17:35:04Z"
     }
   ]
 }

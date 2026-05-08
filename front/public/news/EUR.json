@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-07T09:26:41.332Z",
+  "fetchedAt": "2026-05-08T08:18:20.220Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "Oil back over $100 as US-Iran ceasefire comes under pressure; British Airways’ parent company warns jet fuel could be ‘restricted’ – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/08/oil-us-iran-ceasefire-uk-house-prices-food-prices-jobs-report-pound-bonds-elections-latest-news-updates",
+      "publishedAt": "2026-05-08T08:17:13Z"
+    },
     {
       "title": "Eurozone inflation soars to 3% as Iran war drives up energy prices",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
       "publishedAt": "2026-04-14T15:07:45Z"
-    },
-    {
-      "title": "Oil price tops $100 a barrel as US blockades strait of Hormuz; Goldman Sachs posts rise in profits – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/13/oil-price-barrel-trump-naval-blockade-strait-of-hormuz-stock-markets-ftse-latest-news-updates",
-      "publishedAt": "2026-04-13T15:42:14Z"
     }
   ]
 }

@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-07T09:26:44.779Z",
+  "fetchedAt": "2026-05-08T08:18:23.208Z",
   "currency": "ZAR",
   "articles": [
+    {
+      "title": "Trains in southern England disrupted after fault in radio system",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/uk-news/2026/may/07/trains-southern-england-disrupted-fault-radio-system",
+      "publishedAt": "2026-05-07T12:12:11Z"
+    },
     {
       "title": "MPs accuse South East Water leaders of incompetence over repeated outages",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/14/holidays-hit-cost-of-living-iran-war-travel",
       "publishedAt": "2026-04-14T05:01:00Z"
-    },
-    {
-      "title": "Strait of Hormuz not open, Abu Dhabi’s oil chief says as crude prices rise",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/09/oil-price-rises-as-markets-question-durability-of-middle-east-ceasefire-iran",
-      "publishedAt": "2026-04-09T14:14:06Z"
     }
   ]
 }
