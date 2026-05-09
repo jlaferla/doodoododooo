@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-05-08T08:18:22.325Z",
+  "fetchedAt": "2026-05-09T08:24:00.835Z",
   "currency": "SGD",
   "articles": [
     {
-      "title": "Oil back over $100 as US-Iran ceasefire comes under pressure; British Airways’ parent company warns jet fuel could be ‘restricted’ – business live",
+      "title": "US consumer confidence hits record low as Americans fret about rising prices; jobs report beats forecasts – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/08/oil-us-iran-ceasefire-uk-house-prices-food-prices-jobs-report-pound-bonds-elections-latest-news-updates",
-      "publishedAt": "2026-05-08T08:17:13Z"
+      "publishedAt": "2026-05-08T17:19:21Z"
+    },
+    {
+      "title": "UK borrowing costs fall and pound rises after Starmer says he will stay as PM",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/08/uk-borrowing-costs-fall-pound-rises-keir-starmer-bond-yields",
+      "publishedAt": "2026-05-08T17:16:04Z"
     },
     {
       "title": "Financial stability risks are rising as AI fuels cyber-attacks, IMF warns; oil below $100 on Iran peace hopes – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/04/australia-national-energy-transition",
       "publishedAt": "2026-05-03T15:00:06Z"
-    },
-    {
-      "title": "BP profits more than double as oil prices soar in Iran war",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/28/bp-profits-oil-gas-prices-iran-war-first-quarter",
-      "publishedAt": "2026-04-28T11:02:41Z"
     }
   ]
 }

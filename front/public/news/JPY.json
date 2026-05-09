@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-08T08:18:21.426Z",
+  "fetchedAt": "2026-05-09T08:23:59.839Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "Iran war costs Toyota £3bn as prices of materials soar and sales fall",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/08/iran-war-costs-toyota-3bn-prices-materials-soar-sales-fall",
+      "publishedAt": "2026-05-08T12:09:58Z"
+    },
     {
       "title": "UK 30-year borrowing costs hit highest since 1998 amid oil price surge and political uncertainty – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/27/oil-prices-high-us-iran-peace-talks-stock-markets-house-prices-latest-news-updates",
       "publishedAt": "2026-04-27T15:39:33Z"
-    },
-    {
-      "title": "IMF calls for countries to economise on energy supplies, and hails UK’s budget deficit improvement – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/15/stock-markets-iran-war-peace-deal-reeves-bessent-imf-business-latest-news-updates",
-      "publishedAt": "2026-04-15T17:13:42Z"
     }
   ]
 }

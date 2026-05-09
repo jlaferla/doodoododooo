@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-05-08T08:18:20.220Z",
+  "fetchedAt": "2026-05-09T08:23:58.486Z",
   "currency": "EUR",
   "articles": [
     {
-      "title": "Oil back over $100 as US-Iran ceasefire comes under pressure; British Airways’ parent company warns jet fuel could be ‘restricted’ – business live",
+      "title": "US consumer confidence hits record low as Americans fret about rising prices; jobs report beats forecasts – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/08/oil-us-iran-ceasefire-uk-house-prices-food-prices-jobs-report-pound-bonds-elections-latest-news-updates",
-      "publishedAt": "2026-05-08T08:17:13Z"
+      "publishedAt": "2026-05-08T17:19:21Z"
+    },
+    {
+      "title": "UK borrowing costs fall and pound rises after Starmer says he will stay as PM",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/08/uk-borrowing-costs-fall-pound-rises-keir-starmer-bond-yields",
+      "publishedAt": "2026-05-08T17:16:04Z"
     },
     {
       "title": "Eurozone inflation soars to 3% as Iran war drives up energy prices",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/17/wheat-price-jump-iran-war-fertiliser-food-insecurity-oil-stock-markets-latest-updates",
       "publishedAt": "2026-04-17T16:13:09Z"
-    },
-    {
-      "title": "UK growth forecasts slashed by IMF as Iran war hurts global economy – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
-      "publishedAt": "2026-04-14T15:07:45Z"
     }
   ]
 }

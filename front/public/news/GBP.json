@@ -1,18 +1,24 @@
 {
-  "fetchedAt": "2026-05-08T08:18:20.515Z",
+  "fetchedAt": "2026-05-09T08:23:58.833Z",
   "currency": "GBP",
   "articles": [
     {
-      "title": "Oil back over $100 as US-Iran ceasefire comes under pressure; British Airways’ parent company warns jet fuel could be ‘restricted’ – business live",
+      "title": "US consumer confidence hits record low as Americans fret about rising prices; jobs report beats forecasts – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/08/oil-us-iran-ceasefire-uk-house-prices-food-prices-jobs-report-pound-bonds-elections-latest-news-updates",
-      "publishedAt": "2026-05-08T08:17:13Z"
+      "publishedAt": "2026-05-08T17:19:21Z"
     },
     {
-      "title": "British Airways owner issues profit warning over soaring jet fuel costs",
+      "title": "UK borrowing costs fall and pound rises after Starmer says he will stay as PM",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/08/uk-borrowing-costs-fall-pound-rises-keir-starmer-bond-yields",
+      "publishedAt": "2026-05-08T17:16:04Z"
+    },
+    {
+      "title": "British Airways fares to rise in attempt to offset £1.7bn fuel cost hit  ",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/08/british-airways-owner-issues-profit-warning-over-soaring-jet-fuel-costs",
-      "publishedAt": "2026-05-08T08:10:15Z"
+      "publishedAt": "2026-05-08T11:52:52Z"
     },
     {
       "title": "Financial stability risks are rising as AI fuels cyber-attacks, IMF warns; oil below $100 on Iran peace hopes – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/06/fertiliser-shortages-iran-war-global-food-prices-farming",
       "publishedAt": "2026-05-07T09:39:54Z"
-    },
-    {
-      "title": "Global finance watchdog warns over private credit industry fuelling AI boom",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/06/global-finance-watchdog-warns-over-private-credit-industry-fuelling-ai-boom",
-      "publishedAt": "2026-05-06T06:00:01Z"
     }
   ]
 }
