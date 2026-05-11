@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-05-10T08:49:00.563Z",
+  "fetchedAt": "2026-05-11T10:30:13.800Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Oil prices climb after Trump dismisses Iran’s response to peace plan",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/11/oil-prices-climb-trump-dismisses-iran-response-us-peace-plan",
+      "publishedAt": "2026-05-11T08:49:46Z"
+    },
+    {
+      "title": "Delayed Great British Railways’ first station to open at Cambridge South in June",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/11/delayed-cambridge-south-station-open-june-great-british-railways",
+      "publishedAt": "2026-05-11T05:00:46Z"
+    },
+    {
+      "title": "From fringe issue to the heart of politics: the UK Living Wage campaign marks 25 years of success | Heather Stewart",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/10/uk-living-wage-campaign-marks-25-years-of-success",
+      "publishedAt": "2026-05-10T10:08:10Z"
+    },
     {
       "title": "Trains in southern England disrupted after fault in radio system",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/04/strait-of-hormuz-donald-trump-us-navy-iran-shipping",
       "publishedAt": "2026-05-04T16:10:14Z"
-    },
-    {
-      "title": "Trump may not be a fan of clean energy but Iran war is accelerating global shift from oil and gas | Heather Stewart",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/03/trump-clean-energy-iran-war-global-shift-oil-gas",
-      "publishedAt": "2026-05-03T10:17:41Z"
-    },
-    {
-      "title": "‘Temu Range Rover’: what the bestselling Jaecoo 7 says about China’s electric car ascendancy",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/01/jaecoo-7-china-electric-car-chery-price-temu-range-rover",
-      "publishedAt": "2026-05-01T14:00:00Z"
-    },
-    {
-      "title": "MPs accuse South East Water leaders of incompetence over repeated outages",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/01/mps-accuse-south-east-water-leaders-of-incompetence-over-repeated-outages",
-      "publishedAt": "2026-05-01T07:26:13Z"
     }
   ]
 }

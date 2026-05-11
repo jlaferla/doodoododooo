@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-10T08:49:01.661Z",
+  "fetchedAt": "2026-05-11T10:30:14.761Z",
   "currency": "TRY",
   "articles": [
+    {
+      "title": "Democrats are playing with fire in trying to reclaim tax cuts from Republicans ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/11/democrats-tax-cuts-republicans",
+      "publishedAt": "2026-05-11T10:00:51Z"
+    },
     {
       "title": "Two million airline seats cut amid soaring jet fuel prices",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/02/blue-owl-capital-private-credit-investment-limits-withdrawals",
       "publishedAt": "2026-04-02T16:14:02Z"
-    },
-    {
-      "title": "Oil on track for record monthly surge as Iran war disrupts markets",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/29/oil-monthly-surge-record-iran-war-markets-gold",
-      "publishedAt": "2026-03-29T11:20:00Z"
     }
   ]
 }

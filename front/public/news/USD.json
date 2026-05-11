@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-05-10T08:49:02.036Z",
+  "fetchedAt": "2026-05-11T10:30:15.081Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "UK government borrowing costs rise as pressure mounts on Starmer, and oil price jumps – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/11/uk-economy-job-losses-iran-war-oil-pound-bonds-politics-starmer-live-updates",
+      "publishedAt": "2026-05-11T10:18:37Z"
+    },
+    {
+      "title": "Democrats are playing with fire in trying to reclaim tax cuts from Republicans ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/11/democrats-tax-cuts-republicans",
+      "publishedAt": "2026-05-11T10:00:51Z"
+    },
+    {
+      "title": "Oil prices climb after Trump dismisses Iran’s response to peace plan",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/11/oil-prices-climb-trump-dismisses-iran-response-us-peace-plan",
+      "publishedAt": "2026-05-11T08:49:46Z"
+    },
     {
       "title": "US consumer confidence hits record low as Americans fret about rising prices; jobs report beats forecasts – as it happened",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/08/uk-borrowing-costs-fall-pound-rises-keir-starmer-bond-yields",
       "publishedAt": "2026-05-08T17:16:04Z"
-    },
-    {
-      "title": "Financial stability risks are rising as AI fuels cyber-attacks, IMF warns; oil below $100 on Iran peace hopes – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/07/iran-deal-shell-profits-oil-gas-stock-markets-business-live",
-      "publishedAt": "2026-05-07T15:53:57Z"
-    },
-    {
-      "title": "Oil and gas prices fall sharply, driven by hopes of strait of Hormuz reopening – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/06/oil-prices-retreat-global-stocks-hit-record-highs-trump-great-progress-iran-deal-live-updates",
-      "publishedAt": "2026-05-06T14:13:42Z"
-    },
-    {
-      "title": "Our national energy transition is a rare opportunity to enrich and reward Australian workers | Thom Woodroofe",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/04/australia-national-energy-transition",
-      "publishedAt": "2026-05-03T15:00:06Z"
     }
   ]
 }

@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-10T08:49:02.386Z",
+  "fetchedAt": "2026-05-11T10:30:15.393Z",
   "currency": "ZAR",
   "articles": [
+    {
+      "title": "Delayed Great British Railways’ first station to open at Cambridge South in June",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/11/delayed-cambridge-south-station-open-june-great-british-railways",
+      "publishedAt": "2026-05-11T05:00:46Z"
+    },
     {
       "title": "Trains in southern England disrupted after fault in radio system",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/14/south-east-water-chief-executive-to-forgo-his-bonus-over-unacceptable-outages",
       "publishedAt": "2026-04-14T17:46:23Z"
-    },
-    {
-      "title": "Holidays take a hit as UK cost of living fears and Iran war bite",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/14/holidays-hit-cost-of-living-iran-war-travel",
-      "publishedAt": "2026-04-14T05:01:00Z"
     }
   ]
 }
