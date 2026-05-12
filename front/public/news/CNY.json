@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-05-11T10:30:11.881Z",
+  "fetchedAt": "2026-05-12T09:29:45.942Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "UK long-term borrowing costs hit highest since 1998 as Starmer faces pressure to stand down – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/12/uk-bond-yields-borrowing-costs-pound-falls-oil-inflation-live-updates",
+      "publishedAt": "2026-05-12T09:16:27Z"
+    },
+    {
+      "title": "Labour must offer more than ‘better managed decline’ on economy, MPs urge",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/12/labour-economy-mps-tribune-group-keir-starmer",
+      "publishedAt": "2026-05-12T08:00:18Z"
+    },
     {
       "title": "‘Our competitors are everyone’: Joybuy leads ‘China’s Amazon’ into the UK",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/26/more-than-oil-prices-iran-war-threatens-to-reshape-global-energy-order",
       "publishedAt": "2026-04-26T11:00:12Z"
-    },
-    {
-      "title": "UK steel exports to EU at risk as bloc doubles tariffs and halves quotas",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/14/uk-steel-exports-eu-risk-tariffs-quotas",
-      "publishedAt": "2026-04-14T13:53:35Z"
-    },
-    {
-      "title": "British Steel on track to be fully nationalised within weeks",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/30/british-steel-on-track-to-be-fully-nationalised-within-weeks",
-      "publishedAt": "2026-03-30T17:21:45Z"
     }
   ]
 }

@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-05-11T10:30:13.484Z",
+  "fetchedAt": "2026-05-12T09:29:47.634Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "UK long-term borrowing costs hit highest since 1998 as Starmer faces pressure to stand down – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/12/uk-bond-yields-borrowing-costs-pound-falls-oil-inflation-live-updates",
+      "publishedAt": "2026-05-12T09:16:27Z"
+    },
+    {
+      "title": "UK government borrowing costs rise as Starmer ‘fails to reassure bond markets’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/11/uk-economy-job-losses-iran-war-oil-pound-bonds-politics-starmer-live-updates",
+      "publishedAt": "2026-05-11T16:03:38Z"
+    },
     {
       "title": "Iran war costs Toyota £3bn as prices of materials soar and sales fall",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/01/jaecoo-7-china-electric-car-chery-price-temu-range-rover",
       "publishedAt": "2026-05-01T14:00:00Z"
-    },
-    {
-      "title": "UAE quits Opec in ‘pivotal moment’ for oil producing group – as it happened ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/28/bp-profits-double-iran-war-oil-price-stock-markets-live-updates",
-      "publishedAt": "2026-04-28T14:37:25Z"
-    },
-    {
-      "title": "Goldman raises oil price forecasts as Iran war deadlock continues; Shell buying Canada’s ARC in $13.6bn deal – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/27/oil-prices-high-us-iran-peace-talks-stock-markets-house-prices-latest-news-updates",
-      "publishedAt": "2026-04-27T15:39:33Z"
     }
   ]
 }
