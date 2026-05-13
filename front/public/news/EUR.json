@@ -1,18 +1,12 @@
 {
-  "fetchedAt": "2026-05-12T09:29:46.287Z",
+  "fetchedAt": "2026-05-13T09:37:07.759Z",
   "currency": "EUR",
   "articles": [
     {
-      "title": "UK long-term borrowing costs hit highest since 1998 as Starmer faces pressure to stand down – business live",
+      "title": "UK long-term borrowing costs dip from 28-year high after Starmer allies back PM – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/12/uk-bond-yields-borrowing-costs-pound-falls-oil-inflation-live-updates",
-      "publishedAt": "2026-05-12T09:16:27Z"
-    },
-    {
-      "title": "UK borrowing costs hit highest since 1998 amid Starmer uncertainty ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/12/uk-borrowing-costs-keir-starmer-bond-yields-pound-dollar-labour",
-      "publishedAt": "2026-05-12T08:48:23Z"
+      "publishedAt": "2026-05-12T16:23:49Z"
     },
     {
       "title": "UK government borrowing costs rise as Starmer ‘fails to reassure bond markets’ – as it happened",
@@ -31,6 +25,12 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/08/uk-borrowing-costs-fall-pound-rises-keir-starmer-bond-yields",
       "publishedAt": "2026-05-08T17:16:04Z"
+    },
+    {
+      "title": "Eurozone inflation soars to 3% as Iran war drives up energy prices",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/apr/30/eurozone-inflation-increase-iran-war-drives-up-energy-prices",
+      "publishedAt": "2026-04-30T12:30:05Z"
     }
   ]
 }

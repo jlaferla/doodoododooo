@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-05-12T09:29:46.623Z",
+  "fetchedAt": "2026-05-13T09:37:08.055Z",
   "currency": "GBP",
   "articles": [
     {
-      "title": "UK long-term borrowing costs hit highest since 1998 as Starmer faces pressure to stand down – business live",
+      "title": "UK government borrowing costs falling as Starmer holds on to power – business live",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/12/uk-bond-yields-borrowing-costs-pound-falls-oil-inflation-live-updates",
-      "publishedAt": "2026-05-12T09:16:27Z"
+      "url": "https://www.theguardian.com/business/live/2026/may/13/uk-bond-market-yields-political-turmoil-oil-inflation-housing-market-live-updates",
+      "publishedAt": "2026-05-13T09:07:06Z"
     },
     {
-      "title": "UK borrowing costs hit highest since 1998 amid Starmer uncertainty ",
+      "title": "Investor jitters over Starmer uncertainty drive UK borrowing costs to 28-year high",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/12/uk-borrowing-costs-keir-starmer-bond-yields-pound-dollar-labour",
-      "publishedAt": "2026-05-12T08:48:23Z"
+      "publishedAt": "2026-05-12T17:36:01Z"
     },
     {
-      "title": "Labour must offer more than ‘better managed decline’ on economy, MPs urge",
+      "title": "UK long-term borrowing costs dip from 28-year high after Starmer allies back PM – as it happened",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/12/labour-economy-mps-tribune-group-keir-starmer",
-      "publishedAt": "2026-05-12T08:00:18Z"
-    },
-    {
-      "title": "Five former Carillion executives banned by accountancy regulator",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/12/carillion-finance-directors-banned-frc",
-      "publishedAt": "2026-05-12T08:00:16Z"
+      "url": "https://www.theguardian.com/business/live/2026/may/12/uk-bond-yields-borrowing-costs-pound-falls-oil-inflation-live-updates",
+      "publishedAt": "2026-05-12T16:23:49Z"
     },
     {
       "title": "UK government borrowing costs rise as Starmer ‘fails to reassure bond markets’ – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/11/uk-economy-job-losses-iran-war-oil-pound-bonds-politics-starmer-live-updates",
       "publishedAt": "2026-05-11T16:03:38Z"
+    },
+    {
+      "title": "UK borrowing costs rise as Starmer speech fails to dispel investor ‘jitters’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/11/uk-gilt-yields-creep-higher-as-starmer-speech-fails-to-dispel-investor-jitters",
+      "publishedAt": "2026-05-11T14:35:38Z"
     }
   ]
 }
