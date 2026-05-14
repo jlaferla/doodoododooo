@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-05-13T09:37:08.055Z",
+  "fetchedAt": "2026-05-14T09:28:22.274Z",
   "currency": "GBP",
   "articles": [
     {
-      "title": "UK government borrowing costs falling as Starmer holds on to power – business live",
+      "title": "Global oil inventories falling at record pace amid Iran war; US producer price inflation hits four-year high – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/13/uk-bond-market-yields-political-turmoil-oil-inflation-housing-market-live-updates",
-      "publishedAt": "2026-05-13T09:07:06Z"
+      "publishedAt": "2026-05-13T14:34:14Z"
+    },
+    {
+      "title": "Lab testing group Intertek to back £10.6bn takeover by Swedish firm EQT",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/13/lab-testing-group-intertek-to-back-takeover-by-swedish-firm-eqt",
+      "publishedAt": "2026-05-13T11:29:11Z"
     },
     {
       "title": "Investor jitters over Starmer uncertainty drive UK borrowing costs to 28-year high",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/11/uk-economy-job-losses-iran-war-oil-pound-bonds-politics-starmer-live-updates",
       "publishedAt": "2026-05-11T16:03:38Z"
-    },
-    {
-      "title": "UK borrowing costs rise as Starmer speech fails to dispel investor ‘jitters’",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/11/uk-gilt-yields-creep-higher-as-starmer-speech-fails-to-dispel-investor-jitters",
-      "publishedAt": "2026-05-11T14:35:38Z"
     }
   ]
 }

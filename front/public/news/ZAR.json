@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-13T09:37:10.715Z",
+  "fetchedAt": "2026-05-14T09:28:25.250Z",
   "currency": "ZAR",
   "articles": [
+    {
+      "title": "Australian workers have been hard done by and tax reforms in the budget only begin to return some fairness | Greg Jericho",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/grogonomics/2026/may/14/cgt-capital-gains-tax-australian-workers-hard-done-by-budget-tax-reforms-fairness",
+      "publishedAt": "2026-05-13T22:29:38Z"
+    },
     {
       "title": "Delayed Great British Railways’ first station to open at Cambridge South in June",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/15/norwegian-group-liberty-steel-blastr-ssuk-south-yorkshire-rotherham-stocksbridge",
       "publishedAt": "2026-04-15T11:42:14Z"
-    },
-    {
-      "title": "South East Water chief executive to forgo his bonus over ‘unacceptable outages’",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/14/south-east-water-chief-executive-to-forgo-his-bonus-over-unacceptable-outages",
-      "publishedAt": "2026-04-14T17:46:23Z"
     }
   ]
 }

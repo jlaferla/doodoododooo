@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-13T09:37:09.245Z",
+  "fetchedAt": "2026-05-14T09:28:23.601Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Australian workers have been hard done by and tax reforms in the budget only begin to return some fairness | Greg Jericho",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/grogonomics/2026/may/14/cgt-capital-gains-tax-australian-workers-hard-done-by-budget-tax-reforms-fairness",
+      "publishedAt": "2026-05-13T22:29:38Z"
+    },
     {
       "title": "Oil prices climb after Trump dismisses Iran’s response to peace plan",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/uk-news/2026/may/07/trains-southern-england-disrupted-fault-radio-system",
       "publishedAt": "2026-05-07T12:12:11Z"
-    },
-    {
-      "title": "Shipping firms question safety in strait of Hormuz despite Trump plan",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/04/strait-of-hormuz-donald-trump-us-navy-iran-shipping",
-      "publishedAt": "2026-05-04T16:10:14Z"
     }
   ]
 }

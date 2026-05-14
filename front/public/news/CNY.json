@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-13T09:37:07.453Z",
+  "fetchedAt": "2026-05-14T09:28:21.586Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "Nissan ponders building cars for Chinese rivals at Sunderland plant",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/13/nissan-ponders-building-cars-for-chinese-rivals-at-sunderland-plant-chery",
+      "publishedAt": "2026-05-13T11:54:50Z"
+    },
     {
       "title": "UK long-term borrowing costs dip from 28-year high after Starmer allies back PM – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/29/reliance-on-chinese-green-tech-poses-serious-risk-europe-economy-security-experts-say",
       "publishedAt": "2026-04-29T14:49:48Z"
-    },
-    {
-      "title": "The great energy pivot: US oil and Chinese solar are the winners in Trump’s war on Iran",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/26/more-than-oil-prices-iran-war-threatens-to-reshape-global-energy-order",
-      "publishedAt": "2026-04-26T11:00:12Z"
     }
   ]
 }

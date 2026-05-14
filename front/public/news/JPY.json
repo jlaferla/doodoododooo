@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-05-13T09:37:08.950Z",
+  "fetchedAt": "2026-05-14T09:28:23.278Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "‘There’s a risk of another Liz Truss moment’: City raises spectre of bond market meltdown again",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/14/theres-a-risk-of-another-liz-truss-moment-city-raises-spectre-of-bond-market-meltdown-again",
+      "publishedAt": "2026-05-14T06:00:19Z"
+    },
+    {
+      "title": "Nissan ponders building cars for Chinese rivals at Sunderland plant",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/13/nissan-ponders-building-cars-for-chinese-rivals-at-sunderland-plant-chery",
+      "publishedAt": "2026-05-13T11:54:50Z"
+    },
     {
       "title": "UK long-term borrowing costs dip from 28-year high after Starmer allies back PM – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/08/iran-war-costs-toyota-3bn-prices-materials-soar-sales-fall",
       "publishedAt": "2026-05-08T12:09:58Z"
-    },
-    {
-      "title": "UK 30-year borrowing costs hit highest since 1998 amid oil price surge and political uncertainty – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/05/hsbc-400m-uk-fraud-charge-rachel-reeves-scott-bessent-row-stock-markets-car-sales-live-updates",
-      "publishedAt": "2026-05-05T16:08:18Z"
-    },
-    {
-      "title": "‘Temu Range Rover’: what the bestselling Jaecoo 7 says about China’s electric car ascendancy",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/01/jaecoo-7-china-electric-car-chery-price-temu-range-rover",
-      "publishedAt": "2026-05-01T14:00:00Z"
     }
   ]
 }

@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-13T09:37:06.542Z",
+  "fetchedAt": "2026-05-14T09:28:20.585Z",
   "currency": "BRL",
   "articles": [
+    {
+      "title": "Australian workers have been hard done by and tax reforms in the budget only begin to return some fairness | Greg Jericho",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/grogonomics/2026/may/14/cgt-capital-gains-tax-australian-workers-hard-done-by-budget-tax-reforms-fairness",
+      "publishedAt": "2026-05-13T22:29:38Z"
+    },
     {
       "title": "CEO pay soared in 2025, 20 times faster than workers’ pay",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
       "publishedAt": "2026-03-23T20:17:23Z"
-    },
-    {
-      "title": "It’s time to take politics out of the Small Business Administration",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/mar/22/small-business-administration-immigrants-political",
-      "publishedAt": "2026-03-22T14:00:23Z"
     }
   ]
 }
