@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-05-14T09:28:22.942Z",
+  "fetchedAt": "2026-05-15T09:39:59.994Z",
   "currency": "INR",
   "articles": [
+    {
+      "title": "UK borrowing costs rise as City traders brace for Burnham, and pound heads for worst week since 2024 – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/15/rich-list-sunday-times-billionaires-reform-donor-christopher-harborne-hinduja-radcliffe-dyson-beckham-live-updates",
+      "publishedAt": "2026-05-15T09:25:29Z"
+    },
+    {
+      "title": "Christopher Harborne, tycoon who gave £5m to Farage, enters UK rich list at No 6",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/15/christopher-harborne-crypto-billionaire-nigel-farage-gift-uk-rich-list",
+      "publishedAt": "2026-05-15T08:14:01Z"
+    },
     {
       "title": "UK government borrowing costs rise as Starmer ‘fails to reassure bond markets’ – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/05/jaguar-land-rover-production-uk-battery-subsidy",
       "publishedAt": "2026-05-05T05:00:42Z"
-    },
-    {
-      "title": "Trump may not be a fan of clean energy but Iran war is accelerating global shift from oil and gas | Heather Stewart",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/03/trump-clean-energy-iran-war-global-shift-oil-gas",
-      "publishedAt": "2026-05-03T10:17:41Z"
-    },
-    {
-      "title": "Revealed: UK oil refinery owner moved Russian loans to offshore subsidiary where sanctions did not apply",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/24/revealed-uk-oil-refinery-owner-moved-russian-loans-to-offshore-subsidiary-where-sanctions-did-not-apply",
-      "publishedAt": "2026-04-24T05:00:32Z"
     }
   ]
 }

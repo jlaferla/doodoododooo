@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-05-14T09:28:24.275Z",
+  "fetchedAt": "2026-05-15T09:40:01.335Z",
   "currency": "SGD",
   "articles": [
+    {
+      "title": "UK borrowing costs rise as City traders brace for Burnham, and pound heads for worst week since 2024 – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/15/rich-list-sunday-times-billionaires-reform-donor-christopher-harborne-hinduja-radcliffe-dyson-beckham-live-updates",
+      "publishedAt": "2026-05-15T09:25:29Z"
+    },
+    {
+      "title": "Reeves warns against risking economic stability with leadership battle, after UK growth beats forecasts in March – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/14/uk-gdp-report-economic-growth-iran-war-rachel-reeves-bond-yields-live-updates",
+      "publishedAt": "2026-05-14T14:14:48Z"
+    },
+    {
+      "title": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/ng-interactive/2026/may/14/us-stock-market-war-inflation-tariffs-trump",
+      "publishedAt": "2026-05-14T10:00:24Z"
+    },
     {
       "title": "WA’s Yindjibarndi traditional owners consider appeal against Fortescue’s $150m record native title payout",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/13/uk-bond-market-yields-political-turmoil-oil-inflation-housing-market-live-updates",
       "publishedAt": "2026-05-13T14:34:14Z"
-    },
-    {
-      "title": "Investor jitters over Starmer uncertainty drive UK borrowing costs to 28-year high",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/12/uk-borrowing-costs-keir-starmer-bond-yields-pound-dollar-labour",
-      "publishedAt": "2026-05-12T17:36:01Z"
-    },
-    {
-      "title": "UK long-term borrowing costs dip from 28-year high after Starmer allies back PM – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/12/uk-bond-yields-borrowing-costs-pound-falls-oil-inflation-live-updates",
-      "publishedAt": "2026-05-12T16:23:49Z"
-    },
-    {
-      "title": "US inflation jumped to 3.8% in April as war with Iran continues to drive up prices",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/12/us-inflation-april-iran-war",
-      "publishedAt": "2026-05-12T15:09:45Z"
     }
   ]
 }

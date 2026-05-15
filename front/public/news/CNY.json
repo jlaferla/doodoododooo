@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-14T09:28:21.586Z",
+  "fetchedAt": "2026-05-15T09:39:58.648Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "EU carmakers pave way for Chinese rivals as balance in market shifts",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/15/eu-carmakers-chinese-rivals-market-shifts",
+      "publishedAt": "2026-05-15T04:00:26Z"
+    },
     {
       "title": "Nissan ponders building cars for Chinese rivals at Sunderland plant",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/06/joybuy-uk-amazon-china-ecommerce",
       "publishedAt": "2026-05-06T07:00:02Z"
-    },
-    {
-      "title": "Reliance on Chinese green tech poses ‘serious’ risk for Europe, experts say",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/29/reliance-on-chinese-green-tech-poses-serious-risk-europe-economy-security-experts-say",
-      "publishedAt": "2026-04-29T14:49:48Z"
     }
   ]
 }

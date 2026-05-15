@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-14T09:28:23.601Z",
+  "fetchedAt": "2026-05-15T09:40:00.658Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "EU carmakers pave way for Chinese rivals as balance in market shifts",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/15/eu-carmakers-chinese-rivals-market-shifts",
+      "publishedAt": "2026-05-15T04:00:26Z"
+    },
     {
       "title": "Australian workers have been hard done by and tax reforms in the budget only begin to return some fairness | Greg Jericho",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/10/uk-living-wage-campaign-marks-25-years-of-success",
       "publishedAt": "2026-05-10T10:08:10Z"
-    },
-    {
-      "title": "Trains in southern England disrupted after fault in radio system",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/uk-news/2026/may/07/trains-southern-england-disrupted-fault-radio-system",
-      "publishedAt": "2026-05-07T12:12:11Z"
     }
   ]
 }

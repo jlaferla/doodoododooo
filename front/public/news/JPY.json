@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-14T09:28:23.278Z",
+  "fetchedAt": "2026-05-15T09:40:00.332Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "Jaguar Land Rover annual profit falls 99% after US tariffs and cyber-attack take toll",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/14/jaguar-land-rover-annual-profit-falls-99-per-cent-us-tariffs-cyber-attack",
+      "publishedAt": "2026-05-14T14:17:47Z"
+    },
     {
       "title": "‘There’s a risk of another Liz Truss moment’: City raises spectre of bond market meltdown again",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/11/uk-economy-job-losses-iran-war-oil-pound-bonds-politics-starmer-live-updates",
       "publishedAt": "2026-05-11T16:03:38Z"
-    },
-    {
-      "title": "Iran war costs Toyota £3bn as prices of materials soar and sales fall",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/08/iran-war-costs-toyota-3bn-prices-materials-soar-sales-fall",
-      "publishedAt": "2026-05-08T12:09:58Z"
     }
   ]
 }
