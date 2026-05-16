@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-05-15T09:39:59.324Z",
+  "fetchedAt": "2026-05-16T08:44:40.027Z",
   "currency": "GBP",
   "articles": [
     {
-      "title": "UK borrowing costs rise as City traders brace for Burnham, and pound heads for worst week since 2024 – business live",
+      "title": " Pound heads for worst week in 18 months as Burnham lines up Labour bid ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/15/pound-sterling-andy-burnham-labour-bid-uk-borrowing-bond-yield-oil-price-inflation",
+      "publishedAt": "2026-05-15T16:17:30Z"
+    },
+    {
+      "title": "UK borrowing costs hit new highs as City traders brace for Burnham, and pound heads for worst week since 2024 – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/15/rich-list-sunday-times-billionaires-reform-donor-christopher-harborne-hinduja-radcliffe-dyson-beckham-live-updates",
-      "publishedAt": "2026-05-15T09:25:29Z"
+      "publishedAt": "2026-05-15T16:09:42Z"
     },
     {
       "title": "Reeves warns against risking economic stability with leadership battle, after UK growth beats forecasts in March – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/13/lab-testing-group-intertek-to-back-takeover-by-swedish-firm-eqt",
       "publishedAt": "2026-05-13T11:29:11Z"
-    },
-    {
-      "title": "Investor jitters over Starmer uncertainty drive UK borrowing costs to 28-year high",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/12/uk-borrowing-costs-keir-starmer-bond-yields-pound-dollar-labour",
-      "publishedAt": "2026-05-12T17:36:01Z"
     }
   ]
 }

@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-05-15T09:40:02.081Z",
+  "fetchedAt": "2026-05-16T08:44:42.936Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "UK borrowing costs rise as City traders brace for Burnham, and pound heads for worst week since 2024 – business live",
+      "title": " Pound heads for worst week in 18 months as Burnham lines up Labour bid ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/15/pound-sterling-andy-burnham-labour-bid-uk-borrowing-bond-yield-oil-price-inflation",
+      "publishedAt": "2026-05-15T16:17:30Z"
+    },
+    {
+      "title": "UK borrowing costs hit new highs as City traders brace for Burnham, and pound heads for worst week since 2024 – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/15/rich-list-sunday-times-billionaires-reform-donor-christopher-harborne-hinduja-radcliffe-dyson-beckham-live-updates",
-      "publishedAt": "2026-05-15T09:25:29Z"
+      "publishedAt": "2026-05-15T16:09:42Z"
     },
     {
       "title": "Reeves warns against risking economic stability with leadership battle, after UK growth beats forecasts in March – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/14/western-australia-yindjibarndi-traditional-owners-consider-appeal-fortescue-mining-native-title-payout-ntwnfb",
       "publishedAt": "2026-05-14T04:54:16Z"
-    },
-    {
-      "title": "Global oil inventories falling at record pace amid Iran war; US producer price inflation hits four-year high – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/13/uk-bond-market-yields-political-turmoil-oil-inflation-housing-market-live-updates",
-      "publishedAt": "2026-05-13T14:34:14Z"
     }
   ]
 }
