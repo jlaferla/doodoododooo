@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-16T08:44:41.496Z",
+  "fetchedAt": "2026-05-17T08:58:41.339Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": " Plum position: how Mutti turned tinned tomatoes into a status symbol",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/16/mutti-tinned-tomatoes-status-symbol-italian-brand-sales-uk",
+      "publishedAt": "2026-05-16T11:00:07Z"
+    },
     {
       "title": "EU carmakers pave way for Chinese rivals as balance in market shifts",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/11/delayed-cambridge-south-station-open-june-great-british-railways",
       "publishedAt": "2026-05-11T05:00:46Z"
-    },
-    {
-      "title": "From fringe issue to the heart of politics: the UK Living Wage campaign marks 25 years of success | Heather Stewart",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/10/uk-living-wage-campaign-marks-25-years-of-success",
-      "publishedAt": "2026-05-10T10:08:10Z"
     }
   ]
 }

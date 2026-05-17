@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-16T08:44:43.287Z",
+  "fetchedAt": "2026-05-17T08:58:42.800Z",
   "currency": "ZAR",
   "articles": [
+    {
+      "title": " Plum position: how Mutti turned tinned tomatoes into a status symbol",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/16/mutti-tinned-tomatoes-status-symbol-italian-brand-sales-uk",
+      "publishedAt": "2026-05-16T11:00:07Z"
+    },
     {
       "title": "Australian workers have been hard done by and tax reforms in the budget only begin to return some fairness | Greg Jericho",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/01/mps-accuse-south-east-water-leaders-of-incompetence-over-repeated-outages",
       "publishedAt": "2026-05-01T07:26:13Z"
-    },
-    {
-      "title": "Norwegian group in talks to buy former Liberty Steel works in South Yorkshire",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/15/norwegian-group-liberty-steel-blastr-ssuk-south-yorkshire-rotherham-stocksbridge",
-      "publishedAt": "2026-04-15T11:42:14Z"
     }
   ]
 }
