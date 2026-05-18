@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-17T08:58:38.964Z",
+  "fetchedAt": "2026-05-18T10:59:41.056Z",
   "currency": "CAD",
   "articles": [
+    {
+      "title": "UK government borrowing costs slip back from multi-year highs as bond market rout calms – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/18/bond-market-rout-inflation-fears-gilts-yields-burnham-imf-reeves-live-updates",
+      "publishedAt": "2026-05-18T10:22:13Z"
+    },
     {
       "title": " Pound heads for worst week in 18 months as Burnham lines up Labour bid ",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/ng-interactive/2026/may/14/us-stock-market-war-inflation-tariffs-trump",
       "publishedAt": "2026-05-14T10:00:24Z"
-    },
-    {
-      "title": "WA’s Yindjibarndi traditional owners consider appeal against Fortescue’s $150m record native title payout",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/14/western-australia-yindjibarndi-traditional-owners-consider-appeal-fortescue-mining-native-title-payout-ntwnfb",
-      "publishedAt": "2026-05-14T04:54:16Z"
     }
   ]
 }

@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-17T08:58:38.362Z",
+  "fetchedAt": "2026-05-18T10:59:40.455Z",
   "currency": "AUD",
   "articles": [
+    {
+      "title": "UK government borrowing costs slip back from multi-year highs as bond market rout calms – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/18/bond-market-rout-inflation-fears-gilts-yields-burnham-imf-reeves-live-updates",
+      "publishedAt": "2026-05-18T10:22:13Z"
+    },
     {
       "title": " Pound heads for worst week in 18 months as Burnham lines up Labour bid ",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/14/uk-gdp-report-economic-growth-iran-war-rachel-reeves-bond-yields-live-updates",
       "publishedAt": "2026-05-14T14:14:48Z"
-    },
-    {
-      "title": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/ng-interactive/2026/may/14/us-stock-market-war-inflation-tariffs-trump",
-      "publishedAt": "2026-05-14T10:00:24Z"
     }
   ]
 }

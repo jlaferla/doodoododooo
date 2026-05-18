@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-17T08:58:39.555Z",
+  "fetchedAt": "2026-05-18T10:59:41.652Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "UK government borrowing costs slip back from multi-year highs as bond market rout calms – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/18/bond-market-rout-inflation-fears-gilts-yields-burnham-imf-reeves-live-updates",
+      "publishedAt": "2026-05-18T10:22:13Z"
+    },
     {
       "title": "EU carmakers pave way for Chinese rivals as balance in market shifts",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/12/labour-economy-mps-tribune-group-keir-starmer",
       "publishedAt": "2026-05-12T08:00:18Z"
-    },
-    {
-      "title": "‘Our competitors are everyone’: Joybuy leads ‘China’s Amazon’ into the UK",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/06/joybuy-uk-amazon-china-ecommerce",
-      "publishedAt": "2026-05-06T07:00:02Z"
     }
   ]
 }

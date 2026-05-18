@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-17T08:58:40.150Z",
+  "fetchedAt": "2026-05-18T10:59:42.263Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "UK government borrowing costs slip back from multi-year highs as bond market rout calms – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/18/bond-market-rout-inflation-fears-gilts-yields-burnham-imf-reeves-live-updates",
+      "publishedAt": "2026-05-18T10:22:13Z"
+    },
     {
       "title": " Pound heads for worst week in 18 months as Burnham lines up Labour bid ",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/13/uk-bond-market-yields-political-turmoil-oil-inflation-housing-market-live-updates",
       "publishedAt": "2026-05-13T14:34:14Z"
-    },
-    {
-      "title": "Lab testing group Intertek to back £10.6bn takeover by Swedish firm EQT",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/13/lab-testing-group-intertek-to-back-takeover-by-swedish-firm-eqt",
-      "publishedAt": "2026-05-13T11:29:11Z"
     }
   ]
 }
