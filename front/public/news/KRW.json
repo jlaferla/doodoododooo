@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-05-18T10:59:43.449Z",
+  "fetchedAt": "2026-05-19T10:33:38.592Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "UK wage growth slows and unemployment rate rises as companies react to Iran war – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/19/uk-wage-growth-unemployment-rate-markets-business-live-news",
+      "publishedAt": "2026-05-19T09:48:37Z"
+    },
+    {
+      "title": "Starbucks Korea CEO dismissed over ad evoking massacre of pro-democracy protesters",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/18/ceo-starbucks-in-south-korea-fired-over-controversial-ad-campaign",
+      "publishedAt": "2026-05-18T16:50:11Z"
+    },
+    {
+      "title": "NextEra to buy Dominion in $67bn deal creating US utility giant",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/18/nextera-dominion-merger-us-energy",
+      "publishedAt": "2026-05-18T16:25:05Z"
+    },
     {
       "title": " Plum position: how Mutti turned tinned tomatoes into a status symbol",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/15/eu-carmakers-chinese-rivals-market-shifts",
       "publishedAt": "2026-05-15T04:00:26Z"
-    },
-    {
-      "title": "Australian workers have been hard done by and tax reforms in the budget only begin to return some fairness | Greg Jericho",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/grogonomics/2026/may/14/cgt-capital-gains-tax-australian-workers-hard-done-by-budget-tax-reforms-fairness",
-      "publishedAt": "2026-05-13T22:29:38Z"
-    },
-    {
-      "title": "Oil prices climb after Trump dismisses Iran’s response to peace plan",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/11/oil-prices-climb-trump-dismisses-iran-response-us-peace-plan",
-      "publishedAt": "2026-05-11T08:49:46Z"
-    },
-    {
-      "title": "Delayed Great British Railways’ first station to open at Cambridge South in June",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/11/delayed-cambridge-south-station-open-june-great-british-railways",
-      "publishedAt": "2026-05-11T05:00:46Z"
     }
   ]
 }
