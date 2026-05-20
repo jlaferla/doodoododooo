@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-19T10:33:37.265Z",
+  "fetchedAt": "2026-05-20T10:20:23.344Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "Billionaire Trump donor in line to make millions from Thames Water bid",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/19/billionaire-trump-donor-in-line-to-make-millions-from-thames-water-bid",
+      "publishedAt": "2026-05-19T20:14:51Z"
+    },
     {
       "title": "IMF raises UK growth forecast and backs Reeves’s deficit reduction plans; bonds recover after sell-off – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/14/uk-gdp-report-economic-growth-iran-war-rachel-reeves-bond-yields-live-updates",
       "publishedAt": "2026-05-14T14:14:48Z"
-    },
-    {
-      "title": "Global oil inventories falling at record pace amid Iran war; US producer price inflation hits four-year high – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/13/uk-bond-market-yields-political-turmoil-oil-inflation-housing-market-live-updates",
-      "publishedAt": "2026-05-13T14:34:14Z"
     }
   ]
 }

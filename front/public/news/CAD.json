@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-19T10:33:35.959Z",
+  "fetchedAt": "2026-05-20T10:20:22.017Z",
   "currency": "CAD",
   "articles": [
+    {
+      "title": "Spending watchdog warns £38bn cost of Sizewell C nuclear plant is ‘risky’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/20/spending-watchdog-warns-38bn-cost-of-sizewell-c-nuclear-plant-is-risky",
+      "publishedAt": "2026-05-19T23:01:16Z"
+    },
     {
       "title": "IMF raises UK growth forecast and backs Reeves’s deficit reduction plans; bonds recover after sell-off – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/14/uk-gdp-report-economic-growth-iran-war-rachel-reeves-bond-yields-live-updates",
       "publishedAt": "2026-05-14T14:14:48Z"
-    },
-    {
-      "title": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/ng-interactive/2026/may/14/us-stock-market-war-inflation-tariffs-trump",
-      "publishedAt": "2026-05-14T10:00:24Z"
     }
   ]
 }

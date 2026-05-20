@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-19T10:33:39.879Z",
+  "fetchedAt": "2026-05-20T10:20:25.979Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "Germany urged to stop admiring Beijing and wake up to ‘China Shock 2.0’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/20/germany-urged-stop-admiring-beijing-china-deindustrialisation",
+      "publishedAt": "2026-05-20T09:25:32Z"
+    },
     {
       "title": "IMF raises UK growth forecast and backs Reeves’s deficit reduction plans; bonds recover after sell-off – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/14/uk-gdp-report-economic-growth-iran-war-rachel-reeves-bond-yields-live-updates",
       "publishedAt": "2026-05-14T14:14:48Z"
-    },
-    {
-      "title": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/ng-interactive/2026/may/14/us-stock-market-war-inflation-tariffs-trump",
-      "publishedAt": "2026-05-14T10:00:24Z"
     }
   ]
 }

@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-19T10:33:38.233Z",
+  "fetchedAt": "2026-05-20T10:20:24.333Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "Old Spanish Hen? Estrella owner buys Greene King ale brand",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/19/old-speckled-hen-estrella-greene-king-ale-beer-damm",
+      "publishedAt": "2026-05-19T12:13:17Z"
+    },
     {
       "title": "IMF raises UK growth forecast and backs Reeves’s deficit reduction plans; bonds recover after sell-off – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/13/nissan-ponders-building-cars-for-chinese-rivals-at-sunderland-plant-chery",
       "publishedAt": "2026-05-13T11:54:50Z"
-    },
-    {
-      "title": "UK long-term borrowing costs dip from 28-year high after Starmer allies back PM – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/12/uk-bond-yields-borrowing-costs-pound-falls-oil-inflation-live-updates",
-      "publishedAt": "2026-05-12T16:23:49Z"
     }
   ]
 }
