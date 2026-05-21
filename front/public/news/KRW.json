@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-20T10:20:24.663Z",
+  "fetchedAt": "2026-05-21T10:33:23.089Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "UK business activity shrinks as economy faces ‘perfect storm’ - business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/21/nvidia-beats-wall-street-ai-chip-boom-asia-tech-stocks-business-live-news",
+      "publishedAt": "2026-05-21T10:25:02Z"
+    },
     {
       "title": "UK wage growth slows and unemployment rate rises as companies react to Iran war – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/16/mutti-tinned-tomatoes-status-symbol-italian-brand-sales-uk",
       "publishedAt": "2026-05-16T11:00:07Z"
-    },
-    {
-      "title": "EU carmakers pave way for Chinese rivals as balance in market shifts",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/15/eu-carmakers-chinese-rivals-market-shifts",
-      "publishedAt": "2026-05-15T04:00:26Z"
     }
   ]
 }
