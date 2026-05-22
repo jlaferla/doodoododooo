@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-21T10:33:22.415Z",
+  "fetchedAt": "2026-05-22T10:18:17.566Z",
   "currency": "INR",
   "articles": [
+    {
+      "title": "UK borrowing hits higher-than-expected £24.3bn in April; retail sales drop as drivers cut back on fuel - business live ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/22/uk-borrowing-higher-retail-sales-drivers-fuel-business-live-news",
+      "publishedAt": "2026-05-22T10:07:30Z"
+    },
     {
       "title": "UK borrowing costs hit new highs as City traders brace for Burnham, and pound heads for worst week since 2024 – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/06/totally-grounded-how-the-jet-fuel-crisis-could-change-our-summer-holidays-and-world-history",
       "publishedAt": "2026-05-06T04:00:03Z"
-    },
-    {
-      "title": "Jaguar Land Rover could have shifted production from UK without £380m battery subsidy, officials warned",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/05/jaguar-land-rover-production-uk-battery-subsidy",
-      "publishedAt": "2026-05-05T05:00:42Z"
     }
   ]
 }
