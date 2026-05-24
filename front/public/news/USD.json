@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-23T08:58:15.777Z",
+  "fetchedAt": "2026-05-24T09:15:07.798Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "Even if the Iran war ended today, US fuel prices aren’t likely to normalize this year",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/23/iran-war-us-gas-prices-oil-fuel",
+      "publishedAt": "2026-05-23T11:00:25Z"
+    },
     {
       "title": "Death, taxes and scare campaigns: here’s the truth about Labor’s budget changes | Greg Jericho",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/15/pound-sterling-andy-burnham-labour-bid-uk-borrowing-bond-yield-oil-price-inflation",
       "publishedAt": "2026-05-15T16:17:30Z"
-    },
-    {
-      "title": "UK borrowing costs hit new highs as City traders brace for Burnham, and pound heads for worst week since 2024 – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/15/rich-list-sunday-times-billionaires-reform-donor-christopher-harborne-hinduja-radcliffe-dyson-beckham-live-updates",
-      "publishedAt": "2026-05-15T16:09:42Z"
     }
   ]
 }
