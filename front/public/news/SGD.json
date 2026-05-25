@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-05-24T09:15:07.219Z",
+  "fetchedAt": "2026-05-25T11:05:10.458Z",
   "currency": "SGD",
   "articles": [
+    {
+      "title": "Oil prices fall below $100 a barrel on hopes of Iran peace deal",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/25/oil-prices-fall-below-100-dollars-a-barrel-iran",
+      "publishedAt": "2026-05-25T10:31:00Z"
+    },
+    {
+      "title": "The world is heading toward a financial crisis – the state of US politics has left us ill-prepared",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/25/financial-crisis-trump-economics",
+      "publishedAt": "2026-05-25T10:00:23Z"
+    },
     {
       "title": "IMF raises UK growth forecast and backs Reeves’s deficit reduction plans; bonds recover after sell-off – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/15/rich-list-sunday-times-billionaires-reform-donor-christopher-harborne-hinduja-radcliffe-dyson-beckham-live-updates",
       "publishedAt": "2026-05-15T16:09:42Z"
-    },
-    {
-      "title": "Reeves warns against risking economic stability with leadership battle, after UK growth beats forecasts in March – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/14/uk-gdp-report-economic-growth-iran-war-rachel-reeves-bond-yields-live-updates",
-      "publishedAt": "2026-05-14T14:14:48Z"
-    },
-    {
-      "title": "War, inflation and Trump’s tariffs have shaken the US. Why does the stock market keep going up?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/ng-interactive/2026/may/14/us-stock-market-war-inflation-tariffs-trump",
-      "publishedAt": "2026-05-14T10:00:24Z"
     }
   ]
 }

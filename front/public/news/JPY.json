@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-24T09:15:06.300Z",
+  "fetchedAt": "2026-05-25T11:05:09.420Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "Oil prices fall below $100 a barrel on hopes of Iran peace deal",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/25/oil-prices-fall-below-100-dollars-a-barrel-iran",
+      "publishedAt": "2026-05-25T10:31:00Z"
+    },
     {
       "title": "Old Spanish Hen? Estrella owner buys Greene King ale brand",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/14/theres-a-risk-of-another-liz-truss-moment-city-raises-spectre-of-bond-market-meltdown-again",
       "publishedAt": "2026-05-14T06:00:19Z"
-    },
-    {
-      "title": "Nissan ponders building cars for Chinese rivals at Sunderland plant",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/13/nissan-ponders-building-cars-for-chinese-rivals-at-sunderland-plant-chery",
-      "publishedAt": "2026-05-13T11:54:50Z"
     }
   ]
 }
