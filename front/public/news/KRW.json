@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-25T11:05:09.765Z",
+  "fetchedAt": "2026-05-27T10:50:46.331Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "People in Kent and Sussex asked to use water only for essentials after outages",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/26/kent-sussex-water-essentials",
+      "publishedAt": "2026-05-26T16:26:12Z"
+    },
     {
       "title": "Reeves announces VAT cut on summer attractions in new cost of living package - as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/18/nextera-dominion-merger-us-energy",
       "publishedAt": "2026-05-18T16:25:05Z"
-    },
-    {
-      "title": " Plum position: how Mutti turned tinned tomatoes into a status symbol",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/16/mutti-tinned-tomatoes-status-symbol-italian-brand-sales-uk",
-      "publishedAt": "2026-05-16T11:00:07Z"
     }
   ]
 }

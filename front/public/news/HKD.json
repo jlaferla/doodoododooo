@@ -1,12 +1,24 @@
 {
-  "fetchedAt": "2026-05-25T11:05:08.724Z",
+  "fetchedAt": "2026-05-27T10:50:45.250Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "Energy bills to grow by more than £200 a year for millions as Ofgem increases price cap – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/27/energy-bills-increase-ofgem-price-cap-business-live-news",
+      "publishedAt": "2026-05-27T10:30:30Z"
+    },
+    {
+      "title": "BP chair removed over ‘unacceptable’ governance oversight and conduct issues; UK petrol prices hit new Iran war high – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/26/oil-price-bonds-rally-markets-us-iran-peace-deal-hopes-retail-inflation-growth-live-updates",
+      "publishedAt": "2026-05-26T14:26:46Z"
+    },
     {
       "title": "Oil prices fall below $100 a barrel on hopes of Iran peace deal",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/25/oil-prices-fall-below-100-dollars-a-barrel-iran",
-      "publishedAt": "2026-05-25T10:31:00Z"
+      "publishedAt": "2026-05-25T16:05:41Z"
     },
     {
       "title": "The world is heading toward a financial crisis – the state of US politics has left us ill-prepared",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/22/standard-chartered-boss-apologises-for-lower-value-human-capital-comments-amid-job-cuts",
       "publishedAt": "2026-05-22T11:39:29Z"
-    },
-    {
-      "title": "UK inflation eases more than expected to 2.8%, led by lower electricity and gas bills – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/20/uk-inflation-eases-lower-electricity-gas-bills-iran-war-business-latest-news-updates",
-      "publishedAt": "2026-05-20T14:40:35Z"
-    },
-    {
-      "title": "IMF raises UK growth forecast and backs Reeves’s deficit reduction plans; bonds recover after sell-off – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/18/bond-market-rout-inflation-fears-gilts-yields-burnham-imf-reeves-live-updates",
-      "publishedAt": "2026-05-18T15:43:42Z"
     }
   ]
 }

@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-05-25T11:05:11.123Z",
+  "fetchedAt": "2026-05-27T10:50:47.761Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "BP chair removed over ‘unacceptable’ governance oversight and conduct issues; UK petrol prices hit new Iran war high – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/26/oil-price-bonds-rally-markets-us-iran-peace-deal-hopes-retail-inflation-growth-live-updates",
+      "publishedAt": "2026-05-26T14:26:46Z"
+    },
     {
       "title": "Oil prices fall below $100 a barrel on hopes of Iran peace deal",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/25/oil-prices-fall-below-100-dollars-a-barrel-iran",
-      "publishedAt": "2026-05-25T10:31:00Z"
+      "publishedAt": "2026-05-25T16:05:41Z"
     },
     {
       "title": "The world is heading toward a financial crisis – the state of US politics has left us ill-prepared",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/grogonomics/2026/may/21/labor-budget-changes-death-taxes-scare-campaigns-truth",
       "publishedAt": "2026-05-20T15:00:44Z"
-    },
-    {
-      "title": "Germany urged to stop admiring Beijing and wake up to ‘China Shock 2.0’",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/20/germany-urged-stop-admiring-beijing-china-deindustrialisation",
-      "publishedAt": "2026-05-20T09:25:32Z"
     }
   ]
 }
