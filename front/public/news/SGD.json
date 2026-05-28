@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-27T10:50:47.052Z",
+  "fetchedAt": "2026-05-28T10:46:42.294Z",
   "currency": "SGD",
   "articles": [
+    {
+      "title": "Oil price drops as Iran state media releases detail of draft peace deal with US - as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/27/energy-bills-increase-ofgem-price-cap-business-live-news",
+      "publishedAt": "2026-05-27T14:17:50Z"
+    },
     {
       "title": "BP chair removed over ‘unacceptable’ governance oversight and conduct issues; UK petrol prices hit new Iran war high – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/18/bond-market-rout-inflation-fears-gilts-yields-burnham-imf-reeves-live-updates",
       "publishedAt": "2026-05-18T15:43:42Z"
-    },
-    {
-      "title": " Pound heads for worst week in 18 months as Burnham lines up Labour bid ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/15/pound-sterling-andy-burnham-labour-bid-uk-borrowing-bond-yield-oil-price-inflation",
-      "publishedAt": "2026-05-15T16:17:30Z"
     }
   ]
 }

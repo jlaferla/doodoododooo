@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-27T10:50:47.761Z",
+  "fetchedAt": "2026-05-28T10:46:43.025Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "Oil price drops as Iran state media releases detail of draft peace deal with US - as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/27/energy-bills-increase-ofgem-price-cap-business-live-news",
+      "publishedAt": "2026-05-27T14:17:50Z"
+    },
     {
       "title": "BP chair removed over ‘unacceptable’ governance oversight and conduct issues; UK petrol prices hit new Iran war high – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/23/iran-war-us-gas-prices-oil-fuel",
       "publishedAt": "2026-05-23T11:00:25Z"
-    },
-    {
-      "title": "Death, taxes and scare campaigns: here’s the truth about Labor’s budget changes | Greg Jericho",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/grogonomics/2026/may/21/labor-budget-changes-death-taxes-scare-campaigns-truth",
-      "publishedAt": "2026-05-20T15:00:44Z"
     }
   ]
 }
