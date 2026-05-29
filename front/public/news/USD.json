@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-28T10:46:43.025Z",
+  "fetchedAt": "2026-05-29T10:38:58.705Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "US inflation rose at fastest pace in three years in April as Iran war hikes up prices",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/28/inflation-increased-april-iran-war-price-rises",
+      "publishedAt": "2026-05-28T16:06:35Z"
+    },
     {
       "title": "Oil price drops as Iran state media releases detail of draft peace deal with US - as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/25/financial-crisis-trump-economics",
       "publishedAt": "2026-05-25T10:00:23Z"
-    },
-    {
-      "title": "Even if the Iran war ended today, US fuel prices aren’t likely to normalize this year",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/23/iran-war-us-gas-prices-oil-fuel",
-      "publishedAt": "2026-05-23T11:00:25Z"
     }
   ]
 }

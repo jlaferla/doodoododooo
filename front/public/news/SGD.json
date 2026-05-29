@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-28T10:46:42.294Z",
+  "fetchedAt": "2026-05-29T10:38:58.129Z",
   "currency": "SGD",
   "articles": [
+    {
+      "title": "US inflation rose at fastest pace in three years in April as Iran war hikes up prices",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/28/inflation-increased-april-iran-war-price-rises",
+      "publishedAt": "2026-05-28T16:06:35Z"
+    },
     {
       "title": "Oil price drops as Iran state media releases detail of draft peace deal with US - as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/25/financial-crisis-trump-economics",
       "publishedAt": "2026-05-25T10:00:23Z"
-    },
-    {
-      "title": "IMF raises UK growth forecast and backs Reeves’s deficit reduction plans; bonds recover after sell-off – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/18/bond-market-rout-inflation-fears-gilts-yields-burnham-imf-reeves-live-updates",
-      "publishedAt": "2026-05-18T15:43:42Z"
     }
   ]
 }

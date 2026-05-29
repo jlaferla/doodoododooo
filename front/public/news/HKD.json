@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-05-28T10:46:40.463Z",
+  "fetchedAt": "2026-05-29T10:38:56.642Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "Global stocks rise and oil price slips amid hopes of US-Iran peace deal - business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/29/asian-stocks-oil-price-us-iran-peace-deal-business-latest-news-updates",
+      "publishedAt": "2026-05-29T09:36:38Z"
+    },
+    {
+      "title": "Oil price drops amid hopes of US-Iran peace deal",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/29/oil-price-drops-amid-hopes-of-us-iran-peace-deal",
+      "publishedAt": "2026-05-29T08:33:53Z"
+    },
+    {
+      "title": "US inflation rose at fastest pace in three years in April as Iran war hikes up prices",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/28/inflation-increased-april-iran-war-price-rises",
+      "publishedAt": "2026-05-28T16:06:35Z"
+    },
     {
       "title": "Oil price drops as Iran state media releases detail of draft peace deal with US - as it happened",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/26/oil-price-bonds-rally-markets-us-iran-peace-deal-hopes-retail-inflation-growth-live-updates",
       "publishedAt": "2026-05-26T14:26:46Z"
-    },
-    {
-      "title": "Oil prices fall below $100 a barrel on hopes of Iran peace deal",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/25/oil-prices-fall-below-100-dollars-a-barrel-iran",
-      "publishedAt": "2026-05-25T16:05:41Z"
-    },
-    {
-      "title": "The world is heading toward a financial crisis – the state of US politics has left us ill-prepared",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/25/financial-crisis-trump-economics",
-      "publishedAt": "2026-05-25T10:00:23Z"
-    },
-    {
-      "title": "Standard Chartered boss apologises for ‘lower-value human capital’ comments amid job cuts",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/22/standard-chartered-boss-apologises-for-lower-value-human-capital-comments-amid-job-cuts",
-      "publishedAt": "2026-05-22T11:39:29Z"
     }
   ]
 }

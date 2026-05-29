@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-28T10:46:41.561Z",
+  "fetchedAt": "2026-05-29T10:38:57.536Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Global stocks rise and oil price slips amid hopes of US-Iran peace deal - business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/29/asian-stocks-oil-price-us-iran-peace-deal-business-latest-news-updates",
+      "publishedAt": "2026-05-29T09:36:38Z"
+    },
     {
       "title": "People in Kent and Sussex asked to use water only for essentials after outages",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/18/ceo-starbucks-in-south-korea-fired-over-controversial-ad-campaign",
       "publishedAt": "2026-05-18T16:50:11Z"
-    },
-    {
-      "title": "NextEra to buy Dominion in $67bn deal creating US utility giant",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/18/nextera-dominion-merger-us-energy",
-      "publishedAt": "2026-05-18T16:25:05Z"
     }
   ]
 }

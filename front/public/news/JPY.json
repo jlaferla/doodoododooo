@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-05-28T10:46:41.192Z",
+  "fetchedAt": "2026-05-29T10:38:57.236Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "Global stocks rise and oil price slips amid hopes of US-Iran peace deal - business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/29/asian-stocks-oil-price-us-iran-peace-deal-business-latest-news-updates",
+      "publishedAt": "2026-05-29T09:36:38Z"
+    },
+    {
+      "title": "Oil price drops amid hopes of US-Iran peace deal",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/29/oil-price-drops-amid-hopes-of-us-iran-peace-deal",
+      "publishedAt": "2026-05-29T08:33:53Z"
+    },
     {
       "title": "Oil prices fall below $100 a barrel on hopes of Iran peace deal",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/18/bond-market-rout-inflation-fears-gilts-yields-burnham-imf-reeves-live-updates",
       "publishedAt": "2026-05-18T15:43:42Z"
-    },
-    {
-      "title": "Jaguar Land Rover annual profit falls 99% after US tariffs and cyber-attack take toll",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/14/jaguar-land-rover-annual-profit-falls-99-per-cent-us-tariffs-cyber-attack",
-      "publishedAt": "2026-05-14T14:17:47Z"
-    },
-    {
-      "title": "‘There’s a risk of another Liz Truss moment’: City raises spectre of bond market meltdown again",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/14/theres-a-risk-of-another-liz-truss-moment-city-raises-spectre-of-bond-market-meltdown-again",
-      "publishedAt": "2026-05-14T06:00:19Z"
     }
   ]
 }
