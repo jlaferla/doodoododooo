@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-29T10:38:56.346Z",
+  "fetchedAt": "2026-05-30T09:10:13.922Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "Global stocks rise and oil price slips amid hopes of US-Iran peace deal - as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/29/asian-stocks-oil-price-us-iran-peace-deal-business-latest-news-updates",
+      "publishedAt": "2026-05-29T14:16:06Z"
+    },
     {
       "title": "Labour poised for fresh welfare changes after scale of youth jobs crisis revealed",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/25/oil-prices-fall-below-100-dollars-a-barrel-iran",
       "publishedAt": "2026-05-25T16:05:41Z"
-    },
-    {
-      "title": "Billionaire Trump donor in line to make millions from Thames Water bid",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/19/billionaire-trump-donor-in-line-to-make-millions-from-thames-water-bid",
-      "publishedAt": "2026-05-19T20:14:51Z"
     }
   ]
 }

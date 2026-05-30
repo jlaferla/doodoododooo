@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-29T10:38:55.443Z",
+  "fetchedAt": "2026-05-30T09:10:12.893Z",
   "currency": "CHF",
   "articles": [
+    {
+      "title": "‘How can you have a Ferrari without any vroom?’: electric model shocks owners’ club ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/30/ferrari-luce-ev-electric-model-shocks-owners-club",
+      "publishedAt": "2026-05-30T04:00:08Z"
+    },
     {
       "title": "Bank of England leaves interest rates on hold with committee split 8-1; ECB also keeps rates steady – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/19/labour-approach-closer-eu-ties-address-damage-of-brexit",
       "publishedAt": "2026-04-19T10:50:18Z"
-    },
-    {
-      "title": "UK growth forecasts slashed by IMF as Iran war hurts global economy – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/apr/14/iran-war-hurting-global-economic-growth-imf-meeting-rachel-reeves-oil-price-stock-markets-latest-updates",
-      "publishedAt": "2026-04-14T15:07:45Z"
     }
   ]
 }

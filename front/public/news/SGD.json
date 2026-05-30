@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-29T10:38:58.129Z",
+  "fetchedAt": "2026-05-30T09:10:15.992Z",
   "currency": "SGD",
   "articles": [
+    {
+      "title": "Global stocks rise and oil price slips amid hopes of US-Iran peace deal - as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/may/29/asian-stocks-oil-price-us-iran-peace-deal-business-latest-news-updates",
+      "publishedAt": "2026-05-29T14:16:06Z"
+    },
     {
       "title": "US inflation rose at fastest pace in three years in April as Iran war hikes up prices",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/25/oil-prices-fall-below-100-dollars-a-barrel-iran",
       "publishedAt": "2026-05-25T16:05:41Z"
-    },
-    {
-      "title": "The world is heading toward a financial crisis – the state of US politics has left us ill-prepared",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/25/financial-crisis-trump-economics",
-      "publishedAt": "2026-05-25T10:00:23Z"
     }
   ]
 }

@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-05-29T10:38:54.837Z",
+  "fetchedAt": "2026-05-30T09:10:12.201Z",
   "currency": "BRL",
   "articles": [
+    {
+      "title": "Bank of England’s Bailey says no rush to raise interest rates amid Iran war uncertainty",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/29/bank-of-england-bailey-says-no-rush-to-raise-interest-rates-amid-iran-war-uncertainty",
+      "publishedAt": "2026-05-29T14:25:57Z"
+    },
+    {
+      "title": "Mutual retailer triples boss’s pay to £2.2m despite fall in profits",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/29/ourcoop-mutual-retailer-triples-boss-pay-22m-fall-profits",
+      "publishedAt": "2026-05-29T11:58:22Z"
+    },
     {
       "title": "Australian workers have been hard done by and tax reforms in the budget only begin to return some fairness | Greg Jericho",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/apr/14/uk-needs-north-sea-gas-not-us-imports-lng",
       "publishedAt": "2026-04-13T23:01:54Z"
-    },
-    {
-      "title": "Australia’s land value has gone through the roof. Where does that leave young people who want to buy a home? | Greg Jericho",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/grogonomics/2026/apr/02/australia-land-grab-young-people-little-hope-buying-home",
-      "publishedAt": "2026-04-01T14:00:05Z"
-    },
-    {
-      "title": "Dow Jones Industrial Average posts best day since early February as hopes of Middle East de-escalation lift markets – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/mar/23/stock-markets-gold-dollar-trump-iran-ultimatum-uk-economy-growth-borrowing-costs-latest-news-updates",
-      "publishedAt": "2026-03-23T20:17:23Z"
     }
   ]
 }
