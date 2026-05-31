@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-30T09:10:15.304Z",
+  "fetchedAt": "2026-05-31T09:44:06.373Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Inflation won Trump the presidency, but could cost him the midterms",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/30/inflation-trump-presidency-midterm-election",
+      "publishedAt": "2026-05-30T11:00:18Z"
+    },
     {
       "title": "Global stocks rise and oil price slips amid hopes of US-Iran peace deal - as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/19/uk-wage-growth-unemployment-rate-markets-business-live-news",
       "publishedAt": "2026-05-19T14:33:02Z"
-    },
-    {
-      "title": "Starbucks Korea CEO dismissed over ad evoking massacre of pro-democracy protesters",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/18/ceo-starbucks-in-south-korea-fired-over-controversial-ad-campaign",
-      "publishedAt": "2026-05-18T16:50:11Z"
     }
   ]
 }
