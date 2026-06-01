@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T09:44:03.382Z",
+  "fetchedAt": "2026-06-01T12:29:56.427Z",
   "currency": "AUD",
   "articles": [
+    {
+      "title": "Arm boss in line for billion-dollar payday if chipmaker hits targets ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/31/arm-boss-billion-dollar-payday-chipmaker-hits-targets",
+      "publishedAt": "2026-05-31T14:50:12Z"
+    },
     {
       "title": "Global stocks rise and oil price slips amid hopes of US-Iran peace deal - as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/27/energy-bills-increase-ofgem-price-cap-business-live-news",
       "publishedAt": "2026-05-27T14:17:50Z"
-    },
-    {
-      "title": "BP chair removed over ‘unacceptable’ governance oversight and conduct issues; UK petrol prices hit new Iran war high – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/26/oil-price-bonds-rally-markets-us-iran-peace-deal-hopes-retail-inflation-growth-live-updates",
-      "publishedAt": "2026-05-26T14:26:46Z"
     }
   ]
 }

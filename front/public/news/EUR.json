@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T09:44:04.871Z",
+  "fetchedAt": "2026-06-01T12:29:57.925Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "Oil and gas prices rise as US and Iran trade strikes; UK house prices fall – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/01/uk-house-prices-fall-middle-east-interest-rates-manufacturing-softbank-ai-boom-chipmakers-live-updates",
+      "publishedAt": "2026-06-01T12:07:28Z"
+    },
     {
       "title": "Germany urged to stop admiring Beijing and wake up to ‘China Shock 2.0’",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/11/uk-economy-job-losses-iran-war-oil-pound-bonds-politics-starmer-live-updates",
       "publishedAt": "2026-05-11T16:03:38Z"
-    },
-    {
-      "title": "US consumer confidence hits record low as Americans fret about rising prices; jobs report beats forecasts – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/08/oil-us-iran-ceasefire-uk-house-prices-food-prices-jobs-report-pound-bonds-elections-latest-news-updates",
-      "publishedAt": "2026-05-08T17:19:21Z"
     }
   ]
 }

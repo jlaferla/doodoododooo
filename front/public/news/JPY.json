@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T09:44:06.070Z",
+  "fetchedAt": "2026-06-01T12:29:59.122Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "Arm boss in line for billion-dollar payday if chipmaker hits targets ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/31/arm-boss-billion-dollar-payday-chipmaker-hits-targets",
+      "publishedAt": "2026-05-31T14:50:12Z"
+    },
     {
       "title": "Oil prices on track for steepest monthly fall since 2020",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/19/old-speckled-hen-estrella-greene-king-ale-beer-damm",
       "publishedAt": "2026-05-19T12:13:17Z"
-    },
-    {
-      "title": "IMF raises UK growth forecast and backs Reeves’s deficit reduction plans; bonds recover after sell-off – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/18/bond-market-rout-inflation-fears-gilts-yields-burnham-imf-reeves-live-updates",
-      "publishedAt": "2026-05-18T15:43:42Z"
     }
   ]
 }

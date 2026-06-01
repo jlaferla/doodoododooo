@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T09:44:03.974Z",
+  "fetchedAt": "2026-06-01T12:29:57.015Z",
   "currency": "CAD",
   "articles": [
+    {
+      "title": "Arm boss in line for billion-dollar payday if chipmaker hits targets ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/may/31/arm-boss-billion-dollar-payday-chipmaker-hits-targets",
+      "publishedAt": "2026-05-31T14:50:12Z"
+    },
     {
       "title": "Global stocks rise and oil price slips amid hopes of US-Iran peace deal - as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/26/oil-price-bonds-rally-markets-us-iran-peace-deal-hopes-retail-inflation-growth-live-updates",
       "publishedAt": "2026-05-26T14:26:46Z"
-    },
-    {
-      "title": "Oil prices fall below $100 a barrel on hopes of Iran peace deal",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/25/oil-prices-fall-below-100-dollars-a-barrel-iran",
-      "publishedAt": "2026-05-25T16:05:41Z"
     }
   ]
 }

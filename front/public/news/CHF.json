@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-05-31T09:44:04.275Z",
+  "fetchedAt": "2026-06-01T12:29:57.313Z",
   "currency": "CHF",
   "articles": [
+    {
+      "title": "EasyJet says US takeover bid would be ‘highly opportunistic’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/01/easyjet-us-takeover-bid-shares-castlelake",
+      "publishedAt": "2026-06-01T08:28:40Z"
+    },
     {
       "title": "‘How can you have a Ferrari without any vroom?’: electric model shocks owners’ club ",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/29/barclay-brothers-hsbc-settlement-high-court",
       "publishedAt": "2026-04-29T13:21:44Z"
-    },
-    {
-      "title": "Labour’s ‘crabwise’ approach to closer EU ties must address damage of Brexit | Heather Stewart",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/19/labour-approach-closer-eu-ties-address-damage-of-brexit",
-      "publishedAt": "2026-04-19T10:50:18Z"
     }
   ]
 }
