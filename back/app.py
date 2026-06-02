@@ -1,5 +1,8 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
+from werkzeug.middleware.proxy_fix import ProxyFix
 import requests
 import threading
 import time
@@ -11,9 +14,29 @@ from datetime import datetime, timedelta
 from apscheduler.schedulers.background import BackgroundScheduler
 
 app = Flask(__name__)
-CORS(app)
 
-EXCHANGE_API_URL = "https://v6.exchangerate-api.com/v6/c6e4dcf788ed11a76951cb0f/latest/USD"
+# Trust Heroku's X-Forwarded-* headers so request.remote_addr is the real client IP
+app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1)
+
+# Restrict cross-origin requests to known fxping origins (plus localhost for dev)
+ALLOWED_ORIGINS = [
+    "https://fxping.co",
+    "https://www.fxping.co",
+    "http://localhost:3000",
+]
+CORS(app, origins=ALLOWED_ORIGINS)
+
+# Per-IP rate limiting to prevent abuse of the public endpoints
+limiter = Limiter(
+    app=app,
+    key_func=get_remote_address,
+    default_limits=["60 per minute", "1000 per hour"],
+)
+
+EXCHANGE_API_KEY = os.environ.get("EXCHANGE_API_KEY", "")
+if not EXCHANGE_API_KEY:
+    print("WARNING: EXCHANGE_API_KEY not set — live rate fetching will fail until configured.")
+EXCHANGE_API_URL = f"https://v6.exchangerate-api.com/v6/{EXCHANGE_API_KEY}/latest/USD"
 exchange_data = {}
 
 # ─────────────────────────────────────────
@@ -186,7 +209,8 @@ def get_historical_rates():
     except RuntimeError as e:
         return jsonify({"error": str(e)}), 503
     except Exception as e:
-        return jsonify({"error": f"Database error: {str(e)}"}), 500
+        print("Historical endpoint error:", e)
+        return jsonify({"error": "Failed to retrieve historical data."}), 500
 
     if not rows:
         return jsonify({"error": f"No data available for {date_str}"}), 404
