@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-01T12:29:57.925Z",
+  "fetchedAt": "2026-06-02T11:12:09.902Z",
   "currency": "EUR",
   "articles": [
     {
-      "title": "Oil and gas prices rise as US and Iran trade strikes; UK house prices fall – business live",
+      "title": "AI to drive up UK youth unemployment, as Alphabet raises $80bn for spending splurge – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/02/alphabet-80bn-share-sales-ai-spending-berkshire-hathaway-stock-markets-oil-interest-rates-inflation-latest-news-updates",
+      "publishedAt": "2026-06-02T10:55:24Z"
+    },
+    {
+      "title": "Oil price rises to $97 a barrel as ‘Iran stops exchanging messages with US’ – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/01/uk-house-prices-fall-middle-east-interest-rates-manufacturing-softbank-ai-boom-chipmakers-live-updates",
-      "publishedAt": "2026-06-01T12:07:28Z"
+      "publishedAt": "2026-06-01T14:53:16Z"
     },
     {
       "title": "Germany urged to stop admiring Beijing and wake up to ‘China Shock 2.0’",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/12/uk-bond-yields-borrowing-costs-pound-falls-oil-inflation-live-updates",
       "publishedAt": "2026-05-12T16:23:49Z"
-    },
-    {
-      "title": "UK government borrowing costs rise as Starmer ‘fails to reassure bond markets’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/11/uk-economy-job-losses-iran-war-oil-pound-bonds-politics-starmer-live-updates",
-      "publishedAt": "2026-05-11T16:03:38Z"
     }
   ]
 }

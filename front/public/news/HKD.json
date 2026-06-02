@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-06-01T12:29:58.527Z",
+  "fetchedAt": "2026-06-02T11:12:10.507Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "AI to drive up UK youth unemployment, as Alphabet raises $80bn for spending splurge – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/02/alphabet-80bn-share-sales-ai-spending-berkshire-hathaway-stock-markets-oil-interest-rates-inflation-latest-news-updates",
+      "publishedAt": "2026-06-02T10:55:24Z"
+    },
+    {
+      "title": "Oil price rises to $97 a barrel as ‘Iran stops exchanging messages with US’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/01/uk-house-prices-fall-middle-east-interest-rates-manufacturing-softbank-ai-boom-chipmakers-live-updates",
+      "publishedAt": "2026-06-01T14:53:16Z"
+    },
     {
       "title": "Arm boss in line for billion-dollar payday if chipmaker hits targets ",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/29/asian-stocks-oil-price-us-iran-peace-deal-business-latest-news-updates",
       "publishedAt": "2026-05-29T14:16:06Z"
-    },
-    {
-      "title": "US inflation rose at fastest pace in three years in April as Iran war hikes up prices",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/28/inflation-increased-april-iran-war-price-rises",
-      "publishedAt": "2026-05-28T16:06:35Z"
-    },
-    {
-      "title": "Oil price drops as Iran state media releases detail of draft peace deal with US - as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/27/energy-bills-increase-ofgem-price-cap-business-live-news",
-      "publishedAt": "2026-05-27T14:17:50Z"
     }
   ]
 }

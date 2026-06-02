@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-01T12:29:58.228Z",
+  "fetchedAt": "2026-06-02T11:12:10.207Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "Oil price rises to $97 a barrel as ‘Iran stops exchanging messages with US’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/01/uk-house-prices-fall-middle-east-interest-rates-manufacturing-softbank-ai-boom-chipmakers-live-updates",
+      "publishedAt": "2026-06-01T14:53:16Z"
+    },
     {
       "title": "Global stocks rise and oil price slips amid hopes of US-Iran peace deal - as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/26/oil-price-bonds-rally-markets-us-iran-peace-deal-hopes-retail-inflation-growth-live-updates",
       "publishedAt": "2026-05-26T14:26:46Z"
-    },
-    {
-      "title": "Oil prices fall below $100 a barrel on hopes of Iran peace deal",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/25/oil-prices-fall-below-100-dollars-a-barrel-iran",
-      "publishedAt": "2026-05-25T16:05:41Z"
     }
   ]
 }
