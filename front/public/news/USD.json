@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-02T11:12:12.572Z",
+  "fetchedAt": "2026-06-03T11:50:43.872Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "AI to drive up UK youth unemployment, as Alphabet raises $80bn for spending splurge – business live",
+      "title": " Federal workers experiencing ‘PTSD-like symptoms’ after unlawful firings by Trump administration",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/03/federal-workers-ptsd-like-symptoms-trump-firings",
+      "publishedAt": "2026-06-03T10:00:19Z"
+    },
+    {
+      "title": "Alphabet’s shares drop after announcing $80bn share sale, as AI threatens to drive up youth unemployment – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/02/alphabet-80bn-share-sales-ai-spending-berkshire-hathaway-stock-markets-oil-interest-rates-inflation-latest-news-updates",
-      "publishedAt": "2026-06-02T10:55:24Z"
+      "publishedAt": "2026-06-02T15:41:21Z"
     },
     {
       "title": "Oil price rises to $97 a barrel as ‘Iran stops exchanging messages with US’ – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/29/asian-stocks-oil-price-us-iran-peace-deal-business-latest-news-updates",
       "publishedAt": "2026-05-29T14:16:06Z"
-    },
-    {
-      "title": "US inflation rose at fastest pace in three years in April as Iran war hikes up prices",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/28/inflation-increased-april-iran-war-price-rises",
-      "publishedAt": "2026-05-28T16:06:35Z"
     }
   ]
 }

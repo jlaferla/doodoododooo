@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-02T11:12:09.902Z",
+  "fetchedAt": "2026-06-03T11:50:40.765Z",
   "currency": "EUR",
   "articles": [
     {
-      "title": "AI to drive up UK youth unemployment, as Alphabet raises $80bn for spending splurge – business live",
+      "title": "Google starts testing changes to AI search after UK media sites given power to opt out - business live ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/03/google-uk-publishers-choice-ai-search-summaries-competition-watchdog-business-live-news",
+      "publishedAt": "2026-06-03T11:11:03Z"
+    },
+    {
+      "title": "Alphabet’s shares drop after announcing $80bn share sale, as AI threatens to drive up youth unemployment – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/02/alphabet-80bn-share-sales-ai-spending-berkshire-hathaway-stock-markets-oil-interest-rates-inflation-latest-news-updates",
-      "publishedAt": "2026-06-02T10:55:24Z"
+      "publishedAt": "2026-06-02T15:41:21Z"
     },
     {
       "title": "Oil price rises to $97 a barrel as ‘Iran stops exchanging messages with US’ – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/19/china-shock-eu-european-union-industry-imports",
       "publishedAt": "2026-05-19T06:00:02Z"
-    },
-    {
-      "title": "UK long-term borrowing costs dip from 28-year high after Starmer allies back PM – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/12/uk-bond-yields-borrowing-costs-pound-falls-oil-inflation-live-updates",
-      "publishedAt": "2026-05-12T16:23:49Z"
     }
   ]
 }
