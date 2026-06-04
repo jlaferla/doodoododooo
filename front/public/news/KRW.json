@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-06-03T11:50:42.496Z",
+  "fetchedAt": "2026-06-04T10:34:18.363Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "UK to challenge EU over ‘devastating’ plans to almost halve tariff-free steel import quotas",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/04/uk-challenge-eu--new-tariff-free-steel-import-quotas",
+      "publishedAt": "2026-06-04T08:27:42Z"
+    },
+    {
+      "title": "South East Water’s greatest failure was not contacting customers during winter outages, report finds",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/03/south-east-water-not-contacting-customers-winter-outages-report",
+      "publishedAt": "2026-06-03T14:19:16Z"
+    },
     {
       "title": "Alphabet’s shares drop after announcing $80bn share sale, as AI threatens to drive up youth unemployment – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/29/asian-stocks-oil-price-us-iran-peace-deal-business-latest-news-updates",
       "publishedAt": "2026-05-29T14:16:06Z"
-    },
-    {
-      "title": "People in Kent and Sussex asked to use water only for essentials after outages",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/26/kent-sussex-water-essentials",
-      "publishedAt": "2026-05-26T16:26:12Z"
-    },
-    {
-      "title": "Reeves announces VAT cut on summer attractions in new cost of living package - as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/21/nvidia-beats-wall-street-ai-chip-boom-asia-tech-stocks-business-live-news",
-      "publishedAt": "2026-05-21T14:17:58Z"
     }
   ]
 }

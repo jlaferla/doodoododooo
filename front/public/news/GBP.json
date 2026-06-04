@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-03T11:50:41.115Z",
+  "fetchedAt": "2026-06-04T10:34:17.060Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "City & Guilds faces legal and industrial action over plans to cut hundreds of jobs",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/03/city-guilds-faces-legal-and-industrial-action-over-plans-to-cut-hundreds-of-jobs",
+      "publishedAt": "2026-06-03T16:17:24Z"
+    },
     {
       "title": "Oil price rises to $97 a barrel as ‘Iran stops exchanging messages with US’ – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/28/uk-young-people-out-of-work-unemployment-first-time-buyers-financial-crisis-inflation-food-prices-business-latest-news-updates",
       "publishedAt": "2026-05-28T15:02:11Z"
-    },
-    {
-      "title": "BP chair removed over ‘unacceptable’ governance oversight and conduct issues; UK petrol prices hit new Iran war high – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/26/oil-price-bonds-rally-markets-us-iran-peace-deal-hopes-retail-inflation-growth-live-updates",
-      "publishedAt": "2026-05-26T14:26:46Z"
     }
   ]
 }

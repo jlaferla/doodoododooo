@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-03T11:50:39.386Z",
+  "fetchedAt": "2026-06-04T10:34:15.436Z",
   "currency": "BRL",
   "articles": [
+    {
+      "title": "Australia’s GDP figures are meaningless when the boom in datacentres means destroying jobs and the climate | Greg Jericho",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/grogonomics/2026/jun/04/australia-datacentres-destroying-jobs-climate-economy-gdp",
+      "publishedAt": "2026-06-03T15:00:09Z"
+    },
     {
       "title": "Bank of England’s Bailey says no rush to raise interest rates amid Iran war uncertainty",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/01/ceo-pay-workers-minimum-wages",
       "publishedAt": "2026-05-01T10:00:43Z"
-    },
-    {
-      "title": "The UK needs more North Sea gas; imports from the US are the real enemy | Nils Pratley",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/apr/14/uk-needs-north-sea-gas-not-us-imports-lng",
-      "publishedAt": "2026-04-13T23:01:54Z"
     }
   ]
 }

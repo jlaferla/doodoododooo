@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-03T11:50:42.147Z",
+  "fetchedAt": "2026-06-04T10:34:18.033Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "Nissan maps out deal to build cars for China’s Chery at its Sunderland plant",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/03/nissan-chery-car-building-deal-sunderland-factory",
+      "publishedAt": "2026-06-03T15:10:24Z"
+    },
     {
       "title": "Arm boss in line for billion-dollar payday if chipmaker hits targets ",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/25/oil-prices-fall-below-100-dollars-a-barrel-iran",
       "publishedAt": "2026-05-25T16:05:41Z"
-    },
-    {
-      "title": "Old Spanish Hen? Estrella owner buys Greene King ale brand",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/19/old-speckled-hen-estrella-greene-king-ale-beer-damm",
-      "publishedAt": "2026-05-19T12:13:17Z"
     }
   ]
 }

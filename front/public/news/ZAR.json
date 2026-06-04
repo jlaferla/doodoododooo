@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-03T11:50:44.212Z",
+  "fetchedAt": "2026-06-04T10:34:19.983Z",
   "currency": "ZAR",
   "articles": [
+    {
+      "title": "South East Water’s greatest failure was not contacting customers during winter outages, report finds",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/03/south-east-water-not-contacting-customers-winter-outages-report",
+      "publishedAt": "2026-06-03T14:19:16Z"
+    },
     {
       "title": "People in Kent and Sussex asked to use water only for essentials after outages",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/16/mutti-tinned-tomatoes-status-symbol-italian-brand-sales-uk",
       "publishedAt": "2026-05-16T11:00:07Z"
-    },
-    {
-      "title": "Australian workers have been hard done by and tax reforms in the budget only begin to return some fairness | Greg Jericho",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/grogonomics/2026/may/14/cgt-capital-gains-tax-australian-workers-hard-done-by-budget-tax-reforms-fairness",
-      "publishedAt": "2026-05-13T22:29:38Z"
     }
   ]
 }
