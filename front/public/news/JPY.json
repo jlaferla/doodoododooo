@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-04T10:34:18.033Z",
+  "fetchedAt": "2026-06-05T10:41:09.141Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "Financier Lex Greensill banned from running UK companies for nine years",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/04/lex-greensill-banned-uk-companies-nine-years",
+      "publishedAt": "2026-06-04T12:42:33Z"
+    },
     {
       "title": "Nissan maps out deal to build cars for China’s Chery at its Sunderland plant",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/29/asian-stocks-oil-price-us-iran-peace-deal-business-latest-news-updates",
       "publishedAt": "2026-05-29T14:16:06Z"
-    },
-    {
-      "title": "Oil prices fall below $100 a barrel on hopes of Iran peace deal",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/25/oil-prices-fall-below-100-dollars-a-barrel-iran",
-      "publishedAt": "2026-05-25T16:05:41Z"
     }
   ]
 }

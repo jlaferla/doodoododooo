@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-04T10:34:16.084Z",
+  "fetchedAt": "2026-06-05T10:41:07.117Z",
   "currency": "CHF",
   "articles": [
+    {
+      "title": "Financier Lex Greensill banned from running UK companies for nine years",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/04/lex-greensill-banned-uk-companies-nine-years",
+      "publishedAt": "2026-06-04T12:42:33Z"
+    },
     {
       "title": "EasyJet says US takeover bid would be ‘highly opportunistic’",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/30/air-france-klm-cuts-capacity-growth-forecast-amid-expected-24bn-fuel-bill-rise",
       "publishedAt": "2026-04-30T09:13:47Z"
-    },
-    {
-      "title": "Barclay family avoids bankruptcy after deal with HSBC over £143m debt",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/29/barclay-brothers-hsbc-settlement-high-court",
-      "publishedAt": "2026-04-29T13:21:44Z"
     }
   ]
 }

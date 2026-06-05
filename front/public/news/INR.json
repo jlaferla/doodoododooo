@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-04T10:34:17.713Z",
+  "fetchedAt": "2026-06-05T10:41:08.812Z",
   "currency": "INR",
   "articles": [
+    {
+      "title": "No jet fuel shortage in Europe, transport chief says; eurozone on brink of technical recession – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/05/jet-fuel-europe-transport-chief-us-jobs-report-uk-house-prices-stock-markets-oil-live-news-updates",
+      "publishedAt": "2026-06-05T10:34:03Z"
+    },
     {
       "title": "UK bond yields set for biggest weekly drop since 2024; retail sales fall as drivers cut back on fuel - as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/11/uk-economy-job-losses-iran-war-oil-pound-bonds-politics-starmer-live-updates",
       "publishedAt": "2026-05-11T16:03:38Z"
-    },
-    {
-      "title": "Totally grounded? How the jet fuel crisis could change our holidays – and world history",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/06/totally-grounded-how-the-jet-fuel-crisis-could-change-our-summer-holidays-and-world-history",
-      "publishedAt": "2026-05-06T04:00:03Z"
     }
   ]
 }

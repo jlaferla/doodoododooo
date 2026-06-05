@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-04T10:34:16.408Z",
+  "fetchedAt": "2026-06-05T10:41:07.450Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "UK car sales hit post-Covid high for May as Chinese EV makers gain ground",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/04/uk-car-sales-post-covid-high-chinese-ev-makers-tesla",
+      "publishedAt": "2026-06-04T12:28:04Z"
+    },
     {
       "title": "Germany urged to stop admiring Beijing and wake up to ‘China Shock 2.0’",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/15/eu-carmakers-chinese-rivals-market-shifts",
       "publishedAt": "2026-05-15T04:00:26Z"
-    },
-    {
-      "title": "Nissan ponders building cars for Chinese rivals at Sunderland plant",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/13/nissan-ponders-building-cars-for-chinese-rivals-at-sunderland-plant-chery",
-      "publishedAt": "2026-05-13T11:54:50Z"
     }
   ]
 }
