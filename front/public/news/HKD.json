@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-06-05T10:41:08.471Z",
+  "fetchedAt": "2026-06-06T09:19:56.699Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "Aviation industry looks skywards as leaders fly in for Rio summit",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/06/aviation-industry-looks-skywards-as-leaders-fly-in-for-rio-summit",
+      "publishedAt": "2026-06-06T09:00:05Z"
+    },
+    {
+      "title": "US job creation smashes forecasts in May, fuelling rate hike bets; ‘no jet fuel shortage in Europe’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/05/jet-fuel-europe-transport-chief-us-jobs-report-uk-house-prices-stock-markets-oil-live-news-updates",
+      "publishedAt": "2026-06-05T15:43:16Z"
+    },
     {
       "title": "Alphabet’s shares drop after announcing $80bn share sale, as AI threatens to drive up youth unemployment – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/31/arm-boss-billion-dollar-payday-chipmaker-hits-targets",
       "publishedAt": "2026-05-31T14:50:12Z"
-    },
-    {
-      "title": "Oil prices on track for steepest monthly fall since 2020",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/29/oil-price-drops-amid-hopes-of-us-iran-peace-deal",
-      "publishedAt": "2026-05-29T15:27:25Z"
-    },
-    {
-      "title": "Global stocks rise and oil price slips amid hopes of US-Iran peace deal - as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/29/asian-stocks-oil-price-us-iran-peace-deal-business-latest-news-updates",
-      "publishedAt": "2026-05-29T14:16:06Z"
     }
   ]
 }
