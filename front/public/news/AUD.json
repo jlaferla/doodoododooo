@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-06T09:19:54.562Z",
+  "fetchedAt": "2026-06-07T09:55:48.782Z",
   "currency": "AUD",
   "articles": [
+    {
+      "title": "Personal loans booming as cost of living drives Australians to borrow record amounts",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/07/personal-loans-record-highs-australia-debt-borrowing-cost-of-living",
+      "publishedAt": "2026-06-06T20:00:13Z"
+    },
     {
       "title": "Aviation industry looks skywards as leaders fly in for Rio summit",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/01/uk-house-prices-fall-middle-east-interest-rates-manufacturing-softbank-ai-boom-chipmakers-live-updates",
       "publishedAt": "2026-06-01T14:53:16Z"
-    },
-    {
-      "title": "Arm boss in line for billion-dollar payday if chipmaker hits targets ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/31/arm-boss-billion-dollar-payday-chipmaker-hits-targets",
-      "publishedAt": "2026-05-31T14:50:12Z"
     }
   ]
 }
