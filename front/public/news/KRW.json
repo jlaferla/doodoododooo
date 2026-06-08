@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-06-07T09:55:51.791Z",
+  "fetchedAt": "2026-06-08T11:50:03.125Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Oil price falls back and markets recovering after Iran announces ‘end of military operations’ against Israel – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/08/stock-markets-fall-oil-jumps-middle-east-conflict-ai-boom-falters-live-news-updates",
+      "publishedAt": "2026-06-08T11:49:14Z"
+    },
+    {
+      "title": "Unions attack ‘year-long delay’ for Tata Steel furnace’s grid connection in south Wales",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/08/unions-attack-delay-tata-steel-furnaces-grid-connection-south-wales",
+      "publishedAt": "2026-06-08T11:45:35Z"
+    },
+    {
+      "title": "Global stock markets fall as concerns persist over tech firms at heart of AI boom",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/08/stock-markets-fall-tech-firms-ai-boom-oil-prices-iran-israel",
+      "publishedAt": "2026-06-08T08:32:17Z"
+    },
     {
       "title": "UK to challenge EU over ‘devastating’ plans to almost halve tariff-free steel import quotas",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/03/south-east-water-not-contacting-customers-winter-outages-report",
       "publishedAt": "2026-06-03T14:19:16Z"
-    },
-    {
-      "title": "Alphabet’s shares drop after announcing $80bn share sale, as AI threatens to drive up youth unemployment – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/02/alphabet-80bn-share-sales-ai-spending-berkshire-hathaway-stock-markets-oil-interest-rates-inflation-latest-news-updates",
-      "publishedAt": "2026-06-02T15:41:21Z"
-    },
-    {
-      "title": "Inflation won Trump the presidency, but could cost him the midterms",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/30/inflation-trump-presidency-midterm-election",
-      "publishedAt": "2026-05-30T11:00:18Z"
-    },
-    {
-      "title": "Global stocks rise and oil price slips amid hopes of US-Iran peace deal - as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/29/asian-stocks-oil-price-us-iran-peace-deal-business-latest-news-updates",
-      "publishedAt": "2026-05-29T14:16:06Z"
     }
   ]
 }

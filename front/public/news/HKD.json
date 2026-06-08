@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T09:55:50.896Z",
+  "fetchedAt": "2026-06-08T11:50:02.096Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "Global stock markets fall as concerns persist over tech firms at heart of AI boom",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/08/stock-markets-fall-tech-firms-ai-boom-oil-prices-iran-israel",
+      "publishedAt": "2026-06-08T08:32:17Z"
+    },
     {
       "title": "Aviation industry looks skywards as leaders fly in for Rio summit",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/01/uk-house-prices-fall-middle-east-interest-rates-manufacturing-softbank-ai-boom-chipmakers-live-updates",
       "publishedAt": "2026-06-01T14:53:16Z"
-    },
-    {
-      "title": "Arm boss in line for billion-dollar payday if chipmaker hits targets ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/31/arm-boss-billion-dollar-payday-chipmaker-hits-targets",
-      "publishedAt": "2026-05-31T14:50:12Z"
     }
   ]
 }

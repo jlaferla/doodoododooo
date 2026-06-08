@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-06-07T09:55:49.374Z",
+  "fetchedAt": "2026-06-08T11:50:00.378Z",
   "currency": "CAD",
   "articles": [
-    {
-      "title": "‘Historic’: Canadian warehouse workers sign first-ever union deal with Walmart",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/06/canada-walmart-first-union-deal",
-      "publishedAt": "2026-06-06T11:00:03Z"
-    },
     {
       "title": "On China, Trump picked the right battle but the wrong strategy",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/06/us-china-trump-trade-war",
+      "publishedAt": "2026-06-06T11:00:03Z"
+    },
+    {
+      "title": "‘Historic’: Canadian warehouse workers sign first-ever union deal with Walmart",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/06/canada-walmart-first-union-deal",
       "publishedAt": "2026-06-06T11:00:03Z"
     },
     {

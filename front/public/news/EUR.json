@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T09:55:50.275Z",
+  "fetchedAt": "2026-06-08T11:50:01.404Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "Oil price falls back and markets recovering after Iran announces ‘end of military operations’ against Israel – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/08/stock-markets-fall-oil-jumps-middle-east-conflict-ai-boom-falters-live-news-updates",
+      "publishedAt": "2026-06-08T11:49:14Z"
+    },
     {
       "title": " Lloyds, Halifax and Bank of Scotland apologise as users report app and online banking outage – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/20/germany-urged-stop-admiring-beijing-china-deindustrialisation",
       "publishedAt": "2026-05-20T09:25:32Z"
-    },
-    {
-      "title": "Fears of new China shock as EU industry’s reliance on imports grows",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/19/china-shock-eu-european-union-industry-imports",
-      "publishedAt": "2026-05-19T06:00:02Z"
     }
   ]
 }

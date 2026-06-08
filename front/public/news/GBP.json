@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T09:55:50.576Z",
+  "fetchedAt": "2026-06-08T11:50:01.744Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "Unions attack ‘year-long delay’ for Tata Steel furnace’s grid connection in south Wales",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/08/unions-attack-delay-tata-steel-furnaces-grid-connection-south-wales",
+      "publishedAt": "2026-06-08T11:45:35Z"
+    },
     {
       "title": "City & Guilds faces legal and industrial action over plans to cut hundreds of jobs",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/28/uk-risks-125bn-hit-youth-unemployment-landmark-report-alan-milburn-neets",
       "publishedAt": "2026-05-28T18:45:21Z"
-    },
-    {
-      "title": "US PCE inflation rate hits three-year high as Iran war pushes up prices – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/28/uk-young-people-out-of-work-unemployment-first-time-buyers-financial-crisis-inflation-food-prices-business-latest-news-updates",
-      "publishedAt": "2026-05-28T15:02:11Z"
     }
   ]
 }

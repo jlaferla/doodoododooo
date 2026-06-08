@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-07T09:55:51.204Z",
+  "fetchedAt": "2026-06-08T11:50:02.458Z",
   "currency": "INR",
   "articles": [
+    {
+      "title": "Unions attack ‘year-long delay’ for Tata Steel furnace’s grid connection in south Wales",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/08/unions-attack-delay-tata-steel-furnaces-grid-connection-south-wales",
+      "publishedAt": "2026-06-08T11:45:35Z"
+    },
     {
       "title": "US job creation smashes forecasts in May, fuelling rate hike bets; ‘no jet fuel shortage in Europe’ – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/may/15/christopher-harborne-crypto-billionaire-nigel-farage-gift-uk-rich-list",
       "publishedAt": "2026-05-15T08:14:01Z"
-    },
-    {
-      "title": "UK government borrowing costs rise as Starmer ‘fails to reassure bond markets’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/11/uk-economy-job-losses-iran-war-oil-pound-bonds-politics-starmer-live-updates",
-      "publishedAt": "2026-05-11T16:03:38Z"
     }
   ]
 }
