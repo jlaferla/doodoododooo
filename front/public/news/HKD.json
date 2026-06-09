@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-08T11:50:02.096Z",
+  "fetchedAt": "2026-06-09T10:29:20.986Z",
   "currency": "HKD",
   "articles": [
     {
-      "title": "Global stock markets fall as concerns persist over tech firms at heart of AI boom",
+      "title": "Chip stocks bounce back as AI rally resumes; CMA launches inquiry into Paramount-Warner Bros deal – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/09/chip-stocks-bounce-back-kospi-openai-wall-street-float-stock-markets-oil-live-news-updates",
+      "publishedAt": "2026-06-09T10:29:04Z"
+    },
+    {
+      "title": "Stock markets fall as concerns persist over tech firms at heart of AI boom",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/08/stock-markets-fall-tech-firms-ai-boom-oil-prices-iran-israel",
-      "publishedAt": "2026-06-08T08:32:17Z"
+      "publishedAt": "2026-06-08T13:55:28Z"
     },
     {
       "title": "Aviation industry looks skywards as leaders fly in for Rio summit",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/02/alphabet-80bn-share-sales-ai-spending-berkshire-hathaway-stock-markets-oil-interest-rates-inflation-latest-news-updates",
       "publishedAt": "2026-06-02T15:41:21Z"
-    },
-    {
-      "title": "Oil price rises to $97 a barrel as ‘Iran stops exchanging messages with US’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/01/uk-house-prices-fall-middle-east-interest-rates-manufacturing-softbank-ai-boom-chipmakers-live-updates",
-      "publishedAt": "2026-06-01T14:53:16Z"
     }
   ]
 }

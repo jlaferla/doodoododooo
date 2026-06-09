@@ -1,12 +1,24 @@
 {
-  "fetchedAt": "2026-06-08T11:50:04.838Z",
+  "fetchedAt": "2026-06-09T10:29:23.377Z",
   "currency": "ZAR",
   "articles": [
     {
-      "title": "Oil price falls back and markets recovering after Iran announces ‘end of military operations’ against Israel – business live",
+      "title": "Chip stocks bounce back as AI rally resumes; CMA launches inquiry into Paramount-Warner Bros deal – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/09/chip-stocks-bounce-back-kospi-openai-wall-street-float-stock-markets-oil-live-news-updates",
+      "publishedAt": "2026-06-09T10:29:04Z"
+    },
+    {
+      "title": "Oil price falls back and Wall Street rallies after Iran announces ‘end of military operations’ against Israel – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/08/stock-markets-fall-oil-jumps-middle-east-conflict-ai-boom-falters-live-news-updates",
-      "publishedAt": "2026-06-08T11:49:14Z"
+      "publishedAt": "2026-06-08T15:43:40Z"
+    },
+    {
+      "title": "Stock markets fall as concerns persist over tech firms at heart of AI boom",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/08/stock-markets-fall-tech-firms-ai-boom-oil-prices-iran-israel",
+      "publishedAt": "2026-06-08T13:55:28Z"
     },
     {
       "title": "Unions attack ‘year-long delay’ for Tata Steel furnace’s grid connection in south Wales",
@@ -15,22 +27,10 @@
       "publishedAt": "2026-06-08T11:45:35Z"
     },
     {
-      "title": "Global stock markets fall as concerns persist over tech firms at heart of AI boom",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/08/stock-markets-fall-tech-firms-ai-boom-oil-prices-iran-israel",
-      "publishedAt": "2026-06-08T08:32:17Z"
-    },
-    {
       "title": "South East Water’s greatest failure was not contacting customers during winter outages, report finds",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/03/south-east-water-not-contacting-customers-winter-outages-report",
       "publishedAt": "2026-06-03T14:19:16Z"
-    },
-    {
-      "title": "People in Kent and Sussex asked to use water only for essentials after outages",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/26/kent-sussex-water-essentials",
-      "publishedAt": "2026-05-26T16:26:12Z"
     }
   ]
 }

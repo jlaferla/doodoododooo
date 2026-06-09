@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-08T11:50:01.744Z",
+  "fetchedAt": "2026-06-09T10:29:20.684Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "Chip stocks bounce back as AI rally resumes; CMA launches inquiry into Paramount-Warner Bros deal – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/09/chip-stocks-bounce-back-kospi-openai-wall-street-float-stock-markets-oil-live-news-updates",
+      "publishedAt": "2026-06-09T10:29:04Z"
+    },
     {
       "title": "Unions attack ‘year-long delay’ for Tata Steel furnace’s grid connection in south Wales",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/29/asian-stocks-oil-price-us-iran-peace-deal-business-latest-news-updates",
       "publishedAt": "2026-05-29T14:16:06Z"
-    },
-    {
-      "title": "Labour poised for fresh welfare changes after scale of youth jobs crisis revealed",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/28/uk-risks-125bn-hit-youth-unemployment-landmark-report-alan-milburn-neets",
-      "publishedAt": "2026-05-28T18:45:21Z"
     }
   ]
 }

@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-08T11:50:00.720Z",
+  "fetchedAt": "2026-06-09T10:29:19.786Z",
   "currency": "CHF",
   "articles": [
+    {
+      "title": "GSK to buy US cancer treatment firm Nuvalent for $10.6bn",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/09/gsk-buy-us-cancer-treatment-firm-nuvalent-luke-miels",
+      "publishedAt": "2026-06-09T08:59:47Z"
+    },
     {
       "title": "Financier Lex Greensill banned from running UK companies for nine years",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/apr/30/bank-of-england-expected-hold-interest-rates-noon-assesses-fallout-iran-war-live-updates",
       "publishedAt": "2026-04-30T14:55:26Z"
-    },
-    {
-      "title": "Air France-KLM cuts capacity growth forecast amid expected $2.4bn fuel bill rise",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/30/air-france-klm-cuts-capacity-growth-forecast-amid-expected-24bn-fuel-bill-rise",
-      "publishedAt": "2026-04-30T09:13:47Z"
     }
   ]
 }

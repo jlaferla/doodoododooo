@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-08T11:50:00.378Z",
+  "fetchedAt": "2026-06-09T10:29:19.487Z",
   "currency": "CAD",
   "articles": [
+    {
+      "title": "Chip stocks bounce back as AI rally resumes; CMA launches inquiry into Paramount-Warner Bros deal – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/09/chip-stocks-bounce-back-kospi-openai-wall-street-float-stock-markets-oil-live-news-updates",
+      "publishedAt": "2026-06-09T10:29:04Z"
+    },
     {
       "title": "On China, Trump picked the right battle but the wrong strategy",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/05/jet-fuel-europe-transport-chief-us-jobs-report-uk-house-prices-stock-markets-oil-live-news-updates",
       "publishedAt": "2026-06-05T15:43:16Z"
-    },
-    {
-      "title": "Alphabet’s shares drop after announcing $80bn share sale, as AI threatens to drive up youth unemployment – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/02/alphabet-80bn-share-sales-ai-spending-berkshire-hathaway-stock-markets-oil-interest-rates-inflation-latest-news-updates",
-      "publishedAt": "2026-06-02T15:41:21Z"
     }
   ]
 }
