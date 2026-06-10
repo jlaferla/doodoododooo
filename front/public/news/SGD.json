@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-09T10:29:22.491Z",
+  "fetchedAt": "2026-06-10T10:50:16.294Z",
   "currency": "SGD",
   "articles": [
     {
-      "title": "Chip stocks bounce back as AI rally resumes; CMA launches inquiry into Paramount-Warner Bros deal – business live",
+      "title": "Peter Kyle’s quest for UK’s first $1tn firm is honourable, but he is overselling state activism | Nils Pratley",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/10/peter-kyle-uk-state-activism-bbb-nwf",
+      "publishedAt": "2026-06-10T09:31:44Z"
+    },
+    {
+      "title": "Chip stocks bouncing back on Wall Street and South Korea; UK investigating Paramount-Warner Bros merger – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/09/chip-stocks-bounce-back-kospi-openai-wall-street-float-stock-markets-oil-live-news-updates",
-      "publishedAt": "2026-06-09T10:29:04Z"
+      "publishedAt": "2026-06-09T15:03:34Z"
     },
     {
       "title": "Aviation industry looks skywards as leaders fly in for Rio summit",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/02/alphabet-80bn-share-sales-ai-spending-berkshire-hathaway-stock-markets-oil-interest-rates-inflation-latest-news-updates",
       "publishedAt": "2026-06-02T15:41:21Z"
-    },
-    {
-      "title": "Oil price rises to $97 a barrel as ‘Iran stops exchanging messages with US’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/01/uk-house-prices-fall-middle-east-interest-rates-manufacturing-softbank-ai-boom-chipmakers-live-updates",
-      "publishedAt": "2026-06-01T14:53:16Z"
     }
   ]
 }

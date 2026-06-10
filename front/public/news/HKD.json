@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-09T10:29:20.986Z",
+  "fetchedAt": "2026-06-10T10:50:14.505Z",
   "currency": "HKD",
   "articles": [
     {
-      "title": "Chip stocks bounce back as AI rally resumes; CMA launches inquiry into Paramount-Warner Bros deal – business live",
+      "title": "Peter Kyle’s quest for UK’s first $1tn firm is honourable, but he is overselling state activism | Nils Pratley",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/10/peter-kyle-uk-state-activism-bbb-nwf",
+      "publishedAt": "2026-06-10T09:31:44Z"
+    },
+    {
+      "title": "Chip stocks bouncing back on Wall Street and South Korea; UK investigating Paramount-Warner Bros merger – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/09/chip-stocks-bounce-back-kospi-openai-wall-street-float-stock-markets-oil-live-news-updates",
-      "publishedAt": "2026-06-09T10:29:04Z"
+      "publishedAt": "2026-06-09T15:03:34Z"
     },
     {
       "title": "Stock markets fall as concerns persist over tech firms at heart of AI boom",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/05/jet-fuel-europe-transport-chief-us-jobs-report-uk-house-prices-stock-markets-oil-live-news-updates",
       "publishedAt": "2026-06-05T15:43:16Z"
-    },
-    {
-      "title": "Alphabet’s shares drop after announcing $80bn share sale, as AI threatens to drive up youth unemployment – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/02/alphabet-80bn-share-sales-ai-spending-berkshire-hathaway-stock-markets-oil-interest-rates-inflation-latest-news-updates",
-      "publishedAt": "2026-06-02T15:41:21Z"
     }
   ]
 }

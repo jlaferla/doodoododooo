@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-09T10:29:20.684Z",
+  "fetchedAt": "2026-06-10T10:50:14.147Z",
   "currency": "GBP",
   "articles": [
     {
-      "title": "Chip stocks bounce back as AI rally resumes; CMA launches inquiry into Paramount-Warner Bros deal – business live",
+      "title": "Pub chain Fuller’s hopes for bumper summer of World Cup and staycations",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/10/pub-chain-fullers-hopes-world-cup-england-matches",
+      "publishedAt": "2026-06-10T09:10:05Z"
+    },
+    {
+      "title": "Chip stocks bouncing back on Wall Street and South Korea; UK investigating Paramount-Warner Bros merger – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/09/chip-stocks-bounce-back-kospi-openai-wall-street-float-stock-markets-oil-live-news-updates",
-      "publishedAt": "2026-06-09T10:29:04Z"
+      "publishedAt": "2026-06-09T15:03:34Z"
     },
     {
       "title": "Unions attack ‘year-long delay’ for Tata Steel furnace’s grid connection in south Wales",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/01/uk-house-prices-fall-middle-east-interest-rates-manufacturing-softbank-ai-boom-chipmakers-live-updates",
       "publishedAt": "2026-06-01T14:53:16Z"
-    },
-    {
-      "title": "Global stocks rise and oil price slips amid hopes of US-Iran peace deal - as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/29/asian-stocks-oil-price-us-iran-peace-deal-business-latest-news-updates",
-      "publishedAt": "2026-05-29T14:16:06Z"
     }
   ]
 }
