@@ -1,13 +1,7 @@
 {
-  "fetchedAt": "2026-06-10T10:50:17.352Z",
+  "fetchedAt": "2026-06-11T11:18:23.820Z",
   "currency": "ZAR",
   "articles": [
-    {
-      "title": " FTSE 100 joins global stock market fall as US and Iran exchange fire - business live",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/10/asian-stocks-fall-us-iran-exchange-fire-middle-east-strait-of-hormuz-oil-prices-latest-news-updates",
-      "publishedAt": "2026-06-10T10:47:09Z"
-    },
     {
       "title": "Chip stocks bouncing back on Wall Street and South Korea; UK investigating Paramount-Warner Bros merger – as it happened",
       "source": "The Guardian",
@@ -31,6 +25,12 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/08/unions-attack-delay-tata-steel-furnaces-grid-connection-south-wales",
       "publishedAt": "2026-06-08T11:45:35Z"
+    },
+    {
+      "title": "South East Water’s greatest failure was not contacting customers during winter outages, report finds",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/03/south-east-water-not-contacting-customers-winter-outages-report",
+      "publishedAt": "2026-06-03T14:19:16Z"
     }
   ]
 }

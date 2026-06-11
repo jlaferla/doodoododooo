@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-10T10:50:12.023Z",
+  "fetchedAt": "2026-06-11T11:18:18.561Z",
   "currency": "AUD",
   "articles": [
     {
-      "title": "Peter Kyle’s quest for UK’s first $1tn firm is honourable, but he is overselling state activism | Nils Pratley",
+      "title": "Australian billionaire Brett Blundy wages high-stakes campaign to oust chair of Victoria’s Secret",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/jun/11/brett-blundy-bbrc-victorias-secret",
+      "publishedAt": "2026-06-11T02:51:40Z"
+    },
+    {
+      "title": "The business secretary is overselling UK state investment activism",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/10/peter-kyle-uk-state-activism-bbb-nwf",
-      "publishedAt": "2026-06-10T09:31:44Z"
+      "publishedAt": "2026-06-10T14:44:28Z"
     },
     {
       "title": "Chip stocks bouncing back on Wall Street and South Korea; UK investigating Paramount-Warner Bros merger – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/06/aviation-industry-looks-skywards-as-leaders-fly-in-for-rio-summit",
       "publishedAt": "2026-06-06T09:00:05Z"
-    },
-    {
-      "title": "US job creation smashes forecasts in May, fuelling rate hike bets; ‘no jet fuel shortage in Europe’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/05/jet-fuel-europe-transport-chief-us-jobs-report-uk-house-prices-stock-markets-oil-live-news-updates",
-      "publishedAt": "2026-06-05T15:43:16Z"
     }
   ]
 }
