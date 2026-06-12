@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-06-11T11:18:18.561Z",
+  "fetchedAt": "2026-06-12T10:56:56.973Z",
   "currency": "AUD",
   "articles": [
+    {
+      "title": "After SpaceX’s huge IPO, Americans’ financial future will be bound to AI",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/12/ai-ipos-stock-market",
+      "publishedAt": "2026-06-12T09:00:41Z"
+    },
+    {
+      "title": "UK economy shrank by 0.1% in April as Iran war held back growth",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/12/uk-economy-gdp-shrank-april-iran-war-held-back-growth",
+      "publishedAt": "2026-06-12T06:31:37Z"
+    },
     {
       "title": "Australian billionaire Brett Blundy wages high-stakes campaign to oust chair of Victoria’s Secret",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/09/chip-stocks-bounce-back-kospi-openai-wall-street-float-stock-markets-oil-live-news-updates",
       "publishedAt": "2026-06-09T15:03:34Z"
-    },
-    {
-      "title": "Personal loans booming as cost of living drives Australians to borrow record amounts",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/07/personal-loans-record-highs-australia-debt-borrowing-cost-of-living",
-      "publishedAt": "2026-06-06T20:00:13Z"
-    },
-    {
-      "title": "Aviation industry looks skywards as leaders fly in for Rio summit",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/06/aviation-industry-looks-skywards-as-leaders-fly-in-for-rio-summit",
-      "publishedAt": "2026-06-06T09:00:05Z"
     }
   ]
 }

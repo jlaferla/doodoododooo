@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-11T11:18:20.583Z",
+  "fetchedAt": "2026-06-12T10:56:59.183Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "UK economy shrank by 0.1% in April as Iran war held back growth",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/12/uk-economy-gdp-shrank-april-iran-war-held-back-growth",
+      "publishedAt": "2026-06-12T06:31:37Z"
+    },
     {
       "title": "Pub chain Fuller’s hopes for bumper summer of World Cup and staycations",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/03/city-guilds-faces-legal-and-industrial-action-over-plans-to-cut-hundreds-of-jobs",
       "publishedAt": "2026-06-03T16:17:24Z"
-    },
-    {
-      "title": "Oil price rises to $97 a barrel as ‘Iran stops exchanging messages with US’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/01/uk-house-prices-fall-middle-east-interest-rates-manufacturing-softbank-ai-boom-chipmakers-live-updates",
-      "publishedAt": "2026-06-01T14:53:16Z"
     }
   ]
 }

@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-06-11T11:18:20.922Z",
+  "fetchedAt": "2026-06-12T10:56:59.521Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "After SpaceX’s huge IPO, Americans’ financial future will be bound to AI",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/12/ai-ipos-stock-market",
+      "publishedAt": "2026-06-12T09:00:41Z"
+    },
+    {
+      "title": "UK economy shrank by 0.1% in April as Iran war held back growth",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/12/uk-economy-gdp-shrank-april-iran-war-held-back-growth",
+      "publishedAt": "2026-06-12T06:31:37Z"
+    },
     {
       "title": "The business secretary is overselling UK state investment activism",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/08/stock-markets-fall-tech-firms-ai-boom-oil-prices-iran-israel",
       "publishedAt": "2026-06-08T13:55:28Z"
-    },
-    {
-      "title": "Aviation industry looks skywards as leaders fly in for Rio summit",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/06/aviation-industry-looks-skywards-as-leaders-fly-in-for-rio-summit",
-      "publishedAt": "2026-06-06T09:00:05Z"
-    },
-    {
-      "title": "US job creation smashes forecasts in May, fuelling rate hike bets; ‘no jet fuel shortage in Europe’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/05/jet-fuel-europe-transport-chief-us-jobs-report-uk-house-prices-stock-markets-oil-live-news-updates",
-      "publishedAt": "2026-06-05T15:43:16Z"
     }
   ]
 }
