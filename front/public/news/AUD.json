@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-12T10:56:56.973Z",
+  "fetchedAt": "2026-06-13T09:52:17.452Z",
   "currency": "AUD",
   "articles": [
+    {
+      "title": "Elon Musk becomes world’s first trillionaire as SpaceX ends trading day with valuation of $2.1tn – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/12/spacex-float-us-stock-market-share-elon-musk-trillionaire-largest-ipo-ever-live-news-updates",
+      "publishedAt": "2026-06-12T21:19:34Z"
+    },
     {
       "title": "After SpaceX’s huge IPO, Americans’ financial future will be bound to AI",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/10/peter-kyle-uk-state-activism-bbb-nwf",
       "publishedAt": "2026-06-10T14:44:28Z"
-    },
-    {
-      "title": "Chip stocks bouncing back on Wall Street and South Korea; UK investigating Paramount-Warner Bros merger – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/09/chip-stocks-bounce-back-kospi-openai-wall-street-float-stock-markets-oil-live-news-updates",
-      "publishedAt": "2026-06-09T15:03:34Z"
     }
   ]
 }

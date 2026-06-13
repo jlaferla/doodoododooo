@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-12T10:56:58.845Z",
+  "fetchedAt": "2026-06-13T09:52:19.094Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "Can Starmer’s late-night World Cup openings help Britain’s struggling pubs?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/12/world-cup-late-openings-britain-struggling-pubs",
+      "publishedAt": "2026-06-12T15:00:50Z"
+    },
     {
       "title": "Middle East war is hurting eurozone economy, warns ECB, after announcing first interest rate rise since 2023 – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/08/stock-markets-fall-oil-jumps-middle-east-conflict-ai-boom-falters-live-news-updates",
       "publishedAt": "2026-06-08T15:43:40Z"
-    },
-    {
-      "title": " Lloyds, Halifax and Bank of Scotland apologise as users report app and online banking outage – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/03/google-uk-publishers-choice-ai-search-summaries-competition-watchdog-business-live-news",
-      "publishedAt": "2026-06-03T14:06:25Z"
     }
   ]
 }
