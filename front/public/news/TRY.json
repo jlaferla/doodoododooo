@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-13T09:52:21.722Z",
+  "fetchedAt": "2026-06-14T10:20:07.581Z",
   "currency": "TRY",
   "articles": [
+    {
+      "title": "One Stop shop worker sacked after trying to tackle suspected shoplifter",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/13/one-stop-shop-worker-sacked-after-trying-to-tackle-suspected-shoplifter",
+      "publishedAt": "2026-06-13T22:09:35Z"
+    },
     {
       "title": "Democrats are playing with fire in trying to reclaim tax cuts from Republicans ",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/apr/14/united-airlines-merger-american-airlines",
       "publishedAt": "2026-04-14T15:48:49Z"
-    },
-    {
-      "title": "Blue Owl Capital limits withdrawals after investors try to redeem $5.4bn",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/02/blue-owl-capital-private-credit-investment-limits-withdrawals",
-      "publishedAt": "2026-04-02T16:14:02Z"
     }
   ]
 }
