@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-06-14T10:20:07.281Z",
+  "fetchedAt": "2026-06-15T12:59:20.053Z",
   "currency": "SGD",
   "articles": [
+    {
+      "title": "European stock markets hit record high and oil price falls to three-month low after US-Iran peace deal – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/15/oil-price-low-stock-markets-rally-us-iran-peace-deal-ftse-wall-street-live-news-updates",
+      "publishedAt": "2026-06-15T12:39:00Z"
+    },
+    {
+      "title": "Gina Rinehart makes ‘significant investment’ in Elon Musk’s SpaceX ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/australia-news/2026/jun/15/gina-rinehart-invests-elon-musks-spacex",
+      "publishedAt": "2026-06-15T07:07:35Z"
+    },
     {
       "title": "Elon Musk becomes world’s first trillionaire as SpaceX ends trading day with valuation of $2.1tn – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/12/uk-economy-gdp-shrank-april-iran-war-held-back-growth",
       "publishedAt": "2026-06-12T06:31:37Z"
-    },
-    {
-      "title": "The business secretary is overselling UK state investment activism",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/10/peter-kyle-uk-state-activism-bbb-nwf",
-      "publishedAt": "2026-06-10T14:44:28Z"
-    },
-    {
-      "title": "Chip stocks bouncing back on Wall Street and South Korea; UK investigating Paramount-Warner Bros merger – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/09/chip-stocks-bounce-back-kospi-openai-wall-street-float-stock-markets-oil-live-news-updates",
-      "publishedAt": "2026-06-09T15:03:34Z"
     }
   ]
 }

@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-14T10:20:05.102Z",
+  "fetchedAt": "2026-06-15T12:59:17.804Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "European stock markets hit record high and oil price falls to three-month low after US-Iran peace deal – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/15/oil-price-low-stock-markets-rally-us-iran-peace-deal-ftse-wall-street-live-news-updates",
+      "publishedAt": "2026-06-15T12:39:00Z"
+    },
     {
       "title": "Can Starmer’s late-night World Cup openings help Britain’s struggling pubs?",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/11/ecb-eurozone-interest-rates-iran-war-inflation",
       "publishedAt": "2026-06-11T12:18:30Z"
-    },
-    {
-      "title": "Oil price falls back and Wall Street rallies after Iran announces ‘end of military operations’ against Israel – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/08/stock-markets-fall-oil-jumps-middle-east-conflict-ai-boom-falters-live-news-updates",
-      "publishedAt": "2026-06-08T15:43:40Z"
     }
   ]
 }

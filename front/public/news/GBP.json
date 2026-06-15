@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-14T10:20:05.409Z",
+  "fetchedAt": "2026-06-15T12:59:18.122Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "European stock markets hit record high and oil price falls to three-month low after US-Iran peace deal – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/15/oil-price-low-stock-markets-rally-us-iran-peace-deal-ftse-wall-street-live-news-updates",
+      "publishedAt": "2026-06-15T12:39:00Z"
+    },
     {
       "title": "UK economy shrank by 0.1% in April as Iran war held back growth",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/08/unions-attack-delay-tata-steel-furnaces-grid-connection-south-wales",
       "publishedAt": "2026-06-08T11:45:35Z"
-    },
-    {
-      "title": "City & Guilds faces legal and industrial action over plans to cut hundreds of jobs",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/03/city-guilds-faces-legal-and-industrial-action-over-plans-to-cut-hundreds-of-jobs",
-      "publishedAt": "2026-06-03T16:17:24Z"
     }
   ]
 }
