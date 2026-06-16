@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-15T12:59:17.488Z",
+  "fetchedAt": "2026-06-16T12:05:08.984Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "EV prices in UK and EU not likely to dive due to Chinese rivalry, says Xpeng boss",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/16/ev-prices-uk-eu-chinese-car-firm-xpeng",
+      "publishedAt": "2026-06-16T05:00:45Z"
+    },
     {
       "title": "UK car sales hit post-Covid high for May as Chinese EV makers gain ground",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/18/bond-market-rout-inflation-fears-gilts-yields-burnham-imf-reeves-live-updates",
       "publishedAt": "2026-05-18T15:43:42Z"
-    },
-    {
-      "title": "EU carmakers pave way for Chinese rivals as balance in market shifts",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/15/eu-carmakers-chinese-rivals-market-shifts",
-      "publishedAt": "2026-05-15T04:00:26Z"
     }
   ]
 }

@@ -1,18 +1,24 @@
 {
-  "fetchedAt": "2026-06-15T12:59:16.853Z",
+  "fetchedAt": "2026-06-16T12:05:08.394Z",
   "currency": "CAD",
   "articles": [
     {
-      "title": "European stock markets hit record high and oil price falls to three-month low after US-Iran peace deal – business live",
+      "title": "Wall Street and European markets hit record highs and oil price falls to three-month low after US-Iran peace deal – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/15/oil-price-low-stock-markets-rally-us-iran-peace-deal-ftse-wall-street-live-news-updates",
-      "publishedAt": "2026-06-15T12:39:00Z"
+      "publishedAt": "2026-06-15T15:57:04Z"
     },
     {
       "title": "Gina Rinehart makes ‘significant investment’ in Elon Musk’s SpaceX ",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/australia-news/2026/jun/15/gina-rinehart-invests-elon-musks-spacex",
       "publishedAt": "2026-06-15T07:07:35Z"
+    },
+    {
+      "title": "Australia’s Sigma drops out of talks to buy UK’s Boots",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/15/sigma-healthcare-uk-boots-takeover",
+      "publishedAt": "2026-06-15T06:52:59Z"
     },
     {
       "title": "Elon Musk becomes world’s first trillionaire as SpaceX ends trading day with valuation of $2.1tn – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/12/ai-ipos-stock-market",
       "publishedAt": "2026-06-12T09:00:41Z"
-    },
-    {
-      "title": "UK economy shrank by 0.1% in April as Iran war held back growth",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/12/uk-economy-gdp-shrank-april-iran-war-held-back-growth",
-      "publishedAt": "2026-06-12T06:31:37Z"
     }
   ]
 }

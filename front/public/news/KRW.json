@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-15T12:59:19.405Z",
+  "fetchedAt": "2026-06-16T12:05:10.765Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Thames Water nationalisation moves closer as government ‘objects to rescue deal’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/16/thames-water-nationalisation-rescue-deal-ofwat",
+      "publishedAt": "2026-06-16T10:54:29Z"
+    },
     {
       "title": " US inflation hits 4.2% in May as Trump’s Middle East conflict drives up prices - as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/08/stock-markets-fall-tech-firms-ai-boom-oil-prices-iran-israel",
       "publishedAt": "2026-06-08T13:55:28Z"
-    },
-    {
-      "title": "Unions attack ‘year-long delay’ for Tata Steel furnace’s grid connection in south Wales",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/08/unions-attack-delay-tata-steel-furnaces-grid-connection-south-wales",
-      "publishedAt": "2026-06-08T11:45:35Z"
     }
   ]
 }

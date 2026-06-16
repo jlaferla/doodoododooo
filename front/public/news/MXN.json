@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-15T12:59:19.728Z",
+  "fetchedAt": "2026-06-16T12:05:11.067Z",
   "currency": "MXN",
   "articles": [
+    {
+      "title": "Wall Street and European markets hit record highs and oil price falls to three-month low after US-Iran peace deal – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/15/oil-price-low-stock-markets-rally-us-iran-peace-deal-ftse-wall-street-live-news-updates",
+      "publishedAt": "2026-06-15T15:57:04Z"
+    },
     {
       "title": "Dow Jones Industrial Average posts best day since early February as hopes of Middle East de-escalation lift markets – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/feb/05/budweiser-super-bowl-ad",
       "publishedAt": "2026-02-05T22:28:19Z"
-    },
-    {
-      "title": "Why the white America Trump dreams of is just a fantasy",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jan/10/trump-immigration-whiteness",
-      "publishedAt": "2026-01-10T11:00:55Z"
     }
   ]
 }

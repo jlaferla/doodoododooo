@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-15T12:59:18.122Z",
+  "fetchedAt": "2026-06-16T12:05:09.581Z",
   "currency": "GBP",
   "articles": [
     {
-      "title": "European stock markets hit record high and oil price falls to three-month low after US-Iran peace deal – business live",
+      "title": "Thames Water nationalisation moves closer as government ‘objects to rescue deal’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/16/thames-water-nationalisation-rescue-deal-ofwat",
+      "publishedAt": "2026-06-16T10:54:29Z"
+    },
+    {
+      "title": "Wall Street and European markets hit record highs and oil price falls to three-month low after US-Iran peace deal – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/15/oil-price-low-stock-markets-rally-us-iran-peace-deal-ftse-wall-street-live-news-updates",
-      "publishedAt": "2026-06-15T12:39:00Z"
+      "publishedAt": "2026-06-15T15:57:04Z"
     },
     {
       "title": "UK economy shrank by 0.1% in April as Iran war held back growth",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/09/chip-stocks-bounce-back-kospi-openai-wall-street-float-stock-markets-oil-live-news-updates",
       "publishedAt": "2026-06-09T15:03:34Z"
-    },
-    {
-      "title": "Unions attack ‘year-long delay’ for Tata Steel furnace’s grid connection in south Wales",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/08/unions-attack-delay-tata-steel-furnaces-grid-connection-south-wales",
-      "publishedAt": "2026-06-08T11:45:35Z"
     }
   ]
 }
