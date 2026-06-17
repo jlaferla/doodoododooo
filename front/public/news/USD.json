@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-16T12:05:11.960Z",
+  "fetchedAt": "2026-06-17T11:29:19.652Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "US small business owners: how are you operating in the current economic climate? ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/16/us-small-business-owners-economy-callout",
+      "publishedAt": "2026-06-16T17:17:07Z"
+    },
     {
       "title": "Oil prices hit three-month low and markets reach record high amid Iran deal breakthrough",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/12/spacex-float-us-stock-market-share-elon-musk-trillionaire-largest-ipo-ever-live-news-updates",
       "publishedAt": "2026-06-12T21:19:34Z"
-    },
-    {
-      "title": "After SpaceX’s huge IPO, Americans’ financial future will be bound to AI",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/12/ai-ipos-stock-market",
-      "publishedAt": "2026-06-12T09:00:41Z"
     }
   ]
 }

@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-16T12:05:11.367Z",
+  "fetchedAt": "2026-06-17T11:29:18.945Z",
   "currency": "SGD",
   "articles": [
+    {
+      "title": "UK inflation unexpectedly stays at 2.8% with higher transport costs offset by slower food price rises – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/17/uk-inflation-unexpectedly-unchanged-higher-transport-costs-offset-slower-food-price-rises-oil-federal-reserve-iran-war-live-updates",
+      "publishedAt": "2026-06-17T11:27:10Z"
+    },
     {
       "title": "Wall Street and European markets hit record highs and oil price falls to three-month low after US-Iran peace deal – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/12/ai-ipos-stock-market",
       "publishedAt": "2026-06-12T09:00:41Z"
-    },
-    {
-      "title": "UK economy shrank by 0.1% in April as Iran war held back growth",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/12/uk-economy-gdp-shrank-april-iran-war-held-back-growth",
-      "publishedAt": "2026-06-12T06:31:37Z"
     }
   ]
 }

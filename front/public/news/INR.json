@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-16T12:05:10.182Z",
+  "fetchedAt": "2026-06-17T11:29:17.538Z",
   "currency": "INR",
   "articles": [
+    {
+      "title": "Brent crude falls to three-month low below $80 as Iranian oil tankers ‘resume shipping’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/16/japan-hikes-interest-rates-inflation-iran-war-thames-water-rescue-nationalisation-latest-news-updates",
+      "publishedAt": "2026-06-16T14:15:13Z"
+    },
     {
       "title": "Wall Street and European markets hit record highs and oil price falls to three-month low after US-Iran peace deal – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/may/22/uk-borrowing-higher-retail-sales-drivers-fuel-business-live-news",
       "publishedAt": "2026-05-22T14:05:31Z"
-    },
-    {
-      "title": "UK borrowing costs hit new highs as City traders brace for Burnham, and pound heads for worst week since 2024 – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/15/rich-list-sunday-times-billionaires-reform-donor-christopher-harborne-hinduja-radcliffe-dyson-beckham-live-updates",
-      "publishedAt": "2026-05-15T16:09:42Z"
     }
   ]
 }

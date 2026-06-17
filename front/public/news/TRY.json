@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-16T12:05:11.650Z",
+  "fetchedAt": "2026-06-17T11:29:19.294Z",
   "currency": "TRY",
   "articles": [
+    {
+      "title": "UK inflation unexpectedly stays at 2.8% with higher transport costs offset by slower food price rises – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/17/uk-inflation-unexpectedly-unchanged-higher-transport-costs-offset-slower-food-price-rises-oil-federal-reserve-iran-war-live-updates",
+      "publishedAt": "2026-06-17T11:27:10Z"
+    },
+    {
+      "title": "John Lewis injects £20m into Glasgow city centre store in wider branch reboot",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/17/john-lewis-glasgow-city-centre-reboot",
+      "publishedAt": "2026-06-17T05:00:23Z"
+    },
+    {
+      "title": "Brent crude falls to three-month low below $80 as Iranian oil tankers ‘resume shipping’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/16/japan-hikes-interest-rates-inflation-iran-war-thames-water-rescue-nationalisation-latest-news-updates",
+      "publishedAt": "2026-06-16T14:15:13Z"
+    },
+    {
+      "title": "EV prices in UK and EU not likely to dive due to Chinese rivalry, says Xpeng boss",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/16/ev-prices-uk-eu-chinese-car-firm-xpeng",
+      "publishedAt": "2026-06-16T05:00:45Z"
+    },
     {
       "title": "One Stop shop worker sacked after trying to tackle suspected shoplifter",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/13/one-stop-shop-worker-sacked-after-trying-to-tackle-suspected-shoplifter",
       "publishedAt": "2026-06-13T22:09:35Z"
-    },
-    {
-      "title": "Democrats are playing with fire in trying to reclaim tax cuts from Republicans ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/11/democrats-tax-cuts-republicans",
-      "publishedAt": "2026-05-11T10:00:51Z"
-    },
-    {
-      "title": "Two million airline seats cut amid soaring jet fuel prices",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/05/airline-seats-cut-jet-fuel-prices",
-      "publishedAt": "2026-05-05T18:08:42Z"
-    },
-    {
-      "title": "UK electric car sales leap ‘could be hit by Iran war inflation and energy price rises’",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/05/uk-electric-car-sales--iran-war-inflation-energy-price-bev-smmt",
-      "publishedAt": "2026-05-05T10:36:24Z"
-    },
-    {
-      "title": " United Airlines CEO reportedly pitched merger with American, sparking competition fears",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/apr/14/united-airlines-merger-american-airlines",
-      "publishedAt": "2026-04-14T15:48:49Z"
     }
   ]
 }

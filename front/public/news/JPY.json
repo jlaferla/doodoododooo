@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-06-16T12:05:10.468Z",
+  "fetchedAt": "2026-06-17T11:29:17.879Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "UK inflation unexpectedly stays at 2.8% with higher transport costs offset by slower food price rises – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/17/uk-inflation-unexpectedly-unchanged-higher-transport-costs-offset-slower-food-price-rises-oil-federal-reserve-iran-war-live-updates",
+      "publishedAt": "2026-06-17T11:27:10Z"
+    },
+    {
+      "title": "Fujitsu chair resigns after ‘woman-related inappropriate conduct’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/16/fujitsu-chair-resigns-hidenori-furuta-technology-company",
+      "publishedAt": "2026-06-16T13:18:25Z"
+    },
     {
       "title": "Oil prices hit three-month low and markets reach record high amid Iran deal breakthrough",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/04/lex-greensill-banned-uk-companies-nine-years",
       "publishedAt": "2026-06-04T12:42:33Z"
-    },
-    {
-      "title": "Nissan maps out deal to build cars for China’s Chery at its Sunderland plant",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/03/nissan-chery-car-building-deal-sunderland-factory",
-      "publishedAt": "2026-06-03T15:10:24Z"
-    },
-    {
-      "title": "Arm boss in line for billion-dollar payday if chipmaker hits targets ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/31/arm-boss-billion-dollar-payday-chipmaker-hits-targets",
-      "publishedAt": "2026-05-31T14:50:12Z"
     }
   ]
 }

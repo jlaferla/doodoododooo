@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-16T12:05:10.765Z",
+  "fetchedAt": "2026-06-17T11:29:18.233Z",
   "currency": "KRW",
   "articles": [
     {
-      "title": "Thames Water nationalisation moves closer as government ‘objects to rescue deal’",
+      "title": "Electrical retailer AO shifts UK call centre roles to South Africa",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/17/ao-world-oursource-uk-call-centre-roles-south-africa-bolton",
+      "publishedAt": "2026-06-17T10:51:46Z"
+    },
+    {
+      "title": "Thames Water nationalisation moves closer as government objects to rescue deal",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/16/thames-water-nationalisation-rescue-deal-ofwat",
-      "publishedAt": "2026-06-16T10:54:29Z"
+      "publishedAt": "2026-06-16T13:52:28Z"
     },
     {
       "title": " US inflation hits 4.2% in May as Trump’s Middle East conflict drives up prices - as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/08/stock-markets-fall-oil-jumps-middle-east-conflict-ai-boom-falters-live-news-updates",
       "publishedAt": "2026-06-08T15:43:40Z"
-    },
-    {
-      "title": "Stock markets fall as concerns persist over tech firms at heart of AI boom",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/08/stock-markets-fall-tech-firms-ai-boom-oil-prices-iran-israel",
-      "publishedAt": "2026-06-08T13:55:28Z"
     }
   ]
 }

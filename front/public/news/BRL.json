@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-16T12:05:08.093Z",
+  "fetchedAt": "2026-06-17T11:29:15.077Z",
   "currency": "BRL",
   "articles": [
+    {
+      "title": "Real estate event in London ‘advertised sale of land in illegal Israeli settlements’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/17/real-estate-event-london-illegal-israeli-settlements-land-west-bank",
+      "publishedAt": "2026-06-17T10:18:02Z"
+    },
     {
       "title": "Australia’s GDP figures are meaningless when the boom in datacentres means destroying jobs and the climate | Greg Jericho",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/grogonomics/2026/may/14/cgt-capital-gains-tax-australian-workers-hard-done-by-budget-tax-reforms-fairness",
       "publishedAt": "2026-05-13T22:29:38Z"
-    },
-    {
-      "title": "CEO pay soared in 2025, 20 times faster than workers’ pay",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/01/ceo-pay-workers-minimum-wages",
-      "publishedAt": "2026-05-01T10:00:43Z"
     }
   ]
 }

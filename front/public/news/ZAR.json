@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-16T12:05:12.262Z",
+  "fetchedAt": "2026-06-17T11:29:19.999Z",
   "currency": "ZAR",
   "articles": [
     {
-      "title": "Thames Water nationalisation moves closer as government ‘objects to rescue deal’",
+      "title": "UK inflation unexpectedly stays at 2.8% with higher transport costs offset by slower food price rises – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/17/uk-inflation-unexpectedly-unchanged-higher-transport-costs-offset-slower-food-price-rises-oil-federal-reserve-iran-war-live-updates",
+      "publishedAt": "2026-06-17T11:27:10Z"
+    },
+    {
+      "title": "Electrical retailer AO shifts UK call centre roles to South Africa",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/17/ao-world-oursource-uk-call-centre-roles-south-africa-bolton",
+      "publishedAt": "2026-06-17T10:51:46Z"
+    },
+    {
+      "title": "‘Tax break tart’: hospitality tipped to exploit summer VAT cut on children’s meals",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/17/hospitality-exploits-summer-vat-cut-kids-meals",
+      "publishedAt": "2026-06-17T06:00:24Z"
+    },
+    {
+      "title": "Thames Water nationalisation moves closer as government objects to rescue deal",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/16/thames-water-nationalisation-rescue-deal-ofwat",
-      "publishedAt": "2026-06-16T10:54:29Z"
+      "publishedAt": "2026-06-16T13:52:28Z"
     },
     {
-      "title": "Wall Street and European markets hit record highs and oil price falls to three-month low after US-Iran peace deal – as it happened",
+      "title": "EV prices in UK and EU not likely to dive due to Chinese rivalry, says Xpeng boss",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/15/oil-price-low-stock-markets-rally-us-iran-peace-deal-ftse-wall-street-live-news-updates",
-      "publishedAt": "2026-06-15T15:57:04Z"
-    },
-    {
-      "title": "Chip stocks bouncing back on Wall Street and South Korea; UK investigating Paramount-Warner Bros merger – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/09/chip-stocks-bounce-back-kospi-openai-wall-street-float-stock-markets-oil-live-news-updates",
-      "publishedAt": "2026-06-09T15:03:34Z"
-    },
-    {
-      "title": "Oil price falls back and Wall Street rallies after Iran announces ‘end of military operations’ against Israel – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/08/stock-markets-fall-oil-jumps-middle-east-conflict-ai-boom-falters-live-news-updates",
-      "publishedAt": "2026-06-08T15:43:40Z"
-    },
-    {
-      "title": "Stock markets fall as concerns persist over tech firms at heart of AI boom",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/08/stock-markets-fall-tech-firms-ai-boom-oil-prices-iran-israel",
-      "publishedAt": "2026-06-08T13:55:28Z"
+      "url": "https://www.theguardian.com/business/2026/jun/16/ev-prices-uk-eu-chinese-car-firm-xpeng",
+      "publishedAt": "2026-06-16T05:00:45Z"
     }
   ]
 }
