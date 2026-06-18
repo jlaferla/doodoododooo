@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-06-17T11:29:14.702Z",
+  "fetchedAt": "2026-06-18T11:04:55.383Z",
   "currency": "AUD",
   "articles": [
+    {
+      "title": "Bank of England leaves interest rates on hold amid Middle East ‘uncertainty’ – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
+      "publishedAt": "2026-06-18T11:02:00Z"
+    },
+    {
+      "title": "Gina Rinehart says Australia should give Elon Musk islands to launch satellites into space",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/18/gina-rinehart-elon-musk-space-satellites-australia-islands-ntwnfb",
+      "publishedAt": "2026-06-18T08:03:00Z"
+    },
+    {
+      "title": "The bleak view that unemployment needs to rise shows the RBA acts firstly in the interests of companies, not workers | Greg Jericho",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/grogonomics/2026/jun/18/unemployment-australia-rba-reserve-bank-inflation-companies",
+      "publishedAt": "2026-06-17T15:00:37Z"
+    },
     {
       "title": "Wall Street and European markets hit record highs and oil price falls to three-month low after US-Iran peace deal – as it happened",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/15/mike-ashley-frasers-hugo-boss-australias-accent-takeover",
       "publishedAt": "2026-06-15T08:02:05Z"
-    },
-    {
-      "title": "Gina Rinehart makes ‘significant investment’ in Elon Musk’s SpaceX ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/jun/15/gina-rinehart-invests-elon-musks-spacex",
-      "publishedAt": "2026-06-15T07:07:35Z"
-    },
-    {
-      "title": "Australia’s Sigma drops out of talks to buy UK’s Boots",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/15/sigma-healthcare-uk-boots-takeover",
-      "publishedAt": "2026-06-15T06:52:59Z"
-    },
-    {
-      "title": "Elon Musk becomes world’s first trillionaire as SpaceX ends trading day with valuation of $2.1tn – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/12/spacex-float-us-stock-market-share-elon-musk-trillionaire-largest-ipo-ever-live-news-updates",
-      "publishedAt": "2026-06-12T21:19:34Z"
     }
   ]
 }

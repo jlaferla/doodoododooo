@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-17T11:29:15.077Z",
+  "fetchedAt": "2026-06-18T11:04:55.683Z",
   "currency": "BRL",
   "articles": [
     {
-      "title": "Real estate event in London ‘advertised sale of land in illegal Israeli settlements’",
+      "title": "Bank of England leaves interest rates on hold amid Middle East ‘uncertainty’ – business live",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/17/real-estate-event-london-illegal-israeli-settlements-land-west-bank",
-      "publishedAt": "2026-06-17T10:18:02Z"
+      "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
+      "publishedAt": "2026-06-18T11:02:00Z"
     },
     {
-      "title": "Australia’s GDP figures are meaningless when the boom in datacentres means destroying jobs and the climate | Greg Jericho",
+      "title": "UK vacancies fall to lowest for five years as wages grow faster than expected",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/grogonomics/2026/jun/04/australia-datacentres-destroying-jobs-climate-economy-gdp",
-      "publishedAt": "2026-06-03T15:00:09Z"
+      "url": "https://www.theguardian.com/business/2026/jun/18/uk-unemployment-rate-falls-wages-interest-rates-iran-war",
+      "publishedAt": "2026-06-18T07:55:06Z"
     },
     {
-      "title": "Bank of England’s Bailey says no rush to raise interest rates amid Iran war uncertainty",
+      "title": "Weather more important to sales than World Cup, says Tesco as growth slows",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/29/bank-of-england-bailey-says-no-rush-to-raise-interest-rates-amid-iran-war-uncertainty",
-      "publishedAt": "2026-05-29T14:25:57Z"
+      "url": "https://www.theguardian.com/business/2026/jun/18/tescos-uk-sales-growth-iran-war-online-sales",
+      "publishedAt": "2026-06-18T06:59:11Z"
     },
     {
-      "title": "Mutual retailer triples boss’s pay to £2.2m despite fall in profits",
+      "title": "Dubai property sales have fallen ‘off a cliff’ since start of Middle East war",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/29/ourcoop-mutual-retailer-triples-boss-pay-22m-fall-profits",
-      "publishedAt": "2026-05-29T11:58:22Z"
+      "url": "https://www.theguardian.com/business/2026/jun/18/dubai-property-sales-fall-since-middle-east-war-say-experts",
+      "publishedAt": "2026-06-18T05:00:04Z"
     },
     {
-      "title": "Australian workers have been hard done by and tax reforms in the budget only begin to return some fairness | Greg Jericho",
+      "title": "UK inflation unexpectedly stays at 2.8% with higher transport costs offset by slower food price rises – as it happened",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/grogonomics/2026/may/14/cgt-capital-gains-tax-australian-workers-hard-done-by-budget-tax-reforms-fairness",
-      "publishedAt": "2026-05-13T22:29:38Z"
+      "url": "https://www.theguardian.com/business/live/2026/jun/17/uk-inflation-unexpectedly-unchanged-higher-transport-costs-offset-slower-food-price-rises-oil-federal-reserve-iran-war-live-updates",
+      "publishedAt": "2026-06-17T14:19:59Z"
     }
   ]
 }

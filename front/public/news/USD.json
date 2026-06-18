@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-17T11:29:19.652Z",
+  "fetchedAt": "2026-06-18T11:04:59.581Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "US small business owners: how are you operating in the current economic climate? ",
+      "title": "Bank of England leaves interest rates on hold amid Middle East ‘uncertainty’ – business live",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/16/us-small-business-owners-economy-callout",
-      "publishedAt": "2026-06-16T17:17:07Z"
+      "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
+      "publishedAt": "2026-06-18T11:02:00Z"
     },
     {
-      "title": "Oil prices hit three-month low and markets reach record high amid Iran deal breakthrough",
+      "title": "Bank of England keeps interest rates at 3.75% as Iran conflict weighs on economy",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/15/oil-prices-fall-strait-of-hormuz-reopening-hopes-iran-us-peace-deal",
-      "publishedAt": "2026-06-15T21:15:45Z"
+      "url": "https://www.theguardian.com/business/2026/jun/18/interest-rates-bank-of-england-hold-keep-iran",
+      "publishedAt": "2026-06-18T11:00:53Z"
     },
     {
-      "title": "Wall Street and European markets hit record highs and oil price falls to three-month low after US-Iran peace deal – as it happened",
+      "title": "Gina Rinehart says Australia should give Elon Musk islands to launch satellites into space",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/15/oil-price-low-stock-markets-rally-us-iran-peace-deal-ftse-wall-street-live-news-updates",
-      "publishedAt": "2026-06-15T15:57:04Z"
+      "url": "https://www.theguardian.com/business/2026/jun/18/gina-rinehart-elon-musk-space-satellites-australia-islands-ntwnfb",
+      "publishedAt": "2026-06-18T08:03:00Z"
     },
     {
-      "title": "Gina Rinehart makes ‘significant investment’ in Elon Musk’s SpaceX ",
+      "title": "UK vacancies fall to lowest for five years as wages grow faster than expected",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/jun/15/gina-rinehart-invests-elon-musks-spacex",
-      "publishedAt": "2026-06-15T07:07:35Z"
+      "url": "https://www.theguardian.com/business/2026/jun/18/uk-unemployment-rate-falls-wages-interest-rates-iran-war",
+      "publishedAt": "2026-06-18T07:55:06Z"
     },
     {
-      "title": "Elon Musk becomes world’s first trillionaire as SpaceX ends trading day with valuation of $2.1tn – as it happened",
+      "title": "Weather more important to sales than World Cup, says Tesco as growth slows",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/12/spacex-float-us-stock-market-share-elon-musk-trillionaire-largest-ipo-ever-live-news-updates",
-      "publishedAt": "2026-06-12T21:19:34Z"
+      "url": "https://www.theguardian.com/business/2026/jun/18/tescos-uk-sales-growth-iran-war-online-sales",
+      "publishedAt": "2026-06-18T06:59:11Z"
     }
   ]
 }

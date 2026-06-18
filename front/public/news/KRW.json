@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-17T11:29:18.233Z",
+  "fetchedAt": "2026-06-18T11:04:58.375Z",
   "currency": "KRW",
   "articles": [
     {
-      "title": "Electrical retailer AO shifts UK call centre roles to South Africa",
+      "title": "UK inflation unexpectedly stays at 2.8% with higher transport costs offset by slower food price rises – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/17/uk-inflation-unexpectedly-unchanged-higher-transport-costs-offset-slower-food-price-rises-oil-federal-reserve-iran-war-live-updates",
+      "publishedAt": "2026-06-17T14:19:59Z"
+    },
+    {
+      "title": "AO boss blames Labour as it shifts UK call centre roles abroad",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/17/ao-world-oursource-uk-call-centre-roles-south-africa-bolton",
-      "publishedAt": "2026-06-17T10:51:46Z"
+      "publishedAt": "2026-06-17T12:15:09Z"
+    },
+    {
+      "title": "‘Tax break tart’: hospitality tipped to exploit summer VAT cut on children’s meals",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/17/hospitality-exploits-summer-vat-cut-kids-meals",
+      "publishedAt": "2026-06-17T06:00:24Z"
+    },
+    {
+      "title": "John Lewis injects £20m into Glasgow city centre store in wider branch reboot",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/17/john-lewis-glasgow-city-centre-reboot",
+      "publishedAt": "2026-06-17T05:00:23Z"
     },
     {
       "title": "Thames Water nationalisation moves closer as government objects to rescue deal",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/16/thames-water-nationalisation-rescue-deal-ofwat",
       "publishedAt": "2026-06-16T13:52:28Z"
-    },
-    {
-      "title": " US inflation hits 4.2% in May as Trump’s Middle East conflict drives up prices - as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/10/asian-stocks-fall-us-iran-exchange-fire-middle-east-strait-of-hormuz-oil-prices-latest-news-updates",
-      "publishedAt": "2026-06-10T14:20:52Z"
-    },
-    {
-      "title": "Chip stocks bouncing back on Wall Street and South Korea; UK investigating Paramount-Warner Bros merger – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/09/chip-stocks-bounce-back-kospi-openai-wall-street-float-stock-markets-oil-live-news-updates",
-      "publishedAt": "2026-06-09T15:03:34Z"
-    },
-    {
-      "title": "Oil price falls back and Wall Street rallies after Iran announces ‘end of military operations’ against Israel – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/08/stock-markets-fall-oil-jumps-middle-east-conflict-ai-boom-falters-live-news-updates",
-      "publishedAt": "2026-06-08T15:43:40Z"
     }
   ]
 }

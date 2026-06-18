@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-17T11:29:16.131Z",
+  "fetchedAt": "2026-06-18T11:04:56.581Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "UK inflation unexpectedly stays at 2.8% with higher transport costs offset by slower food price rises – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/17/uk-inflation-unexpectedly-unchanged-higher-transport-costs-offset-slower-food-price-rises-oil-federal-reserve-iran-war-live-updates",
+      "publishedAt": "2026-06-17T14:19:59Z"
+    },
     {
       "title": "EV prices in UK and EU not likely to dive due to Chinese rivalry, says Xpeng boss",
       "source": "The Guardian",
@@ -9,28 +15,22 @@
       "publishedAt": "2026-06-16T05:00:45Z"
     },
     {
-      "title": "UK car sales hit post-Covid high for May as Chinese EV makers gain ground",
+      "title": "EU trade deficit with China reaches record €1bn a day, data shows",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/04/uk-car-sales-post-covid-high-chinese-ev-makers-tesla",
-      "publishedAt": "2026-06-04T12:28:04Z"
+      "url": "https://www.theguardian.com/business/2026/jun/15/eu-trade-deficit-with-china-record-1bn-a-day",
+      "publishedAt": "2026-06-15T14:51:39Z"
     },
     {
-      "title": "Germany urged to stop admiring Beijing and wake up to ‘China Shock 2.0’",
+      "title": "Middle East war is hurting eurozone economy, warns ECB, after announcing first interest rate rise since 2023 – as it happened",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/20/germany-urged-stop-admiring-beijing-china-deindustrialisation",
-      "publishedAt": "2026-05-20T09:25:32Z"
+      "url": "https://www.theguardian.com/business/live/2026/jun/11/ryanair-investigation-seating-children-eurozone-interest-rates-middle-east-oil-uk-housing-live-news-updates",
+      "publishedAt": "2026-06-11T15:19:17Z"
     },
     {
-      "title": "Fears of new China shock as EU industry’s reliance on imports grows",
+      "title": "China’s Jingye seeks compensation from UK over British Steel takeover",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/19/china-shock-eu-european-union-industry-imports",
-      "publishedAt": "2026-05-19T06:00:02Z"
-    },
-    {
-      "title": "IMF raises UK growth forecast and backs Reeves’s deficit reduction plans; bonds recover after sell-off – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/18/bond-market-rout-inflation-fears-gilts-yields-burnham-imf-reeves-live-updates",
-      "publishedAt": "2026-05-18T15:43:42Z"
+      "url": "https://www.theguardian.com/business/2026/jun/11/china-jingye-compensation-uk-british-steel-takeover",
+      "publishedAt": "2026-06-11T09:06:12Z"
     }
   ]
 }

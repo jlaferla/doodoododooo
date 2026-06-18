@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-17T11:29:15.435Z",
+  "fetchedAt": "2026-06-18T11:04:55.985Z",
   "currency": "CAD",
   "articles": [
     {
-      "title": "UK inflation unexpectedly stays at 2.8% with higher transport costs offset by slower food price rises – business live",
+      "title": "Bank of England leaves interest rates on hold amid Middle East ‘uncertainty’ – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
+      "publishedAt": "2026-06-18T11:02:00Z"
+    },
+    {
+      "title": "UK inflation unexpectedly stays at 2.8% with higher transport costs offset by slower food price rises – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/17/uk-inflation-unexpectedly-unchanged-higher-transport-costs-offset-slower-food-price-rises-oil-federal-reserve-iran-war-live-updates",
-      "publishedAt": "2026-06-17T11:27:10Z"
+      "publishedAt": "2026-06-17T14:19:59Z"
     },
     {
       "title": "Wall Street and European markets hit record highs and oil price falls to three-month low after US-Iran peace deal – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/15/sigma-healthcare-uk-boots-takeover",
       "publishedAt": "2026-06-15T06:52:59Z"
-    },
-    {
-      "title": "Elon Musk becomes world’s first trillionaire as SpaceX ends trading day with valuation of $2.1tn – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/12/spacex-float-us-stock-market-share-elon-musk-trillionaire-largest-ipo-ever-live-news-updates",
-      "publishedAt": "2026-06-12T21:19:34Z"
     }
   ]
 }

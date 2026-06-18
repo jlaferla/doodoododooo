@@ -1,12 +1,24 @@
 {
-  "fetchedAt": "2026-06-17T11:29:19.294Z",
+  "fetchedAt": "2026-06-18T11:04:59.284Z",
   "currency": "TRY",
   "articles": [
     {
-      "title": "UK inflation unexpectedly stays at 2.8% with higher transport costs offset by slower food price rises – business live",
+      "title": "Bank of England leaves interest rates on hold amid Middle East ‘uncertainty’ – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
+      "publishedAt": "2026-06-18T11:02:00Z"
+    },
+    {
+      "title": "Gina Rinehart says Australia should give Elon Musk islands to launch satellites into space",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/18/gina-rinehart-elon-musk-space-satellites-australia-islands-ntwnfb",
+      "publishedAt": "2026-06-18T08:03:00Z"
+    },
+    {
+      "title": "UK inflation unexpectedly stays at 2.8% with higher transport costs offset by slower food price rises – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/17/uk-inflation-unexpectedly-unchanged-higher-transport-costs-offset-slower-food-price-rises-oil-federal-reserve-iran-war-live-updates",
-      "publishedAt": "2026-06-17T11:27:10Z"
+      "publishedAt": "2026-06-17T14:19:59Z"
     },
     {
       "title": "John Lewis injects £20m into Glasgow city centre store in wider branch reboot",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/16/japan-hikes-interest-rates-inflation-iran-war-thames-water-rescue-nationalisation-latest-news-updates",
       "publishedAt": "2026-06-16T14:15:13Z"
-    },
-    {
-      "title": "EV prices in UK and EU not likely to dive due to Chinese rivalry, says Xpeng boss",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/16/ev-prices-uk-eu-chinese-car-firm-xpeng",
-      "publishedAt": "2026-06-16T05:00:45Z"
-    },
-    {
-      "title": "One Stop shop worker sacked after trying to tackle suspected shoplifter",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/13/one-stop-shop-worker-sacked-after-trying-to-tackle-suspected-shoplifter",
-      "publishedAt": "2026-06-13T22:09:35Z"
     }
   ]
 }
