@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-18T11:04:58.981Z",
+  "fetchedAt": "2026-06-19T11:14:26.771Z",
   "currency": "SGD",
   "articles": [
     {
-      "title": "Bank of England leaves interest rates on hold amid Middle East ‘uncertainty’ – business live",
+      "title": "Bank of England governor warns UK public to expect higher costs this year",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/18/interest-rates-bank-of-england-hold-keep-iran",
+      "publishedAt": "2026-06-18T17:23:28Z"
+    },
+    {
+      "title": "Bank of England leaves interest rates on hold and lowers inflation forecast amid Middle East ‘uncertainty’ – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
-      "publishedAt": "2026-06-18T11:02:00Z"
+      "publishedAt": "2026-06-18T15:12:54Z"
     },
     {
       "title": "Dubai property sales have fallen ‘off a cliff’ since start of Middle East war",
@@ -15,7 +21,7 @@
       "publishedAt": "2026-06-18T05:00:04Z"
     },
     {
-      "title": "Qantas delays non-stop flights from Sydney to London – again",
+      "title": "Qantas delays nonstop flights from Sydney to London – again",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/18/qantas-delays-non-stop-flights-from-sydney-to-london-again",
       "publishedAt": "2026-06-18T01:55:27Z"
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/17/uk-inflation-unexpectedly-unchanged-higher-transport-costs-offset-slower-food-price-rises-oil-federal-reserve-iran-war-live-updates",
       "publishedAt": "2026-06-17T14:19:59Z"
-    },
-    {
-      "title": "Wall Street and European markets hit record highs and oil price falls to three-month low after US-Iran peace deal – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/15/oil-price-low-stock-markets-rally-us-iran-peace-deal-ftse-wall-street-live-news-updates",
-      "publishedAt": "2026-06-15T15:57:04Z"
     }
   ]
 }

@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-18T11:04:56.281Z",
+  "fetchedAt": "2026-06-19T11:14:24.067Z",
   "currency": "CHF",
   "articles": [
     {
-      "title": "Bank of England leaves interest rates on hold amid Middle East ‘uncertainty’ – business live",
+      "title": "Another FTSE 100 firm falls to private equity. Where are the new listings? | Nils Pratley",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/18/another-ftse-100-firm-falls-private-equity-where-new-listings",
+      "publishedAt": "2026-06-18T18:17:56Z"
+    },
+    {
+      "title": "Bank of England leaves interest rates on hold and lowers inflation forecast amid Middle East ‘uncertainty’ – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
-      "publishedAt": "2026-06-18T11:02:00Z"
+      "publishedAt": "2026-06-18T15:12:54Z"
     },
     {
       "title": "GSK makes biggest ever acquisition with $10.6bn for US cancer drug firm",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/01/easyjet-us-takeover-bid-shares-castlelake",
       "publishedAt": "2026-06-01T08:28:40Z"
-    },
-    {
-      "title": "‘How can you have a Ferrari without any vroom?’: electric model shocks owners’ club ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/may/30/ferrari-luce-ev-electric-model-shocks-owners-club",
-      "publishedAt": "2026-05-30T04:00:08Z"
     }
   ]
 }

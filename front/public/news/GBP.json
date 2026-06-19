@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-18T11:04:57.174Z",
+  "fetchedAt": "2026-06-19T11:14:24.964Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "UK public finances under pressure after surge in borrowing; water company shares fall after Burnham win – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/19/uk-borrowing-surges-over-forecasts-in-may-spending-pound-bonds-borrowing-latest-news-updates",
+      "publishedAt": "2026-06-19T11:00:32Z"
+    },
+    {
+      "title": "UK borrows more than expected as impact of Iran war takes toll",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/19/uk-borrows-more-than-expected-as-impact-of-iran-war-takes-toll",
+      "publishedAt": "2026-06-19T06:34:06Z"
+    },
+    {
+      "title": "Bank of England governor warns UK public to expect higher costs this year",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/18/interest-rates-bank-of-england-hold-keep-iran",
+      "publishedAt": "2026-06-18T17:23:28Z"
+    },
+    {
+      "title": "Bank of England leaves interest rates on hold and lowers inflation forecast amid Middle East ‘uncertainty’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
+      "publishedAt": "2026-06-18T15:12:54Z"
+    },
     {
       "title": "The tide is turning on Thames Water: special administration looks best | Nils Pratley",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/16/tide-is-turning-on-thames-water-special-administration-looks-best",
       "publishedAt": "2026-06-16T18:00:30Z"
-    },
-    {
-      "title": "Thames Water nationalisation moves closer as government objects to rescue deal",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/16/thames-water-nationalisation-rescue-deal-ofwat",
-      "publishedAt": "2026-06-16T13:52:28Z"
-    },
-    {
-      "title": "Wall Street and European markets hit record highs and oil price falls to three-month low after US-Iran peace deal – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/15/oil-price-low-stock-markets-rally-us-iran-peace-deal-ftse-wall-street-live-news-updates",
-      "publishedAt": "2026-06-15T15:57:04Z"
-    },
-    {
-      "title": "UK economy shrank by 0.1% in April as Iran war held back growth",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/12/uk-economy-gdp-shrank-april-iran-war-held-back-growth",
-      "publishedAt": "2026-06-12T06:31:37Z"
-    },
-    {
-      "title": "Pub chain Fuller’s hopes for bumper summer of World Cup and staycations",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/10/pub-chain-fullers-hopes-world-cup-england-matches",
-      "publishedAt": "2026-06-10T09:10:05Z"
     }
   ]
 }

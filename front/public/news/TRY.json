@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-18T11:04:59.284Z",
+  "fetchedAt": "2026-06-19T11:14:27.079Z",
   "currency": "TRY",
   "articles": [
     {
-      "title": "Bank of England leaves interest rates on hold amid Middle East ‘uncertainty’ – business live",
+      "title": "Bank of England leaves interest rates on hold and lowers inflation forecast amid Middle East ‘uncertainty’ – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
-      "publishedAt": "2026-06-18T11:02:00Z"
+      "publishedAt": "2026-06-18T15:12:54Z"
+    },
+    {
+      "title": "Most of Great Britain’s major rail operators are back in public hands – is it working?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/ng-interactive/2025/oct/13/most-of-great-britains-major-rail-operators-are-back-in-public-hands-is-it-working",
+      "publishedAt": "2026-06-18T12:20:16Z"
     },
     {
       "title": "Gina Rinehart says Australia should give Elon Musk islands to launch satellites into space",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/17/john-lewis-glasgow-city-centre-reboot",
       "publishedAt": "2026-06-17T05:00:23Z"
-    },
-    {
-      "title": "Brent crude falls to three-month low below $80 as Iranian oil tankers ‘resume shipping’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/16/japan-hikes-interest-rates-inflation-iran-war-thames-water-rescue-nationalisation-latest-news-updates",
-      "publishedAt": "2026-06-16T14:15:13Z"
     }
   ]
 }

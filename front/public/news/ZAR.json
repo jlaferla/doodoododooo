@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-06-18T11:04:59.879Z",
+  "fetchedAt": "2026-06-19T11:14:27.685Z",
   "currency": "ZAR",
   "articles": [
+    {
+      "title": "UK public finances under pressure after surge in borrowing; water company shares fall after Burnham win – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/19/uk-borrowing-surges-over-forecasts-in-may-spending-pound-bonds-borrowing-latest-news-updates",
+      "publishedAt": "2026-06-19T11:00:32Z"
+    },
+    {
+      "title": "Most of Great Britain’s major rail operators are back in public hands – is it working?",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/ng-interactive/2025/oct/13/most-of-great-britains-major-rail-operators-are-back-in-public-hands-is-it-working",
+      "publishedAt": "2026-06-18T12:20:16Z"
+    },
     {
       "title": "UK inflation unexpectedly stays at 2.8% with higher transport costs offset by slower food price rises – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/17/hospitality-exploits-summer-vat-cut-kids-meals",
       "publishedAt": "2026-06-17T06:00:24Z"
-    },
-    {
-      "title": "Thames Water nationalisation moves closer as government objects to rescue deal",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/16/thames-water-nationalisation-rescue-deal-ofwat",
-      "publishedAt": "2026-06-16T13:52:28Z"
-    },
-    {
-      "title": "EV prices in UK and EU not likely to dive due to Chinese rivalry, says Xpeng boss",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/16/ev-prices-uk-eu-chinese-car-firm-xpeng",
-      "publishedAt": "2026-06-16T05:00:45Z"
     }
   ]
 }

@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-18T11:04:59.581Z",
+  "fetchedAt": "2026-06-19T11:14:27.381Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "Bank of England leaves interest rates on hold amid Middle East ‘uncertainty’ – business live",
+      "title": "UK public finances under pressure after surge in borrowing; water company shares fall after Burnham win – business live",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
-      "publishedAt": "2026-06-18T11:02:00Z"
+      "url": "https://www.theguardian.com/business/live/2026/jun/19/uk-borrowing-surges-over-forecasts-in-may-spending-pound-bonds-borrowing-latest-news-updates",
+      "publishedAt": "2026-06-19T11:00:32Z"
     },
     {
-      "title": "Bank of England keeps interest rates at 3.75% as Iran conflict weighs on economy",
+      "title": "Another FTSE 100 firm falls to private equity. Where are the new listings? | Nils Pratley",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/18/another-ftse-100-firm-falls-private-equity-where-new-listings",
+      "publishedAt": "2026-06-18T18:17:56Z"
+    },
+    {
+      "title": "Bank of England governor warns UK public to expect higher costs this year",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/18/interest-rates-bank-of-england-hold-keep-iran",
-      "publishedAt": "2026-06-18T11:00:53Z"
+      "publishedAt": "2026-06-18T17:23:28Z"
     },
     {
-      "title": "Gina Rinehart says Australia should give Elon Musk islands to launch satellites into space",
+      "title": "Fed governor Lisa Cook faced $1.3m in legal and security fees after Trump’s bid to fire her",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/18/gina-rinehart-elon-musk-space-satellites-australia-islands-ntwnfb",
-      "publishedAt": "2026-06-18T08:03:00Z"
+      "url": "https://www.theguardian.com/business/2026/jun/18/lisa-cook-legal-security-fees-trump-fed",
+      "publishedAt": "2026-06-18T15:43:40Z"
     },
     {
-      "title": "UK vacancies fall to lowest for five years as wages grow faster than expected",
+      "title": "Bank of England leaves interest rates on hold and lowers inflation forecast amid Middle East ‘uncertainty’ – as it happened",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/18/uk-unemployment-rate-falls-wages-interest-rates-iran-war",
-      "publishedAt": "2026-06-18T07:55:06Z"
-    },
-    {
-      "title": "Weather more important to sales than World Cup, says Tesco as growth slows",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/18/tescos-uk-sales-growth-iran-war-online-sales",
-      "publishedAt": "2026-06-18T06:59:11Z"
+      "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
+      "publishedAt": "2026-06-18T15:12:54Z"
     }
   ]
 }

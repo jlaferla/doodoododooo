@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-18T11:04:57.479Z",
+  "fetchedAt": "2026-06-19T11:14:25.270Z",
   "currency": "HKD",
   "articles": [
     {
-      "title": "Bank of England leaves interest rates on hold amid Middle East ‘uncertainty’ – business live",
+      "title": "Bank of England governor warns UK public to expect higher costs this year",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/18/interest-rates-bank-of-england-hold-keep-iran",
+      "publishedAt": "2026-06-18T17:23:28Z"
+    },
+    {
+      "title": "Bank of England leaves interest rates on hold and lowers inflation forecast amid Middle East ‘uncertainty’ – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
-      "publishedAt": "2026-06-18T11:02:00Z"
+      "publishedAt": "2026-06-18T15:12:54Z"
     },
     {
       "title": "Dubai property sales have fallen ‘off a cliff’ since start of Middle East war",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/15/oil-price-low-stock-markets-rally-us-iran-peace-deal-ftse-wall-street-live-news-updates",
       "publishedAt": "2026-06-15T15:57:04Z"
-    },
-    {
-      "title": "Gina Rinehart makes ‘significant investment’ in Elon Musk’s SpaceX ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/australia-news/2026/jun/15/gina-rinehart-invests-elon-musks-spacex",
-      "publishedAt": "2026-06-15T07:07:35Z"
     }
   ]
 }
