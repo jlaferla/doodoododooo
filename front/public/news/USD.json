@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-19T11:14:27.381Z",
+  "fetchedAt": "2026-06-20T09:58:06.370Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "UK public finances under pressure after surge in borrowing; water company shares fall after Burnham win – business live",
+      "title": "JLR at risk of battery supply delays after Somerset factory turmoil",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/20/jaguar-land-rover-jlr-battery-supply-delay-somerset-agratas",
+      "publishedAt": "2026-06-20T08:18:44Z"
+    },
+    {
+      "title": "City investors fear Labour leadership battle could push up UK bond yields, as UK borrowing jumps in May – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/19/uk-borrowing-surges-over-forecasts-in-may-spending-pound-bonds-borrowing-latest-news-updates",
-      "publishedAt": "2026-06-19T11:00:32Z"
+      "publishedAt": "2026-06-19T15:46:19Z"
     },
     {
       "title": "Another FTSE 100 firm falls to private equity. Where are the new listings? | Nils Pratley",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/18/lisa-cook-legal-security-fees-trump-fed",
       "publishedAt": "2026-06-18T15:43:40Z"
-    },
-    {
-      "title": "Bank of England leaves interest rates on hold and lowers inflation forecast amid Middle East ‘uncertainty’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
-      "publishedAt": "2026-06-18T15:12:54Z"
     }
   ]
 }

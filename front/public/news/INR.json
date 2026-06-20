@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-19T11:14:25.570Z",
+  "fetchedAt": "2026-06-20T09:58:04.453Z",
   "currency": "INR",
   "articles": [
+    {
+      "title": "JLR at risk of battery supply delays after Somerset factory turmoil",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/20/jaguar-land-rover-jlr-battery-supply-delay-somerset-agratas",
+      "publishedAt": "2026-06-20T08:18:44Z"
+    },
     {
       "title": "Brent crude falls to three-month low below $80 as Iranian oil tankers ‘resume shipping’ – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/05/jet-fuel-europe-transport-chief-us-jobs-report-uk-house-prices-stock-markets-oil-live-news-updates",
       "publishedAt": "2026-06-05T15:43:16Z"
-    },
-    {
-      "title": "UK bond yields set for biggest weekly drop since 2024; retail sales fall as drivers cut back on fuel - as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/may/22/uk-borrowing-higher-retail-sales-drivers-fuel-business-live-news",
-      "publishedAt": "2026-05-22T14:05:31Z"
     }
   ]
 }
