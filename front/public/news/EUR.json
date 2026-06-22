@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-21T10:25:42.601Z",
+  "fetchedAt": "2026-06-22T12:43:40.755Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "Trump hails Iran deal but conflict continues to cast long shadow over global economy",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/21/trump-iran-deal-long-shadow-global-economy",
+      "publishedAt": "2026-06-21T12:24:47Z"
+    },
     {
       "title": "Bank of England leaves interest rates on hold and lowers inflation forecast amid Middle East ‘uncertainty’ – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/12/world-cup-late-openings-britain-struggling-pubs",
       "publishedAt": "2026-06-12T15:00:50Z"
-    },
-    {
-      "title": "Middle East war is hurting eurozone economy, warns ECB, after announcing first interest rate rise since 2023 – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/11/ryanair-investigation-seating-children-eurozone-interest-rates-middle-east-oil-uk-housing-live-news-updates",
-      "publishedAt": "2026-06-11T15:19:17Z"
     }
   ]
 }

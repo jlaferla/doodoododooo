@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-21T10:25:41.889Z",
+  "fetchedAt": "2026-06-22T12:43:40.025Z",
   "currency": "CHF",
   "articles": [
+    {
+      "title": "US firm goes public with £4.7bn proposal to buy easyJet after earlier bids rejected",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/22/castlelake-public-proposal-buy-easyjet",
+      "publishedAt": "2026-06-22T11:10:47Z"
+    },
     {
       "title": "Another FTSE 100 firm falls to private equity. Where are the new listings? | Nils Pratley",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/04/lex-greensill-banned-uk-companies-nine-years",
       "publishedAt": "2026-06-04T12:42:33Z"
-    },
-    {
-      "title": "EasyJet says US takeover bid would be ‘highly opportunistic’",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/01/easyjet-us-takeover-bid-shares-castlelake",
-      "publishedAt": "2026-06-01T08:28:40Z"
     }
   ]
 }

@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-06-21T10:25:42.956Z",
+  "fetchedAt": "2026-06-22T12:43:41.118Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/22/oil-prices-fall-stock-markets-rise-us-iran-peace-talks-trump-burnham-starmer-pound-ftse-hormuz-business-live",
+      "publishedAt": "2026-06-22T12:18:21Z"
+    },
+    {
+      "title": "US firm goes public with £4.7bn proposal to buy easyJet after earlier bids rejected",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/22/castlelake-public-proposal-buy-easyjet",
+      "publishedAt": "2026-06-22T11:10:47Z"
+    },
+    {
+      "title": "Babcock says Brexit and Covid beset Royal Navy contract as profits plunge",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/22/babcock-says-brexit-and-covid-beset-royal-navy-contract-as-profits-plunge",
+      "publishedAt": "2026-06-22T09:41:34Z"
+    },
     {
       "title": "City investors fear Labour leadership battle could push up UK bond yields, as UK borrowing jumps in May – as it happened",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/18/interest-rates-bank-of-england-hold-keep-iran",
       "publishedAt": "2026-06-18T17:23:28Z"
-    },
-    {
-      "title": "Bank of England leaves interest rates on hold and lowers inflation forecast amid Middle East ‘uncertainty’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
-      "publishedAt": "2026-06-18T15:12:54Z"
-    },
-    {
-      "title": "The tide is turning on Thames Water: special administration looks best | Nils Pratley",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/16/tide-is-turning-on-thames-water-special-administration-looks-best",
-      "publishedAt": "2026-06-16T18:00:30Z"
-    },
-    {
-      "title": "Thames Water nationalisation moves closer as government objects to rescue deal",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/16/thames-water-nationalisation-rescue-deal-ofwat",
-      "publishedAt": "2026-06-16T13:52:28Z"
     }
   ]
 }

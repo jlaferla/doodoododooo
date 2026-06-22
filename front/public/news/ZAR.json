@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-06-21T10:25:46.182Z",
+  "fetchedAt": "2026-06-22T12:43:44.954Z",
   "currency": "ZAR",
   "articles": [
+    {
+      "title": "Alan Greenspan, longtime head of the US federal reserve, dies aged 100",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/22/alan-greenspan-dies-aged-100",
+      "publishedAt": "2026-06-22T12:26:16Z"
+    },
+    {
+      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/22/oil-prices-fall-stock-markets-rise-us-iran-peace-talks-trump-burnham-starmer-pound-ftse-hormuz-business-live",
+      "publishedAt": "2026-06-22T12:18:21Z"
+    },
     {
       "title": "City investors fear Labour leadership battle could push up UK bond yields, as UK borrowing jumps in May – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/17/uk-inflation-unexpectedly-unchanged-higher-transport-costs-offset-slower-food-price-rises-oil-federal-reserve-iran-war-live-updates",
       "publishedAt": "2026-06-17T14:19:59Z"
-    },
-    {
-      "title": "AO boss blames Labour as it shifts UK call centre roles abroad",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/17/ao-world-oursource-uk-call-centre-roles-south-africa-bolton",
-      "publishedAt": "2026-06-17T12:15:09Z"
-    },
-    {
-      "title": "‘Tax break tart’: hospitality tipped to exploit summer VAT cut on children’s meals",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/17/hospitality-exploits-summer-vat-cut-kids-meals",
-      "publishedAt": "2026-06-17T06:00:24Z"
     }
   ]
 }

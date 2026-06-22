@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-21T10:25:45.465Z",
+  "fetchedAt": "2026-06-22T12:43:44.214Z",
   "currency": "TRY",
   "articles": [
+    {
+      "title": "Trump hails Iran deal but conflict continues to cast long shadow over global economy",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/21/trump-iran-deal-long-shadow-global-economy",
+      "publishedAt": "2026-06-21T12:24:47Z"
+    },
     {
       "title": "City investors fear Labour leadership battle could push up UK bond yields, as UK borrowing jumps in May – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/18/gina-rinehart-elon-musk-space-satellites-australia-islands-ntwnfb",
       "publishedAt": "2026-06-18T08:03:00Z"
-    },
-    {
-      "title": "UK inflation unexpectedly stays at 2.8% with higher transport costs offset by slower food price rises – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/17/uk-inflation-unexpectedly-unchanged-higher-transport-costs-offset-slower-food-price-rises-oil-federal-reserve-iran-war-live-updates",
-      "publishedAt": "2026-06-17T14:19:59Z"
     }
   ]
 }

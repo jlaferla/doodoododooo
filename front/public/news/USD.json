@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-21T10:25:45.819Z",
+  "fetchedAt": "2026-06-22T12:43:44.578Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "JLR at risk of battery supply delays after Somerset factory turmoil",
+      "title": "Alan Greenspan, longtime head of the US federal reserve, dies aged 100",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/20/jaguar-land-rover-jlr-battery-supply-delay-somerset-agratas",
-      "publishedAt": "2026-06-20T08:18:44Z"
+      "url": "https://www.theguardian.com/business/2026/jun/22/alan-greenspan-dies-aged-100",
+      "publishedAt": "2026-06-22T12:26:16Z"
     },
     {
-      "title": "City investors fear Labour leadership battle could push up UK bond yields, as UK borrowing jumps in May – as it happened",
+      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – business live",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/19/uk-borrowing-surges-over-forecasts-in-may-spending-pound-bonds-borrowing-latest-news-updates",
-      "publishedAt": "2026-06-19T15:46:19Z"
+      "url": "https://www.theguardian.com/business/live/2026/jun/22/oil-prices-fall-stock-markets-rise-us-iran-peace-talks-trump-burnham-starmer-pound-ftse-hormuz-business-live",
+      "publishedAt": "2026-06-22T12:18:21Z"
     },
     {
-      "title": "Another FTSE 100 firm falls to private equity. Where are the new listings? | Nils Pratley",
+      "title": "US firm goes public with £4.7bn proposal to buy easyJet after earlier bids rejected",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/18/another-ftse-100-firm-falls-private-equity-where-new-listings",
-      "publishedAt": "2026-06-18T18:17:56Z"
+      "url": "https://www.theguardian.com/business/2026/jun/22/castlelake-public-proposal-buy-easyjet",
+      "publishedAt": "2026-06-22T11:10:47Z"
     },
     {
-      "title": "Bank of England governor warns UK public to expect higher costs this year",
+      "title": "Babcock says Brexit and Covid beset Royal Navy contract as profits plunge",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/18/interest-rates-bank-of-england-hold-keep-iran",
-      "publishedAt": "2026-06-18T17:23:28Z"
+      "url": "https://www.theguardian.com/business/2026/jun/22/babcock-says-brexit-and-covid-beset-royal-navy-contract-as-profits-plunge",
+      "publishedAt": "2026-06-22T09:41:34Z"
     },
     {
-      "title": "Fed governor Lisa Cook faced $1.3m in legal and security fees after Trump’s bid to fire her",
+      "title": "Trump hails Iran deal but conflict continues to cast long shadow over global economy",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/18/lisa-cook-legal-security-fees-trump-fed",
-      "publishedAt": "2026-06-18T15:43:40Z"
+      "url": "https://www.theguardian.com/business/2026/jun/21/trump-iran-deal-long-shadow-global-economy",
+      "publishedAt": "2026-06-21T12:24:47Z"
     }
   ]
 }

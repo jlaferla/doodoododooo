@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-21T10:25:45.096Z",
+  "fetchedAt": "2026-06-22T12:43:43.326Z",
   "currency": "SGD",
   "articles": [
+    {
+      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/22/oil-prices-fall-stock-markets-rise-us-iran-peace-talks-trump-burnham-starmer-pound-ftse-hormuz-business-live",
+      "publishedAt": "2026-06-22T12:18:21Z"
+    },
     {
       "title": "Bank of England governor warns UK public to expect higher costs this year",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/18/qantas-delays-non-stop-flights-from-sydney-to-london-again",
       "publishedAt": "2026-06-18T01:55:27Z"
-    },
-    {
-      "title": "UK inflation unexpectedly stays at 2.8% with higher transport costs offset by slower food price rises – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/17/uk-inflation-unexpectedly-unchanged-higher-transport-costs-offset-slower-food-price-rises-oil-federal-reserve-iran-war-live-updates",
-      "publishedAt": "2026-06-17T14:19:59Z"
     }
   ]
 }
