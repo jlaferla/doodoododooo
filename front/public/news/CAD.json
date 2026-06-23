@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-22T12:43:39.668Z",
+  "fetchedAt": "2026-06-23T10:29:45.745Z",
   "currency": "CAD",
   "articles": [
     {
-      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – business live",
+      "title": "UK services sector shrinks at fastest pace since 2023; global shares tumble after US tech sell-off – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
+      "publishedAt": "2026-06-23T09:59:19Z"
+    },
+    {
+      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/22/oil-prices-fall-stock-markets-rise-us-iran-peace-talks-trump-burnham-starmer-pound-ftse-hormuz-business-live",
-      "publishedAt": "2026-06-22T12:18:21Z"
+      "publishedAt": "2026-06-22T14:08:12Z"
     },
     {
       "title": "Bank of England governor warns UK public to expect higher costs this year",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/18/fca-closes-investigation-drax-biomass-fuel-sourcing-wood-pellets",
       "publishedAt": "2026-06-18T11:35:50Z"
-    },
-    {
-      "title": "UK inflation unexpectedly stays at 2.8% with higher transport costs offset by slower food price rises – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/17/uk-inflation-unexpectedly-unchanged-higher-transport-costs-offset-slower-food-price-rises-oil-federal-reserve-iran-war-live-updates",
-      "publishedAt": "2026-06-17T14:19:59Z"
     }
   ]
 }

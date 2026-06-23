@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-06-22T12:43:41.118Z",
+  "fetchedAt": "2026-06-23T10:29:47.145Z",
   "currency": "GBP",
   "articles": [
     {
-      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – business live",
+      "title": "UK services sector shrinks at fastest pace since 2023; global shares tumble after US tech sell-off – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
+      "publishedAt": "2026-06-23T09:59:19Z"
+    },
+    {
+      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/22/oil-prices-fall-stock-markets-rise-us-iran-peace-talks-trump-burnham-starmer-pound-ftse-hormuz-business-live",
-      "publishedAt": "2026-06-22T12:18:21Z"
+      "publishedAt": "2026-06-22T14:08:12Z"
     },
     {
-      "title": "US firm goes public with £4.7bn proposal to buy easyJet after earlier bids rejected",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/22/castlelake-public-proposal-buy-easyjet",
-      "publishedAt": "2026-06-22T11:10:47Z"
-    },
-    {
-      "title": "Babcock says Brexit and Covid beset Royal Navy contract as profits plunge",
+      "title": "Brexit and Covid beset Royal Navy contractor as profits plunge",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/22/babcock-says-brexit-and-covid-beset-royal-navy-contract-as-profits-plunge",
-      "publishedAt": "2026-06-22T09:41:34Z"
+      "publishedAt": "2026-06-22T14:01:53Z"
     },
     {
       "title": "City investors fear Labour leadership battle could push up UK bond yields, as UK borrowing jumps in May – as it happened",

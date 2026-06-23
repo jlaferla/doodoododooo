@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-22T12:43:42.217Z",
+  "fetchedAt": "2026-06-23T10:29:48.197Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "Nissan ‘shelves all-electric Qashqai plans’ as it cuts costs ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/23/nissan-electric-qashqai-ev-sunderland",
+      "publishedAt": "2026-06-23T07:55:08Z"
+    },
     {
       "title": "Bank of England leaves interest rates on hold and lowers inflation forecast amid Middle East ‘uncertainty’ – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/15/oil-prices-fall-strait-of-hormuz-reopening-hopes-iran-us-peace-deal",
       "publishedAt": "2026-06-15T21:15:45Z"
-    },
-    {
-      "title": "On China, Trump picked the right battle but the wrong strategy",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/06/us-china-trump-trade-war",
-      "publishedAt": "2026-06-06T11:00:03Z"
     }
   ]
 }

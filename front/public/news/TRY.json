@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-06-22T12:43:44.214Z",
+  "fetchedAt": "2026-06-23T10:29:49.605Z",
   "currency": "TRY",
   "articles": [
+    {
+      "title": "Rail passengers told to travel only if essential amid red extreme heat warning",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/22/rail-passengers-travel-heatwave-train-services-chiltern",
+      "publishedAt": "2026-06-22T17:24:14Z"
+    },
+    {
+      "title": "EasyJet bidder is still offering less than a full ticket | Nils Pratley",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/22/easyjet-bidder-takeover-castlelake-stelios",
+      "publishedAt": "2026-06-22T16:24:03Z"
+    },
+    {
+      "title": "Alan Greenspan obituary",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/22/alan-greenspan-obituary",
+      "publishedAt": "2026-06-22T16:13:47Z"
+    },
     {
       "title": "Trump hails Iran deal but conflict continues to cast long shadow over global economy",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/19/uk-borrowing-surges-over-forecasts-in-may-spending-pound-bonds-borrowing-latest-news-updates",
       "publishedAt": "2026-06-19T15:46:19Z"
-    },
-    {
-      "title": "Bank of England leaves interest rates on hold and lowers inflation forecast amid Middle East ‘uncertainty’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
-      "publishedAt": "2026-06-18T15:12:54Z"
-    },
-    {
-      "title": "Most of Great Britain’s major rail operators are back in public hands – is it working?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/ng-interactive/2025/oct/13/most-of-great-britains-major-rail-operators-are-back-in-public-hands-is-it-working",
-      "publishedAt": "2026-06-18T12:20:16Z"
-    },
-    {
-      "title": "Gina Rinehart says Australia should give Elon Musk islands to launch satellites into space",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/18/gina-rinehart-elon-musk-space-satellites-australia-islands-ntwnfb",
-      "publishedAt": "2026-06-18T08:03:00Z"
     }
   ]
 }

@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-22T12:43:40.392Z",
+  "fetchedAt": "2026-06-23T10:29:46.441Z",
   "currency": "CNY",
   "articles": [
     {
-      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – business live",
+      "title": "UK services sector shrinks at fastest pace since 2023; global shares tumble after US tech sell-off – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
+      "publishedAt": "2026-06-23T09:59:19Z"
+    },
+    {
+      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/22/oil-prices-fall-stock-markets-rise-us-iran-peace-talks-trump-burnham-starmer-pound-ftse-hormuz-business-live",
-      "publishedAt": "2026-06-22T12:18:21Z"
+      "publishedAt": "2026-06-22T14:08:12Z"
     },
     {
       "title": "UK inflation unexpectedly stays at 2.8% with higher transport costs offset by slower food price rises – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/15/eu-trade-deficit-with-china-record-1bn-a-day",
       "publishedAt": "2026-06-15T14:51:39Z"
-    },
-    {
-      "title": "Middle East war is hurting eurozone economy, warns ECB, after announcing first interest rate rise since 2023 – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/11/ryanair-investigation-seating-children-eurozone-interest-rates-middle-east-oil-uk-housing-live-news-updates",
-      "publishedAt": "2026-06-11T15:19:17Z"
     }
   ]
 }

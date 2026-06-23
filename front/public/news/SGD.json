@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-22T12:43:43.326Z",
+  "fetchedAt": "2026-06-23T10:29:49.257Z",
   "currency": "SGD",
   "articles": [
     {
-      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – business live",
+      "title": "UK services sector shrinks at fastest pace since 2023; global shares tumble after US tech sell-off – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
+      "publishedAt": "2026-06-23T09:59:19Z"
+    },
+    {
+      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/22/oil-prices-fall-stock-markets-rise-us-iran-peace-talks-trump-burnham-starmer-pound-ftse-hormuz-business-live",
-      "publishedAt": "2026-06-22T12:18:21Z"
+      "publishedAt": "2026-06-22T14:08:12Z"
     },
     {
       "title": "Bank of England governor warns UK public to expect higher costs this year",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/18/dubai-property-sales-fall-since-middle-east-war-say-experts",
       "publishedAt": "2026-06-18T05:00:04Z"
-    },
-    {
-      "title": "Qantas delays nonstop flights from Sydney to London – again",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/18/qantas-delays-non-stop-flights-from-sydney-to-london-again",
-      "publishedAt": "2026-06-18T01:55:27Z"
     }
   ]
 }
