@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-23T10:29:46.791Z",
+  "fetchedAt": "2026-06-24T10:14:37.771Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "Global shares tumble after US tech sell-off; UK services sector shrinks at fastest pace since 2023 – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
+      "publishedAt": "2026-06-23T14:07:45Z"
+    },
     {
       "title": "Trump hails Iran deal but conflict continues to cast long shadow over global economy",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/15/oil-price-low-stock-markets-rally-us-iran-peace-deal-ftse-wall-street-live-news-updates",
       "publishedAt": "2026-06-15T15:57:04Z"
-    },
-    {
-      "title": "Can Starmer’s late-night World Cup openings help Britain’s struggling pubs?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/12/world-cup-late-openings-britain-struggling-pubs",
-      "publishedAt": "2026-06-12T15:00:50Z"
     }
   ]
 }

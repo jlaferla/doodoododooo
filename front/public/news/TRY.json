@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-06-23T10:29:49.605Z",
+  "fetchedAt": "2026-06-24T10:14:40.503Z",
   "currency": "TRY",
   "articles": [
+    {
+      "title": "Former WH Smith’s small suppliers to lose at least half of debts in rescue plan",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/24/former-wh-smith-chain-suppliers-restructure-tg-jones",
+      "publishedAt": "2026-06-24T06:00:37Z"
+    },
+    {
+      "title": "Global shares tumble after US tech sell-off; UK services sector shrinks at fastest pace since 2023 – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
+      "publishedAt": "2026-06-23T14:07:45Z"
+    },
     {
       "title": "Rail passengers told to travel only if essential amid red extreme heat warning",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/22/alan-greenspan-obituary",
       "publishedAt": "2026-06-22T16:13:47Z"
-    },
-    {
-      "title": "Trump hails Iran deal but conflict continues to cast long shadow over global economy",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/21/trump-iran-deal-long-shadow-global-economy",
-      "publishedAt": "2026-06-21T12:24:47Z"
-    },
-    {
-      "title": "City investors fear Labour leadership battle could push up UK bond yields, as UK borrowing jumps in May – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/19/uk-borrowing-surges-over-forecasts-in-may-spending-pound-bonds-borrowing-latest-news-updates",
-      "publishedAt": "2026-06-19T15:46:19Z"
     }
   ]
 }

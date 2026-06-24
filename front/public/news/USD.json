@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-23T10:29:49.959Z",
+  "fetchedAt": "2026-06-24T10:14:40.849Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "UK services sector shrinks at fastest pace since 2023; global shares tumble after US tech sell-off – business live",
+      "title": "UK warehouse landlord Segro rejects £12.6bn takeover offer from US rival",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/24/uk-warehouse-landlord-segro-rejects-takeover-offer-us-rival-prologis",
+      "publishedAt": "2026-06-24T10:00:50Z"
+    },
+    {
+      "title": "Elon Musk’s trillionaire status at risk; oil price lowest since Iran war began – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/24/elon-musk-trillionaire-status-spacex-and-tesla-shares-stock-markets-ai-bonds-pound-ftse-live-news-updates",
+      "publishedAt": "2026-06-24T09:58:00Z"
+    },
+    {
+      "title": "Card payments outage hits pubs and shops during England match",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/23/card-payments-outage-during-england-match-hits-pubs-and-shops",
+      "publishedAt": "2026-06-23T22:50:04Z"
+    },
+    {
+      "title": "US AI stock sell-off shakes markets from Wall Street to Asia",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/23/ai-stocks-sell-off-us-markets",
+      "publishedAt": "2026-06-23T14:16:24Z"
+    },
+    {
+      "title": "Global shares tumble after US tech sell-off; UK services sector shrinks at fastest pace since 2023 – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
-      "publishedAt": "2026-06-23T09:59:19Z"
-    },
-    {
-      "title": "Nissan ‘shelves all-electric Qashqai plans’ as it cuts costs ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/23/nissan-electric-qashqai-ev-sunderland",
-      "publishedAt": "2026-06-23T07:55:08Z"
-    },
-    {
-      "title": "EasyJet bidder is still offering less than a full ticket | Nils Pratley",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/22/easyjet-bidder-takeover-castlelake-stelios",
-      "publishedAt": "2026-06-22T16:24:03Z"
-    },
-    {
-      "title": "Alan Greenspan obituary",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/22/alan-greenspan-obituary",
-      "publishedAt": "2026-06-22T16:13:47Z"
-    },
-    {
-      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/22/oil-prices-fall-stock-markets-rise-us-iran-peace-talks-trump-burnham-starmer-pound-ftse-hormuz-business-live",
-      "publishedAt": "2026-06-22T14:08:12Z"
+      "publishedAt": "2026-06-23T14:07:45Z"
     }
   ]
 }

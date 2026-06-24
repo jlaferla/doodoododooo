@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-23T10:29:46.441Z",
+  "fetchedAt": "2026-06-24T10:14:37.430Z",
   "currency": "CNY",
   "articles": [
     {
-      "title": "UK services sector shrinks at fastest pace since 2023; global shares tumble after US tech sell-off – business live",
+      "title": "Global shares tumble after US tech sell-off; UK services sector shrinks at fastest pace since 2023 – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
-      "publishedAt": "2026-06-23T09:59:19Z"
+      "publishedAt": "2026-06-23T14:07:45Z"
+    },
+    {
+      "title": "Nissan ‘shelves all-electric Qashqai plans’ as it cuts costs ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/23/nissan-electric-qashqai-ev-sunderland",
+      "publishedAt": "2026-06-23T07:55:08Z"
     },
     {
       "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/16/ev-prices-uk-eu-chinese-car-firm-xpeng",
       "publishedAt": "2026-06-16T05:00:45Z"
-    },
-    {
-      "title": "EU trade deficit with China reaches record €1bn a day, data shows",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/15/eu-trade-deficit-with-china-record-1bn-a-day",
-      "publishedAt": "2026-06-15T14:51:39Z"
     }
   ]
 }

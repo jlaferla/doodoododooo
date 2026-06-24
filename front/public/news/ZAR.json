@@ -1,12 +1,24 @@
 {
-  "fetchedAt": "2026-06-23T10:29:50.321Z",
+  "fetchedAt": "2026-06-24T10:14:41.189Z",
   "currency": "ZAR",
   "articles": [
     {
-      "title": "UK services sector shrinks at fastest pace since 2023; global shares tumble after US tech sell-off – business live",
+      "title": "Heatwave pushes Great Britain’s grid operator to call for extra electricity from power plants",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/24/heatwave-great-britain-grid-operator-extra-electricity-power-plants",
+      "publishedAt": "2026-06-24T08:23:46Z"
+    },
+    {
+      "title": "US AI stock sell-off shakes markets from Wall Street to Asia",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/23/ai-stocks-sell-off-us-markets",
+      "publishedAt": "2026-06-23T14:16:24Z"
+    },
+    {
+      "title": "Global shares tumble after US tech sell-off; UK services sector shrinks at fastest pace since 2023 – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
-      "publishedAt": "2026-06-23T09:59:19Z"
+      "publishedAt": "2026-06-23T14:07:45Z"
     },
     {
       "title": "Alan Greenspan obituary",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/22/oil-prices-fall-stock-markets-rise-us-iran-peace-talks-trump-burnham-starmer-pound-ftse-hormuz-business-live",
       "publishedAt": "2026-06-22T14:08:12Z"
-    },
-    {
-      "title": "City investors fear Labour leadership battle could push up UK bond yields, as UK borrowing jumps in May – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/19/uk-borrowing-surges-over-forecasts-in-may-spending-pound-bonds-borrowing-latest-news-updates",
-      "publishedAt": "2026-06-19T15:46:19Z"
-    },
-    {
-      "title": "Most of Great Britain’s major rail operators are back in public hands – is it working?",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/ng-interactive/2025/oct/13/most-of-great-britains-major-rail-operators-are-back-in-public-hands-is-it-working",
-      "publishedAt": "2026-06-18T12:20:16Z"
     }
   ]
 }

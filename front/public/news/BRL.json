@@ -1,12 +1,24 @@
 {
-  "fetchedAt": "2026-06-23T10:29:45.388Z",
+  "fetchedAt": "2026-06-24T10:14:36.410Z",
   "currency": "BRL",
   "articles": [
     {
-      "title": "UK services sector shrinks at fastest pace since 2023; global shares tumble after US tech sell-off – business live",
+      "title": "UK warehouse landlord Segro rejects £12.6bn takeover offer from US rival",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/24/uk-warehouse-landlord-segro-rejects-takeover-offer-us-rival-prologis",
+      "publishedAt": "2026-06-24T10:00:50Z"
+    },
+    {
+      "title": "Elon Musk’s trillionaire status at risk; oil price lowest since Iran war began – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/24/elon-musk-trillionaire-status-spacex-and-tesla-shares-stock-markets-ai-bonds-pound-ftse-live-news-updates",
+      "publishedAt": "2026-06-24T09:58:00Z"
+    },
+    {
+      "title": "Global shares tumble after US tech sell-off; UK services sector shrinks at fastest pace since 2023 – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
-      "publishedAt": "2026-06-23T09:59:19Z"
+      "publishedAt": "2026-06-23T14:07:45Z"
     },
     {
       "title": "City investors fear Labour leadership battle could push up UK bond yields, as UK borrowing jumps in May – as it happened",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/19/hot-weather-rise-uk-retail-sales-may",
       "publishedAt": "2026-06-19T09:36:28Z"
-    },
-    {
-      "title": "Another FTSE 100 firm falls to private equity. Where are the new listings? | Nils Pratley",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/18/another-ftse-100-firm-falls-private-equity-where-new-listings",
-      "publishedAt": "2026-06-18T18:17:56Z"
-    },
-    {
-      "title": "Bank of England governor warns UK public to expect higher costs this year",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/18/interest-rates-bank-of-england-hold-keep-iran",
-      "publishedAt": "2026-06-18T17:23:28Z"
     }
   ]
 }

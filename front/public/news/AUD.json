@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-23T10:29:45.033Z",
+  "fetchedAt": "2026-06-24T10:14:36.066Z",
   "currency": "AUD",
   "articles": [
     {
-      "title": "UK services sector shrinks at fastest pace since 2023; global shares tumble after US tech sell-off – business live",
+      "title": "Global shares tumble after US tech sell-off; UK services sector shrinks at fastest pace since 2023 – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
-      "publishedAt": "2026-06-23T09:59:19Z"
+      "publishedAt": "2026-06-23T14:07:45Z"
+    },
+    {
+      "title": "Audit firm to Gupta metals empire fined and banned for ‘egregious’ failures",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/23/audit-firm-gupta-metals-empire-fined-and-banned-frc-uk",
+      "publishedAt": "2026-06-23T13:07:12Z"
     },
     {
       "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
       "publishedAt": "2026-06-18T15:12:54Z"
-    },
-    {
-      "title": "Gina Rinehart says Australia should give Elon Musk islands to launch satellites into space",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/18/gina-rinehart-elon-musk-space-satellites-australia-islands-ntwnfb",
-      "publishedAt": "2026-06-18T08:03:00Z"
     }
   ]
 }
