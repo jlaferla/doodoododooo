@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-24T10:14:37.430Z",
+  "fetchedAt": "2026-06-25T10:11:35.393Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "UK to halve tariff-free steel imports to counter glut of cheap Chinese metal",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/25/uk-to-halve-tariff-free-steel-imports-to-counter-glut-of-cheap-chinese-metal",
+      "publishedAt": "2026-06-25T09:51:42Z"
+    },
     {
       "title": "Global shares tumble after US tech sell-off; UK services sector shrinks at fastest pace since 2023 – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/17/uk-inflation-unexpectedly-unchanged-higher-transport-costs-offset-slower-food-price-rises-oil-federal-reserve-iran-war-live-updates",
       "publishedAt": "2026-06-17T14:19:59Z"
-    },
-    {
-      "title": "EV prices in UK and EU not likely to dive due to Chinese rivalry, says Xpeng boss",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/16/ev-prices-uk-eu-chinese-car-firm-xpeng",
-      "publishedAt": "2026-06-16T05:00:45Z"
     }
   ]
 }

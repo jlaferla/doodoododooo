@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-06-24T10:14:38.111Z",
+  "fetchedAt": "2026-06-25T10:11:36.006Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": "Another FTSE firm is under attack from a US raider. Demand top dollar | Nils Pratley",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/24/segro-ftse-firm-under-attack-from-us-raider-demand-top-dollar",
+      "publishedAt": "2026-06-24T17:09:23Z"
+    },
+    {
+      "title": "Musk loses trillionaire status as SpaceX shares ‘come down to earth with a bump’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/24/elon-musk-trillionaire-status-spacex-and-tesla-shares-stock-markets-ai-bonds-pound-ftse-live-news-updates",
+      "publishedAt": "2026-06-24T16:06:39Z"
+    },
     {
       "title": "Global shares tumble after US tech sell-off; UK services sector shrinks at fastest pace since 2023 – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/22/babcock-says-brexit-and-covid-beset-royal-navy-contract-as-profits-plunge",
       "publishedAt": "2026-06-22T14:01:53Z"
-    },
-    {
-      "title": "City investors fear Labour leadership battle could push up UK bond yields, as UK borrowing jumps in May – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/19/uk-borrowing-surges-over-forecasts-in-may-spending-pound-bonds-borrowing-latest-news-updates",
-      "publishedAt": "2026-06-19T15:46:19Z"
-    },
-    {
-      "title": "Bank of England governor warns UK public to expect higher costs this year",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/18/interest-rates-bank-of-england-hold-keep-iran",
-      "publishedAt": "2026-06-18T17:23:28Z"
     }
   ]
 }

@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-06-24T10:14:36.753Z",
+  "fetchedAt": "2026-06-25T10:11:34.786Z",
   "currency": "CAD",
   "articles": [
+    {
+      "title": "Another FTSE firm is under attack from a US raider. Demand top dollar | Nils Pratley",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/24/segro-ftse-firm-under-attack-from-us-raider-demand-top-dollar",
+      "publishedAt": "2026-06-24T17:09:23Z"
+    },
+    {
+      "title": "Musk loses trillionaire status as SpaceX shares ‘come down to earth with a bump’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/24/elon-musk-trillionaire-status-spacex-and-tesla-shares-stock-markets-ai-bonds-pound-ftse-live-news-updates",
+      "publishedAt": "2026-06-24T16:06:39Z"
+    },
+    {
+      "title": "UK warehouse landlord Segro rejects £12.6bn takeover offer from US rival",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/24/uk-warehouse-landlord-segro-rejects-takeover-offer-us-rival-prologis",
+      "publishedAt": "2026-06-24T10:00:50Z"
+    },
     {
       "title": "Global shares tumble after US tech sell-off; UK services sector shrinks at fastest pace since 2023 – as it happened",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/22/oil-prices-fall-stock-markets-rise-us-iran-peace-talks-trump-burnham-starmer-pound-ftse-hormuz-business-live",
       "publishedAt": "2026-06-22T14:08:12Z"
-    },
-    {
-      "title": "Bank of England governor warns UK public to expect higher costs this year",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/18/interest-rates-bank-of-england-hold-keep-iran",
-      "publishedAt": "2026-06-18T17:23:28Z"
-    },
-    {
-      "title": "Bank of England leaves interest rates on hold and lowers inflation forecast amid Middle East ‘uncertainty’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
-      "publishedAt": "2026-06-18T15:12:54Z"
-    },
-    {
-      "title": "Drax cleared after investigation into sourcing of wood pellets",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/18/fca-closes-investigation-drax-biomass-fuel-sourcing-wood-pellets",
-      "publishedAt": "2026-06-18T11:35:50Z"
     }
   ]
 }

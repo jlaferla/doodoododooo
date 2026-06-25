@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-06-24T10:14:37.771Z",
+  "fetchedAt": "2026-06-25T10:11:35.700Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "Reeves defends record as chancellor and blames Iran war for slowdown; Oil price hits lowest level since before conflict began – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/25/oil-price-lowest-since-us-iran-war-uk-firms-burnham-reeves-haldane-latest-news-updates",
+      "publishedAt": "2026-06-25T09:57:34Z"
+    },
+    {
+      "title": "Musk loses trillionaire status as SpaceX shares ‘come down to earth with a bump’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/24/elon-musk-trillionaire-status-spacex-and-tesla-shares-stock-markets-ai-bonds-pound-ftse-live-news-updates",
+      "publishedAt": "2026-06-24T16:06:39Z"
+    },
     {
       "title": "Global shares tumble after US tech sell-off; UK services sector shrinks at fastest pace since 2023 – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
       "publishedAt": "2026-06-18T15:12:54Z"
-    },
-    {
-      "title": "Weather more important to sales than World Cup, says Tesco as growth slows",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/18/tescos-uk-sales-growth-iran-war-online-sales",
-      "publishedAt": "2026-06-18T06:59:11Z"
-    },
-    {
-      "title": "Wall Street and European markets hit record highs and oil price falls to three-month low after US-Iran peace deal – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/15/oil-price-low-stock-markets-rally-us-iran-peace-deal-ftse-wall-street-live-news-updates",
-      "publishedAt": "2026-06-15T15:57:04Z"
     }
   ]
 }

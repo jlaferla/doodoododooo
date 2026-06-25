@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-24T10:14:36.066Z",
+  "fetchedAt": "2026-06-25T10:11:34.177Z",
   "currency": "AUD",
   "articles": [
     {
-      "title": "Global shares tumble after US tech sell-off; UK services sector shrinks at fastest pace since 2023 – as it happened",
+      "title": "1 July changes: minimum wage rises, payday super, parental leave tweaks and everything else coming for 2026–27",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
-      "publishedAt": "2026-06-23T14:07:45Z"
+      "url": "https://www.theguardian.com/business/2026/jun/25/1-july-changes-minimum-wage-payday-super-parental-leave-2026-27-new-financial-year",
+      "publishedAt": "2026-06-25T01:10:45Z"
     },
     {
-      "title": "Audit firm to Gupta metals empire fined and banned for ‘egregious’ failures",
+      "title": "Another FTSE firm is under attack from a US raider. Demand top dollar | Nils Pratley",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/23/audit-firm-gupta-metals-empire-fined-and-banned-frc-uk",
-      "publishedAt": "2026-06-23T13:07:12Z"
+      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/24/segro-ftse-firm-under-attack-from-us-raider-demand-top-dollar",
+      "publishedAt": "2026-06-24T17:09:23Z"
     },
     {
-      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – as it happened",
+      "title": "Musk loses trillionaire status as SpaceX shares ‘come down to earth with a bump’ – as it happened",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/22/oil-prices-fall-stock-markets-rise-us-iran-peace-talks-trump-burnham-starmer-pound-ftse-hormuz-business-live",
-      "publishedAt": "2026-06-22T14:08:12Z"
+      "url": "https://www.theguardian.com/business/live/2026/jun/24/elon-musk-trillionaire-status-spacex-and-tesla-shares-stock-markets-ai-bonds-pound-ftse-live-news-updates",
+      "publishedAt": "2026-06-24T16:06:39Z"
     },
     {
-      "title": "Bank of England governor warns UK public to expect higher costs this year",
+      "title": "Capital gains tax changes are already having an impact on wealth inequality – and vested interests are running scared | Greg Jericho",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/18/interest-rates-bank-of-england-hold-keep-iran",
-      "publishedAt": "2026-06-18T17:23:28Z"
+      "url": "https://www.theguardian.com/business/grogonomics/2026/jun/25/capital-gains-tax-changes-auction-prices-results-wealth-inequality",
+      "publishedAt": "2026-06-24T15:00:48Z"
     },
     {
-      "title": "Bank of England leaves interest rates on hold and lowers inflation forecast amid Middle East ‘uncertainty’ – as it happened",
+      "title": "UK warehouse landlord Segro rejects £12.6bn takeover offer from US rival",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
-      "publishedAt": "2026-06-18T15:12:54Z"
+      "url": "https://www.theguardian.com/business/2026/jun/24/uk-warehouse-landlord-segro-rejects-takeover-offer-us-rival-prologis",
+      "publishedAt": "2026-06-24T10:00:50Z"
     }
   ]
 }

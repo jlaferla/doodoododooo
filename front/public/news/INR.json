@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-24T10:14:38.800Z",
+  "fetchedAt": "2026-06-25T10:11:36.619Z",
   "currency": "INR",
   "articles": [
+    {
+      "title": "Musk loses trillionaire status as SpaceX shares ‘come down to earth with a bump’ – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/24/elon-musk-trillionaire-status-spacex-and-tesla-shares-stock-markets-ai-bonds-pound-ftse-live-news-updates",
+      "publishedAt": "2026-06-24T16:06:39Z"
+    },
     {
       "title": "JLR at risk of battery supply delays after Somerset factory turmoil",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/08/unions-attack-delay-tata-steel-furnaces-grid-connection-south-wales",
       "publishedAt": "2026-06-08T11:45:35Z"
-    },
-    {
-      "title": "US job creation smashes forecasts in May, fuelling rate hike bets; ‘no jet fuel shortage in Europe’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/05/jet-fuel-europe-transport-chief-us-jobs-report-uk-house-prices-stock-markets-oil-live-news-updates",
-      "publishedAt": "2026-06-05T15:43:16Z"
     }
   ]
 }
