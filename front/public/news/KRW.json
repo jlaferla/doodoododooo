@@ -1,12 +1,24 @@
 {
-  "fetchedAt": "2026-06-25T10:11:37.223Z",
+  "fetchedAt": "2026-06-26T10:16:01.810Z",
   "currency": "KRW",
   "articles": [
     {
-      "title": "Reeves defends record as chancellor and blames Iran war for slowdown; Oil price hits lowest level since before conflict began – business live",
+      "title": "UK food and drink exports fall as US tariffs and Brexit trade friction bites – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/26/uk-food-drink-exports-fall-us-tariffs-brexit-trade-friction-stock-market-ftse-pound-oil-latest-news-updates",
+      "publishedAt": "2026-06-26T08:18:53Z"
+    },
+    {
+      "title": "Too hot for work: why extreme heat is a threat to Europe’s productivity",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/26/extreme-heat-europe-productivity-economic-growth",
+      "publishedAt": "2026-06-26T05:00:08Z"
+    },
+    {
+      "title": "Ryanair ditches family seating fees; Markets at record highs as oil hits pre-Iran war levels – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/25/oil-price-lowest-since-us-iran-war-uk-firms-burnham-reeves-haldane-latest-news-updates",
-      "publishedAt": "2026-06-25T09:57:34Z"
+      "publishedAt": "2026-06-25T16:12:02Z"
     },
     {
       "title": "1 July changes: minimum wage rises, payday super, parental leave tweaks and everything else coming for 2026–27",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/24/segro-ftse-firm-under-attack-from-us-raider-demand-top-dollar",
       "publishedAt": "2026-06-24T17:09:23Z"
-    },
-    {
-      "title": "Former WH Smith’s small suppliers to lose at least half of debts in rescue plan",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/24/former-wh-smith-chain-suppliers-restructure-tg-jones",
-      "publishedAt": "2026-06-24T16:59:10Z"
-    },
-    {
-      "title": "Musk loses trillionaire status as SpaceX shares ‘come down to earth with a bump’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/24/elon-musk-trillionaire-status-spacex-and-tesla-shares-stock-markets-ai-bonds-pound-ftse-live-news-updates",
-      "publishedAt": "2026-06-24T16:06:39Z"
     }
   ]
 }

@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-25T10:11:35.084Z",
+  "fetchedAt": "2026-06-26T10:15:59.274Z",
   "currency": "CHF",
   "articles": [
+    {
+      "title": "Ryanair ditches family seating fees; Markets at record highs as oil hits pre-Iran war levels – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/25/oil-price-lowest-since-us-iran-war-uk-firms-burnham-reeves-haldane-latest-news-updates",
+      "publishedAt": "2026-06-25T16:12:02Z"
+    },
     {
       "title": "US firm goes public with £4.7bn proposal to buy easyJet after earlier bids rejected",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/09/gsk-buy-us-cancer-treatment-firm-nuvalent-luke-miels",
       "publishedAt": "2026-06-09T12:49:44Z"
-    },
-    {
-      "title": "Financier Lex Greensill banned from running UK companies for nine years",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/04/lex-greensill-banned-uk-companies-nine-years",
-      "publishedAt": "2026-06-04T12:42:33Z"
     }
   ]
 }

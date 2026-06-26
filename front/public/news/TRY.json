@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-25T10:11:38.141Z",
+  "fetchedAt": "2026-06-26T10:16:02.892Z",
   "currency": "TRY",
   "articles": [
     {
-      "title": "Reeves defends record as chancellor and blames Iran war for slowdown; Oil price hits lowest level since before conflict began – business live",
+      "title": "UK food and drink exports fall as US tariffs and Brexit trade friction bites – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/26/uk-food-drink-exports-fall-us-tariffs-brexit-trade-friction-stock-market-ftse-pound-oil-latest-news-updates",
+      "publishedAt": "2026-06-26T08:18:53Z"
+    },
+    {
+      "title": "Ryanair ditches family seating fees; Markets at record highs as oil hits pre-Iran war levels – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/25/oil-price-lowest-since-us-iran-war-uk-firms-burnham-reeves-haldane-latest-news-updates",
-      "publishedAt": "2026-06-25T09:57:34Z"
+      "publishedAt": "2026-06-25T16:12:02Z"
     },
     {
       "title": "Oil price falls to pre-Iran war levels as more tankers exit strait of Hormuz",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/25/oil-price-falls-pre-iran-war-levels-more-tankers-exit-strait-of-hormuz",
-      "publishedAt": "2026-06-25T07:39:13Z"
+      "publishedAt": "2026-06-25T15:41:17Z"
+    },
+    {
+      "title": "Great Britain’s grid operator pays £10m for extra power to avoid supply crunch tonight",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/24/heatwave-great-britain-grid-operator-extra-electricity-power-plants",
+      "publishedAt": "2026-06-25T11:56:40Z"
     },
     {
       "title": "Former WH Smith’s small suppliers to lose at least half of debts in rescue plan",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/24/former-wh-smith-chain-suppliers-restructure-tg-jones",
       "publishedAt": "2026-06-24T16:59:10Z"
-    },
-    {
-      "title": "Great Britain’s grid operator pays £10m for extra power to avoid supply crunch tonight",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/24/heatwave-great-britain-grid-operator-extra-electricity-power-plants",
-      "publishedAt": "2026-06-24T15:33:15Z"
-    },
-    {
-      "title": "Capital gains tax changes are already having an impact on wealth inequality – and vested interests are running scared | Greg Jericho",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/grogonomics/2026/jun/25/capital-gains-tax-changes-auction-prices-results-wealth-inequality",
-      "publishedAt": "2026-06-24T15:00:48Z"
     }
   ]
 }
