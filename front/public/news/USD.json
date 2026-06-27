@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-26T10:16:03.255Z",
+  "fetchedAt": "2026-06-27T09:24:01.806Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "UK food and drink exports fall as US tariffs and Brexit trade friction bites – business live",
+      "title": " Great Britain’s grid operator warns again over power supplies in heatwave",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/26/great-britain-grid-operator-power-supplies-heatwave-neso-electricity",
+      "publishedAt": "2026-06-26T16:02:27Z"
+    },
+    {
+      "title": "Key TG Jones landlords back restructuring plan; oil price hits four-month low – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/26/uk-food-drink-exports-fall-us-tariffs-brexit-trade-friction-stock-market-ftse-pound-oil-latest-news-updates",
-      "publishedAt": "2026-06-26T08:18:53Z"
+      "publishedAt": "2026-06-26T15:46:07Z"
     },
     {
-      "title": "Too hot for work: why extreme heat is a threat to Europe’s productivity",
+      "title": "VW plans to cut up to 100,000 jobs and shut plants, report says",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/26/extreme-heat-europe-productivity-economic-growth",
-      "publishedAt": "2026-06-26T05:00:08Z"
+      "url": "https://www.theguardian.com/business/2026/jun/26/vw-cut-jobs-shut-plants-volkswagen-china",
+      "publishedAt": "2026-06-26T15:35:52Z"
     },
     {
-      "title": "Ryanair ditches family seating fees; Markets at record highs as oil hits pre-Iran war levels – as it happened",
+      "title": "‘Fork in the road’: CEO of Amazon-backed Rivian on why carmakers need to invest in EVs",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/25/oil-price-lowest-since-us-iran-war-uk-firms-burnham-reeves-haldane-latest-news-updates",
-      "publishedAt": "2026-06-25T16:12:02Z"
+      "url": "https://www.theguardian.com/business/2026/jun/26/ceo-amazon-backed-rivian-carmakers-evs",
+      "publishedAt": "2026-06-26T14:00:14Z"
     },
     {
-      "title": "Oil price falls to pre-Iran war levels as more tankers exit strait of Hormuz",
+      "title": "Revolut pushes new recruits into office in shift from ‘remote-first’ policy",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/25/oil-price-falls-pre-iran-war-levels-more-tankers-exit-strait-of-hormuz",
-      "publishedAt": "2026-06-25T15:41:17Z"
-    },
-    {
-      "title": "UK to halve tariff-free steel imports to counter glut of cheap Chinese metal",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/25/uk-to-halve-tariff-free-steel-imports-to-counter-glut-of-cheap-chinese-metal",
-      "publishedAt": "2026-06-25T11:53:20Z"
+      "url": "https://www.theguardian.com/business/2026/jun/26/revolut-recruits-work-in-office-remote-first-policy-graduates-interns",
+      "publishedAt": "2026-06-26T11:41:10Z"
     }
   ]
 }

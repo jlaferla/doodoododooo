@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-06-26T10:16:00.373Z",
+  "fetchedAt": "2026-06-27T09:23:58.911Z",
   "currency": "GBP",
   "articles": [
+    {
+      "title": " Great Britain’s grid operator warns again over power supplies in heatwave",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/26/great-britain-grid-operator-power-supplies-heatwave-neso-electricity",
+      "publishedAt": "2026-06-26T16:02:27Z"
+    },
+    {
+      "title": "VW plans to cut up to 100,000 jobs and shut plants, report says",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/26/vw-cut-jobs-shut-plants-volkswagen-china",
+      "publishedAt": "2026-06-26T15:35:52Z"
+    },
+    {
+      "title": "Revolut pushes new recruits into office in shift from ‘remote-first’ policy",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/26/revolut-recruits-work-in-office-remote-first-policy-graduates-interns",
+      "publishedAt": "2026-06-26T11:41:10Z"
+    },
     {
       "title": "Another FTSE firm is under attack from a US raider. Demand top dollar | Nils Pratley",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/24/elon-musk-trillionaire-status-spacex-and-tesla-shares-stock-markets-ai-bonds-pound-ftse-live-news-updates",
       "publishedAt": "2026-06-24T16:06:39Z"
-    },
-    {
-      "title": "Global shares tumble after US tech sell-off; UK services sector shrinks at fastest pace since 2023 – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
-      "publishedAt": "2026-06-23T14:07:45Z"
-    },
-    {
-      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/22/oil-prices-fall-stock-markets-rise-us-iran-peace-talks-trump-burnham-starmer-pound-ftse-hormuz-business-live",
-      "publishedAt": "2026-06-22T14:08:12Z"
-    },
-    {
-      "title": "Brexit and Covid beset Royal Navy contractor as profits plunge",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/22/babcock-says-brexit-and-covid-beset-royal-navy-contract-as-profits-plunge",
-      "publishedAt": "2026-06-22T14:01:53Z"
     }
   ]
 }

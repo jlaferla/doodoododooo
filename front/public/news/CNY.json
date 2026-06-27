@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-06-26T10:15:59.641Z",
+  "fetchedAt": "2026-06-27T09:23:58.184Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "VW plans to cut up to 100,000 jobs and shut plants, report says",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/26/vw-cut-jobs-shut-plants-volkswagen-china",
+      "publishedAt": "2026-06-26T15:35:52Z"
+    },
+    {
+      "title": "‘Fork in the road’: CEO of Amazon-backed Rivian on why carmakers need to invest in EVs",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/26/ceo-amazon-backed-rivian-carmakers-evs",
+      "publishedAt": "2026-06-26T14:00:14Z"
+    },
     {
       "title": "Ryanair ditches family seating fees; Markets at record highs as oil hits pre-Iran war levels – as it happened",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
       "publishedAt": "2026-06-23T14:07:45Z"
-    },
-    {
-      "title": "Nissan ‘shelves all-electric Qashqai plans’ as it cuts costs ",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/23/nissan-electric-qashqai-ev-sunderland",
-      "publishedAt": "2026-06-23T07:55:08Z"
-    },
-    {
-      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/22/oil-prices-fall-stock-markets-rise-us-iran-peace-talks-trump-burnham-starmer-pound-ftse-hormuz-business-live",
-      "publishedAt": "2026-06-22T14:08:12Z"
     }
   ]
 }

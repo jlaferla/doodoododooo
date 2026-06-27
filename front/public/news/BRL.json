@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-26T10:15:58.554Z",
+  "fetchedAt": "2026-06-27T09:23:57.099Z",
   "currency": "BRL",
   "articles": [
+    {
+      "title": "Key TG Jones landlords back restructuring plan; oil price hits four-month low – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/26/uk-food-drink-exports-fall-us-tariffs-brexit-trade-friction-stock-market-ftse-pound-oil-latest-news-updates",
+      "publishedAt": "2026-06-26T15:46:07Z"
+    },
     {
       "title": "Ryanair ditches family seating fees; Markets at record highs as oil hits pre-Iran war levels – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/24/segro-ftse-firm-under-attack-from-us-raider-demand-top-dollar",
       "publishedAt": "2026-06-24T17:09:23Z"
-    },
-    {
-      "title": "Musk loses trillionaire status as SpaceX shares ‘come down to earth with a bump’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/24/elon-musk-trillionaire-status-spacex-and-tesla-shares-stock-markets-ai-bonds-pound-ftse-live-news-updates",
-      "publishedAt": "2026-06-24T16:06:39Z"
     }
   ]
 }
