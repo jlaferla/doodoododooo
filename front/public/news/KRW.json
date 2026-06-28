@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-27T09:24:00.358Z",
+  "fetchedAt": "2026-06-28T09:53:46.892Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "Rising cost of insuring against climate crisis will have wider knock-on effects for UK economy | Heather Stewart",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/28/rising-cost-insuring-against-climate-crisis-knock-on-effects-for-uk-economy",
+      "publishedAt": "2026-06-28T09:34:06Z"
+    },
     {
       "title": "Key TG Jones landlords back restructuring plan; oil price hits four-month low – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/25/1-july-changes-minimum-wage-payday-super-parental-leave-2026-27-new-financial-year",
       "publishedAt": "2026-06-25T01:10:45Z"
-    },
-    {
-      "title": "Another FTSE firm is under attack from a US raider. Demand top dollar | Nils Pratley",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/24/segro-ftse-firm-under-attack-from-us-raider-demand-top-dollar",
-      "publishedAt": "2026-06-24T17:09:23Z"
     }
   ]
 }

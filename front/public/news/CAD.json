@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-27T09:23:57.461Z",
+  "fetchedAt": "2026-06-28T09:53:44.504Z",
   "currency": "CAD",
   "articles": [
+    {
+      "title": "Ocado boss Tim Steiner’s near £100m in pay raises ‘serious concerns’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/28/ocado-boss-tim-steiner-payouts",
+      "publishedAt": "2026-06-28T09:07:49Z"
+    },
     {
       "title": "Another FTSE firm is under attack from a US raider. Demand top dollar | Nils Pratley",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
       "publishedAt": "2026-06-23T14:07:45Z"
-    },
-    {
-      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/22/oil-prices-fall-stock-markets-rise-us-iran-peace-talks-trump-burnham-starmer-pound-ftse-hormuz-business-live",
-      "publishedAt": "2026-06-22T14:08:12Z"
     }
   ]
 }

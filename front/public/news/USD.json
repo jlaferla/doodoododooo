@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-06-27T09:24:01.806Z",
+  "fetchedAt": "2026-06-28T09:53:48.088Z",
   "currency": "USD",
   "articles": [
+    {
+      "title": "Rising cost of insuring against climate crisis will have wider knock-on effects for UK economy | Heather Stewart",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/28/rising-cost-insuring-against-climate-crisis-knock-on-effects-for-uk-economy",
+      "publishedAt": "2026-06-28T09:34:06Z"
+    },
+    {
+      "title": "Ocado boss Tim Steiner’s near £100m in pay raises ‘serious concerns’",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/28/ocado-boss-tim-steiner-payouts",
+      "publishedAt": "2026-06-28T09:07:49Z"
+    },
+    {
+      "title": "The AI bubble has further to run despite the looming crash",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/27/ai-bubble-crash-tech-firms-stock-markets",
+      "publishedAt": "2026-06-27T15:00:07Z"
+    },
     {
       "title": " Great Britain’s grid operator warns again over power supplies in heatwave",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/26/uk-food-drink-exports-fall-us-tariffs-brexit-trade-friction-stock-market-ftse-pound-oil-latest-news-updates",
       "publishedAt": "2026-06-26T15:46:07Z"
-    },
-    {
-      "title": "VW plans to cut up to 100,000 jobs and shut plants, report says",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/26/vw-cut-jobs-shut-plants-volkswagen-china",
-      "publishedAt": "2026-06-26T15:35:52Z"
-    },
-    {
-      "title": "‘Fork in the road’: CEO of Amazon-backed Rivian on why carmakers need to invest in EVs",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/26/ceo-amazon-backed-rivian-carmakers-evs",
-      "publishedAt": "2026-06-26T14:00:14Z"
-    },
-    {
-      "title": "Revolut pushes new recruits into office in shift from ‘remote-first’ policy",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/26/revolut-recruits-work-in-office-remote-first-policy-graduates-interns",
-      "publishedAt": "2026-06-26T11:41:10Z"
     }
   ]
 }
