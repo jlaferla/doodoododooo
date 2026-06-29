@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-28T09:53:46.000Z",
+  "fetchedAt": "2026-06-29T11:52:57.918Z",
   "currency": "HKD",
   "articles": [
+    {
+      "title": "UK mortgage approvals hit two and a half-year low as Iran war drive up borrowing costs – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/29/bank-of-england-inflation-warning-ai-stock-markets-oil-burnham-bond-yields-live-news-updates",
+      "publishedAt": "2026-06-29T11:26:17Z"
+    },
     {
       "title": "Another FTSE firm is under attack from a US raider. Demand top dollar | Nils Pratley",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
       "publishedAt": "2026-06-23T14:07:45Z"
-    },
-    {
-      "title": "Markets steady as prime minister Keir Starmer resigns; ex-Fed chair Alan Greenspan dies at 100 – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/22/oil-prices-fall-stock-markets-rise-us-iran-peace-talks-trump-burnham-starmer-pound-ftse-hormuz-business-live",
-      "publishedAt": "2026-06-22T14:08:12Z"
     }
   ]
 }

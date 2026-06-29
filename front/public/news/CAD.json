@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-28T09:53:44.504Z",
+  "fetchedAt": "2026-06-29T11:52:56.124Z",
   "currency": "CAD",
   "articles": [
+    {
+      "title": "UK mortgage approvals hit two and a half-year low as Iran war drive up borrowing costs – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/29/bank-of-england-inflation-warning-ai-stock-markets-oil-burnham-bond-yields-live-news-updates",
+      "publishedAt": "2026-06-29T11:26:17Z"
+    },
     {
       "title": "Ocado boss Tim Steiner’s near £100m in pay raises ‘serious concerns’",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/28/ocado-boss-tim-steiner-payouts",
-      "publishedAt": "2026-06-28T09:07:49Z"
+      "publishedAt": "2026-06-28T10:22:49Z"
     },
     {
       "title": "Another FTSE firm is under attack from a US raider. Demand top dollar | Nils Pratley",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/24/uk-warehouse-landlord-segro-rejects-takeover-offer-us-rival-prologis",
       "publishedAt": "2026-06-24T10:00:50Z"
-    },
-    {
-      "title": "Global shares tumble after US tech sell-off; UK services sector shrinks at fastest pace since 2023 – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
-      "publishedAt": "2026-06-23T14:07:45Z"
     }
   ]
 }

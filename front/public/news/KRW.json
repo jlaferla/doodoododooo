@@ -1,7 +1,25 @@
 {
-  "fetchedAt": "2026-06-28T09:53:46.892Z",
+  "fetchedAt": "2026-06-29T11:52:58.990Z",
   "currency": "KRW",
   "articles": [
+    {
+      "title": "UK mortgage approvals hit two and a half-year low as Iran war drive up borrowing costs – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/29/bank-of-england-inflation-warning-ai-stock-markets-oil-burnham-bond-yields-live-news-updates",
+      "publishedAt": "2026-06-29T11:26:17Z"
+    },
+    {
+      "title": "British American Tobacco to slash 9,000 jobs as it turns to AI",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/29/british-american-tobacco-bat-cut-jobs-ai",
+      "publishedAt": "2026-06-29T08:53:22Z"
+    },
+    {
+      "title": "Shares in chipmakers underpinning AI boom rocket in first half of 2026",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/29/shares-in-chipmakers-underpinning-ai-boom-surge-in-first-half-of-2026",
+      "publishedAt": "2026-06-29T03:00:26Z"
+    },
     {
       "title": "Rising cost of insuring against climate crisis will have wider knock-on effects for UK economy | Heather Stewart",
       "source": "The Guardian",
@@ -13,24 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/26/uk-food-drink-exports-fall-us-tariffs-brexit-trade-friction-stock-market-ftse-pound-oil-latest-news-updates",
       "publishedAt": "2026-06-26T15:46:07Z"
-    },
-    {
-      "title": "Too hot for work: why extreme heat is a threat to Europe’s productivity",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/26/extreme-heat-europe-productivity-economic-growth",
-      "publishedAt": "2026-06-26T05:00:08Z"
-    },
-    {
-      "title": "Ryanair ditches family seating fees; Markets at record highs as oil hits pre-Iran war levels – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/25/oil-price-lowest-since-us-iran-war-uk-firms-burnham-reeves-haldane-latest-news-updates",
-      "publishedAt": "2026-06-25T16:12:02Z"
-    },
-    {
-      "title": "1 July changes: minimum wage rises, payday super, parental leave tweaks and everything else coming for 2026–27",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/25/1-july-changes-minimum-wage-payday-super-parental-leave-2026-27-new-financial-year",
-      "publishedAt": "2026-06-25T01:10:45Z"
     }
   ]
 }

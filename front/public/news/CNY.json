@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-06-28T09:53:45.101Z",
+  "fetchedAt": "2026-06-29T11:52:56.840Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "EU introduces €3 customs charge on small parcels to curb cheap Chinese imports ",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/world/2026/jun/29/eu-introduces-customs-charge-on-small-parcels-to-curb-cheap-chinese-imports",
+      "publishedAt": "2026-06-29T11:40:09Z"
+    },
+    {
+      "title": "Shares in chipmakers underpinning AI boom rocket in first half of 2026",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/29/shares-in-chipmakers-underpinning-ai-boom-surge-in-first-half-of-2026",
+      "publishedAt": "2026-06-29T03:00:26Z"
+    },
     {
       "title": "VW plans to cut up to 100,000 jobs and shut plants, report says",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/25/oil-price-lowest-since-us-iran-war-uk-firms-burnham-reeves-haldane-latest-news-updates",
       "publishedAt": "2026-06-25T16:12:02Z"
-    },
-    {
-      "title": "UK to halve tariff-free steel imports to counter glut of cheap Chinese metal",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/25/uk-to-halve-tariff-free-steel-imports-to-counter-glut-of-cheap-chinese-metal",
-      "publishedAt": "2026-06-25T11:53:20Z"
-    },
-    {
-      "title": "Global shares tumble after US tech sell-off; UK services sector shrinks at fastest pace since 2023 – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/23/crude-oil-falls-us-waiver-iran-sanctions-peace-talks-progress-live-updates",
-      "publishedAt": "2026-06-23T14:07:45Z"
     }
   ]
 }

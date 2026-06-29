@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-28T09:53:47.791Z",
+  "fetchedAt": "2026-06-29T11:53:00.086Z",
   "currency": "TRY",
   "articles": [
+    {
+      "title": "London cafe in legal battle with restaurant chain over ‘Eat Drink Work’ slogan",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/29/cafe-faces-legal-battle-restaurant-chain-eat-drink-work-slogan",
+      "publishedAt": "2026-06-29T08:00:33Z"
+    },
     {
       "title": "Key TG Jones landlords back restructuring plan; oil price hits four-month low – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/24/heatwave-great-britain-grid-operator-extra-electricity-power-plants",
       "publishedAt": "2026-06-25T11:56:40Z"
-    },
-    {
-      "title": "Former WH Smith’s small suppliers to lose at least half of debts in rescue plan",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/24/former-wh-smith-chain-suppliers-restructure-tg-jones",
-      "publishedAt": "2026-06-24T16:59:10Z"
     }
   ]
 }

@@ -1,7 +1,19 @@
 {
-  "fetchedAt": "2026-06-28T09:53:43.913Z",
+  "fetchedAt": "2026-06-29T11:52:55.404Z",
   "currency": "AUD",
   "articles": [
+    {
+      "title": "UK mortgage approvals hit two and a half-year low as Iran war drive up borrowing costs – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/29/bank-of-england-inflation-warning-ai-stock-markets-oil-burnham-bond-yields-live-news-updates",
+      "publishedAt": "2026-06-29T11:26:17Z"
+    },
+    {
+      "title": "BT and Verizon to create joint global business in $625m deal",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/29/bt-verizon-joint-venture-deal-telecoms-international",
+      "publishedAt": "2026-06-29T09:32:39Z"
+    },
     {
       "title": "1 July changes: minimum wage rises, payday super, parental leave tweaks and everything else coming for 2026–27",
       "source": "The Guardian",
@@ -19,18 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/24/elon-musk-trillionaire-status-spacex-and-tesla-shares-stock-markets-ai-bonds-pound-ftse-live-news-updates",
       "publishedAt": "2026-06-24T16:06:39Z"
-    },
-    {
-      "title": "Capital gains tax changes are already having an impact on wealth inequality – and vested interests are running scared | Greg Jericho",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/grogonomics/2026/jun/25/capital-gains-tax-changes-auction-prices-results-wealth-inequality",
-      "publishedAt": "2026-06-24T15:00:48Z"
-    },
-    {
-      "title": "UK warehouse landlord Segro rejects £12.6bn takeover offer from US rival",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/24/uk-warehouse-landlord-segro-rejects-takeover-offer-us-rival-prologis",
-      "publishedAt": "2026-06-24T10:00:50Z"
     }
   ]
 }
