@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-29T11:52:56.840Z",
+  "fetchedAt": "2026-06-30T10:26:50.563Z",
   "currency": "CNY",
   "articles": [
+    {
+      "title": "EU halves duty-free steel quota but UK and other partners given better rate",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/30/eu-duty-free-steel-quota-uk-rate-brexit",
+      "publishedAt": "2026-06-30T09:51:11Z"
+    },
+    {
+      "title": "Brompton sells stakes to Decathlon and Chinese Labubu backer",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/30/brompton-sells-stakes-decathlon-bike-maker-sales",
+      "publishedAt": "2026-06-30T05:00:40Z"
+    },
     {
       "title": "EU introduces €3 customs charge on small parcels to curb cheap Chinese imports ",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/2026/jun/29/eu-introduces-customs-charge-on-small-parcels-to-curb-cheap-chinese-imports",
-      "publishedAt": "2026-06-29T11:40:09Z"
+      "publishedAt": "2026-06-29T14:35:27Z"
     },
     {
       "title": "Shares in chipmakers underpinning AI boom rocket in first half of 2026",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/29/shares-in-chipmakers-underpinning-ai-boom-surge-in-first-half-of-2026",
-      "publishedAt": "2026-06-29T03:00:26Z"
+      "publishedAt": "2026-06-29T14:18:09Z"
     },
     {
       "title": "VW plans to cut up to 100,000 jobs and shut plants, report says",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/26/vw-cut-jobs-shut-plants-volkswagen-china",
       "publishedAt": "2026-06-26T15:35:52Z"
-    },
-    {
-      "title": "‘Fork in the road’: CEO of Amazon-backed Rivian on why carmakers need to invest in EVs",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/26/ceo-amazon-backed-rivian-carmakers-evs",
-      "publishedAt": "2026-06-26T14:00:14Z"
-    },
-    {
-      "title": "Ryanair ditches family seating fees; Markets at record highs as oil hits pre-Iran war levels – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/25/oil-price-lowest-since-us-iran-war-uk-firms-burnham-reeves-haldane-latest-news-updates",
-      "publishedAt": "2026-06-25T16:12:02Z"
     }
   ]
 }

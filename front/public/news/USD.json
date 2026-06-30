@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-29T11:53:00.442Z",
+  "fetchedAt": "2026-06-30T10:26:53.795Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "UK mortgage approvals hit two and a half-year low as Iran war drive up borrowing costs – business live",
+      "title": "UK living standards fall despite fastest growth in G7, highlighting Burnham’s economic challenge – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/30/uk-living-standards-fall-fastest-growth-in-g7-andy-burnham-pound-bonds-live-news-updates",
+      "publishedAt": "2026-06-30T10:26:20Z"
+    },
+    {
+      "title": "EU halves duty-free steel quota but UK and other partners given better rate",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/30/eu-duty-free-steel-quota-uk-rate-brexit",
+      "publishedAt": "2026-06-30T09:51:11Z"
+    },
+    {
+      "title": "Brompton sells stakes to Decathlon and Chinese Labubu backer",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/30/brompton-sells-stakes-decathlon-bike-maker-sales",
+      "publishedAt": "2026-06-30T05:00:40Z"
+    },
+    {
+      "title": " UK government borrowing costs dip and pound rises as City welcomes Burnham speech – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/29/bank-of-england-inflation-warning-ai-stock-markets-oil-burnham-bond-yields-live-news-updates",
-      "publishedAt": "2026-06-29T11:26:17Z"
-    },
-    {
-      "title": "BT and Verizon to create joint global business in $625m deal",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/29/bt-verizon-joint-venture-deal-telecoms-international",
-      "publishedAt": "2026-06-29T09:32:39Z"
-    },
-    {
-      "title": "British American Tobacco to slash 9,000 jobs as it turns to AI",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/29/british-american-tobacco-bat-cut-jobs-ai",
-      "publishedAt": "2026-06-29T08:53:22Z"
-    },
-    {
-      "title": "London cafe in legal battle with restaurant chain over ‘Eat Drink Work’ slogan",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/29/cafe-faces-legal-battle-restaurant-chain-eat-drink-work-slogan",
-      "publishedAt": "2026-06-29T08:00:33Z"
+      "publishedAt": "2026-06-29T15:21:02Z"
     },
     {
       "title": "Shares in chipmakers underpinning AI boom rocket in first half of 2026",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/29/shares-in-chipmakers-underpinning-ai-boom-surge-in-first-half-of-2026",
-      "publishedAt": "2026-06-29T03:00:26Z"
+      "publishedAt": "2026-06-29T14:18:09Z"
     }
   ]
 }

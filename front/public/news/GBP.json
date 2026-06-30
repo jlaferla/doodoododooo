@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-29T11:52:57.557Z",
+  "fetchedAt": "2026-06-30T10:26:51.212Z",
   "currency": "GBP",
   "articles": [
     {
-      "title": "UK mortgage approvals hit two and a half-year low as Iran war drive up borrowing costs – business live",
+      "title": "UK living standards fall despite fastest growth in G7, highlighting Burnham’s economic challenge – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/30/uk-living-standards-fall-fastest-growth-in-g7-andy-burnham-pound-bonds-live-news-updates",
+      "publishedAt": "2026-06-30T10:26:20Z"
+    },
+    {
+      "title": "UK disposable incomes squeezed by price rises and tax changes",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/30/uk-disposable-incomes-price-rises-tax-cgt-ons-gdp-growth",
+      "publishedAt": "2026-06-30T10:23:04Z"
+    },
+    {
+      "title": "Sainsbury’s chief says grocery inflation not as bad as feared so far",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/30/sainsburys-grocery-inflation-supermarket-aldi-price-match-world-cup",
+      "publishedAt": "2026-06-30T09:52:20Z"
+    },
+    {
+      "title": "EU halves duty-free steel quota but UK and other partners given better rate",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/30/eu-duty-free-steel-quota-uk-rate-brexit",
+      "publishedAt": "2026-06-30T09:51:11Z"
+    },
+    {
+      "title": " UK government borrowing costs dip and pound rises as City welcomes Burnham speech – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/29/bank-of-england-inflation-warning-ai-stock-markets-oil-burnham-bond-yields-live-news-updates",
-      "publishedAt": "2026-06-29T11:26:17Z"
-    },
-    {
-      "title": "BT and Verizon to create joint global business in $625m deal",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/29/bt-verizon-joint-venture-deal-telecoms-international",
-      "publishedAt": "2026-06-29T09:32:39Z"
-    },
-    {
-      "title": " Great Britain’s grid operator warns again over power supplies in heatwave",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/26/great-britain-grid-operator-power-supplies-heatwave-neso-electricity",
-      "publishedAt": "2026-06-26T16:02:27Z"
-    },
-    {
-      "title": "VW plans to cut up to 100,000 jobs and shut plants, report says",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/26/vw-cut-jobs-shut-plants-volkswagen-china",
-      "publishedAt": "2026-06-26T15:35:52Z"
-    },
-    {
-      "title": "Revolut pushes new recruits into office in shift from ‘remote-first’ policy",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/26/revolut-recruits-work-in-office-remote-first-policy-graduates-interns",
-      "publishedAt": "2026-06-26T11:41:10Z"
+      "publishedAt": "2026-06-29T15:21:02Z"
     }
   ]
 }

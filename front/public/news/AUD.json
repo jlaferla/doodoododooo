@@ -1,24 +1,24 @@
 {
-  "fetchedAt": "2026-06-29T11:52:55.404Z",
+  "fetchedAt": "2026-06-30T10:26:49.281Z",
   "currency": "AUD",
   "articles": [
     {
-      "title": "UK mortgage approvals hit two and a half-year low as Iran war drive up borrowing costs – business live",
+      "title": "1 July changes: minimum wage rises, Centrelink indexation, payday super, parental leave and everything else coming for the 2026–27 financial year",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/30/1-july-changes-minimum-wage-payday-super-parental-leave-2026-27-new-financial-year",
+      "publishedAt": "2026-06-29T22:10:33Z"
+    },
+    {
+      "title": " UK government borrowing costs dip and pound rises as City welcomes Burnham speech – as it happened",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/29/bank-of-england-inflation-warning-ai-stock-markets-oil-burnham-bond-yields-live-news-updates",
-      "publishedAt": "2026-06-29T11:26:17Z"
+      "publishedAt": "2026-06-29T15:21:02Z"
     },
     {
-      "title": "BT and Verizon to create joint global business in $625m deal",
+      "title": "BT and Verizon to create joint global business in $4bn deal",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/29/bt-verizon-joint-venture-deal-telecoms-international",
-      "publishedAt": "2026-06-29T09:32:39Z"
-    },
-    {
-      "title": "1 July changes: minimum wage rises, payday super, parental leave tweaks and everything else coming for 2026–27",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/25/1-july-changes-minimum-wage-payday-super-parental-leave-2026-27-new-financial-year",
-      "publishedAt": "2026-06-25T01:10:45Z"
+      "publishedAt": "2026-06-29T13:45:42Z"
     },
     {
       "title": "Another FTSE firm is under attack from a US raider. Demand top dollar | Nils Pratley",
