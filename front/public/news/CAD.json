@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-30T10:26:49.927Z",
+  "fetchedAt": "2026-07-01T10:37:32.849Z",
   "currency": "CAD",
   "articles": [
+    {
+      "title": "UK house prices flat in June, says Nationwide; higher energy bills cap kicks in – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jul/01/uk-house-prices-flat-june-nationwide-higher-energy-bills-cap-inflation-bank-england-latest-news-updates",
+      "publishedAt": "2026-07-01T10:35:03Z"
+    },
     {
       "title": " UK government borrowing costs dip and pound rises as City welcomes Burnham speech – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/live/2026/jun/24/elon-musk-trillionaire-status-spacex-and-tesla-shares-stock-markets-ai-bonds-pound-ftse-live-news-updates",
       "publishedAt": "2026-06-24T16:06:39Z"
-    },
-    {
-      "title": "UK warehouse landlord Segro rejects £12.6bn takeover offer from US rival",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/24/uk-warehouse-landlord-segro-rejects-takeover-offer-us-rival-prologis",
-      "publishedAt": "2026-06-24T10:00:50Z"
     }
   ]
 }

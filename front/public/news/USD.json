@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-30T10:26:53.795Z",
+  "fetchedAt": "2026-07-01T10:37:37.130Z",
   "currency": "USD",
   "articles": [
     {
-      "title": "UK living standards fall despite fastest growth in G7, highlighting Burnham’s economic challenge – business live",
+      "title": "UK house prices flat in June, says Nationwide; higher energy bills cap kicks in – business live",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/30/uk-living-standards-fall-fastest-growth-in-g7-andy-burnham-pound-bonds-live-news-updates",
-      "publishedAt": "2026-06-30T10:26:20Z"
+      "url": "https://www.theguardian.com/business/live/2026/jul/01/uk-house-prices-flat-june-nationwide-higher-energy-bills-cap-inflation-bank-england-latest-news-updates",
+      "publishedAt": "2026-07-01T10:35:03Z"
+    },
+    {
+      "title": "‘Complicated and expensive’: Burnham is right about the risks of nationalisation | Nils Pratley",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jul/01/burnham-nationalisation-risks-welsh-water",
+      "publishedAt": "2026-07-01T05:00:27Z"
+    },
+    {
+      "title": "Northern Rail Project risks repeating costly HS2 failures, MPs warn",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jul/01/northern-rail-project-risk-repeat-hs2-failures-mps-warn",
+      "publishedAt": "2026-06-30T23:01:19Z"
     },
     {
       "title": "EU halves duty-free steel quota but UK and other partners given better rate",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/30/eu-duty-free-steel-quota-uk-rate-brexit",
-      "publishedAt": "2026-06-30T09:51:11Z"
+      "publishedAt": "2026-06-30T14:46:43Z"
     },
     {
-      "title": "Brompton sells stakes to Decathlon and Chinese Labubu backer",
+      "title": "UK government ‘minded to intervene’ in Paramount’s takeover of Warner Bros Discovery – as it happened",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/30/brompton-sells-stakes-decathlon-bike-maker-sales",
-      "publishedAt": "2026-06-30T05:00:40Z"
-    },
-    {
-      "title": " UK government borrowing costs dip and pound rises as City welcomes Burnham speech – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/29/bank-of-england-inflation-warning-ai-stock-markets-oil-burnham-bond-yields-live-news-updates",
-      "publishedAt": "2026-06-29T15:21:02Z"
-    },
-    {
-      "title": "Shares in chipmakers underpinning AI boom rocket in first half of 2026",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/29/shares-in-chipmakers-underpinning-ai-boom-surge-in-first-half-of-2026",
-      "publishedAt": "2026-06-29T14:18:09Z"
+      "url": "https://www.theguardian.com/business/live/2026/jun/30/uk-living-standards-fall-fastest-growth-in-g7-andy-burnham-pound-bonds-live-news-updates",
+      "publishedAt": "2026-06-30T14:32:39Z"
     }
   ]
 }

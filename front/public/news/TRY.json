@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-30T10:26:53.469Z",
+  "fetchedAt": "2026-07-01T10:37:36.768Z",
   "currency": "TRY",
   "articles": [
+    {
+      "title": "UK government ‘minded to intervene’ in Paramount’s takeover of Warner Bros Discovery – as it happened",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jun/30/uk-living-standards-fall-fastest-growth-in-g7-andy-burnham-pound-bonds-live-news-updates",
+      "publishedAt": "2026-06-30T14:32:39Z"
+    },
     {
       "title": "London cafe in legal battle with restaurant chain over ‘Eat Drink Work’ slogan",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/25/oil-price-falls-pre-iran-war-levels-more-tankers-exit-strait-of-hormuz",
       "publishedAt": "2026-06-25T15:41:17Z"
-    },
-    {
-      "title": "Great Britain’s grid operator pays £10m for extra power to avoid supply crunch tonight",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/24/heatwave-great-britain-grid-operator-extra-electricity-power-plants",
-      "publishedAt": "2026-06-25T11:56:40Z"
     }
   ]
 }

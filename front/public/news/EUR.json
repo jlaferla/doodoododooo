@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-30T10:26:50.893Z",
+  "fetchedAt": "2026-07-01T10:37:33.914Z",
   "currency": "EUR",
   "articles": [
+    {
+      "title": "UK house prices flat in June, says Nationwide; higher energy bills cap kicks in – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jul/01/uk-house-prices-flat-june-nationwide-higher-energy-bills-cap-inflation-bank-england-latest-news-updates",
+      "publishedAt": "2026-07-01T10:35:03Z"
+    },
     {
       "title": "Ryanair ditches family seating fees; Markets at record highs as oil hits pre-Iran war levels – as it happened",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/21/trump-iran-deal-long-shadow-global-economy",
       "publishedAt": "2026-06-21T12:24:47Z"
-    },
-    {
-      "title": "Bank of England leaves interest rates on hold and lowers inflation forecast amid Middle East ‘uncertainty’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/18/bank-of-england-interest-rates-uk-unemployment-wages-oil-price-stock-markets-latest-news-updates",
-      "publishedAt": "2026-06-18T15:12:54Z"
     }
   ]
 }

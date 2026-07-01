@@ -1,12 +1,18 @@
 {
-  "fetchedAt": "2026-06-30T10:26:53.147Z",
+  "fetchedAt": "2026-07-01T10:37:36.406Z",
   "currency": "SGD",
   "articles": [
+    {
+      "title": "UK house prices flat in June, says Nationwide; higher energy bills cap kicks in – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jul/01/uk-house-prices-flat-june-nationwide-higher-energy-bills-cap-inflation-bank-england-latest-news-updates",
+      "publishedAt": "2026-07-01T10:35:03Z"
+    },
     {
       "title": "EU halves duty-free steel quota but UK and other partners given better rate",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/30/eu-duty-free-steel-quota-uk-rate-brexit",
-      "publishedAt": "2026-06-30T09:51:11Z"
+      "publishedAt": "2026-06-30T14:46:43Z"
     },
     {
       "title": " UK government borrowing costs dip and pound rises as City welcomes Burnham speech – as it happened",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/jun/24/segro-ftse-firm-under-attack-from-us-raider-demand-top-dollar",
       "publishedAt": "2026-06-24T17:09:23Z"
-    },
-    {
-      "title": "Musk loses trillionaire status as SpaceX shares ‘come down to earth with a bump’ – as it happened",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/24/elon-musk-trillionaire-status-spacex-and-tesla-shares-stock-markets-ai-bonds-pound-ftse-live-news-updates",
-      "publishedAt": "2026-06-24T16:06:39Z"
     }
   ]
 }

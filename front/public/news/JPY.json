@@ -1,7 +1,13 @@
 {
-  "fetchedAt": "2026-06-30T10:26:52.182Z",
+  "fetchedAt": "2026-07-01T10:37:35.336Z",
   "currency": "JPY",
   "articles": [
+    {
+      "title": "UK house prices flat in June, says Nationwide; higher energy bills cap kicks in – business live",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/live/2026/jul/01/uk-house-prices-flat-june-nationwide-higher-energy-bills-cap-inflation-bank-england-latest-news-updates",
+      "publishedAt": "2026-07-01T10:35:03Z"
+    },
     {
       "title": "Nissan ‘shelves all-electric Qashqai plans’ as it cuts costs ",
       "source": "The Guardian",
@@ -25,12 +31,6 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/16/fujitsu-chair-resigns-hidenori-furuta-technology-company",
       "publishedAt": "2026-06-16T13:18:25Z"
-    },
-    {
-      "title": "Oil prices hit three-month low and markets reach record high amid Iran deal breakthrough",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/15/oil-prices-fall-strait-of-hormuz-reopening-hopes-iran-us-peace-deal",
-      "publishedAt": "2026-06-15T21:15:45Z"
     }
   ]
 }

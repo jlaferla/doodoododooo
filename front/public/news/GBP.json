@@ -1,36 +1,36 @@
 {
-  "fetchedAt": "2026-06-30T10:26:51.212Z",
+  "fetchedAt": "2026-07-01T10:37:34.268Z",
   "currency": "GBP",
   "articles": [
     {
-      "title": "UK living standards fall despite fastest growth in G7, highlighting Burnham’s economic challenge – business live",
+      "title": "UK house prices flat in June, says Nationwide; higher energy bills cap kicks in – business live",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/30/uk-living-standards-fall-fastest-growth-in-g7-andy-burnham-pound-bonds-live-news-updates",
-      "publishedAt": "2026-06-30T10:26:20Z"
+      "url": "https://www.theguardian.com/business/live/2026/jul/01/uk-house-prices-flat-june-nationwide-higher-energy-bills-cap-inflation-bank-england-latest-news-updates",
+      "publishedAt": "2026-07-01T10:35:03Z"
     },
     {
       "title": "UK disposable incomes squeezed by price rises and tax changes",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/30/uk-disposable-incomes-price-rises-tax-cgt-ons-gdp-growth",
-      "publishedAt": "2026-06-30T10:23:04Z"
-    },
-    {
-      "title": "Sainsbury’s chief says grocery inflation not as bad as feared so far",
-      "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/2026/jun/30/sainsburys-grocery-inflation-supermarket-aldi-price-match-world-cup",
-      "publishedAt": "2026-06-30T09:52:20Z"
+      "publishedAt": "2026-06-30T15:14:39Z"
     },
     {
       "title": "EU halves duty-free steel quota but UK and other partners given better rate",
       "source": "The Guardian",
       "url": "https://www.theguardian.com/business/2026/jun/30/eu-duty-free-steel-quota-uk-rate-brexit",
-      "publishedAt": "2026-06-30T09:51:11Z"
+      "publishedAt": "2026-06-30T14:46:43Z"
     },
     {
-      "title": " UK government borrowing costs dip and pound rises as City welcomes Burnham speech – as it happened",
+      "title": "UK government ‘minded to intervene’ in Paramount’s takeover of Warner Bros Discovery – as it happened",
       "source": "The Guardian",
-      "url": "https://www.theguardian.com/business/live/2026/jun/29/bank-of-england-inflation-warning-ai-stock-markets-oil-burnham-bond-yields-live-news-updates",
-      "publishedAt": "2026-06-29T15:21:02Z"
+      "url": "https://www.theguardian.com/business/live/2026/jun/30/uk-living-standards-fall-fastest-growth-in-g7-andy-burnham-pound-bonds-live-news-updates",
+      "publishedAt": "2026-06-30T14:32:39Z"
+    },
+    {
+      "title": "UK watchdog plans to break Apple and Google’s ‘effective duopoly’ on mobile app stores",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/business/2026/jun/30/uk-apple-google-mobile-app-stores-developers-payment-cma",
+      "publishedAt": "2026-06-30T14:32:03Z"
     }
   ]
 }
